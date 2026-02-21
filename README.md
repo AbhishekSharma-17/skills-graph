@@ -588,7 +588,12 @@ skills-graph/
 
 ### Via skills CLI (Recommended)
 
+> **[Browse all skills on skills.sh](https://skills.sh)**
+
 ```bash
+# See what skills are available before installing
+npx skills add AbhishekSharma-17/skills-graph --list
+
 # Install all skills from this repo
 npx skills add AbhishekSharma-17/skills-graph
 
@@ -596,8 +601,11 @@ npx skills add AbhishekSharma-17/skills-graph
 npx skills add AbhishekSharma-17/skills-graph --skill agno
 npx skills add AbhishekSharma-17/skills-graph --skill ms-agent-framework
 
-# List available skills without installing
-npx skills add AbhishekSharma-17/skills-graph --list
+# Install globally (available across all projects)
+npx skills add AbhishekSharma-17/skills-graph -g
+
+# Search for any skill in the ecosystem
+npx skills find
 ```
 
 ### Via Smithery

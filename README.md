@@ -2,327 +2,282 @@
   <h1 align="center">Skills Graph</h1>
   <p align="center">
     <strong>Precision-engineered AI agent skills with interconnected reference architectures.</strong>
+    <br />
+    <em>A methodology for building skills that carry 37,000+ lines of knowledge<br />while loading only what the AI actually needs.</em>
   </p>
   <p align="center">
     <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT"></a>
     <a href="#-the-agent-skills-standard"><img src="https://img.shields.io/badge/Agent%20Skills-Universal%20Standard-purple.svg" alt="Skills Standard"></a>
     <a href="#-platform-compatibility"><img src="https://img.shields.io/badge/Platforms-25%2B-green.svg" alt="Platforms"></a>
-    <a href="#-available-skills"><img src="https://img.shields.io/badge/Skills-2%20Production%20Ready-orange.svg" alt="Skills"></a>
-    <a href="#-the-technique-progressive-reference-architecture"><img src="https://img.shields.io/badge/Lines%20of%20Knowledge-37%2C000%2B-red.svg" alt="Lines"></a>
+    <a href="#-skills-catalog"><img src="https://img.shields.io/badge/Skills-2%20Production%20Ready-orange.svg" alt="Skills"></a>
+    <a href="#-the-technique-progressive-reference-architecture"><img src="https://img.shields.io/badge/Knowledge-37%2C000%2B%20Lines-red.svg" alt="Lines"></a>
   </p>
 </p>
 
----
+<br />
 
-<details>
+<details open>
 <summary><strong>Table of Contents</strong></summary>
 
-- [What is Skills Graph?](#-what-is-skills-graph)
-- [The Problem with Current Skills](#-the-problem-with-current-skills)
-- [Skills Graph vs. Conventional Skills — Side-by-Side](#-skills-graph-vs-conventional-skills--side-by-side)
-- [The Technique: Progressive Reference Architecture](#-the-technique-progressive-reference-architecture)
-- [Deep Dive: The Five Pillars of the Methodology](#-deep-dive-the-five-pillars-of-the-methodology)
-- [How the Interconnected Graph Works](#-how-the-interconnected-graph-works)
-- [Repository Structure](#-repository-structure)
-- [Anatomy of a Skill](#-anatomy-of-a-skill)
-- [Available Skills](#-available-skills)
-- [Installation](#-installation)
-- [Platform Compatibility](#-platform-compatibility)
-- [The Agent Skills Standard](#-the-agent-skills-standard)
-- [Maintenance & Tooling](#-maintenance--tooling)
-- [Contributing](#-contributing)
-- [Author](#-author)
-- [License](#-license)
-- [Acknowledgments](#-acknowledgments)
+&nbsp;
+
+| Section | |
+|:--------|:--|
+| [Overview](#-overview) | What Skills Graph is and why it exists |
+| [Skills Catalog](#-skills-catalog) | All available skills at a glance |
+| [The Problem](#-the-problem-with-current-skills) | Why conventional skills fail |
+| [Side-by-Side Comparison](#-skills-graph-vs-conventional-skills) | Token economics, quality, maintenance |
+| [The Technique](#-the-technique-progressive-reference-architecture) | The 3-level progressive loading system |
+| [Five Pillars](#-the-five-pillars) | Deep dive into the methodology |
+| [Skill Workflows](#-skill-workflows-cross-skill-orchestration) | How skills collaborate on complex tasks |
+| [Graph in Action](#-how-the-interconnected-graph-works) | Navigation flows and dependency visualization |
+| [Skill Anatomy](#-anatomy-of-a-skill) | The 6 standard components |
+| [Installation](#-installation) | Smithery, manual, and native integration |
+| [Platform Compatibility](#-platform-compatibility) | 25+ supported platforms |
+| [Maintenance](#-maintenance--tooling) | Automated scripts and version tracking |
+| [Contributing](#-contributing) | How to build your own Skills Graph skill |
 
 </details>
+
+<br />
 
 ---
 
 ## Overview
 
-> *"A 23,000-line knowledge base that costs the same as a 50-line skill — until you actually need it."*
+> *"A 23,000-line knowledge base that costs the same as a 50-line skill -- until you actually need it."*
 
-Skills Graph is a methodology and collection of production-grade AI agent skills built using a technique called **Progressive Reference Architecture (PRA)** — a systematic approach to creating deeply interconnected, graph-structured knowledge bases that AI coding assistants can navigate with surgical precision.
+Skills Graph is a **methodology** and a **collection** of production-grade AI agent skills built using **Progressive Reference Architecture (PRA)** -- a systematic approach to creating deeply interconnected, graph-structured knowledge bases that AI coding assistants can navigate with surgical precision.
 
-Instead of dumping documentation into a single monolithic file or a flat folder of loosely related references, Skills Graph organizes knowledge as a **directed acyclic graph (DAG)** where every reference file is a node, every cross-reference is an edge, and a lightweight router sits at the root to guide the AI to exactly the information it needs — nothing more, nothing less.
+Instead of dumping documentation into a single monolithic file or a flat folder of loosely related references, Skills Graph organizes knowledge as a **directed acyclic graph (DAG)** where every reference file is a node, every cross-reference is an edge, and a lightweight router sits at the root to guide the AI to exactly the information it needs -- nothing more, nothing less.
 
-### At a Glance
+<table>
+<tr><td><strong>Skills</strong></td><td>2 production-ready (Agno, MS Agent Framework)</td></tr>
+<tr><td><strong>Total Knowledge</strong></td><td>37,000+ lines across 177 reference files</td></tr>
+<tr><td><strong>Router Overhead</strong></td><td>69-231 lines (the only cost when skill triggers)</td></tr>
+<tr><td><strong>Context Efficiency</strong></td><td>~97% reduction vs monolithic approach</td></tr>
+<tr><td><strong>Platform Support</strong></td><td>25+ AI coding assistants</td></tr>
+<tr><td><strong>Maintenance</strong></td><td>Automated version checking, staleness detection, integrity validation</td></tr>
+</table>
 
-| | |
-|---|---|
-| **Skills** | 2 production-ready (Agno, MS Agent Framework) |
-| **Total Knowledge** | 37,000+ lines across 177 reference files |
-| **Router Overhead** | 69–231 lines (the only cost when skill triggers) |
-| **Context Efficiency** | ~97% reduction vs monolithic approach |
-| **Platform Support** | 25+ AI coding assistants |
-| **Maintenance** | Automated version checking, staleness detection, integrity validation |
+---
+
+## Skills Catalog
+
+Production-ready skills built with the Skills Graph methodology.
+
+| # | Skill | Framework | Version | Files | Lines | Status |
+|:-:|:------|:----------|:-------:|:-----:|:-----:|:------:|
+| 1 | **[Agno](agno-skill/)** | [Agno](https://github.com/agno-agi/agno) v2.5.3 | `1.2.0` | 116 | 23,431 | Production |
+| 2 | **[MS Agent Framework](ms-agent-framework/)** | [MS Agent Framework](https://github.com/microsoft/agent-framework) 1.0.0b | `2.0.0` | 61 | ~14,000 | Production |
+| | | | | **177** | **~37,000** | |
+
+<br />
+
+<details>
+<summary><strong>Agno Skill -- Detailed Coverage (click to expand)</strong></summary>
+
+&nbsp;
+
+> Build AI agents, multi-agent teams, and agentic workflows with the Agno open-source framework.
+
+| Domain | Topics |
+|:-------|:-------|
+| **Core** | Agents, Teams, Workflows, Workflow Patterns (8 types) |
+| **Tools** | 120+ built-in toolkits across 11 categories (search, data, web, dev, comms, media, productivity), custom tools, MCP |
+| **Models** | 40+ providers, model-as-string syntax, response caching, multimodal compatibility matrix |
+| **Storage** | 18 database backends (Postgres, MongoDB, Redis, DynamoDB, SQLite, Supabase, and more) |
+| **Knowledge** | RAG pipelines, 14+ vector databases, 12+ embedding providers, chunking, hybrid search |
+| **Memory** | Automatic and agentic memory, MemoryManager, MemoryTools, multi-user isolation |
+| **Learning** | Learning Machines, 6 learning stores, 3 modes (Always/Agentic/Propose) |
+| **Safety** | Guardrails (PII, prompt injection, content moderation), Human-in-the-Loop, hooks |
+| **Observability** | 12 monitoring platforms, OpenTelemetry tracing, custom logging |
+| **Production** | AgentOS (50+ API endpoints), deployment templates (Docker, Railway, AWS ECS), 6 chat interfaces |
+| **Advanced** | Reasoning (3 approaches), multimodal (image/audio/video), evals, context management, culture |
+
+**Graph topology:** 12 router nodes / 104 leaf nodes / 34 routing entries
+
+</details>
+
+<br />
+
+**Planned:**&ensp; LangGraph &middot; CrewAI &middot; OpenAI Agents SDK &middot; Semantic Kernel
+
+> Want a skill for a framework not listed? [Open an issue](../../issues) or [contribute one](#-contributing).
 
 ---
 
 ## The Problem with Current Skills
 
-Most AI agent skills today are built in one of two broken patterns:
+Most AI agent skills today are built using one of three broken patterns:
 
-### Pattern 1: The Monolith
-
-```
-my-skill/
-└── SKILL.md          # 3,000-5,000+ lines of everything
-```
-
-- The AI loads the **entire file** into context every time the skill triggers
-- A simple question like "how do I create a tool?" forces the AI to wade through 5,000 lines
-- Token budget is consumed by irrelevant content (deployment docs when the user asked about memory)
-- Response quality degrades because the signal-to-noise ratio is terrible
-- Common in: early Claude Code skills, Cursor rules, most community skills
-
-### Pattern 2: The Flat Dump
+<table>
+<tr>
+<th width="33%">The Monolith</th>
+<th width="33%">The Flat Dump</th>
+<th width="33%">The Copy-Paste</th>
+</tr>
+<tr>
+<td>
 
 ```
 my-skill/
-├── SKILL.md            # Brief overview
-├── references/
-│   ├── agents.md       # No structure
-│   ├── tools.md        # No structure
-│   ├── memory.md       # No structure
-│   ├── database.md     # No structure
-│   └── ... 40 more files with no navigation
+└── SKILL.md  # 3,000-5,000+ lines
 ```
 
-- Files exist but the AI has **no guidance** on which one to read
-- The AI guesses based on filename alone — often wrong
-- No hierarchical organization — a file on "tools" might be 800 lines covering 11 different sub-topics
-- No "Read When" conditions — the AI loads files speculatively, wasting tokens
-- Common in: documentation dumps, auto-generated skills
+AI loads **everything** every time. 5,000 tokens burned on a simple question.
 
-### Pattern 3: The Copy-Paste
+</td>
+<td>
 
 ```
 my-skill/
-└── SKILL.md            # 500 lines of cherry-picked docs
+├── SKILL.md
+└── references/
+    ├── agents.md
+    ├── tools.md
+    └── ...40 more files
 ```
 
-- Someone copies fragments from official documentation
-- No version tracking — content drifts from the source immediately
-- No update mechanism — stale within weeks
-- Missing context — the fragments don't cover edge cases or advanced patterns
-- Common in: quick community contributions, personal snippets
+Files exist but AI has **no guidance** on which to read. Guesses wrong.
 
-### What all three patterns share
+</td>
+<td>
 
-- No version tracking against the upstream framework
-- No automated staleness detection
-- No integrity validation (routing table points to files that don't exist)
-- No self-audit mechanism
-- No cross-platform awareness
+```
+my-skill/
+└── SKILL.md  # 500 lines of fragments
+```
+
+Cherry-picked docs with **no version tracking**. Stale within weeks.
+
+</td>
+</tr>
+</table>
+
+**What all three share:** no version tracking, no staleness detection, no integrity validation, no self-audit, no cross-platform awareness.
 
 ---
 
-## Skills Graph vs. Conventional Skills — Side-by-Side
-
-### Architecture Comparison
-
-| Dimension | Conventional Skill | Skills Graph Skill |
-|-----------|-------------------|-------------------|
-| **Structure** | Single file or flat folder | Hierarchical DAG with router nodes |
-| **Entry Point** | `SKILL.md` (often 500-5,000 lines) | `SKILL.md` (69-231 lines, pure router) |
-| **Navigation** | None (AI guesses) or basic headings | Routing tables with "Read When" conditions |
-| **Reference Organization** | Flat list of files | Graph: routers branch to sub-references |
-| **Loading Strategy** | All-or-nothing | Progressive: metadata, router, then specific leaf |
-| **Depth of Knowledge** | Shallow (limited by file size) | Deep (unlimited — leaf files expand the graph) |
-| **Cross-References** | None | Explicit via Sub-Reference tables |
-| **YAML Frontmatter** | Sometimes on every file | Only on `SKILL.md` (correct per spec) |
+## Skills Graph vs. Conventional Skills
 
 ### Token Economics
 
-| Scenario | Conventional (Monolith) | Conventional (Flat) | Skills Graph |
-|----------|------------------------|--------------------|----|
-| Skill sits idle (not triggered) | ~100 tokens (description) | ~100 tokens | ~100 tokens |
-| Skill triggers (any query) | **~5,000 tokens** (full file) | ~500 tokens (SKILL.md) | ~500 tokens (router) |
-| Simple question ("how do I create an agent?") | **~5,000 tokens** | ~800 tokens (1 file, maybe wrong) | **~700 tokens** (router + 1 leaf) |
-| Moderate question ("set up memory with Postgres") | **~5,000 tokens** | ~1,500 tokens (2-3 files, guessing) | **~900 tokens** (router + router + 1 leaf) |
-| Complex question ("build a RAG pipeline with guardrails") | **~5,000 tokens** | ~3,000 tokens (5+ files) | **~1,200 tokens** (2 precise paths) |
-| Total knowledge available | 5,000 lines max | Varies, no guarantees | **37,000+ lines** on demand |
+| Scenario | Monolith | Flat Files | **Skills Graph** |
+|:---------|:--------:|:----------:|:----------------:|
+| Skill idle (not triggered) | ~100 | ~100 | ~100 |
+| Skill triggers (any query) | **~5,000** | ~500 | ~500 |
+| Simple question | **~5,000** | ~800 (maybe wrong file) | **~700** |
+| Moderate question | **~5,000** | ~1,500 (2-3 files, guessing) | **~900** |
+| Complex question | **~5,000** | ~3,000 (5+ files) | **~1,200** |
+| Total knowledge available | 5,000 lines | varies | **37,000+ lines** |
 
-**Key insight:** Skills Graph skills carry 7x more knowledge while using 4-7x fewer tokens per query.
+> **Skills Graph skills carry 7x more knowledge while using 4-7x fewer tokens per query.**
 
-### Maintenance Comparison
+### Architecture
 
-| Capability | Conventional Skill | Skills Graph Skill |
-|------------|-------------------|-------------------|
+| Dimension | Conventional | Skills Graph |
+|:----------|:------------|:-------------|
+| Structure | Single file or flat folder | Hierarchical DAG with router nodes |
+| Entry point | SKILL.md (500-5,000 lines) | SKILL.md (69-231 lines, pure router) |
+| Navigation | None -- AI guesses | Routing tables with "Read When" conditions |
+| Reference organization | Flat list | Graph: routers branch to sub-references |
+| Loading strategy | All-or-nothing | Progressive: metadata -> router -> specific leaf |
+| Depth of knowledge | Shallow (limited by file size) | Deep (unlimited -- leaf nodes expand the graph) |
+
+### Maintenance
+
+| Capability | Conventional | Skills Graph |
+|:-----------|:------------|:-------------|
 | Version tracking | None | `VERSION.json` with semantic versioning |
 | Framework version pinning | None | Per-file `written_for` metadata |
-| Staleness detection | Manual | Automated (`--stale` flag, configurable threshold) |
+| Staleness detection | Manual | Automated (`--stale` flag, configurable) |
 | Integrity validation | None | Automated (`--integrity` verifies routing table) |
 | Upstream change detection | None | PyPI version check + docs sitemap diffing |
-| Changelog | Rarely | Structured `CHANGELOG.md` with categories |
 | Architecture audit | Never | `AUDIT-REPORT.md` with scorecard |
-| Update script | None | Full CLI tool with `--report` mode |
-
-### Quality Comparison
-
-| Quality Metric | Conventional Skill | Skills Graph Skill |
-|---------------|-------------------|-------------------|
-| Navigation accuracy | Low-Medium (AI guesses) | High (guided by "Read When" conditions) |
-| Response relevance | Diluted by irrelevant context | Focused (only relevant knowledge loaded) |
-| Coverage completeness | Partial (limited by size) | Comprehensive (unlimited reference depth) |
-| Scalability | Degrades at >500 lines | Proven at 23,431 lines, scales further |
-| Cross-platform | Usually single-platform | 25+ platforms, tested compatibility matrix |
-| Self-documenting | No | AUDIT-REPORT.md, VERSION.json, CHANGELOG.md |
 
 ---
 
 ## The Technique: Progressive Reference Architecture
 
-Progressive Reference Architecture (PRA) is the core methodology behind Skills Graph. It is built on a single principle: **the AI should pay only for the knowledge it actually uses**.
-
-### The 3-Level Progressive Loading System
+PRA is built on a single principle: **the AI should pay only for the knowledge it actually uses.**
 
 ```
                     ALWAYS IN CONTEXT
-                    ┌─────────────────────────┐
-  Level 1           │  YAML Metadata          │  ~100 tokens
-  (Metadata)        │  name + description     │  Same cost whether skill
-                    │  + trigger keywords     │  has 5 files or 500
-                    └────────────┬────────────┘
-                                 │
+                    +-------------------------+
+  Level 1           |  YAML Metadata          |  ~100 tokens
+  (Metadata)        |  name + description     |  Same cost whether skill
+                    |  + trigger keywords     |  has 5 files or 500
+                    +------------+------------+
+                                 |
                     LOADED WHEN SKILL TRIGGERS
-                    ┌────────────┴────────────┐
-  Level 2           │  SKILL.md Router Body   │  ~500 tokens
-  (Router)          │  Routing table with     │  Maps intent → file
-                    │  "Read When" conditions │  34 routes in 69 lines
-                    └────────────┬────────────┘
-                                 │
+                    +------------v------------+
+  Level 2           |  SKILL.md Router Body   |  ~500 tokens
+  (Router)          |  Routing table with     |  Maps intent -> file
+                    |  "Read When" conditions |  34 routes in 69 lines
+                    +------------+------------+
+                                 |
                     LOADED ON DEMAND (specific path only)
-                    ┌────────────┴────────────┐
-  Level 3           │  Reference Graph        │  ~200-400 tokens per node
-  (References)      │  Router nodes → Leaves  │  Only the relevant path
-                    │  116 files, 23,431 lines│  is ever loaded
-                    └─────────────────────────┘
+                    +------------v------------+
+  Level 3           |  Reference Graph        |  ~200-400 tokens per node
+  (References)      |  Router nodes -> Leaves |  Only the relevant path
+                    |  116 files, 23,431 lines|  is ever loaded
+                    +-------------------------+
 ```
 
-#### Level 1: Metadata (Always Loaded)
+**Level 1 -- Metadata** (always loaded): YAML frontmatter with name, description, trigger keywords. ~100 tokens. Identical cost whether the skill has 5 or 500 reference files.
 
-```yaml
----
-name: agno
-description: "Build AI agents, multi-agent teams, and agentic workflows
-  using the Agno framework. MANDATORY TRIGGERS: Agno, agno-agi, AgentOS..."
-license: MIT
-metadata:
-  version: "1.2.0"
-  author: Abhishek Sharma
-  tags: ["agno", "ai-agents", "multi-agent", "agentos", "rag", "workflows"]
----
-```
+**Level 2 -- Router** (loaded on trigger): The SKILL.md body -- a lean routing table mapping user intent to specific files via "Read When" conditions. ~500 tokens.
 
-The YAML frontmatter is the only thing always present in the AI's context. It contains:
-- **Name** — lowercase identifier for discovery
-- **Description** — carefully crafted with explicit trigger keywords and "MANDATORY TRIGGERS" directive
-- **License** — SPDX identifier
-- **Metadata** — version, author, tags for marketplace discovery
-
-Cost: ~100 tokens. Identical whether the skill has 5 reference files or 500.
-
-#### Level 2: Router (Loaded on Trigger)
-
-```markdown
-| Reference | File | Read When |
-|-----------|------|-----------|
-| **Agents** | `references/agents.md` | Creating agents, tools, structured output... |
-| **Teams** | `references/teams.md` | Multi-agent coordination, team modes... |
-| **Memory** | `references/memory.md` | Automatic vs agentic memory, MemoryManager... |
-```
-
-When the skill triggers, the AI loads `SKILL.md` — a lean routing table that maps user intent to specific reference files. The "Read When" column is the critical innovation: it gives the AI precise, unambiguous guidance on which file to load for any given query. Cost: ~500 tokens.
-
-#### Level 3: Reference Graph (Loaded on Demand)
-
-The reference layer is organized as a graph, not a flat list. Two types of nodes:
-
-- **Router nodes** — intermediate files containing a Sub-Reference table that further narrows the search
-- **Leaf nodes** — terminal files containing the actual knowledge (code examples, API patterns, configuration)
-
-The AI navigates from root (SKILL.md) through router nodes to the specific leaf, loading only the path relevant to the current query.
+**Level 3 -- References** (loaded on demand): The knowledge graph itself. Router nodes fan out to sub-references; leaf nodes contain actual knowledge. The AI navigates the graph, loading only the path relevant to the current query.
 
 ---
 
-## Deep Dive: The Five Pillars of the Methodology
+## The Five Pillars
 
-### Pillar 1: Intent-Based Routing
+### 1. Intent-Based Routing
 
-Every navigation decision in Skills Graph is driven by user intent, not by file naming conventions or alphabetical ordering.
-
-**The "Read When" column** is the most important element in the entire architecture. It maps natural language intent to specific files:
+Every navigation decision is driven by **user intent**, not file naming or alphabetical order.
 
 ```markdown
-| Reference | File | Read When |
-|-----------|------|-----------|
-| **Knowledge** | `references/knowledge.md` | RAG pipelines, vector databases, embedders, readers, chunking strategies, search types, filtering, reranking |
+| Reference     | File                    | Read When                                              |
+|---------------|-------------------------|---------------------------------------------------------|
+| **Knowledge** | `references/knowledge.md` | RAG pipelines, vector databases, embedders, chunking... |
+| **Memory**    | `references/memory.md`    | Automatic vs agentic memory, MemoryManager...           |
 ```
 
-This means when a user asks "how do I set up a RAG pipeline with Pinecone?", the AI doesn't need to guess — it sees "RAG pipelines, vector databases" in the Read When column and loads `knowledge.md` directly.
+The "Read When" column is the critical innovation. When a user asks *"how do I set up a RAG pipeline with Pinecone?"*, the AI sees "RAG pipelines, vector databases" and loads `knowledge.md` directly -- no guessing.
 
-For router nodes, the pattern repeats at a deeper level with Sub-Reference tables:
+For router nodes, the pattern repeats at a deeper level with **Sub-Reference tables**, giving two levels of intent matching before the AI ever reads content.
 
-```markdown
-## Sub-References
+### 2. Hierarchical Decomposition
 
-| Sub-Reference | File | Read When |
-|---------------|------|-----------|
-| **Backends** | `database/backends.md` | Setting up PostgreSQL, MongoDB, Redis... |
-| **Chat History** | `database/chat-history.md` | Enabling multi-turn context... |
-| **Sessions & Memory** | `database/session-memory.md` | Automatic vs agentic memory... |
-```
-
-The result: **two levels of intent matching** before the AI ever reads content, ensuring it lands on the right 200-400 lines out of 23,000+.
-
-### Pillar 2: Hierarchical Decomposition
-
-Large topics are recursively split into manageable sub-topics using the **router + sub-files** pattern:
+Large topics are recursively split using the **router + sub-files** pattern:
 
 ```
-tools.md (router — 56 lines)
-├── tools/creating-tools.md        (leaf — tool functions, @tool decorator)
-├── tools/custom-toolkits.md       (leaf — reusable Toolkit classes)
-├── tools/advanced.md              (leaf — hooks, caching, RunContext)
-├── tools/mcp-tools.md             (leaf — Model Context Protocol)
-├── tools/builtin-search.md        (leaf — DuckDuckGo, Tavily, Exa...)
-├── tools/builtin-data.md          (leaf — SQL, Pandas, BigQuery...)
-├── tools/builtin-web.md           (leaf — Firecrawl, Crawl4AI, Spider...)
-├── tools/builtin-dev.md           (leaf — GitHub, Docker, Shell...)
-├── tools/builtin-comms.md         (leaf — Email, Slack, Discord...)
-├── tools/builtin-media.md         (leaf — DALL-E, ElevenLabs...)
-└── tools/builtin-productivity.md  (leaf — Google Calendar, Notion...)
+tools.md (router -- 56 lines)
+  |-- tools/creating-tools.md        (leaf -- @tool decorator)
+  |-- tools/custom-toolkits.md       (leaf -- Toolkit classes)
+  |-- tools/advanced.md              (leaf -- hooks, caching, RunContext)
+  |-- tools/mcp-tools.md             (leaf -- Model Context Protocol)
+  |-- tools/builtin-search.md        (leaf -- DuckDuckGo, Tavily, Exa...)
+  |-- tools/builtin-data.md          (leaf -- SQL, Pandas, BigQuery...)
+  |-- tools/builtin-web.md           (leaf -- Firecrawl, Crawl4AI...)
+  |-- tools/builtin-dev.md           (leaf -- GitHub, Docker, Shell...)
+  |-- tools/builtin-comms.md         (leaf -- Email, Slack, Discord...)
+  |-- tools/builtin-media.md         (leaf -- DALL-E, ElevenLabs...)
+  +-- tools/builtin-productivity.md  (leaf -- Google Calendar, Notion...)
 ```
 
-**The splitting rules:**
-- Files over **500 lines** must be split into router + sub-files
-- Files over **300 lines** must have a table of contents
-- Router files should be under **100 lines** — just enough context to route correctly
-- Leaf files should be **200-500 lines** — focused, self-contained knowledge units
+**The rules:** >500 lines = must split. >300 lines = must have TOC. Routers under 100 lines. Leaves 200-500 lines.
 
-This ensures no single file overwhelms the AI's context while maintaining complete coverage.
+### 3. Zero-Cost Idle State
 
-### Pillar 3: Zero-Cost Idle State
+A 50-line skill and a 23,431-line skill have **identical idle cost** (~100 tokens). Install dozens of Skills Graph skills without bloating your AI's context. They only consume tokens when you actually need them.
 
-A critical property of Skills Graph skills: **they cost nothing when idle**.
+### 4. Version-Aware Maintenance
 
-The only always-loaded component is the YAML description (~100 tokens). This means:
-- A 50-line skill and a 23,431-line skill have identical idle cost
-- Skills can be massively comprehensive without penalizing users who don't need them
-- You can install dozens of Skills Graph skills without bloating your AI's context
-
-This is fundamentally different from monolithic skills where installing a 5,000-line skill permanently consumes 5,000 tokens of context budget every time the skill triggers, regardless of the query.
-
-### Pillar 4: Version-Aware Maintenance
-
-Every Skills Graph skill tracks versions at three levels:
-
-1. **Skill version** — semantic versioning of the skill itself (e.g., v1.2.0)
-2. **Framework version** — the upstream framework version being tracked (e.g., Agno 2.5.3)
-3. **Per-file version** — which framework version each reference was written for
+Every skill tracks versions at three levels:
 
 ```json
 {
@@ -330,125 +285,250 @@ Every Skills Graph skill tracks versions at three levels:
   "agno_version_tracked": "2.5.3",
   "references": {
     "agents.md": { "written_for": "2.5.2", "last_updated": "2026-02-18" },
-    "evals.md": { "written_for": "2.5.3", "last_updated": "2026-02-21" },
-    "hooks.md": { "written_for": "2.5.3", "last_updated": "2026-02-21" }
+    "evals.md":  { "written_for": "2.5.3", "last_updated": "2026-02-21" }
   }
 }
 ```
 
-This enables:
-- **Targeted updates** — when Agno 2.6.0 releases, you know exactly which files were written for 2.5.2 and might need updates
-- **Staleness detection** — automated scripts flag files that haven't been updated in N days
-- **Integrity validation** — verify every routing table entry has a corresponding file on disk
+When Agno 2.6.0 releases, you know exactly which files target 2.5.2 and might need updates. Automated scripts handle staleness detection and integrity validation.
 
-### Pillar 5: Self-Auditing Architecture
+### 5. Self-Auditing Architecture
 
-Every Skills Graph skill includes an `AUDIT-REPORT.md` — a structured self-assessment that scores the skill across quality dimensions:
+Every skill includes an `AUDIT-REPORT.md` scoring itself across quality dimensions:
 
-| Category | Score | Notes |
-|----------|-------|-------|
-| SKILL.md size | 5/5 | 69 lines — exemplary lean router |
-| Progressive disclosure | 4/5 | Great router pattern, few oversized flat files |
-| Reference splitting | 4/5 | Most topics well-split |
-| YAML frontmatter | 5/5 | Correct placement, correct fields |
-| TOC on large files | 4/5 | Added to all files >300 lines |
-| Description triggering | 4/5 | Explicit MANDATORY TRIGGERS |
-| Tooling & maintenance | 5/5 | VERSION.json + updater + changelog |
+| Category | Score |
+|:---------|:-----:|
+| SKILL.md size (69 lines) | 5/5 |
+| Progressive disclosure | 4/5 |
+| Reference splitting | 4/5 |
+| YAML frontmatter | 5/5 |
+| TOC on large files | 4/5 |
+| Description triggering | 4/5 |
+| Tooling & maintenance | 5/5 |
 
-The audit report also includes:
-- Comparison with exemplary skills from the ecosystem
-- Cross-platform compatibility analysis
-- Prioritized improvement action plan
+Plus: comparison with exemplary skills, cross-platform compatibility analysis, and a prioritized improvement plan.
+
+---
+
+## Skill Workflows: Cross-Skill Orchestration
+
+Skills Graph skills are powerful individually, but the full potential emerges when **multiple skills collaborate on a single complex task** -- what we call **Skill Workflows**.
+
+### The Problem
+
+A developer says: *"Build me a production-ready multi-agent customer support system."*
+
+No single skill can answer this. The task spans agent architecture, tool integration, workflow orchestration, database/memory, deployment, and safety. With conventional skills, the AI either picks one skill (partial answer) or loads everything (blows the context budget).
+
+### The Solution
+
+Skill Workflows **decompose the task into phases** and traverse multiple skill graphs surgically:
+
+```
+  PLAN                          EXECUTE                       SYNTHESIZE
++------------------+          +------------------+          +------------------+
+| Decompose task   |          | For each phase:  |          | Combine outputs  |
+| into phases      |--------->| Route to skill(s)|--------->| from all phases  |
+| Identify which   |          | Traverse graph   |          | into a coherent  |
+| skills per phase |          | Load only needed |          | solution         |
+|                  |          | leaf nodes       |          |                  |
++------------------+          +------------------+          +------------------+
+```
+
+### Complex Example: Multi-Framework Agent Migration
+
+> **Task:** *"Migrate a customer support system from Microsoft Agent Framework (sequential orchestration, Azure Functions, Cosmos DB, content safety) to Agno with AgentOS."*
+
+**Phase 1 -- Understand Source** (MS Agent Framework skill):
+
+```
+SKILL.md (109 routes)
+    |
+    |-->  12c-orchestration-handoff.md      <-- handoff pattern
+    |-->  12a-orchestration-sequential.md   <-- sequential builder
+    |-->  08-memory.md                      <-- memory providers
+    |-->  19-security.md                    <-- content safety
+    +-->  13a-azure-functions.md            <-- deployment model
+
+Tokens loaded: ~2,000
+```
+
+**Phase 2 -- Design Target** (Agno skill):
+
+```
+SKILL.md (34 routes)
+    |
+    |-->  teams.md                          <-- multi-agent coordination
+    |-->  database.md (router)
+    |       +-->  database/backends.md      <-- MongoDB/Cosmos equivalent
+    |-->  memory.md (router)
+    |       +-->  memory/core-concepts.md   <-- map memory model
+    |-->  guardrails.md (router)
+    |       +-->  guardrails/builtin-guardrails.md
+    +-->  agentos.md (router)
+            +-->  agentos/setup-api.md      <-- production deployment
+
+Tokens loaded: ~2,500
+```
+
+**Phase 3 -- Migration Mapping:**
+
+```
+Source (MS Agent Framework)          Target (Agno)
+---------------------------------    ------------------------------
+HandoffBuilder + 4 agents            Team(mode="route") + 4 agents
+SequentialBuilder pipeline           Workflow with Router step
+InMemoryHistoryProvider + Cosmos     MongoDb(db_url="cosmos://...")
+Content Safety middleware            @guardrail + input validation
+Azure Functions deployment           AgentOS + Docker on Azure
+A2A protocol                         AgentOS SSE streaming API
+```
+
+**Phase 4 -- Generate Code** using leaf nodes already loaded.
+
+<table>
+<tr>
+<th>Without Skill Workflows</th>
+<th>With Skill Workflows</th>
+</tr>
+<tr>
+<td>
+
+Load entire MS skill: ~14,000 tokens<br />
+Load entire Agno skill: ~23,000 tokens<br />
+**Total: ~37,000 tokens**<br />
+(likely exceeds context budget)
+
+</td>
+<td>
+
+Phase 1 (5 MS leaves): ~2,000 tokens<br />
+Phase 2 (9 Agno nodes): ~2,500 tokens<br />
+Phases 3-4: 0 additional<br />
+**Total: ~4,500 tokens (88% reduction)**
+
+</td>
+</tr>
+</table>
+
+The AI accessed 37,000+ lines of knowledge while loading only 4,500 tokens -- because the graph structure let it navigate to exactly 14 nodes (out of 177) relevant to this specific task.
+
+### Workflow Skills (Future Vision)
+
+The natural evolution: **Workflow Skills** -- meta-skills whose references are not documentation but **execution plans** that orchestrate other skills.
+
+```
+workflow-skills/
+|-- SKILL.md                        # Routes by task type
++-- references/
+    |-- agent-migration.md          # Cross-framework migration
+    |-- greenfield-agent-system.md  # New agent system from scratch
+    |-- rag-pipeline-design.md      # RAG system design
+    |-- production-hardening.md     # Prototype -> production
+    +-- multi-agent-debug.md        # Debug multi-agent issues
+```
+
+Each workflow reference would contain phase decomposition, skill routing maps, decision points, and synthesis templates. A Workflow Skill doesn't contain framework knowledge -- it contains **orchestration intelligence** that composes knowledge from other skills.
+
+This is the endgame: from individual skill graphs to a **graph of graphs**.
 
 ---
 
 ## How the Interconnected Graph Works
 
-The key differentiator of Skills Graph is that reference files are not independent documents — they form an interconnected knowledge graph with explicit navigation paths.
-
 ### Router Pattern
 
-Every complex topic uses a **router file** that acts as a table of contents with conditional loading guidance:
+Every complex topic uses a **router file** with conditional loading guidance:
 
 ```markdown
 # Agno Memory
 
-Memory stores learned user facts that persist across sessions.
-
 ## Sub-References
 
-| Sub-Reference | File | Read When |
-|---------------|------|-----------|
-| **Core Concepts** | `memory/core-concepts.md` | Understanding automatic vs agentic memory... |
-| **Tools & Manager** | `memory/tools-manager.md` | MemoryTools, MemoryManager, sharing memory... |
-| **Patterns** | `memory/patterns-best-practices.md` | Teams with memory, multi-user, optimization... |
+| Sub-Reference    | File                             | Read When                              |
+|------------------|----------------------------------|----------------------------------------|
+| **Core Concepts**| `memory/core-concepts.md`        | Automatic vs agentic memory, setup...  |
+| **Tools & Mgr**  | `memory/tools-manager.md`        | MemoryTools, MemoryManager, sharing... |
+| **Patterns**     | `memory/patterns-best-practices.md` | Teams with memory, optimization...  |
 
 ## Quick Start
-[minimal code example — enough for simple cases without loading sub-references]
+[minimal code -- enough for simple cases without loading sub-references]
 ```
 
-The router file itself contains enough context (quick start, key parameters) for simple queries, while the Sub-Reference table guides the AI deeper for complex queries.
+The router itself answers simple queries. The Sub-Reference table guides deeper for complex ones.
 
-### Navigation Flow Example
+### Navigation Flow
 
 ```
 User: "How do I add persistent memory to my Agno agent with Postgres?"
 
-  Step 1 ─ SKILL.md metadata (always in context)
-           AI sees "agno" in user's stack → skill triggers
-           Cost: 0 additional tokens (already loaded)
+  Step 1   SKILL.md metadata (always in context)
+           AI sees "agno" in user's stack --> skill triggers
+           Cost: 0 additional tokens
 
-  Step 2 ─ SKILL.md routing table loads
-           AI scans 34 routes, finds:
-           Memory → references/memory.md → "Automatic vs agentic memory..."
-           Database → references/database.md → "All storage backends, Postgres..."
+  Step 2   SKILL.md routing table loads
+           Finds: Memory --> references/memory.md
            Cost: +500 tokens
 
-  Step 3 ─ AI reads references/memory.md (router node)
-           Sees Sub-References table, decides: "Core Concepts" matches
-           Also sees Quick Start with basic memory setup
+  Step 3   AI reads references/memory.md (router node)
+           Sees Sub-References, picks "Core Concepts"
            Cost: +200 tokens
 
-  Step 4 ─ AI reads memory/core-concepts.md (leaf node)
-           Gets detailed memory setup with database configuration
+  Step 4   AI reads memory/core-concepts.md (leaf node)
+           Gets detailed memory setup with database config
            Cost: +350 tokens
 
-  Total: ~1,050 tokens loaded out of 23,431 available (4.5%)
+  Total:   ~1,050 tokens out of 23,431 available (4.5%)
 ```
 
-### Dependency Graph Visualization
+### Dependency Graph (Agno Skill)
 
 ```
                             SKILL.md
                           (34 routes)
-                               │
-         ┌─────────────┬───────┼───────┬──────────────┐
-         │             │       │       │              │
-    Foundation    Execution    │   State & Memory   Safety
-    ┌────┴───┐   ┌────┴───┐   │   ┌────┴────┐    ┌───┴───┐
-  agents   teams tools/  models│  memory/ database/ guardrails/
-  (leaf)  (leaf) (router)(leaf)│  (router)(router)  (router)
-                   │           │     │       │         │
-           ┌───────┼─────┐    │  ┌──┼──┐  ┌─┼──┐   ┌──┼──┐
-        creating custom  MCP  │ core tools backends builtin
-        (leaf)  kits   (leaf) │ (leaf)(leaf)(leaf)  (leaf)
-               (leaf)         │
-                 │            │        Production
-         ┌───────┼──────┐    │     ┌─────┴──────┐
-      search    data   web   │   agentos/     deploy
-      (leaf)   (leaf) (leaf) │   (router)     (leaf)
-                             │      │
-       ...6 more builtin     │   ┌──┼──┐
-          categories         │  setup config
-                             │  (leaf)(leaf)
-                             │
+                               |
+         +-------------+-------+-------+--------------+
+         |             |       |       |              |
+    Foundation    Execution    |   State & Memory   Safety
+    +----+---+   +----+---+   |   +----+----+    +---+---+
+  agents   teams tools/  models|  memory/ database/ guardrails/
+  (leaf)  (leaf) (router)(leaf)|  (router)(router)  (router)
+                   |           |     |       |         |
+           +-------+-----+    |  +--+--+  +-+--+   +--+--+
+        creating custom  MCP  | core tools backends builtin
+        (leaf)  kits   (leaf) | (leaf)(leaf)(leaf)  (leaf)
+               (leaf)         |
+                 |            |        Production
+         +-------+------+    |     +-----+------+
+      search    data   web   |   agentos/     deploy
+      (leaf)   (leaf) (leaf) |   (router)     (leaf)
+                             |      |
+       ...6 more builtin     |   +--+--+
+          categories         |  setup config
+                             |  (leaf)(leaf)
+                             |
                         Knowledge & Learning
-                       ┌─────┴──────┐
+                       +-----+------+
                     knowledge    learning
                      (leaf)      (leaf)
 ```
 
-Each path from root to leaf represents a possible navigation sequence. The AI never loads sibling branches — only the path relevant to the current query.
+Each root-to-leaf path is a navigation sequence. The AI never loads sibling branches.
+
+---
+
+## Anatomy of a Skill
+
+Every Skills Graph skill has six standard components:
+
+| Component | Purpose |
+|:----------|:--------|
+| **`SKILL.md`** | The router. Only file with YAML frontmatter. Routing table mapping intent to references. Under 100 lines. |
+| **`references/`** | The knowledge graph. Router nodes (Sub-Reference tables) and leaf nodes (actual knowledge). No frontmatter on any reference file. |
+| **`VERSION.json`** | Version tracking. Skill version, framework version, per-file metadata, docs sitemap, statistics. |
+| **`CHANGELOG.md`** | Release history. Added, Changed, Split, Fixed, Stats categories per version. |
+| **`scripts/`** | Maintenance automation. Version checking, sitemap diffing, staleness detection, integrity validation. |
+| **`AUDIT-REPORT.md`** | Architecture quality. Self-assessment scorecard, exemplary skill comparison, improvement plan. |
 
 ---
 
@@ -456,139 +536,44 @@ Each path from root to leaf represents a possible navigation sequence. The AI ne
 
 ```
 skills-graph/
-├── README.md                           # This file
-├── LICENSE                             # MIT License
-│
-├── agno-skill/                         # Agno Framework skill (v1.2.0)
-│   ├── SKILL.md                        # Router — 69 lines, 34 routing entries
-│   ├── VERSION.json                    # Machine-readable version tracking
-│   ├── CHANGELOG.md                    # Release history (v1.0.0 → v1.2.0)
-│   ├── AUDIT-REPORT.md                 # Architecture audit & cross-platform analysis
-│   ├── scripts/
-│   │   └── check-updates.py            # PyPI checker, staleness, integrity
-│   └── references/                     # 116 files, ~23,431 lines
-│       ├── agents.md                   #   Agent creation, tools, state
-│       ├── teams.md                    #   Multi-agent coordination
-│       ├── workflows.md               #   Pipeline orchestration
-│       ├── tools.md → tools/           #   Router → 11 sub-files (120+ builtins)
-│       ├── memory.md → memory/         #   Router → 3 sub-files
-│       ├── database.md → database/     #   Router → 3 sub-files (18 backends)
-│       ├── knowledge.md                #   RAG, 14+ vector DBs, 12+ embedders
-│       ├── guardrails.md → guardrails/ #   Router → 3 sub-files
-│       ├── hooks.md → hooks/           #   Router → 2 sub-files
-│       ├── context-mgmt.md → context-mgmt/ # Router → 5 sub-files
-│       ├── agentos.md → agentos/       #   Router → 2 sub-files (50+ APIs)
-│       ├── evals.md → evals/           #   Router → 4 sub-files
-│       ├── models.md                   #   40+ model providers
-│       ├── reasoning.md                #   Reasoning models, tools, agents
-│       ├── multimodal.md               #   Image, audio, video handling
-│       ├── deploy.md                   #   Docker, Railway, AWS ECS
-│       └── ... (30+ more topic files)
-│
-└── ms-agent-framework/                 # MS Agent Framework skill (v2.0.0)
-    ├── SKILL.md                        # Router — 231 lines, 109 routing entries
-    ├── metadata/
-    │   ├── version-tracking.json       # Version history with timestamps
-    │   └── sources.json                # Per-file source URL mapping
-    ├── scripts/
-    │   └── check-freshness.py          # 7 validation checks
-    └── references/                     # 61 files, ~14,000 lines
-        ├── 01–10                       #   Core foundations (10 files)
-        ├── 11–11l                      #   Workflow deep-dive (13 files)
-        ├── 12a–12e                     #   Orchestration patterns (5 files)
-        ├── 13–23                       #   Deployment, security, patterns (14 files)
-        └── legacy wrappers             #   Backwards-compatible aliases (12 files)
+|-- README.md
+|-- LICENSE
+|
+|-- agno-skill/                         # v1.2.0 | 116 files | 23,431 lines
+|   |-- SKILL.md                        # 69 lines, 34 routing entries
+|   |-- VERSION.json
+|   |-- CHANGELOG.md
+|   |-- AUDIT-REPORT.md
+|   |-- scripts/
+|   |   +-- check-updates.py
+|   +-- references/
+|       |-- agents.md                   teams.md       workflows.md
+|       |-- models.md                   knowledge.md   learning.md
+|       |-- reasoning.md                multimodal.md  deploy.md
+|       |-- tools.md ----------> tools/           (11 sub-files)
+|       |-- memory.md ---------> memory/          (3 sub-files)
+|       |-- database.md -------> database/        (3 sub-files)
+|       |-- guardrails.md -----> guardrails/      (3 sub-files)
+|       |-- context-mgmt.md ---> context-mgmt/    (5 sub-files)
+|       |-- agentos.md --------> agentos/         (2 sub-files)
+|       |-- evals.md ----------> evals/           (4 sub-files)
+|       +-- ... (30+ more topic files)
+|
++-- ms-agent-framework/                 # v2.0.0 | 61 files | ~14,000 lines
+    |-- SKILL.md                        # 231 lines, 109 routing entries
+    |-- metadata/
+    |-- scripts/
+    +-- references/                     # 01-10 core, 11-11l workflows,
+                                        # 12a-12e orchestration, 13-23 deploy+patterns
 ```
-
----
-
-## Anatomy of a Skill
-
-Every skill in Skills Graph follows a standardized structure with six core components:
-
-### 1. `SKILL.md` — The Router
-
-The only file with YAML frontmatter. Contains the routing table that maps user intent to reference files. Kept deliberately lean (under 100 lines) to minimize context cost when the skill triggers. Includes install instructions and version summary.
-
-### 2. `references/` — The Knowledge Graph
-
-Markdown files organized as a directed graph. Two types of nodes:
-- **Router nodes** — contain a Sub-Reference table pointing to child files, plus a Quick Start for simple queries
-- **Leaf nodes** — contain the actual knowledge (code examples, API docs, configuration patterns)
-
-No reference file has YAML frontmatter. This is by design — frontmatter is only needed for skill discovery, not for reference loading.
-
-### 3. `VERSION.json` — Version Tracking
-
-Machine-readable metadata tracking:
-- Skill version (semantic versioning)
-- Framework version being tracked (e.g., Agno 2.5.3)
-- Per-file metadata: which framework version each reference was written for, last update date
-- Documentation sitemap: all known doc pages for diffing against new releases
-- Statistics: routing entries, reference files, total lines
-
-### 4. `CHANGELOG.md` — Release History
-
-Human-readable release notes following Keep a Changelog conventions. Documents what changed in each version with categories: Added, Changed, Split, Fixed, Stats.
-
-### 5. `scripts/` — Maintenance Automation
-
-Python scripts for automated maintenance:
-- **Version checking** — compare tracked version against PyPI/GitHub latest
-- **Sitemap diffing** — detect new documentation pages
-- **Staleness detection** — flag reference files older than a configurable threshold
-- **Integrity validation** — verify all routing table entries have corresponding files on disk
-
-### 6. `AUDIT-REPORT.md` — Architecture Quality
-
-Self-assessment document analyzing the skill against best practices:
-- Progressive disclosure compliance scoring
-- Comparison with exemplary skills from the ecosystem
-- Cross-platform compatibility matrix
-- Prioritized improvement action plan
-
----
-
-## Available Skills
-
-### Agno Framework (v1.2.0)
-
-Full-coverage skill for the [Agno](https://github.com/agno-agi/agno) open-source agent framework.
-
-| Metric | Value |
-|--------|-------|
-| Routing Entries | 34 |
-| Reference Files | 116 |
-| Total Lines | 23,431 |
-| Framework Version Tracked | Agno 2.5.3 |
-| Router Nodes | 12 (tools, memory, database, guardrails, hooks, context-mgmt, agentos, evals, tracing, workflow-patterns, input-output, agno-skills) |
-| Leaf Nodes | 104 |
-
-**Coverage:** Agents, Teams, Workflows, Tools (120+ builtins), Models (40+ providers), Database (18 backends), Memory, Knowledge/RAG (14+ vector DBs, 12+ embedders), Learning, Guardrails, Human-in-the-Loop, Evals, Hooks, Tracing, Context Management, AgentOS (50+ API endpoints), Multimodal, Reasoning, Deploy, Observability (12 platforms), Integrations, Migrations, Culture, Custom Logging, FAQs.
-
-### Microsoft Agent Framework (v2.0.0)
-
-Full-coverage skill for [Microsoft Agent Framework](https://github.com/microsoft/agent-framework) (Python).
-
-| Metric | Value |
-|--------|-------|
-| Routing Entries | 109 (63 explicit + 46 fuzzy) |
-| Reference Files | 61 |
-| Total Lines | ~14,000 |
-| Framework Version Tracked | 1.0.0b260130 (Public Preview) |
-
-**Coverage:** Agents, Running Agents, Structured Output, Tools (function + hosted + MCP), RAG, Sessions, Memory, Middleware, Providers (6), Workflows (13 deep-dive files), Orchestration (sequential, concurrent, handoff, group chat, magentic), Deployment (Azure Functions, A2A, AG-UI), Observability, Security, Purview Governance, M365 Integration, Design Patterns (core + advanced).
 
 ---
 
 ## Installation
 
-Skills Graph skills work with any AI coding assistant that supports the Agent Skills standard.
-
-### Quick Install (Smithery)
+### Quick Install
 
 ```bash
-# Install a skill via the Smithery marketplace
 smithery install agno
 ```
 
@@ -596,8 +581,8 @@ smithery install agno
 
 Copy the skill folder to your platform's skill directory:
 
-| Platform | Project-Level Path | Global Path |
-|----------|-------------------|-------------|
+| Platform | Project Path | Global Path |
+|:---------|:-------------|:------------|
 | Claude Code | `.claude/skills/agno/` | `~/.claude/skills/agno/` |
 | Gemini CLI | `.gemini/skills/agno/` | `~/.gemini/skills/agno/` |
 | Cursor | `.cursor/skills/agno/` | `~/.cursor/skills/agno/` |
@@ -608,8 +593,6 @@ Copy the skill folder to your platform's skill directory:
 
 ### Agno Native Integration
 
-Agno has first-class skills support (v2.5+). Load skills directly from code:
-
 ```python
 from agno.agent import Agent
 from agno.models.openai import OpenAIResponses
@@ -619,17 +602,16 @@ agent = Agent(
     model=OpenAIResponses(id="gpt-5.2"),
     skills=Skills(loaders=[LocalSkills("/path/to/agno-skill")])
 )
-# Agent automatically gets: get_skill_instructions(), get_skill_reference(), get_skill_script()
 ```
 
 ---
 
 ## Platform Compatibility
 
-The Agent Skills standard (`SKILL.md` format) is supported by 25+ AI coding platforms. All platforms use the same discovery/activation/execution pattern: scan descriptions, load `SKILL.md` on match, read references on demand.
+The Agent Skills standard (`SKILL.md` format) works on 25+ platforms with identical semantics.
 
-| Platform | Type | Compatibility |
-|----------|------|:---:|
+| Platform | Type | Status |
+|:---------|:-----|:------:|
 | Claude Code | CLI | Full |
 | Gemini CLI | CLI | Full |
 | Cursor | IDE | Full |
@@ -646,48 +628,39 @@ The Agent Skills standard (`SKILL.md` format) is supported by 25+ AI coding plat
 
 ## The Agent Skills Standard
 
-Agent Skills is a universal format for extending AI coding assistants with domain-specific knowledge. Originally introduced in Claude Code (October 2025), the format went open in December 2025 and has since been adopted by 25+ platforms.
+Agent Skills is a universal format for extending AI coding assistants. Originally introduced in Claude Code (Oct 2025), went open Dec 2025, adopted by 25+ platforms.
 
-The standard defines:
+1. `SKILL.md` with YAML frontmatter (`name` + `description`) as entry point
+2. Optional `references/` for knowledge files
+3. Optional `scripts/` for executable tools
+4. 3-level loading: metadata (always) -> SKILL.md (on trigger) -> references (on demand)
 
-1. A `SKILL.md` file with YAML frontmatter (`name` + `description`) as the entry point
-2. Optional `references/` directory for additional knowledge files
-3. Optional `scripts/` directory for executable tools
-4. A 3-level loading model: metadata (always) → SKILL.md (on trigger) → references (on demand)
-
-Skills Graph builds on this standard by introducing a disciplined methodology for structuring the reference layer as an interconnected graph rather than a flat collection of files, and adding version tracking, maintenance automation, and self-auditing practices that don't exist in the base specification.
+Skills Graph builds on this by structuring references as an interconnected graph and adding version tracking, maintenance automation, and self-auditing -- practices that don't exist in the base spec.
 
 ---
 
 ## Maintenance & Tooling
 
-### Checking for Updates
-
-Each skill includes a maintenance script that validates freshness and integrity:
-
 ```bash
-# Agno skill — full report
+# Full report
 python agno-skill/scripts/check-updates.py --report
 
 # Individual checks
-python agno-skill/scripts/check-updates.py --version     # Compare against PyPI latest
-python agno-skill/scripts/check-updates.py --sitemap     # Detect new doc pages
+python agno-skill/scripts/check-updates.py --version     # PyPI latest
+python agno-skill/scripts/check-updates.py --sitemap     # New doc pages
 python agno-skill/scripts/check-updates.py --stale 30    # Files older than 30 days
 python agno-skill/scripts/check-updates.py --integrity   # Verify routing table
 
-# Microsoft Agent Framework skill
+# MS Agent Framework
 python ms-agent-framework/scripts/check-freshness.py --verbose
 ```
-
-### Example Output
 
 ```
 ====== AGNO VERSION CHECK ======
 Skill version:     1.2.0
 Tracked Agno:      2.5.3
-Docs snapshot:     2026-02-21
 Latest on PyPI:    2.5.3
-  UP TO DATE — skill tracks the latest version
+  UP TO DATE
 
 ====== FILE INTEGRITY ======
 34 routing entries checked
@@ -696,43 +669,31 @@ Latest on PyPI:    2.5.3
   ALL REFERENCES VALID
 ```
 
-### Version Tracking
-
-Every skill maintains a `VERSION.json` with:
-- Skill version and framework version tracked
-- Per-file metadata (which framework version each reference targets, last updated date)
-- Documentation sitemap for diffing new releases
-- Aggregate statistics (routing entries, files, lines)
-
 ---
 
 ## Contributing
 
-Contributions are welcome. Whether you want to improve existing skills or create new ones, here's how to participate.
-
 ### Creating a New Skill
 
-Follow the Skills Graph methodology:
-
-1. **Start with the router** — Write `SKILL.md` with a clear routing table and "Read When" conditions. Keep it under 100 lines.
-2. **Organize references as a graph** — Use router files for complex topics (5+ sub-topics) and leaf files for focused content.
-3. **Add intent-based navigation** — Every routing entry tells the AI exactly when to load that file.
-4. **No frontmatter on references** — Only `SKILL.md` gets YAML frontmatter.
-5. **Track versions** — Create a `VERSION.json` with per-file metadata.
-6. **Add maintenance scripts** — Automate version checking, staleness detection, and integrity validation.
-7. **Audit yourself** — Write an `AUDIT-REPORT.md` scoring your skill against the five pillars.
+1. **Start with the router** -- `SKILL.md` with routing table and "Read When" conditions. Under 100 lines.
+2. **Organize as a graph** -- Router files for complex topics, leaf files for focused content.
+3. **Add intent-based navigation** -- Every entry tells the AI when to load that file.
+4. **No frontmatter on references** -- Only `SKILL.md` gets YAML frontmatter.
+5. **Track versions** -- `VERSION.json` with per-file metadata.
+6. **Add maintenance scripts** -- Automate version checking and integrity validation.
+7. **Audit yourself** -- `AUDIT-REPORT.md` with quality scorecard.
 
 ### Quality Checklist
 
-- [ ] `SKILL.md` is under 100 lines (pure router)
-- [ ] Every reference file is reachable from the routing table
+- [ ] `SKILL.md` under 100 lines (pure router)
+- [ ] Every reference reachable from routing table
 - [ ] Router files have "Read When" / "Sub-References" tables
-- [ ] Files over 300 lines have a table of contents
-- [ ] Files over 500 lines are split into router + sub-files
-- [ ] `VERSION.json` tracks framework version and per-file metadata
+- [ ] Files >300 lines have TOC
+- [ ] Files >500 lines split into router + sub-files
+- [ ] `VERSION.json` tracks framework version + per-file metadata
 - [ ] `CHANGELOG.md` documents all releases
-- [ ] Maintenance script passes all integrity checks
-- [ ] `AUDIT-REPORT.md` exists with quality scorecard
+- [ ] Maintenance script passes integrity checks
+- [ ] `AUDIT-REPORT.md` exists with scorecard
 - [ ] Description includes explicit trigger keywords
 
 ---
@@ -745,18 +706,17 @@ Follow the Skills Graph methodology:
 
 ## License
 
-This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
+MIT License -- see [LICENSE](LICENSE).
 
-The skills in this repository contain curated reference documentation for their respective frameworks. The original framework documentation is subject to its own licensing:
-
-- **Agno** — [Apache 2.0](https://github.com/agno-agi/agno/blob/main/LICENSE)
-- **Microsoft Agent Framework** — [MIT](https://github.com/microsoft/agent-framework/blob/main/LICENSE)
+Reference documentation is curated from frameworks under their own licenses:
+**Agno** ([Apache 2.0](https://github.com/agno-agi/agno/blob/main/LICENSE)) &middot;
+**MS Agent Framework** ([MIT](https://github.com/microsoft/agent-framework/blob/main/LICENSE))
 
 ---
 
 ## Acknowledgments
 
-- [Agno](https://github.com/agno-agi/agno) — Open-source agent framework by Agno AGI
-- [Microsoft Agent Framework](https://github.com/microsoft/agent-framework) — AI agent framework by Microsoft
-- The Agent Skills standard — Originally by Anthropic (Claude Code), now a universal format across 25+ platforms
-- [Smithery](https://smithery.ai) — Skills marketplace for distribution
+[Agno](https://github.com/agno-agi/agno) &middot;
+[Microsoft Agent Framework](https://github.com/microsoft/agent-framework) &middot;
+[Agent Skills Standard](https://docs.anthropic.com) (Anthropic) &middot;
+[Smithery](https://smithery.ai)

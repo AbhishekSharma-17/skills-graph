@@ -1,0 +1,85 @@
+{
+  "primary_sources": [
+    {
+      "name": "Microsoft Agent Framework Documentation",
+      "url": "https://learn.microsoft.com/en-us/agent-framework/",
+      "type": "official_docs",
+      "topics": ["all"]
+    },
+    {
+      "name": "Agent Framework GitHub Repository",
+      "url": "https://github.com/microsoft/agent-framework",
+      "type": "source_code",
+      "topics": ["api", "examples", "workflows"]
+    },
+    {
+      "name": "Agent Framework Samples",
+      "url": "https://github.com/microsoft/Agent-Framework-Samples",
+      "type": "examples",
+      "topics": ["getting-started", "workflows", "orchestration"]
+    },
+    {
+      "name": "Azure Architecture Center - AI Agent Patterns",
+      "url": "https://learn.microsoft.com/en-us/azure/architecture/ai-ml/guide/ai-agent-design-patterns",
+      "type": "architecture_guide",
+      "topics": ["design-patterns", "orchestration", "multi-agent"]
+    }
+  ],
+  "reference_sources": {
+    "01-getting-started.md": [
+      "https://learn.microsoft.com/en-us/agent-framework/quickstarts/quickstart-python",
+      "https://learn.microsoft.com/en-us/agent-framework/overview/agent-framework-overview"
+    ],
+    "02-running-agents.md": [
+      "https://learn.microsoft.com/en-us/agent-framework/user-guide/agents/agents-overview"
+    ],
+    "11-workflows-core.md": [
+      "https://learn.microsoft.com/en-us/agent-framework/user-guide/workflows/overview",
+      "https://learn.microsoft.com/en-us/agent-framework/user-guide/workflows/core-concepts/executors"
+    ],
+    "11a-workflow-executors.md": [
+      "https://learn.microsoft.com/en-us/agent-framework/user-guide/workflows/core-concepts/executors"
+    ],
+    "11b-workflow-edges.md": [
+      "https://learn.microsoft.com/en-us/agent-framework/user-guide/workflows/core-concepts/edges"
+    ],
+    "11c-workflow-events.md": [
+      "https://learn.microsoft.com/en-us/agent-framework/user-guide/workflows/core-concepts/events"
+    ],
+    "12a-orchestration-sequential.md": [
+      "https://learn.microsoft.com/en-us/agent-framework/user-guide/orchestration/sequential"
+    ],
+    "12c-orchestration-handoff.md": [
+      "https://learn.microsoft.com/en-us/agent-framework/user-guide/orchestration/handoff"
+    ],
+    "12d-orchestration-groupchat.md": [
+      "https://learn.microsoft.com/en-us/agent-framework/user-guide/orchestration/group-chat"
+    ],
+    "12e-orchestration-magentic.md": [
+      "https://learn.microsoft.com/en-us/agent-framework/user-guide/orchestration/magentic"
+    ],
+    "13a-azure-functions.md": [
+      "https://learn.microsoft.com/en-us/agent-framework/user-guide/hosting/azure-functions"
+    ],
+    "13b-a2a-protocol.md": [
+      "https://learn.microsoft.com/en-us/agent-framework/user-guide/hosting/a2a"
+    ],
+    "13c-ag-ui-protocol.md": [
+      "https://learn.microsoft.com/en-us/agent-framework/user-guide/hosting/ag-ui"
+    ],
+    "15a-tracing-observability.md": [
+      "https://learn.microsoft.com/en-us/agent-framework/user-guide/tracing-and-observability"
+    ],
+    "19-security.md": [
+      "https://learn.microsoft.com/en-us/agent-framework/user-guide/security"
+    ],
+    "22-design-patterns-core.md": [
+      "https://learn.microsoft.com/en-us/azure/architecture/ai-ml/guide/ai-agent-design-patterns",
+      "https://microsoft.github.io/autogen/stable//user-guide/core-user-guide/design-patterns/"
+    ],
+    "23-design-patterns-advanced.md": [
+      "https://learn.microsoft.com/en-us/azure/architecture/ai-ml/guide/ai-agent-design-patterns"
+    ]
+  },
+  "last_updated": "2026-02-16"
+}

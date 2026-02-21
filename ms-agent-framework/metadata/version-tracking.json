@@ -1,0 +1,42 @@
+{
+  "skill_version": "2.0.0",
+  "framework_version": "1.0.0b260130",
+  "framework_package": "microsoft-agent-framework",
+  "languages": ["python"],
+  "last_checked": "2026-02-16T00:00:00Z",
+  "last_updated": "2026-02-16T00:00:00Z",
+  "created": "2026-02-14T00:00:00Z",
+  "update_history": [
+    {
+      "date": "2026-02-14",
+      "version": "1.0.0",
+      "changes": "Initial skill creation with core reference files (01-10)"
+    },
+    {
+      "date": "2026-02-15",
+      "version": "1.5.0",
+      "changes": "Added 12 workflow deep-dive files (11a-11l), enhanced 5 orchestration files (12a-12e)"
+    },
+    {
+      "date": "2026-02-15",
+      "version": "1.8.0",
+      "changes": "Added 9 integration files: Azure Functions, A2A, AG-UI, OpenAI-compatible, deployment, tracing, security, Purview, M365"
+    },
+    {
+      "date": "2026-02-16",
+      "version": "2.0.0",
+      "changes": "Added advanced design patterns (22-23), freshness checker, metadata, comparison report"
+    }
+  ],
+  "reference_counts": {
+    "core": 10,
+    "workflows": 13,
+    "orchestration": 5,
+    "integrations": 9,
+    "design_patterns": 2,
+    "other": 6,
+    "legacy_duplicates": 12
+  },
+  "total_reference_files": 61,
+  "staleness_threshold_days": 90
+}

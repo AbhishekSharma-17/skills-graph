@@ -1,0 +1,36 @@
+{
+  "skill_version": "1.0.0",
+  "source_version_tracked": "X.Y.Z",
+  "source_package": "your-package-name",
+  "docs_snapshot_date": "2026-MM-DD",
+  "last_checked": "2026-MM-DD",
+  "last_updated": "2026-MM-DD",
+  "urls": {
+    "docs": "https://source-url.com/docs",
+    "changelog": "https://source-url.com/changelog",
+    "pypi": "https://pypi.org/project/your-package/"
+  },
+  "references": {
+    "00-overview.md": {
+      "source_page": "/docs/introduction",
+      "written_for": "X.Y.Z",
+      "last_updated": "2026-MM-DD"
+    },
+    "01-topic-a.md": {
+      "source_page": "/docs/topic-a",
+      "written_for": "X.Y.Z",
+      "last_updated": "2026-MM-DD"
+    },
+    "02-topic-b.md": {
+      "source_page": "/docs/topic-b",
+      "written_for": "X.Y.Z",
+      "last_updated": "2026-MM-DD"
+    },
+    "03-topic-c.md": {
+      "source_page": "/docs/topic-c",
+      "written_for": "X.Y.Z",
+      "last_updated": "2026-MM-DD"
+    }
+  },
+  "staleness_threshold_days": 90
+}

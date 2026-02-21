@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Contributing Guide
+    url: https://github.com/AbhishekSharma-17/skills-graph/blob/main/CONTRIBUTING.md
+    about: Read the full guide before creating a new skill
+  - name: Security Vulnerability
+    url: https://github.com/AbhishekSharma-17/skills-graph/security/advisories/new
+    about: Report security vulnerabilities privately (do NOT open a public issue)

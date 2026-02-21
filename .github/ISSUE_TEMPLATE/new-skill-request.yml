@@ -1,0 +1,70 @@
+name: New Skill Request
+description: Suggest a new skill to be added to Skills Graph
+title: "[Skill Request] "
+labels: ["enhancement", "new-skill"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Suggest a new skill for the Skills Graph collection. Skills can be about anything — frameworks, libraries, APIs, design patterns, workflows, or any knowledge domain.
+
+  - type: input
+    id: name
+    attributes:
+      label: Proposed skill name
+      description: Follow naming convention (lowercase, hyphens, descriptive)
+      placeholder: e.g., fastapi-skill, react-patterns, api-design
+    validations:
+      required: true
+
+  - type: dropdown
+    id: domain
+    attributes:
+      label: Domain type
+      options:
+        - Framework / Library
+        - API / Service
+        - Design Pattern / Methodology
+        - Programming Language
+        - DevOps / Infrastructure
+        - Data / ML / AI
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: What should this skill cover?
+      description: Describe the scope, key topics, and why it would be valuable
+      placeholder: |
+        This skill should cover...
+        Key topics: X, Y, Z
+        It would be valuable because...
+    validations:
+      required: true
+
+  - type: input
+    id: source
+    attributes:
+      label: Primary source documentation
+      description: URL to the official docs this skill would be based on
+      placeholder: https://docs.example.com
+
+  - type: textarea
+    id: estimated-scope
+    attributes:
+      label: Estimated scope
+      description: How big do you think this skill would be?
+      placeholder: |
+        Estimated reference files: ~20-30
+        Key router topics: tools, models, deployment, testing
+        Sub-reference directories needed: tools/, deployment/
+
+  - type: checkboxes
+    id: volunteer
+    attributes:
+      label: Are you willing to contribute this skill?
+      options:
+        - label: I'd like to build this skill myself (following CONTRIBUTING.md)
+        - label: I can help review if someone else builds it

@@ -1,0 +1,50 @@
+name: Skill Improvement
+description: Suggest an improvement to an existing skill
+title: "[Improve] "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Suggest improvements to an existing skill — missing topics, outdated references, better organization, etc.
+
+  - type: dropdown
+    id: skill
+    attributes:
+      label: Which skill?
+      options:
+        - agno-skill
+        - ms-agent-framework
+        - Other
+    validations:
+      required: true
+
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type of improvement
+      options:
+        - Missing topic / reference file
+        - Outdated content (upstream changed)
+        - Better organization / splitting
+        - Routing table improvement
+        - Script enhancement
+        - Documentation clarity
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the improvement
+      description: What should change and why?
+    validations:
+      required: true
+
+  - type: textarea
+    id: upstream
+    attributes:
+      label: Upstream reference (if applicable)
+      description: Link to the official docs that should be reflected
+      placeholder: https://docs.example.com/new-feature

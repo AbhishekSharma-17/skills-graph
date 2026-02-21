@@ -1,0 +1,26 @@
+{
+    "skill_name": "ms-agent-framework",
+    "skill_version": "1.0.0",
+    "source_version_tracked": "1.0.0b260130",
+    "content_snapshot_date": "2026-02-21",
+    "last_checked": "2026-02-21",
+    "stats": {
+        "routing_entries": 22,
+        "reference_files": 62,
+        "total_lines": 10000
+    },
+    "urls": {
+        "docs": "https://github.com/microsoft/agent-framework",
+        "github": "https://github.com/microsoft/agent-framework",
+        "changelog": "https://github.com/microsoft/agent-framework/releases"
+    },
+    "references": {
+        "00-framework-overview.md": {
+            "written_for": "1.0.0b260130",
+            "last_updated": "2026-02-21"
+        }
+    },
+    "excluded_sections": [
+        "C# Implementation (Python only skill)"
+    ]
+}

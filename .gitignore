@@ -1,0 +1,77 @@
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# AI / Agent Assistants
+.claude/
+.gemini/
+.cursor/
+.cursorrules
+.windsurf/
+.codeium/
+.trae/
+.aider*
+.continue/
+roo-code/
+.agent/
+.codex/
+.cline/
+
+# Python (for maintenance scripts)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+.venv
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment Variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.tmp/
+
+# Node (in case of future JS tooling)
+node_modules/
+npm-debug.log
+yarn-error.log
+pnpm-debug.log

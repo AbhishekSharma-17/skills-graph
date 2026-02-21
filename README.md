@@ -537,6 +537,7 @@ Every Skills Graph skill has six standard components:
 ```
 skills-graph/
 |-- README.md
+|-- CONTRIBUTING.md                    # Full skill creation guide with templates
 |-- LICENSE
 |
 |-- agno-skill/                         # v1.2.0 | 116 files | 23,431 lines
@@ -673,7 +674,9 @@ Latest on PyPI:    2.5.3
 
 ## Contributing
 
-### Creating a New Skill
+> **[Read the full Contributing Guide (CONTRIBUTING.md)](CONTRIBUTING.md)** -- complete standards, copy-paste templates, and step-by-step instructions for building a Skills Graph skill from scratch.
+
+### Quick Summary
 
 1. **Start with the router** -- `SKILL.md` with routing table and "Read When" conditions. Under 100 lines.
 2. **Organize as a graph** -- Router files for complex topics, leaf files for focused content.
@@ -695,6 +698,8 @@ Latest on PyPI:    2.5.3
 - [ ] Maintenance script passes integrity checks
 - [ ] `AUDIT-REPORT.md` exists with scorecard
 - [ ] Description includes explicit trigger keywords
+
+The full guide includes templates for every file (SKILL.md, VERSION.json, CHANGELOG.md, AUDIT-REPORT.md, check-updates.py), size rules, naming conventions, common mistakes, and production examples from both the Agno and MS Agent Framework skills.
 
 ---
 

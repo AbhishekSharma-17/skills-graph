@@ -34,7 +34,7 @@ Use this as your master checklist when building a new skill:
 
 ```
 [ ] 1. Create directory: <skill-name>/
-[ ] 2. Write SKILL.md with YAML frontmatter + routing table
+[ ] 2. Write SKILL.md with YAML frontmatter + routing table (name MUST match folder name)
 [ ] 3. Create references/ with knowledge files
 [ ] 4. Add VERSION.json with version tracking
 [ ] 5. Add CHANGELOG.md with initial release
@@ -96,7 +96,7 @@ SKILL.md is the **only file with YAML frontmatter**. It's a pure router — no k
 
 ```markdown
 ---
-name: <skill-name>
+name: <skill-name>          # MUST exactly match the folder name (most common mistake)
 description: "<1-2 sentence overview>. MANDATORY TRIGGERS: <keyword1>, <keyword2>, <keyword3>. Also trigger when <broader contexts>. When in doubt about whether to use this skill, use it."
 license: MIT
 metadata:
@@ -156,7 +156,7 @@ smithery install <skill-name>
 | **Max lines** | 100 (ideally 60-80) |
 | **Content** | Routing table + install instructions + version info. Zero knowledge content. |
 | **YAML frontmatter** | Required. Must have `name` and `description`. Add `license`, `metadata`. |
-| **Name format** | Lowercase, hyphens only. Max 64 characters. (e.g., `agno`, `api-design-patterns`, `react-performance`, `stripe-api`) |
+| **Name format** | Lowercase, hyphens only. Max 64 characters. **Must exactly match the folder name.** This is the most common mistake. (e.g., folder `agno/` → `name: agno`, folder `api-design-patterns/` → `name: api-design-patterns`) |
 | **Description** | Under 1024 characters. Must include MANDATORY TRIGGERS. Be "pushy" — tell the AI when to trigger. |
 | **Routing table** | Every row maps a topic to a file with a "Read When" condition. |
 | **"Read When" column** | Describe **user intent**, not file contents. Keywords the AI can match against the user's question. |
@@ -866,8 +866,8 @@ The router in SKILL.md still points to the full relative path: `references/core/
 
 | Element | Convention | Examples |
 |:--------|:-----------|:---------|
-| **Skill directory** | lowercase, hyphens | `agno-skill/`, `api-design-patterns/`, `react-performance/` |
-| **SKILL.md `name`** | lowercase, hyphens, max 64 chars | `agno`, `api-design-patterns`, `react-performance` |
+| **Skill directory** | lowercase, hyphens | `agno/`, `api-design-patterns/`, `react-performance/` |
+| **SKILL.md `name`** | lowercase, hyphens, max 64 chars. **Must exactly match folder name.** | `agno`, `api-design-patterns`, `react-performance` |
 | **Reference files** | lowercase, hyphens | `tools.md`, `getting-started.md` |
 | **Sub-directories** | Match parent router name | `tools/`, `memory/`, `database/` |
 | **Numbered files** | `NN-topic.md` or `NNa-subtopic.md` | `11-workflows.md`, `11a-executors.md` |
@@ -918,6 +918,7 @@ Run through this before publishing your skill:
 
 ### Structure
 - [ ] `SKILL.md` exists with YAML frontmatter
+- [ ] `SKILL.md` `name` field exactly matches the folder name (most common mistake)
 - [ ] `SKILL.md` is under 100 lines
 - [ ] `SKILL.md` has `name`, `description`, `license`, `metadata` in frontmatter
 - [ ] `SKILL.md` description includes MANDATORY TRIGGERS
@@ -952,35 +953,39 @@ Run through this before publishing your skill:
 
 ## Common Mistakes
 
-### 1. Putting knowledge in SKILL.md
+### 1. `name` field doesn't match the folder name
+**Wrong:** Folder is `agno-skill/` but frontmatter says `name: agno`.
+**Right:** Folder is `agno/` and frontmatter says `name: agno`. They must be identical.
+
+### 2. Putting knowledge in SKILL.md
 **Wrong:** SKILL.md has 300 lines of code examples and explanations.
 **Right:** SKILL.md has 69 lines — just the routing table and install info.
 
-### 2. YAML frontmatter on reference files
+### 3. YAML frontmatter on reference files
 **Wrong:** Every .md file starts with `---\nname: ...\n---`
 **Right:** Only SKILL.md has frontmatter. References start with `# Title`.
 
-### 3. Flat dumps without routing guidance
+### 4. Flat dumps without routing guidance
 **Wrong:** 40 reference files with no routing table. AI guesses which to load.
 **Right:** Every reference file is reachable from the SKILL.md routing table with "Read When" conditions.
 
-### 4. Vague descriptions
+### 5. Vague descriptions
 **Wrong:** `"A skill for building AI agents."`
 **Right:** `"Build AI agents... MANDATORY TRIGGERS: Agno, agno-agi... When in doubt, use it."`
 
-### 5. No version tracking
+### 6. No version tracking
 **Wrong:** No VERSION.json. No way to know if content is stale.
 **Right:** VERSION.json with per-file `written_for` metadata. Automated staleness detection.
 
-### 6. Monolithic reference files
+### 7. Monolithic reference files
 **Wrong:** `database.md` is 1,200 lines covering 18 backends.
 **Right:** `database.md` is a 50-line router pointing to `database/backends.md`, `database/chat-history.md`, `database/session-memory.md`.
 
-### 7. Missing TOCs on large files
+### 8. Missing TOCs on large files
 **Wrong:** 450-line file with no table of contents. AI reads the whole thing.
 **Right:** `## Contents` section with anchor links at the top.
 
-### 8. No maintenance automation
+### 9. No maintenance automation
 **Wrong:** Manually checking if the upstream source has changed.
 **Right:** `python scripts/check-updates.py --report` tells you what's stale.
 
@@ -1035,7 +1040,7 @@ touch <skill-name>/AUDIT-REPORT.md
 ```
 
 ### 3. Write SKILL.md First
-- Start with YAML frontmatter: `name`, `description` (with MANDATORY TRIGGERS), `license`, `metadata`
+- Start with YAML frontmatter: `name` (**must exactly match folder name**), `description` (with MANDATORY TRIGGERS), `license`, `metadata`
 - Write the routing table mapping every topic to a reference file with "Read When" conditions
 - Add setup/install instructions if applicable
 - Add skill install instructions (Smithery + manual paths)

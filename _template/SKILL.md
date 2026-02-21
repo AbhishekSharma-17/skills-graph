@@ -1,5 +1,5 @@
 ---
-name: your-skill-name
+name: your-skill-name       # MUST exactly match the folder name — most common mistake!
 description: "MANDATORY TRIGGERS: keyword1, keyword2, keyword3. Describe what this skill does and when to use it. Be specific about trigger conditions."
 license: MIT
 metadata:

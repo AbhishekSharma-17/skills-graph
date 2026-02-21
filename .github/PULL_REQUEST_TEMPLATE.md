@@ -17,6 +17,7 @@
 ### Required
 - [ ] `SKILL.md` exists and is under 100 lines (pure router)
 - [ ] `SKILL.md` has valid YAML frontmatter (`name`, `description`)
+- [ ] `SKILL.md` `name` field exactly matches the folder name
 - [ ] Description includes explicit trigger keywords
 - [ ] Every file in the routing table exists on disk
 - [ ] `VERSION.json` present with `skill_version` and source tracking

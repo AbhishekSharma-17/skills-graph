@@ -537,42 +537,70 @@ Every Skills Graph skill has six standard components:
 ```
 skills-graph/
 |-- README.md
-|-- CONTRIBUTING.md                    # Full skill creation guide with templates
+|-- CONTRIBUTING.md                     # Full skill creation guide with templates
+|-- SECURITY.md                         # Security policy and vulnerability reporting
+|-- CODE_OF_CONDUCT.md                  # Community standards
 |-- LICENSE
+|-- .github/
+|   |-- PULL_REQUEST_TEMPLATE.md        # PR checklist for skill contributions
+|   +-- ISSUE_TEMPLATE/                 # Bug reports, skill requests, improvements
 |
-|-- agno-skill/                         # v1.2.0 | 116 files | 23,431 lines
-|   |-- SKILL.md                        # 69 lines, 34 routing entries
-|   |-- VERSION.json
-|   |-- CHANGELOG.md
-|   |-- AUDIT-REPORT.md
-|   |-- scripts/
-|   |   +-- check-updates.py
-|   +-- references/
-|       |-- agents.md                   teams.md       workflows.md
-|       |-- models.md                   knowledge.md   learning.md
-|       |-- reasoning.md                multimodal.md  deploy.md
-|       |-- tools.md ----------> tools/           (11 sub-files)
-|       |-- memory.md ---------> memory/          (3 sub-files)
-|       |-- database.md -------> database/        (3 sub-files)
-|       |-- guardrails.md -----> guardrails/      (3 sub-files)
-|       |-- context-mgmt.md ---> context-mgmt/    (5 sub-files)
-|       |-- agentos.md --------> agentos/         (2 sub-files)
-|       |-- evals.md ----------> evals/           (4 sub-files)
-|       +-- ... (30+ more topic files)
+|-- _template/                          # Copy-paste starter for new skills
+|   |-- SKILL.md                        # Router template with instructions
+|   |-- VERSION.json                    # Version tracking template
+|   |-- CHANGELOG.md                    # Release history template
+|   |-- AUDIT-REPORT.md                 # Quality scorecard template
+|   |-- scripts/check-updates.py        # Maintenance script template
+|   +-- references/                     # Leaf + router node examples
 |
-+-- ms-agent-framework/                 # v2.0.0 | 61 files | ~14,000 lines
-    |-- SKILL.md                        # 231 lines, 109 routing entries
-    |-- metadata/
-    |-- scripts/
-    +-- references/                     # 01-10 core, 11-11l workflows,
-                                        # 12a-12e orchestration, 13-23 deploy+patterns
+|-- skills/
+|   |-- agno-skill/                     # v1.2.0 | 116 files | 23,431 lines
+|   |   |-- SKILL.md                    # 69 lines, 34 routing entries
+|   |   |-- VERSION.json
+|   |   |-- CHANGELOG.md
+|   |   |-- AUDIT-REPORT.md
+|   |   |-- scripts/
+|   |   |   +-- check-updates.py
+|   |   +-- references/
+|   |       |-- agents.md               teams.md       workflows.md
+|   |       |-- models.md               knowledge.md   learning.md
+|   |       |-- reasoning.md            multimodal.md  deploy.md
+|   |       |-- tools.md -------> tools/           (11 sub-files)
+|   |       |-- memory.md ------> memory/          (3 sub-files)
+|   |       |-- database.md ----> database/        (3 sub-files)
+|   |       |-- guardrails.md --> guardrails/      (3 sub-files)
+|   |       |-- context-mgmt.md > context-mgmt/    (5 sub-files)
+|   |       |-- agentos.md -----> agentos/         (2 sub-files)
+|   |       |-- evals.md -------> evals/           (4 sub-files)
+|   |       +-- ... (30+ more topic files)
+|   |
+|   +-- ms-agent-framework/             # v2.0.0 | 61 files | ~14,000 lines
+|       |-- SKILL.md                    # ~55 lines, 22 routing entries
+|       |-- metadata/
+|       |-- scripts/
+|       +-- references/                 # 01-10 core, 11-11l workflows,
+|                                       # 12a-12e orchestration, 13-23 deploy+patterns
 ```
 
 ---
 
 ## Installation
 
-### Quick Install
+### Via skills CLI (Recommended)
+
+```bash
+# Install all skills from this repo
+npx skills add AbhishekSharma-17/skills-graph
+
+# Install a specific skill
+npx skills add AbhishekSharma-17/skills-graph --skill agno
+npx skills add AbhishekSharma-17/skills-graph --skill ms-agent-framework
+
+# List available skills without installing
+npx skills add AbhishekSharma-17/skills-graph --list
+```
+
+### Via Smithery
 
 ```bash
 smithery install agno
@@ -644,16 +672,16 @@ Skills Graph builds on this by structuring references as an interconnected graph
 
 ```bash
 # Full report
-python agno-skill/scripts/check-updates.py --report
+python skills/agno-skill/scripts/check-updates.py --report
 
 # Individual checks
-python agno-skill/scripts/check-updates.py --version     # PyPI latest
-python agno-skill/scripts/check-updates.py --sitemap     # New doc pages
-python agno-skill/scripts/check-updates.py --stale 30    # Files older than 30 days
-python agno-skill/scripts/check-updates.py --integrity   # Verify routing table
+python skills/agno-skill/scripts/check-updates.py --version     # PyPI latest
+python skills/agno-skill/scripts/check-updates.py --sitemap     # New doc pages
+python skills/agno-skill/scripts/check-updates.py --stale 30    # Files older than 30 days
+python skills/agno-skill/scripts/check-updates.py --integrity   # Verify routing table
 
 # MS Agent Framework
-python ms-agent-framework/scripts/check-freshness.py --verbose
+python skills/ms-agent-framework/scripts/check-freshness.py --verbose
 ```
 
 ```
@@ -688,6 +716,7 @@ Latest on PyPI:    2.5.3
 
 ### Quality Checklist
 
+- [ ] `SKILL.md` `name` exactly matches the folder name
 - [ ] `SKILL.md` under 100 lines (pure router)
 - [ ] Every reference reachable from routing table
 - [ ] Router files have "Read When" / "Sub-References" tables

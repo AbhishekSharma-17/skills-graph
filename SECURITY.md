@@ -6,9 +6,9 @@ Agent Skills are loaded directly into AI coding assistants and can contain execu
 
 ## Supported Versions
 
-| Version | Supported |
-|---------|-----------|
-| Latest on `main` | Yes |
+| Version          | Supported |
+| ---------------- | --------- |
+| Latest on `main` | Yes       |
 
 ## Reporting a Vulnerability
 
@@ -16,7 +16,7 @@ Agent Skills are loaded directly into AI coding assistants and can contain execu
 
 ### How to Report
 
-1. **Email:** Send a detailed report to **abhishek@genaiprotos.com**
+1. **Email:** Send a detailed report to **2001abhishek17@gmail.com**
 2. **GitHub:** Use [GitHub's private security advisory](https://github.com/AbhishekSharma-17/skills-graph/security/advisories/new) feature
 
 ### Include in Your Report
@@ -29,11 +29,11 @@ Agent Skills are loaded directly into AI coding assistants and can contain execu
 
 ### Response Timeline
 
-| Stage | Target |
-|-------|--------|
-| Acknowledgment | Within 48 hours |
-| Initial assessment | Within 1 week |
-| Fix or mitigation | Within 30 days (complexity dependent) |
+| Stage              | Target                                |
+| ------------------ | ------------------------------------- |
+| Acknowledgment     | Within 48 hours                       |
+| Initial assessment | Within 1 week                         |
+| Fix or mitigation  | Within 30 days (complexity dependent) |
 
 ## Security Model
 
@@ -88,13 +88,13 @@ Every skill built with the Skills Graph methodology includes:
 
 Based on published research (as of Feb 2026):
 
-| Vector | Mitigation in Skills Graph |
-|--------|---------------------------|
-| **Prompt injection in skill content** | All reference files are plain Markdown; no dynamic content generation. Review all PRs. |
-| **Malicious scripts** | Scripts restricted to Python stdlib, read-only HTTP, no subprocess. |
-| **Dependency confusion** | Zero external dependencies. Scripts are self-contained. |
-| **Stale references leading to wrong behavior** | VERSION.json per-file tracking + automated staleness checks. |
-| **Hidden instructions** | All content is human-readable Markdown. CI can lint for hidden text patterns. |
+| Vector                                         | Mitigation in Skills Graph                                                             |
+| ---------------------------------------------- | -------------------------------------------------------------------------------------- |
+| **Prompt injection in skill content**          | All reference files are plain Markdown; no dynamic content generation. Review all PRs. |
+| **Malicious scripts**                          | Scripts restricted to Python stdlib, read-only HTTP, no subprocess.                    |
+| **Dependency confusion**                       | Zero external dependencies. Scripts are self-contained.                                |
+| **Stale references leading to wrong behavior** | VERSION.json per-file tracking + automated staleness checks.                           |
+| **Hidden instructions**                        | All content is human-readable Markdown. CI can lint for hidden text patterns.          |
 
 ## Verification
 

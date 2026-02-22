@@ -3,14 +3,14 @@
   <p align="center">
     <strong>Precision-engineered AI agent skills with interconnected reference architectures.</strong>
     <br />
-    <em>A methodology for building skills that carry 37,000+ lines of knowledge<br />while loading only what the AI actually needs.</em>
+    <em>A methodology for building skills that carry 40,000+ lines of knowledge<br />while loading only what the AI actually needs.</em>
   </p>
   <p align="center">
     <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT"></a>
     <a href="#-the-agent-skills-standard"><img src="https://img.shields.io/badge/Agent%20Skills-Universal%20Standard-purple.svg" alt="Skills Standard"></a>
     <a href="#-platform-compatibility"><img src="https://img.shields.io/badge/Platforms-25%2B-green.svg" alt="Platforms"></a>
-    <a href="#-skills-catalog"><img src="https://img.shields.io/badge/Skills-2%20Production%20Ready-orange.svg" alt="Skills"></a>
-    <a href="#-the-technique-progressive-reference-architecture"><img src="https://img.shields.io/badge/Knowledge-37%2C000%2B%20Lines-red.svg" alt="Lines"></a>
+    <a href="#-skills-catalog"><img src="https://img.shields.io/badge/Skills-3%20Production%20Ready-orange.svg" alt="Skills"></a>
+    <a href="#-the-technique-progressive-reference-architecture"><img src="https://img.shields.io/badge/Knowledge-40%2C000%2B%20Lines-red.svg" alt="Lines"></a>
   </p>
 </p>
 
@@ -52,8 +52,8 @@ Skills Graph is a **methodology** and a **collection** of production-grade AI ag
 Instead of dumping documentation into a single monolithic file or a flat folder of loosely related references, Skills Graph organizes knowledge as a **directed acyclic graph (DAG)** where every reference file is a node, every cross-reference is an edge, and a lightweight router sits at the root to guide the AI to exactly the information it needs -- nothing more, nothing less.
 
 <table>
-<tr><td><strong>Skills</strong></td><td>2 production-ready (Agno, MS Agent Framework)</td></tr>
-<tr><td><strong>Total Knowledge</strong></td><td>37,000+ lines across 177 reference files</td></tr>
+<tr><td><strong>Skills</strong></td><td>3 production-ready (Agno, MS Agent Framework, Remotion Prompt Generator)</td></tr>
+<tr><td><strong>Total Knowledge</strong></td><td>40,000+ lines across 192 reference files</td></tr>
 <tr><td><strong>Router Overhead</strong></td><td>69-231 lines (the only cost when skill triggers)</td></tr>
 <tr><td><strong>Context Efficiency</strong></td><td>~97% reduction vs monolithic approach</td></tr>
 <tr><td><strong>Platform Support</strong></td><td>25+ AI coding assistants</td></tr>
@@ -70,7 +70,8 @@ Production-ready skills built with the Skills Graph methodology.
 |:-:|:------|:----------|:-------:|:-----:|:-----:|:------:|
 | 1 | **[Agno](agno-skill/)** | [Agno](https://github.com/agno-agi/agno) v2.5.3 | `1.2.0` | 116 | 23,431 | Production |
 | 2 | **[MS Agent Framework](ms-agent-framework/)** | [MS Agent Framework](https://github.com/microsoft/agent-framework) 1.0.0b | `2.0.0` | 61 | ~14,000 | Production |
-| | | | | **177** | **~37,000** | |
+| 3 | **[Remotion Prompt Generator](skills/remotion-prompt-generator/)** | [Remotion](https://remotion.dev) 4.x | `1.1.0` | 15 | ~2,733 | Production |
+| | | | | **192** | **~40,000** | |
 
 <br />
 
@@ -96,6 +97,30 @@ Production-ready skills built with the Skills Graph methodology.
 | **Advanced** | Reasoning (3 approaches), multimodal (image/audio/video), evals, context management, culture |
 
 **Graph topology:** 12 router nodes / 104 leaf nodes / 34 routing entries
+
+</details>
+
+<br />
+
+<details>
+<summary><strong>Remotion Prompt Generator -- Detailed Coverage (click to expand)</strong></summary>
+
+&nbsp;
+
+> Generate detailed, production-ready prompts for the Remotion Dev skill to create programmatic React-based videos.
+
+| Domain | Topics |
+|:-------|:-------|
+| **Remotion Capabilities** | Core architecture, compositions, sequences, hooks, output formats, platform dimensions, animation system, asset support, audio, data-driven videos, 3D, rendering options, limitations, packages ecosystem |
+| **Intelligent Inference** | Signal extraction from vague prompts, keyword-to-capability mapping, auto-fill decision engine, industry auto-detection (10 industries), smart scene generation, uploaded asset analysis, context clue mining |
+| **Video Types** | Marketing & SaaS, Social Media, Data & Analytics, Education & Explainer, E-commerce & Real Estate, Entertainment & Media, Personalized & Data-Driven |
+| **Prompt Engineering** | 12-section structured prompt format, scene description format, animation specification language, spring presets, color palettes, font recommendations, quality checklist |
+| **Discovery Workflow** | 16 follow-up questions in 4 tiers, progressive questioning strategy, requirement validation, vague request handling, asset inventory |
+| **Asset & Styling** | Platform safe zones, logo placement patterns, image treatments, background patterns, branding by industry, text sizing, aspect ratio reference |
+| **Animation & Effects** | Entrance/exit/continuous animations, spring physics presets, transition catalog, text animation patterns (8 types), scene composition layouts (6 patterns), timing guide, 3D basics |
+| **Domain Examples** | Prompt patterns for SaaS, e-commerce, finance, real estate, education, healthcare, events, personal brand, agency, crypto/web3 |
+
+**Graph topology:** 1 router node / 14 leaf nodes / 8 routing entries
 
 </details>
 
@@ -170,7 +195,7 @@ Cherry-picked docs with **no version tracking**. Stale within weeks.
 | Simple question | **~5,000** | ~800 (maybe wrong file) | **~700** |
 | Moderate question | **~5,000** | ~1,500 (2-3 files, guessing) | **~900** |
 | Complex question | **~5,000** | ~3,000 (5+ files) | **~1,200** |
-| Total knowledge available | 5,000 lines | varies | **37,000+ lines** |
+| Total knowledge available | 5,000 lines | varies | **40,000+ lines** |
 
 > **Skills Graph skills carry 7x more knowledge while using 4-7x fewer tokens per query.**
 
@@ -574,12 +599,29 @@ skills-graph/
 |   |       |-- evals.md -------> evals/           (4 sub-files)
 |   |       +-- ... (30+ more topic files)
 |   |
-|   +-- ms-agent-framework/             # v2.0.0 | 61 files | ~14,000 lines
-|       |-- SKILL.md                    # ~55 lines, 22 routing entries
-|       |-- metadata/
+|   |-- ms-agent-framework/             # v2.0.0 | 61 files | ~14,000 lines
+|   |   |-- SKILL.md                    # ~55 lines, 22 routing entries
+|   |   |-- metadata/
+|   |   |-- scripts/
+|   |   +-- references/                 # 01-10 core, 11-11l workflows,
+|   |                                   # 12a-12e orchestration, 13-23 deploy+patterns
+|   |
+|   +-- remotion-prompt-generator/      # v1.1.0 | 15 files | ~2,733 lines
+|       |-- SKILL.md                    # 56 lines, 8 routing entries
+|       |-- VERSION.json
+|       |-- CHANGELOG.md
+|       |-- AUDIT-REPORT.md
 |       |-- scripts/
-|       +-- references/                 # 01-10 core, 11-11l workflows,
-|                                       # 12a-12e orchestration, 13-23 deploy+patterns
+|       |   +-- check-updates.py
+|       +-- references/
+|           |-- remotion-capabilities.md    [ALWAYS LOADED]
+|           |-- intelligent-inference.md    [ALWAYS LOADED]
+|           |-- video-types.md (router) --> video-types/  (7 sub-files)
+|           |-- prompt-engineering.md
+|           |-- discovery-workflow.md
+|           |-- asset-styling-guide.md
+|           |-- animation-effects.md
+|           +-- prompt-engineering/domain-examples.md
 ```
 
 ---
@@ -600,6 +642,7 @@ npx skills add AbhishekSharma-17/skills-graph
 # Install a specific skill
 npx skills add AbhishekSharma-17/skills-graph --skill agno
 npx skills add AbhishekSharma-17/skills-graph --skill ms-agent-framework
+npx skills add AbhishekSharma-17/skills-graph --skill remotion-prompt-generator
 
 # Install globally (available across all projects)
 npx skills add AbhishekSharma-17/skills-graph -g
@@ -690,6 +733,9 @@ python skills/agno-skill/scripts/check-updates.py --integrity   # Verify routing
 
 # MS Agent Framework
 python skills/ms-agent-framework/scripts/check-freshness.py --verbose
+
+# Remotion Prompt Generator
+python skills/remotion-prompt-generator/scripts/check-updates.py --report
 ```
 
 ```

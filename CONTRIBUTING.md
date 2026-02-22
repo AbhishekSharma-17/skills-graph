@@ -46,6 +46,7 @@ Use this as your master checklist when building a new skill:
 [ ] 11. Verify: Files >300 lines have TOC
 [ ] 12. Verify: Files >500 lines split into router + sub-files
 [ ] 13. Run integrity check: python scripts/check-updates.py --integrity
+[ ] 14. Update root README.md: skills count, lines count, catalog table, repo structure, install commands
 ```
 
 ---
@@ -1086,10 +1087,53 @@ Manually verify:
 - All files >300 lines have TOC
 - No file >500 lines without being split
 
-### 10. Publish
+### 10. Update the Root README.md (MANDATORY)
+
+**Every new skill MUST update the root `README.md`.** This is not optional — the README is the single source of truth for the repository.
+
+Update these specific sections:
+
+**a) Badge counts in the header:**
+```html
+<!-- Update the skills count badge -->
+<a href="#-skills-catalog"><img src="https://img.shields.io/badge/Skills-N%20Production%20Ready-orange.svg" alt="Skills"></a>
+<!-- Update the knowledge lines badge -->
+<a href="#-the-technique-progressive-reference-architecture"><img src="https://img.shields.io/badge/Knowledge-N%2C000%2B%20Lines-red.svg" alt="Lines"></a>
+```
+
+**b) Overview table:**
+```html
+<tr><td><strong>Skills</strong></td><td>N production-ready (list all skill names)</td></tr>
+<tr><td><strong>Total Knowledge</strong></td><td>N+ lines across N reference files</td></tr>
+```
+
+**c) Skills Catalog table — add a new row:**
+```markdown
+| N | **[Your Skill](skill-folder/)** | [Source](url) vX.Y.Z | `1.0.0` | N | N,NNN | Production |
+```
+Update the **totals row** at the bottom of the table with new sums for files and lines.
+
+**d) Repository Structure — add the new skill directory listing** in the `skills/` section.
+
+**e) Installation section — add install command** for the new skill:
+```bash
+npx skills add AbhishekSharma-17/skills-graph --skill your-skill-name
+```
+
+**f) Maintenance section — add the check command** for the new skill:
+```bash
+python skills/your-skill-name/scripts/check-updates.py --report
+```
+
+**How to calculate totals:**
+- Count all `.md` files in all `references/` directories across all skills
+- Sum line counts from all reference files across all skills
+- Count total routing entries from all SKILL.md files
+
+### 11. Publish
 - Push to the repository
 - Optionally publish to Smithery: `smithery publish`
-- Add to the Skills Catalog in the root README.md
+- Verify the root README.md is up to date with your new skill
 
 ---
 

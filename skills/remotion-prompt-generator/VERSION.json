@@ -1,0 +1,84 @@
+{
+  "skill_name": "remotion-prompt-generator",
+  "skill_version": "1.1.0",
+  "content_snapshot_date": "2026-02-22",
+  "last_checked": "2026-02-22",
+  "stats": {
+    "routing_entries": 8,
+    "reference_files": 15,
+    "total_lines": 3200
+  },
+  "urls": {
+    "docs": "https://remotion.dev/docs",
+    "github": "https://github.com/remotion-dev/remotion",
+    "templates": "https://remotion.dev/templates",
+    "showcase": "https://remotion.dev/showcase"
+  },
+  "references": {
+    "remotion-capabilities.md": {
+      "written_for": "remotion-4.x",
+      "last_updated": "2026-02-22"
+    },
+    "video-types.md": {
+      "written_for": "1.0.0",
+      "last_updated": "2026-02-22"
+    },
+    "prompt-engineering.md": {
+      "written_for": "1.0.0",
+      "last_updated": "2026-02-22"
+    },
+    "discovery-workflow.md": {
+      "written_for": "1.0.0",
+      "last_updated": "2026-02-22"
+    },
+    "asset-styling-guide.md": {
+      "written_for": "1.0.0",
+      "last_updated": "2026-02-22"
+    },
+    "animation-effects.md": {
+      "written_for": "remotion-4.x",
+      "last_updated": "2026-02-22"
+    },
+    "video-types/marketing-saas.md": {
+      "written_for": "1.0.0",
+      "last_updated": "2026-02-22"
+    },
+    "video-types/social-media.md": {
+      "written_for": "1.0.0",
+      "last_updated": "2026-02-22"
+    },
+    "video-types/data-analytics.md": {
+      "written_for": "1.0.0",
+      "last_updated": "2026-02-22"
+    },
+    "video-types/education-explainer.md": {
+      "written_for": "1.0.0",
+      "last_updated": "2026-02-22"
+    },
+    "video-types/ecommerce-realestate.md": {
+      "written_for": "1.0.0",
+      "last_updated": "2026-02-22"
+    },
+    "video-types/entertainment-media.md": {
+      "written_for": "1.0.0",
+      "last_updated": "2026-02-22"
+    },
+    "video-types/personalized-data.md": {
+      "written_for": "1.0.0",
+      "last_updated": "2026-02-22"
+    },
+    "prompt-engineering/domain-examples.md": {
+      "written_for": "1.0.0",
+      "last_updated": "2026-02-22"
+    },
+    "intelligent-inference.md": {
+      "written_for": "1.1.0",
+      "last_updated": "2026-02-22"
+    }
+  },
+  "excluded_sections": [
+    "Remotion Player embedding (out of scope — this skill generates prompts, not player code)",
+    "Lambda deployment configuration (infrastructure, not prompt generation)",
+    "Remotion Studio usage (development tool, not relevant to prompt output)"
+  ]
+}

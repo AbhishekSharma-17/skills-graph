@@ -1,0 +1,73 @@
+{
+  "skill_name": "trigger-dev",
+  "skill_version": "1.0.0",
+  "source_version_tracked": "4.4.3",
+  "source_package": "@trigger.dev/sdk",
+  "docs_snapshot_date": "2026-03-25",
+  "last_checked": "2026-03-25",
+  "last_updated": "2026-03-25",
+  "urls": {
+    "docs": "https://trigger.dev/docs",
+    "changelog": "https://trigger.dev/changelog",
+    "github": "https://github.com/triggerdotdev/trigger.dev",
+    "npm": "https://www.npmjs.com/package/@trigger.dev/sdk"
+  },
+  "staleness_threshold_days": 90,
+  "references": {
+    "00-overview.md": {
+      "source_page": "https://trigger.dev/docs",
+      "written_for": "4.4.3",
+      "last_updated": "2026-03-25"
+    },
+    "01-writing-tasks.md": {
+      "source_page": "https://trigger.dev/docs/writing-tasks-overview",
+      "written_for": "4.4.3",
+      "last_updated": "2026-03-25"
+    },
+    "02-triggering-tasks.md": {
+      "source_page": "https://trigger.dev/docs/triggering",
+      "written_for": "4.4.3",
+      "last_updated": "2026-03-25"
+    },
+    "03-runs.md": {
+      "source_page": "https://trigger.dev/docs/runs",
+      "written_for": "4.4.3",
+      "last_updated": "2026-03-25"
+    },
+    "04-scheduled-tasks.md": {
+      "source_page": "https://trigger.dev/docs/tasks/scheduled",
+      "written_for": "4.4.3",
+      "last_updated": "2026-03-25"
+    },
+    "05-concurrency-queues.md": {
+      "source_page": "https://trigger.dev/docs/queue-concurrency",
+      "written_for": "4.4.3",
+      "last_updated": "2026-03-25"
+    },
+    "06-error-handling-retries.md": {
+      "source_page": "https://trigger.dev/docs/errors-retrying",
+      "written_for": "4.4.3",
+      "last_updated": "2026-03-25"
+    },
+    "07-wait-and-human-in-loop.md": {
+      "source_page": "https://trigger.dev/docs/wait-for-token",
+      "written_for": "4.4.3",
+      "last_updated": "2026-03-25"
+    },
+    "08-realtime-streaming.md": {
+      "source_page": "https://trigger.dev/docs/realtime",
+      "written_for": "4.4.3",
+      "last_updated": "2026-03-25"
+    },
+    "09-configuration.md": {
+      "source_page": "https://trigger.dev/docs/config/config-file",
+      "written_for": "4.4.3",
+      "last_updated": "2026-03-25"
+    },
+    "10-deployment-cli.md": {
+      "source_page": "https://trigger.dev/docs/cli-deploy",
+      "written_for": "4.4.3",
+      "last_updated": "2026-03-25"
+    }
+  }
+}

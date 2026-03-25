@@ -9,8 +9,8 @@
     <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT"></a>
     <a href="#-the-agent-skills-standard"><img src="https://img.shields.io/badge/Agent%20Skills-Universal%20Standard-purple.svg" alt="Skills Standard"></a>
     <a href="#-platform-compatibility"><img src="https://img.shields.io/badge/Platforms-25%2B-green.svg" alt="Platforms"></a>
-    <a href="#-skills-catalog"><img src="https://img.shields.io/badge/Skills-3%20Production%20Ready-orange.svg" alt="Skills"></a>
-    <a href="#-the-technique-progressive-reference-architecture"><img src="https://img.shields.io/badge/Knowledge-40%2C000%2B%20Lines-red.svg" alt="Lines"></a>
+    <a href="#-skills-catalog"><img src="https://img.shields.io/badge/Skills-4%20Production%20Ready-orange.svg" alt="Skills"></a>
+    <a href="#-the-technique-progressive-reference-architecture"><img src="https://img.shields.io/badge/Knowledge-43%2C500%2B%20Lines-red.svg" alt="Lines"></a>
   </p>
 </p>
 
@@ -52,8 +52,8 @@ Skills Graph is a **methodology** and a **collection** of production-grade AI ag
 Instead of dumping documentation into a single monolithic file or a flat folder of loosely related references, Skills Graph organizes knowledge as a **directed acyclic graph (DAG)** where every reference file is a node, every cross-reference is an edge, and a lightweight router sits at the root to guide the AI to exactly the information it needs -- nothing more, nothing less.
 
 <table>
-<tr><td><strong>Skills</strong></td><td>3 production-ready (Agno, MS Agent Framework, Remotion Prompt Generator)</td></tr>
-<tr><td><strong>Total Knowledge</strong></td><td>40,000+ lines across 192 reference files</td></tr>
+<tr><td><strong>Skills</strong></td><td>4 production-ready (Agno, MS Agent Framework, Remotion Prompt Generator, Trigger.dev)</td></tr>
+<tr><td><strong>Total Knowledge</strong></td><td>43,500+ lines across 203 reference files</td></tr>
 <tr><td><strong>Router Overhead</strong></td><td>69-231 lines (the only cost when skill triggers)</td></tr>
 <tr><td><strong>Context Efficiency</strong></td><td>~97% reduction vs monolithic approach</td></tr>
 <tr><td><strong>Platform Support</strong></td><td>25+ AI coding assistants</td></tr>
@@ -71,7 +71,8 @@ Production-ready skills built with the Skills Graph methodology.
 | 1 | **[Agno](agno-skill/)** | [Agno](https://github.com/agno-agi/agno) v2.5.3 | `1.2.0` | 116 | 23,431 | Production |
 | 2 | **[MS Agent Framework](ms-agent-framework/)** | [MS Agent Framework](https://github.com/microsoft/agent-framework) 1.0.0b | `2.0.0` | 61 | ~14,000 | Production |
 | 3 | **[Remotion Prompt Generator](skills/remotion-prompt-generator/)** | [Remotion](https://remotion.dev) 4.x | `1.1.0` | 15 | ~2,733 | Production |
-| | | | | **192** | **~40,000** | |
+| 4 | **[Trigger.dev](skills/trigger-dev/)** | [Trigger.dev](https://trigger.dev) v4.4.3 | `1.0.0` | 11 | ~3,512 | Production |
+| | | | | **203** | **~43,676** | |
 
 <br />
 
@@ -121,6 +122,33 @@ Production-ready skills built with the Skills Graph methodology.
 | **Domain Examples** | Prompt patterns for SaaS, e-commerce, finance, real estate, education, healthcare, events, personal brand, agency, crypto/web3 |
 
 **Graph topology:** 1 router node / 14 leaf nodes / 8 routing entries
+
+</details>
+
+<br />
+
+<details>
+<summary><strong>Trigger.dev -- Detailed Coverage (click to expand)</strong></summary>
+
+&nbsp;
+
+> Build and deploy TypeScript background jobs, AI workflows, and scheduled tasks with retries, queues, observability, and elastic scaling.
+
+| Domain | Topics |
+|:-------|:-------|
+| **Overview & Setup** | Architecture, installation, quickstart, SDK imports, framework support (Next.js, Express, Hono, Remix, etc.), key terminology |
+| **Writing Tasks** | Task definition, configuration (retry/queue/machine/maxDuration), lifecycle hooks (init, onStart, onSuccess, onFailure, catchError), machine presets (micro to large-2x), payload/output limits, Zod validation, structured logging |
+| **Triggering Tasks** | tasks.trigger(), batchTrigger(), triggerAndWait(), batch.triggerByTaskAndWait(), streaming batches, trigger options (delay, TTL, idempotency, debounce, concurrencyKey, queue, priority, tags, metadata) |
+| **Runs** | 10 run states, run lifecycle, metadata API (set/append/increment), tags (max 5 per run), runs.list/retrieve/subscribe/poll, cancellation, replay, reschedule |
+| **Scheduled Tasks** | Declarative cron (in-code), imperative cron (dynamic/per-user), 5-field cron syntax, timezone + DST handling, schedule management API (create/update/deactivate/delete), environment rules |
+| **Concurrency & Queues** | Queue mechanics, environment concurrency (base + burst), task-level limits, shared queues, per-tenant queuing (concurrencyKey), free vs paid tier pattern, queue management API, priority queues |
+| **Error Handling** | Retry config (maxAttempts, factor, backoff), global vs task-level, retry.onThrow (block-level), retry.fetch (HTTP with status codes + Retry-After), catchError (dynamic), AbortTaskRunError, OpenAI retry pattern |
+| **Wait & HITL** | wait.for/wait.until duration pauses, waitpoint tokens (create/complete/list), HTTP + SDK + client-side completion, approval workflows, multi-step chains, drip campaigns, AI + human review |
+| **Realtime & Streaming** | Run subscriptions (SSE), streams.define + write, React hooks (useRealtimeRun, useRealtimeStream, useRealtimeBatch, useRealtimeRunsWithTag), TriggerAuthContext, public access tokens, progress bars, AI chat streaming |
+| **Configuration** | trigger.config.ts reference, runtime (Node/Bun), build config, 8 build extensions (Prisma, Puppeteer, FFmpeg, Python, aptGet, envSync, packages, files), OpenTelemetry + exporters, process keep-alive |
+| **Deployment** | dev command, deploy command (all flags), 4 environments (DEV/STAGING/PREVIEW/PROD), CI/CD (GitHub Actions, GitLab CI), self-hosting (Docker, Kubernetes), preview branches, monorepo setup |
+
+**Graph topology:** 0 router nodes / 11 leaf nodes / 11 routing entries
 
 </details>
 
@@ -606,22 +634,42 @@ skills-graph/
 |   |   +-- references/                 # 01-10 core, 11-11l workflows,
 |   |                                   # 12a-12e orchestration, 13-23 deploy+patterns
 |   |
-|   +-- remotion-prompt-generator/      # v1.1.0 | 15 files | ~2,733 lines
-|       |-- SKILL.md                    # 56 lines, 8 routing entries
+|   |-- remotion-prompt-generator/      # v1.1.0 | 15 files | ~2,733 lines
+|   |   |-- SKILL.md                    # 56 lines, 8 routing entries
+|   |   |-- VERSION.json
+|   |   |-- CHANGELOG.md
+|   |   |-- AUDIT-REPORT.md
+|   |   |-- scripts/
+|   |   |   +-- check-updates.py
+|   |   +-- references/
+|   |       |-- remotion-capabilities.md    [ALWAYS LOADED]
+|   |       |-- intelligent-inference.md    [ALWAYS LOADED]
+|   |       |-- video-types.md (router) --> video-types/  (7 sub-files)
+|   |       |-- prompt-engineering.md
+|   |       |-- discovery-workflow.md
+|   |       |-- asset-styling-guide.md
+|   |       |-- animation-effects.md
+|   |       +-- prompt-engineering/domain-examples.md
+|   |
+|   +-- trigger-dev/                    # v1.0.0 | 11 files | ~3,512 lines
+|       |-- SKILL.md                    # 48 lines, 11 routing entries
 |       |-- VERSION.json
 |       |-- CHANGELOG.md
 |       |-- AUDIT-REPORT.md
 |       |-- scripts/
 |       |   +-- check-updates.py
 |       +-- references/
-|           |-- remotion-capabilities.md    [ALWAYS LOADED]
-|           |-- intelligent-inference.md    [ALWAYS LOADED]
-|           |-- video-types.md (router) --> video-types/  (7 sub-files)
-|           |-- prompt-engineering.md
-|           |-- discovery-workflow.md
-|           |-- asset-styling-guide.md
-|           |-- animation-effects.md
-|           +-- prompt-engineering/domain-examples.md
+|           |-- 00-overview.md          # Setup, quickstart, architecture
+|           |-- 01-writing-tasks.md     # Task definition, hooks, machines
+|           |-- 02-triggering-tasks.md  # Trigger methods, batches, options
+|           |-- 03-runs.md             # Lifecycle, states, metadata, tags
+|           |-- 04-scheduled-tasks.md  # Cron, timezones, schedule API
+|           |-- 05-concurrency-queues.md # Queues, per-tenant, burst
+|           |-- 06-error-handling-retries.md # Retries, backoff, catchError
+|           |-- 07-wait-and-human-in-loop.md # Tokens, approvals, HITL
+|           |-- 08-realtime-streaming.md # React hooks, SSE, streaming
+|           |-- 09-configuration.md    # Config, build extensions, telemetry
+|           +-- 10-deployment-cli.md   # Deploy, CI/CD, self-hosting
 ```
 
 ---
@@ -643,6 +691,7 @@ npx skills add AbhishekSharma-17/skills-graph
 npx skills add AbhishekSharma-17/skills-graph --skill agno
 npx skills add AbhishekSharma-17/skills-graph --skill ms-agent-framework
 npx skills add AbhishekSharma-17/skills-graph --skill remotion-prompt-generator
+npx skills add AbhishekSharma-17/skills-graph --skill trigger-dev
 
 # Install globally (available across all projects)
 npx skills add AbhishekSharma-17/skills-graph -g
@@ -736,6 +785,9 @@ python skills/ms-agent-framework/scripts/check-freshness.py --verbose
 
 # Remotion Prompt Generator
 python skills/remotion-prompt-generator/scripts/check-updates.py --report
+
+# Trigger.dev
+python skills/trigger-dev/scripts/check-updates.py --report
 ```
 
 ```
@@ -806,5 +858,6 @@ Reference documentation is curated from frameworks under their own licenses:
 
 [Agno](https://github.com/agno-agi/agno) &middot;
 [Microsoft Agent Framework](https://github.com/microsoft/agent-framework) &middot;
+[Trigger.dev](https://github.com/triggerdotdev/trigger.dev) &middot;
 [Agent Skills Standard](https://docs.anthropic.com) (Anthropic) &middot;
 [Smithery](https://smithery.ai)

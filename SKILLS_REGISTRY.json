@@ -31,6 +31,16 @@
       "total_lines": 2733,
       "source_url": "https://www.remotion.dev",
       "status": "active"
+    },
+    {
+      "name": "trigger-dev",
+      "domain": "Background Jobs",
+      "created_date": "2026-03-25",
+      "version": "1.0.0",
+      "reference_files": 11,
+      "total_lines": 3512,
+      "source_url": "https://trigger.dev",
+      "status": "active"
     }
   ],
   "domains_rotation": [

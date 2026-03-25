@@ -1,0 +1,61 @@
+{
+  "description": "Registry of all skills in the skills-graph repo. Used by daily automation to avoid duplicates.",
+  "last_updated": "2026-03-25",
+  "skills": [
+    {
+      "name": "agno",
+      "domain": "AI/ML Frameworks",
+      "created_date": "2026-02-18",
+      "version": "1.2.0",
+      "reference_files": 116,
+      "total_lines": 23431,
+      "source_url": "https://docs.agno.com",
+      "status": "active"
+    },
+    {
+      "name": "ms-agent-framework",
+      "domain": "AI/ML Frameworks",
+      "created_date": "2026-02-20",
+      "version": "2.0.0",
+      "reference_files": 61,
+      "total_lines": 14000,
+      "source_url": "https://github.com/microsoft/agent-framework",
+      "status": "active"
+    },
+    {
+      "name": "remotion-prompt-generator",
+      "domain": "Web Development",
+      "created_date": "2026-03-20",
+      "version": "1.1.0",
+      "reference_files": 15,
+      "total_lines": 2733,
+      "source_url": "https://www.remotion.dev",
+      "status": "active"
+    }
+  ],
+  "domains_rotation": [
+    "AI/ML Frameworks",
+    "LLM Tools",
+    "Vector Databases",
+    "AI Observability",
+    "Web Frameworks",
+    "ORMs & Databases",
+    "TypeScript Tooling",
+    "Backend Frameworks",
+    "Authentication",
+    "UI Libraries",
+    "DevOps & IaC",
+    "CI/CD",
+    "Monitoring & Observability",
+    "Cloud Platforms",
+    "Data Engineering",
+    "Security",
+    "Marketing & Sales Tech",
+    "Productivity APIs",
+    "Mobile Development",
+    "CMS",
+    "Background Jobs",
+    "Real-time & Streaming",
+    "Data Visualization"
+  ]
+}

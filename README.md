@@ -9,8 +9,8 @@
     <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT"></a>
     <a href="#-the-agent-skills-standard"><img src="https://img.shields.io/badge/Agent%20Skills-Universal%20Standard-purple.svg" alt="Skills Standard"></a>
     <a href="#-platform-compatibility"><img src="https://img.shields.io/badge/Platforms-25%2B-green.svg" alt="Platforms"></a>
-    <a href="#-skills-catalog"><img src="https://img.shields.io/badge/Skills-4%20Production%20Ready-orange.svg" alt="Skills"></a>
-    <a href="#-the-technique-progressive-reference-architecture"><img src="https://img.shields.io/badge/Knowledge-43%2C500%2B%20Lines-red.svg" alt="Lines"></a>
+    <a href="#-skills-catalog"><img src="https://img.shields.io/badge/Skills-5%20Production%20Ready-orange.svg" alt="Skills"></a>
+    <a href="#-the-technique-progressive-reference-architecture"><img src="https://img.shields.io/badge/Knowledge-47%2C200%2B%20Lines-red.svg" alt="Lines"></a>
   </p>
 </p>
 
@@ -72,7 +72,8 @@ Production-ready skills built with the Skills Graph methodology.
 | 2 | **[MS Agent Framework](ms-agent-framework/)** | [MS Agent Framework](https://github.com/microsoft/agent-framework) 1.0.0b | `2.0.0` | 61 | ~14,000 | Production |
 | 3 | **[Remotion Prompt Generator](skills/remotion-prompt-generator/)** | [Remotion](https://remotion.dev) 4.x | `1.1.0` | 15 | ~2,733 | Production |
 | 4 | **[Trigger.dev](skills/trigger-dev/)** | [Trigger.dev](https://trigger.dev) v4.4.3 | `1.0.0` | 11 | ~3,512 | Production |
-| | | | | **203** | **~43,676** | |
+| 5 | **[Drizzle ORM](skills/drizzle-orm/)** | [Drizzle ORM](https://orm.drizzle.team) v0.45.1 | `1.0.0` | 12 | ~3,539 | Production |
+| | | | | **215** | **~47,215** | |
 
 <br />
 
@@ -670,6 +671,27 @@ skills-graph/
 |           |-- 08-realtime-streaming.md # React hooks, SSE, streaming
 |           |-- 09-configuration.md    # Config, build extensions, telemetry
 |           +-- 10-deployment-cli.md   # Deploy, CI/CD, self-hosting
+|
++-- drizzle-orm/                      # v1.0.0 | 12 files | ~3,539 lines
+    |-- SKILL.md                      # 53 lines, 12 routing entries
+    |-- VERSION.json
+    |-- CHANGELOG.md
+    |-- AUDIT-REPORT.md
+    |-- scripts/
+    |   +-- check-updates.py
+    +-- references/
+        |-- 00-overview.md            # Setup, drivers, quickstart
+        |-- 01-schema-declaration.md  # Tables, column types, enums
+        |-- 02-indexes-constraints.md # PKs, FKs, unique, check, indexes
+        |-- 03-relations.md           # 1:1, 1:N, M:N, self-referencing
+        |-- 04-select-queries.md      # SELECT, filters, aggregations, CTEs
+        |-- 05-mutations.md           # INSERT, UPDATE, DELETE, upsert
+        |-- 06-joins.md              # Inner, left, right, full, lateral
+        |-- 07-relational-queries.md # findMany, findFirst, nested with
+        |-- 08-transactions.md       # Transactions, savepoints, isolation
+        |-- 09-migrations.md         # drizzle-kit, generate, push, pull
+        |-- 10-performance.md        # Prepared stmts, replicas, logging
+        +-- 11-validation.md         # Zod, Valibot, TypeBox integration
 ```
 
 ---

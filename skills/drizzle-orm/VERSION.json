@@ -1,0 +1,78 @@
+{
+  "skill_name": "drizzle-orm",
+  "skill_version": "1.0.0",
+  "source_version_tracked": "0.45.1",
+  "source_package": "drizzle-orm",
+  "docs_snapshot_date": "2026-03-26",
+  "last_checked": "2026-03-26",
+  "last_updated": "2026-03-26",
+  "urls": {
+    "docs": "https://orm.drizzle.team",
+    "changelog": "https://orm.drizzle.team/docs/latest-releases",
+    "github": "https://github.com/drizzle-team/drizzle-orm",
+    "npm": "https://www.npmjs.com/package/drizzle-orm"
+  },
+  "staleness_threshold_days": 90,
+  "references": {
+    "00-overview.md": {
+      "source_page": "https://orm.drizzle.team/docs/overview",
+      "written_for": "0.45.1",
+      "last_updated": "2026-03-26"
+    },
+    "01-schema-declaration.md": {
+      "source_page": "https://orm.drizzle.team/docs/sql-schema-declaration",
+      "written_for": "0.45.1",
+      "last_updated": "2026-03-26"
+    },
+    "02-indexes-constraints.md": {
+      "source_page": "https://orm.drizzle.team/docs/indexes-constraints",
+      "written_for": "0.45.1",
+      "last_updated": "2026-03-26"
+    },
+    "03-relations.md": {
+      "source_page": "https://orm.drizzle.team/docs/relations",
+      "written_for": "0.45.1",
+      "last_updated": "2026-03-26"
+    },
+    "04-select-queries.md": {
+      "source_page": "https://orm.drizzle.team/docs/select",
+      "written_for": "0.45.1",
+      "last_updated": "2026-03-26"
+    },
+    "05-mutations.md": {
+      "source_page": "https://orm.drizzle.team/docs/insert",
+      "written_for": "0.45.1",
+      "last_updated": "2026-03-26"
+    },
+    "06-joins.md": {
+      "source_page": "https://orm.drizzle.team/docs/joins",
+      "written_for": "0.45.1",
+      "last_updated": "2026-03-26"
+    },
+    "07-relational-queries.md": {
+      "source_page": "https://orm.drizzle.team/docs/rqb",
+      "written_for": "0.45.1",
+      "last_updated": "2026-03-26"
+    },
+    "08-transactions.md": {
+      "source_page": "https://orm.drizzle.team/docs/transactions",
+      "written_for": "0.45.1",
+      "last_updated": "2026-03-26"
+    },
+    "09-migrations.md": {
+      "source_page": "https://orm.drizzle.team/docs/migrations",
+      "written_for": "0.45.1",
+      "last_updated": "2026-03-26"
+    },
+    "10-performance.md": {
+      "source_page": "https://orm.drizzle.team/docs/perf-queries",
+      "written_for": "0.45.1",
+      "last_updated": "2026-03-26"
+    },
+    "11-validation.md": {
+      "source_page": "https://orm.drizzle.team/docs/zod",
+      "written_for": "0.45.1",
+      "last_updated": "2026-03-26"
+    }
+  }
+}

@@ -1,6 +1,6 @@
 {
   "description": "Registry of all skills in the skills-graph repo. Used by daily automation to avoid duplicates.",
-  "last_updated": "2026-03-25",
+  "last_updated": "2026-03-26",
   "skills": [
     {
       "name": "agno",
@@ -40,6 +40,16 @@
       "reference_files": 11,
       "total_lines": 3512,
       "source_url": "https://trigger.dev",
+      "status": "active"
+    },
+    {
+      "name": "drizzle-orm",
+      "domain": "ORMs & Databases",
+      "created_date": "2026-03-26",
+      "version": "1.0.0",
+      "reference_files": 12,
+      "total_lines": 3539,
+      "source_url": "https://orm.drizzle.team",
       "status": "active"
     }
   ],

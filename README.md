@@ -738,6 +738,10 @@ npx skills add AbhishekSharma-17/skills-graph --skill agno
 npx skills add AbhishekSharma-17/skills-graph --skill ms-agent-framework
 npx skills add AbhishekSharma-17/skills-graph --skill remotion-prompt-generator
 npx skills add AbhishekSharma-17/skills-graph --skill trigger-dev
+npx skills add AbhishekSharma-17/skills-graph --skill drizzle-orm
+npx skills add AbhishekSharma-17/skills-graph --skill hono
+npx skills add AbhishekSharma-17/skills-graph --skill zod
+npx skills add AbhishekSharma-17/skills-graph --skill claude-agent-sdk
 
 # Install globally (available across all projects)
 npx skills add AbhishekSharma-17/skills-graph -g
@@ -751,6 +755,24 @@ npx skills find
 ```bash
 smithery install agno
 ```
+
+### Via Install Script
+
+```bash
+# Interactive menu — pick which skills to install
+./install/install-skills.sh
+
+# Install all skills at once
+./install/install-skills.sh --all
+
+# Install a specific skill
+./install/install-skills.sh --skill claude-agent-sdk
+
+# See all available commands
+./install/install-skills.sh --help
+```
+
+> See **[install/COMMANDS.md](install/COMMANDS.md)** for the full copy-paste command reference for every skill.
 
 ### Manual Install
 

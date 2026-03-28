@@ -372,6 +372,52 @@ agents={
 }
 ```
 
+## Three Ways to Create Subagents
+
+| Method | Configuration | Persistence |
+|--------|--------------|-------------|
+| **Programmatic** | `agents` param in options | Session only |
+| **Filesystem** | `.claude/agents/*.md` files | Persistent (via git) |
+| **Built-in** | General-purpose agent (always available) | Always |
+
+### Filesystem Agent Definitions
+
+Create `.claude/agents/my-agent.md` with YAML frontmatter:
+
+```markdown
+---
+description: Explores codebases and gathers information
+tools: [Read, Glob, Grep]
+model: haiku
+---
+
+You are a code researcher. Find and summarize relevant code patterns.
+Report findings concisely with file paths and line numbers.
+```
+
+Filesystem agents require `setting_sources` to include `"project"`:
+
+```python
+options = ClaudeAgentOptions(
+    setting_sources=["project"],
+    allowed_tools=["Agent"],
+)
+```
+
+### Resuming Subagents
+
+Capture the `session_id` and `agentId` from the subagent's tool result to resume it later:
+
+```python
+async for msg in query(prompt="...", options=options):
+    if msg.type == "assistant":
+        for block in msg.content:
+            if block.type == "tool_result" and hasattr(block, "agent_id"):
+                # Save for later resumption
+                saved_agent_id = block.agent_id
+                saved_session_id = block.session_id
+```
+
 ## Gotchas
 
 1. **Include `Agent` in `allowedTools`** — the parent needs permission to spawn subagents
@@ -380,6 +426,8 @@ agents={
 4. **`bypassPermissions` inheritance** — if the parent uses bypass mode, all subagents do too; use `disallowed_tools` in agent definitions to restrict
 5. **Cost accumulates** — subagent token usage counts toward the parent's budget
 6. **Tool renamed** — the `Agent` tool was formerly called `Task` (renamed in Claude Code v2.1.63)
+7. **Subagent inherits parent's system prompt** — does NOT get the parent's conversation; gets its own prompt + Agent tool prompt
+8. **Filesystem agents need setting_sources** — set `setting_sources=["project"]` to load `.claude/agents/` files
 
 ## Related Topics
 

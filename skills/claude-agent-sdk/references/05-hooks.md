@@ -140,18 +140,31 @@ The returned dict can contain:
 |-------|------|-------------|
 | `systemMessage` | `str` | Inject a message into the conversation |
 | `continue` (TS) / `continue_` (Python) | `bool` | Keep the agent running after Stop event |
+| `suppressOutput` | `bool` | Suppress the hook's output from display |
+| `stopReason` | `str` | Custom stop reason |
+| `decision` | `"block"` | Block the tool entirely (alternative to hookSpecificOutput deny) |
+| `reason` | `str` | Reason for blocking (used with `decision: "block"`) |
 
-### hookSpecificOutput
+### hookSpecificOutput (PreToolUse)
 
-Nested under `hookSpecificOutput`:
+Nested under `hookSpecificOutput` for `PreToolUse` events:
 
 | Field | Type | Description |
 |-------|------|-------------|
-| `hookEventName` | `str` | The event name |
+| `hookEventName` | `str` | The event name (e.g., `"PreToolUse"`) |
 | `permissionDecision` | `"allow" \| "deny" \| "ask"` | Permission verdict |
 | `permissionDecisionReason` | `str` | Reason shown to user/logs |
 | `updatedInput` | `dict` | Modified tool input (requires `permissionDecision: "allow"`) |
 | `additionalContext` | `str` | Extra context for Claude |
+
+### hookSpecificOutput (PostToolUse)
+
+For `PostToolUse` events, additional fields are available:
+
+| Field | Type | Description |
+|-------|------|-------------|
+| `additionalContext` | `str` | Extra context injected after tool result |
+| `updatedMCPToolOutput` | `dict` | Modify the MCP tool's output before Claude sees it |
 
 ## Permission Decisions
 

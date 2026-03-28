@@ -222,14 +222,21 @@ options = ClaudeAgentOptions(effort="high")
 ## System Prompts
 
 ```python
-# Custom string
+# Custom string — REPLACES the entire default prompt
 options = ClaudeAgentOptions(system_prompt="You are a security auditor. Only review code for vulnerabilities.")
 
-# System prompt preset
-options = ClaudeAgentOptions(system_prompt="default")  # Standard Claude Code prompt
+# System prompt preset — uses Claude Code's full prompt
+options = ClaudeAgentOptions(system_prompt={"type": "preset", "preset": "claude_code"})
+
+# Preset with append — Claude Code's prompt PLUS your additions
+options = ClaudeAgentOptions(system_prompt={
+    "type": "preset",
+    "preset": "claude_code",
+    "append": "Additional rule: Always write tests for new code.",
+})
 ```
 
-> **Important:** The system prompt replaces (does not append to) the default prompt. If you want the default behavior plus additions, use CLAUDE.md files instead via `setting_sources`.
+> **Critical:** The SDK uses a **minimal** system prompt by default — NOT Claude Code's full prompt. Use the preset to get Claude Code's tool instructions. See [System Prompts & Features](14-system-prompts-features.md) for all 4 methods.
 
 ## Environment Variables
 
@@ -307,8 +314,28 @@ options = ClaudeAgentOptions(
 )
 ```
 
+## Deprecated Fields
+
+| Field | Replacement | Notes |
+|-------|------------|-------|
+| `debug_stderr` | `stderr` | Use `stderr` callback instead |
+| `max_thinking_tokens` | `thinking` | Use `thinking={"type": "enabled", "budget_tokens": N}` |
+
+## Migration Note
+
+The SDK was renamed from "Claude Code SDK" to "Claude Agent SDK":
+
+| Old | New |
+|-----|-----|
+| `@anthropic-ai/claude-code` | `@anthropic-ai/claude-agent-sdk` |
+| `claude-code-sdk` | `claude-agent-sdk` |
+| `ClaudeCodeOptions` | `ClaudeAgentOptions` |
+
+The default system prompt changed from Claude Code's full prompt to a minimal prompt. Use `system_prompt={"type": "preset", "preset": "claude_code"}` to restore the old behavior. Settings sources default to `[]` (empty) instead of loading from filesystem.
+
 ## Related Topics
 
 - [Permissions](06-permissions.md) — Permission modes and evaluation order
 - [Hooks](05-hooks.md) — Lifecycle hooks for intercepting tool execution
 - [Sessions](07-sessions.md) — Multi-turn conversations and session management
+- [System Prompts & Features](14-system-prompts-features.md) — All 4 system prompt methods

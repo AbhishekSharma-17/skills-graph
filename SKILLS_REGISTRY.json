@@ -77,9 +77,9 @@
       "name": "claude-agent-sdk",
       "domain": "AI/ML Frameworks",
       "created_date": "2026-03-28",
-      "version": "1.0.0",
-      "reference_files": 11,
-      "total_lines": 3809,
+      "version": "1.1.0",
+      "reference_files": 16,
+      "total_lines": 5817,
       "source_url": "https://platform.claude.com/docs/en/agent-sdk/overview",
       "status": "active"
     }

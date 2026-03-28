@@ -3,7 +3,7 @@ name: claude-agent-sdk
 description: "Build AI agents programmatically with the Claude Agent SDK (Python and TypeScript). Provides the same tools, agent loop, and context management that power Claude Code, but as a library. MANDATORY TRIGGERS: claude-agent-sdk, claude agent sdk, claude_agent_sdk, @anthropic-ai/claude-agent-sdk, ClaudeAgentOptions, ClaudeSDKClient. Also trigger when user wants to build AI agents with Claude programmatically, create agent loops with tools, use Claude Code SDK, orchestrate subagents, or deploy autonomous coding agents. When in doubt about whether to use this skill for agent SDK tasks, use it."
 license: MIT
 metadata:
-  version: "1.0.0"
+  version: "1.1.0"
   author: Abhishek Sharma
   tags: ["claude", "agent-sdk", "ai-agents", "anthropic", "tools", "mcp", "python", "typescript"]
 ---
@@ -29,6 +29,11 @@ metadata:
 | **Subagents** | `references/08-subagents.md` | AgentDefinition, spawning, model selection, tool scoping, limitations |
 | **Structured Outputs** | `references/09-structured-outputs.md` | output_format, JSON Schema, Pydantic, Zod, validation |
 | **Deployment** | `references/10-deployment.md` | System requirements, deployment patterns, sandboxes, cost, security |
+| **Streaming** | `references/11-streaming.md` | StreamEvent, partial messages, streaming vs single mode, building UIs |
+| **User Input** | `references/12-user-input.md` | AskUserQuestion, approval flows, canUseTool, option previews |
+| **Agent Loop & Errors** | `references/13-agent-loop.md` | Turns, compaction, stop reasons, error types, rate limits, cost tracking |
+| **System Prompts & Features** | `references/14-system-prompts-features.md` | CLAUDE.md, skills, plugins, slash commands, output styles |
+| **Secure Deployment** | `references/15-secure-deployment.md` | Docker hardening, credential management, proxies, isolation |
 
 ## Installation
 

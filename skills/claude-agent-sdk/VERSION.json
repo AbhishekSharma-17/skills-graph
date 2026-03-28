@@ -1,5 +1,5 @@
 {
-  "skill_version": "1.0.0",
+  "skill_version": "1.1.0",
   "source_version_tracked": "Python 0.1.51 / TypeScript 0.2.86",
   "source_packages": {
     "python": "claude-agent-sdk",
@@ -68,7 +68,32 @@
       "last_updated": "2026-03-28"
     },
     "10-deployment.md": {
-      "source_page": "https://platform.claude.com/docs/en/agent-sdk/overview",
+      "source_page": "https://platform.claude.com/docs/en/agent-sdk/hosting",
+      "written_for": "Python 0.1.51 / TypeScript 0.2.86",
+      "last_updated": "2026-03-28"
+    },
+    "11-streaming.md": {
+      "source_page": "https://platform.claude.com/docs/en/agent-sdk/streaming-output",
+      "written_for": "Python 0.1.51 / TypeScript 0.2.86",
+      "last_updated": "2026-03-28"
+    },
+    "12-user-input.md": {
+      "source_page": "https://platform.claude.com/docs/en/agent-sdk/user-input",
+      "written_for": "Python 0.1.51 / TypeScript 0.2.86",
+      "last_updated": "2026-03-28"
+    },
+    "13-agent-loop.md": {
+      "source_page": "https://platform.claude.com/docs/en/agent-sdk/agent-loop",
+      "written_for": "Python 0.1.51 / TypeScript 0.2.86",
+      "last_updated": "2026-03-28"
+    },
+    "14-system-prompts-features.md": {
+      "source_page": "https://platform.claude.com/docs/en/agent-sdk/claude-code-features",
+      "written_for": "Python 0.1.51 / TypeScript 0.2.86",
+      "last_updated": "2026-03-28"
+    },
+    "15-secure-deployment.md": {
+      "source_page": "https://platform.claude.com/docs/en/agent-sdk/secure-deployment",
       "written_for": "Python 0.1.51 / TypeScript 0.2.86",
       "last_updated": "2026-03-28"
     }

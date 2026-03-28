@@ -1,0 +1,77 @@
+{
+  "skill_version": "1.0.0",
+  "source_version_tracked": "Python 0.1.51 / TypeScript 0.2.86",
+  "source_packages": {
+    "python": "claude-agent-sdk",
+    "typescript": "@anthropic-ai/claude-agent-sdk"
+  },
+  "docs_snapshot_date": "2026-03-28",
+  "last_checked": "2026-03-28",
+  "last_updated": "2026-03-28",
+  "urls": {
+    "docs": "https://platform.claude.com/docs/en/agent-sdk/overview",
+    "changelog": "https://platform.claude.com/docs/en/agent-sdk/changelog",
+    "github_python": "https://github.com/anthropics/claude-agent-sdk-python",
+    "github_typescript": "https://github.com/anthropics/claude-agent-sdk-typescript",
+    "pypi": "https://pypi.org/project/claude-agent-sdk/",
+    "npm": "https://www.npmjs.com/package/@anthropic-ai/claude-agent-sdk"
+  },
+  "references": {
+    "00-overview.md": {
+      "source_page": "https://platform.claude.com/docs/en/agent-sdk/overview",
+      "written_for": "Python 0.1.51 / TypeScript 0.2.86",
+      "last_updated": "2026-03-28"
+    },
+    "01-configuration.md": {
+      "source_page": "https://platform.claude.com/docs/en/agent-sdk/python",
+      "written_for": "Python 0.1.51 / TypeScript 0.2.86",
+      "last_updated": "2026-03-28"
+    },
+    "02-built-in-tools.md": {
+      "source_page": "https://platform.claude.com/docs/en/agent-sdk/overview",
+      "written_for": "Python 0.1.51 / TypeScript 0.2.86",
+      "last_updated": "2026-03-28"
+    },
+    "03-custom-tools.md": {
+      "source_page": "https://platform.claude.com/docs/en/agent-sdk/python",
+      "written_for": "Python 0.1.51 / TypeScript 0.2.86",
+      "last_updated": "2026-03-28"
+    },
+    "04-mcp-integration.md": {
+      "source_page": "https://platform.claude.com/docs/en/agent-sdk/overview",
+      "written_for": "Python 0.1.51 / TypeScript 0.2.86",
+      "last_updated": "2026-03-28"
+    },
+    "05-hooks.md": {
+      "source_page": "https://platform.claude.com/docs/en/agent-sdk/python",
+      "written_for": "Python 0.1.51 / TypeScript 0.2.86",
+      "last_updated": "2026-03-28"
+    },
+    "06-permissions.md": {
+      "source_page": "https://platform.claude.com/docs/en/agent-sdk/overview",
+      "written_for": "Python 0.1.51 / TypeScript 0.2.86",
+      "last_updated": "2026-03-28"
+    },
+    "07-sessions.md": {
+      "source_page": "https://platform.claude.com/docs/en/agent-sdk/python",
+      "written_for": "Python 0.1.51 / TypeScript 0.2.86",
+      "last_updated": "2026-03-28"
+    },
+    "08-subagents.md": {
+      "source_page": "https://platform.claude.com/docs/en/agent-sdk/overview",
+      "written_for": "Python 0.1.51 / TypeScript 0.2.86",
+      "last_updated": "2026-03-28"
+    },
+    "09-structured-outputs.md": {
+      "source_page": "https://platform.claude.com/docs/en/agent-sdk/overview",
+      "written_for": "Python 0.1.51 / TypeScript 0.2.86",
+      "last_updated": "2026-03-28"
+    },
+    "10-deployment.md": {
+      "source_page": "https://platform.claude.com/docs/en/agent-sdk/overview",
+      "written_for": "Python 0.1.51 / TypeScript 0.2.86",
+      "last_updated": "2026-03-28"
+    }
+  },
+  "staleness_threshold_days": 60
+}

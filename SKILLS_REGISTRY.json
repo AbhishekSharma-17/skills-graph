@@ -1,7 +1,7 @@
 {
   "description": "Registry of all skills in the skills-graph repo. Used by daily automation to avoid duplicates.",
   "last_updated": "2026-03-28",
-  "total_skills": 7,
+  "total_skills": 8,
   "skills": [
     {
       "name": "agno",
@@ -71,6 +71,16 @@
       "reference_files": 13,
       "total_lines": 3686,
       "source_url": "https://zod.dev",
+      "status": "active"
+    },
+    {
+      "name": "claude-agent-sdk",
+      "domain": "AI/ML Frameworks",
+      "created_date": "2026-03-28",
+      "version": "1.0.0",
+      "reference_files": 11,
+      "total_lines": 3809,
+      "source_url": "https://platform.claude.com/docs/en/agent-sdk/overview",
       "status": "active"
     }
   ],

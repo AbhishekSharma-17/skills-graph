@@ -1,0 +1,82 @@
+{
+  "skill_version": "1.0.0",
+  "source_version_tracked": "4.x",
+  "source_package": "zod",
+  "docs_snapshot_date": "2026-03-28",
+  "last_checked": "2026-03-28",
+  "last_updated": "2026-03-28",
+  "urls": {
+    "docs": "https://zod.dev",
+    "changelog": "https://zod.dev/v4/changelog",
+    "github": "https://github.com/colinhacks/zod",
+    "npm": "https://www.npmjs.com/package/zod"
+  },
+  "references": {
+    "00-overview.md": {
+      "source_page": "https://zod.dev",
+      "written_for": "4.x",
+      "last_updated": "2026-03-28"
+    },
+    "01-primitive-types.md": {
+      "source_page": "https://zod.dev/api",
+      "written_for": "4.x",
+      "last_updated": "2026-03-28"
+    },
+    "02-string-formats.md": {
+      "source_page": "https://zod.dev/api",
+      "written_for": "4.x",
+      "last_updated": "2026-03-28"
+    },
+    "03-objects-collections.md": {
+      "source_page": "https://zod.dev/api",
+      "written_for": "4.x",
+      "last_updated": "2026-03-28"
+    },
+    "04-unions-intersections.md": {
+      "source_page": "https://zod.dev/api",
+      "written_for": "4.x",
+      "last_updated": "2026-03-28"
+    },
+    "05-type-inference.md": {
+      "source_page": "https://zod.dev/api",
+      "written_for": "4.x",
+      "last_updated": "2026-03-28"
+    },
+    "06-refinements-transforms.md": {
+      "source_page": "https://zod.dev/api",
+      "written_for": "4.x",
+      "last_updated": "2026-03-28"
+    },
+    "07-codecs.md": {
+      "source_page": "https://zod.dev/codecs",
+      "written_for": "4.x",
+      "last_updated": "2026-03-28"
+    },
+    "08-error-handling.md": {
+      "source_page": "https://zod.dev/error-customization",
+      "written_for": "4.x",
+      "last_updated": "2026-03-28"
+    },
+    "09-metadata-registries.md": {
+      "source_page": "https://zod.dev/metadata",
+      "written_for": "4.x",
+      "last_updated": "2026-03-28"
+    },
+    "10-json-schema.md": {
+      "source_page": "https://zod.dev/json-schema",
+      "written_for": "4.x",
+      "last_updated": "2026-03-28"
+    },
+    "11-migration-v3-to-v4.md": {
+      "source_page": "https://zod.dev/v4/changelog",
+      "written_for": "4.x",
+      "last_updated": "2026-03-28"
+    },
+    "12-ecosystem-patterns.md": {
+      "source_page": "https://zod.dev/ecosystem",
+      "written_for": "4.x",
+      "last_updated": "2026-03-28"
+    }
+  },
+  "staleness_threshold_days": 90
+}

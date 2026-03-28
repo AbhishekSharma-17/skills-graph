@@ -1,0 +1,78 @@
+{
+  "skill_name": "hono",
+  "skill_version": "1.0.0",
+  "source_version_tracked": "4.12.0",
+  "source_package": "hono",
+  "docs_snapshot_date": "2026-03-28",
+  "last_checked": "2026-03-28",
+  "last_updated": "2026-03-28",
+  "urls": {
+    "docs": "https://hono.dev",
+    "changelog": "https://github.com/honojs/hono/releases",
+    "github": "https://github.com/honojs/hono",
+    "npm": "https://www.npmjs.com/package/hono"
+  },
+  "staleness_threshold_days": 90,
+  "references": {
+    "00-overview.md": {
+      "source_page": "https://hono.dev/docs/getting-started/basic",
+      "written_for": "4.12.0",
+      "last_updated": "2026-03-28"
+    },
+    "01-routing.md": {
+      "source_page": "https://hono.dev/docs/api/routing",
+      "written_for": "4.12.0",
+      "last_updated": "2026-03-28"
+    },
+    "02-context-api.md": {
+      "source_page": "https://hono.dev/docs/api/context",
+      "written_for": "4.12.0",
+      "last_updated": "2026-03-28"
+    },
+    "03-middleware.md": {
+      "source_page": "https://hono.dev/docs/guides/middleware",
+      "written_for": "4.12.0",
+      "last_updated": "2026-03-28"
+    },
+    "04-authentication.md": {
+      "source_page": "https://hono.dev/docs/middleware/builtin/jwt",
+      "written_for": "4.12.0",
+      "last_updated": "2026-03-28"
+    },
+    "05-validation.md": {
+      "source_page": "https://hono.dev/docs/guides/validation",
+      "written_for": "4.12.0",
+      "last_updated": "2026-03-28"
+    },
+    "06-rpc-type-safety.md": {
+      "source_page": "https://hono.dev/docs/guides/rpc",
+      "written_for": "4.12.0",
+      "last_updated": "2026-03-28"
+    },
+    "07-jsx-rendering.md": {
+      "source_page": "https://hono.dev/docs/guides/jsx",
+      "written_for": "4.12.0",
+      "last_updated": "2026-03-28"
+    },
+    "08-error-handling.md": {
+      "source_page": "https://hono.dev/docs/api/exception",
+      "written_for": "4.12.0",
+      "last_updated": "2026-03-28"
+    },
+    "09-testing.md": {
+      "source_page": "https://hono.dev/docs/guides/testing",
+      "written_for": "4.12.0",
+      "last_updated": "2026-03-28"
+    },
+    "10-runtime-adapters.md": {
+      "source_page": "https://hono.dev/docs/getting-started/nodejs",
+      "written_for": "4.12.0",
+      "last_updated": "2026-03-28"
+    },
+    "11-best-practices.md": {
+      "source_page": "https://hono.dev/docs/guides/best-practices",
+      "written_for": "4.12.0",
+      "last_updated": "2026-03-28"
+    }
+  }
+}

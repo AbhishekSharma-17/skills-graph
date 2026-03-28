@@ -1,6 +1,6 @@
 {
   "description": "Registry of all skills in the skills-graph repo. Used by daily automation to avoid duplicates.",
-  "last_updated": "2026-03-26",
+  "last_updated": "2026-03-28",
   "skills": [
     {
       "name": "agno",
@@ -50,6 +50,16 @@
       "reference_files": 12,
       "total_lines": 3539,
       "source_url": "https://orm.drizzle.team",
+      "status": "active"
+    },
+    {
+      "name": "hono",
+      "domain": "Web Frameworks",
+      "created_date": "2026-03-28",
+      "version": "1.0.0",
+      "reference_files": 12,
+      "total_lines": 3430,
+      "source_url": "https://hono.dev",
       "status": "active"
     }
   ],

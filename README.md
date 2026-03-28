@@ -9,8 +9,8 @@
     <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT"></a>
     <a href="#-the-agent-skills-standard"><img src="https://img.shields.io/badge/Agent%20Skills-Universal%20Standard-purple.svg" alt="Skills Standard"></a>
     <a href="#-platform-compatibility"><img src="https://img.shields.io/badge/Platforms-25%2B-green.svg" alt="Platforms"></a>
-    <a href="#-skills-catalog"><img src="https://img.shields.io/badge/Skills-5%20Production%20Ready-orange.svg" alt="Skills"></a>
-    <a href="#-the-technique-progressive-reference-architecture"><img src="https://img.shields.io/badge/Knowledge-47%2C200%2B%20Lines-red.svg" alt="Lines"></a>
+    <a href="#-skills-catalog"><img src="https://img.shields.io/badge/Skills-6%20Production%20Ready-orange.svg" alt="Skills"></a>
+    <a href="#-the-technique-progressive-reference-architecture"><img src="https://img.shields.io/badge/Knowledge-50%2C600%2B%20Lines-red.svg" alt="Lines"></a>
   </p>
 </p>
 
@@ -52,8 +52,8 @@ Skills Graph is a **methodology** and a **collection** of production-grade AI ag
 Instead of dumping documentation into a single monolithic file or a flat folder of loosely related references, Skills Graph organizes knowledge as a **directed acyclic graph (DAG)** where every reference file is a node, every cross-reference is an edge, and a lightweight router sits at the root to guide the AI to exactly the information it needs -- nothing more, nothing less.
 
 <table>
-<tr><td><strong>Skills</strong></td><td>4 production-ready (Agno, MS Agent Framework, Remotion Prompt Generator, Trigger.dev)</td></tr>
-<tr><td><strong>Total Knowledge</strong></td><td>43,500+ lines across 203 reference files</td></tr>
+<tr><td><strong>Skills</strong></td><td>6 production-ready (Agno, MS Agent Framework, Remotion Prompt Generator, Trigger.dev, Drizzle ORM, Hono)</td></tr>
+<tr><td><strong>Total Knowledge</strong></td><td>50,600+ lines across 227 reference files</td></tr>
 <tr><td><strong>Router Overhead</strong></td><td>69-231 lines (the only cost when skill triggers)</td></tr>
 <tr><td><strong>Context Efficiency</strong></td><td>~97% reduction vs monolithic approach</td></tr>
 <tr><td><strong>Platform Support</strong></td><td>25+ AI coding assistants</td></tr>
@@ -73,7 +73,8 @@ Production-ready skills built with the Skills Graph methodology.
 | 3 | **[Remotion Prompt Generator](skills/remotion-prompt-generator/)** | [Remotion](https://remotion.dev) 4.x | `1.1.0` | 15 | ~2,733 | Production |
 | 4 | **[Trigger.dev](skills/trigger-dev/)** | [Trigger.dev](https://trigger.dev) v4.4.3 | `1.0.0` | 11 | ~3,512 | Production |
 | 5 | **[Drizzle ORM](skills/drizzle-orm/)** | [Drizzle ORM](https://orm.drizzle.team) v0.45.1 | `1.0.0` | 12 | ~3,539 | Production |
-| | | | | **215** | **~47,215** | |
+| 6 | **[Hono](skills/hono/)** | [Hono](https://hono.dev) v4.12.0 | `1.0.0` | 12 | ~3,430 | Production |
+| | | | | **227** | **~50,645** | |
 
 <br />
 
@@ -692,6 +693,27 @@ skills-graph/
         |-- 09-migrations.md         # drizzle-kit, generate, push, pull
         |-- 10-performance.md        # Prepared stmts, replicas, logging
         +-- 11-validation.md         # Zod, Valibot, TypeBox integration
+|
++-- hono/                             # v1.0.0 | 12 files | ~3,430 lines
+    |-- SKILL.md                      # 52 lines, 12 routing entries
+    |-- VERSION.json
+    |-- CHANGELOG.md
+    |-- AUDIT-REPORT.md
+    |-- scripts/
+    |   +-- check-updates.py
+    +-- references/
+        |-- 00-overview.md            # Setup, runtimes, quickstart
+        |-- 01-routing.md             # HTTP methods, params, wildcards, groups
+        |-- 02-context-api.md         # c.json, c.text, c.req, c.env, streaming
+        |-- 03-middleware.md          # Built-in, custom, factory pattern
+        |-- 04-authentication.md      # JWT, Bearer, Basic auth, API keys
+        |-- 05-validation.md          # Zod validator, all targets, RPC types
+        |-- 06-rpc-type-safety.md     # hc client, AppType, SWR/TanStack
+        |-- 07-jsx-rendering.md       # SSR JSX, Suspense, streaming, client
+        |-- 08-error-handling.md      # HTTPException, onError, notFound
+        |-- 09-testing.md             # app.request, Vitest, env mocking
+        |-- 10-runtime-adapters.md    # Node.js, CF Workers, Bun, Deno, Lambda
+        +-- 11-best-practices.md      # Structure, security, performance, CI/CD
 ```
 
 ---

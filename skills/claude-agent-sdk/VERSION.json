@@ -1,5 +1,5 @@
 {
-  "skill_version": "1.4.0",
+  "skill_version": "1.5.0",
   "source_version_tracked": "Python 0.1.51 / TypeScript 0.2.86",
   "source_packages": {
     "python": "claude-agent-sdk",
@@ -8,7 +8,7 @@
   "docs_snapshot_date": "2026-03-28",
   "last_checked": "2026-03-29",
   "last_updated": "2026-03-29",
-  "skill_version_history": ["1.0.0", "1.1.0", "1.2.0", "1.3.0", "1.4.0"],
+  "skill_version_history": ["1.0.0", "1.1.0", "1.2.0", "1.3.0", "1.4.0", "1.5.0"],
   "urls": {
     "docs": "https://platform.claude.com/docs/en/agent-sdk/overview",
     "changelog": "https://platform.claude.com/docs/en/agent-sdk/changelog",
@@ -109,6 +109,16 @@
       "last_updated": "2026-03-29"
     },
     "18-claude-agent-options.md": {
+      "source_page": "https://platform.claude.com/docs/en/agent-sdk/python",
+      "written_for": "Python 0.1.51 / TypeScript 0.2.86",
+      "last_updated": "2026-03-29"
+    },
+    "19-transport.md": {
+      "source_page": "https://platform.claude.com/docs/en/agent-sdk/hosting",
+      "written_for": "Python 0.1.51 / TypeScript 0.2.86",
+      "last_updated": "2026-03-29"
+    },
+    "20-middleware.md": {
       "source_page": "https://platform.claude.com/docs/en/agent-sdk/python",
       "written_for": "Python 0.1.51 / TypeScript 0.2.86",
       "last_updated": "2026-03-29"

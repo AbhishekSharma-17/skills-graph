@@ -1,7 +1,7 @@
 # Audit Report — Claude Agent SDK Skill
 
 **Date**: 2026-03-29
-**Skill version**: 1.4.0
+**Skill version**: 1.5.0
 **Source tracked**: Python `claude-agent-sdk` v0.1.51 / TypeScript `@anthropic-ai/claude-agent-sdk` v0.2.86
 
 ## Quality Assessment
@@ -76,17 +76,19 @@
 | 16-query-and-messages.md | ~380 | Has TOC — new v1.3.0 |
 | 17-client.md | ~570 | Has TOC — new v1.3.0 |
 | 18-claude-agent-options.md | ~600 | Has TOC — new v1.4.0 |
+| 19-transport.md | ~490 | Has TOC — new v1.5.0 |
+| 20-middleware.md | ~460 | Has TOC — new v1.5.0 |
 
-**Total reference lines**: ~9,090 (+600 from v1.3.0)
+**Total reference lines**: ~11,040 (+1,950 from v1.4.0)
 
 ## Integrity Check
 
-- [x] SKILL.md under 100 lines (58)
-- [x] All routing table files exist on disk (19/19)
+- [x] SKILL.md under 100 lines (60)
+- [x] All routing table files exist on disk (21/21)
 - [~] 02-built-in-tools.md (~570 lines) and 17-client.md (~570 lines) exceed 500 — acceptable given comprehensive reference content
 - [x] Files >300 lines have table of contents
-- [x] VERSION.json complete with all 19 reference entries
-- [x] CHANGELOG.md has v1.0.0 through v1.4.0 entries
+- [x] VERSION.json complete with all 21 reference entries
+- [x] CHANGELOG.md has v1.0.0 through v1.5.0 entries
 - [x] check-updates.py functional (checks both PyPI and npm)
 - [x] MANDATORY TRIGGERS in description
 - [x] Skill name matches folder name
@@ -94,3 +96,5 @@
 - [x] query() function fully documented (16-query-and-messages.md)
 - [x] ClaudeSDKClient fully documented (17-client.md) with all 14 methods
 - [x] ClaudeAgentOptions fully documented (18-claude-agent-options.md) — all 38 params with when-to-use, TypeScript mapping, decision matrix
+- [x] Transport fully documented (19-transport.md) — wire protocol, 5 use cases, full MockTransport + WebSocket implementations
+- [x] Middleware fully documented (20-middleware.md) — 3-layer model, 9 use cases, hooks cheat sheet, can_use_tool unique powers

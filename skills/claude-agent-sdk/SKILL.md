@@ -3,7 +3,7 @@ name: claude-agent-sdk
 description: "Build AI agents programmatically with the Claude Agent SDK (Python and TypeScript). Provides the same tools, agent loop, and context management that power Claude Code, but as a library. MANDATORY TRIGGERS: claude-agent-sdk, claude agent sdk, claude_agent_sdk, @anthropic-ai/claude-agent-sdk, ClaudeAgentOptions, ClaudeSDKClient. Also trigger when user wants to build AI agents with Claude programmatically, create agent loops with tools, use Claude Code SDK, orchestrate subagents, or deploy autonomous coding agents. When in doubt about whether to use this skill for agent SDK tasks, use it."
 license: MIT
 metadata:
-  version: "1.4.0"
+  version: "1.5.0"
   author: Abhishek Sharma
   tags: ["claude", "agent-sdk", "ai-agents", "anthropic", "tools", "mcp", "python", "typescript"]
 ---
@@ -37,6 +37,8 @@ metadata:
 | **query() & Messages** | `references/16-query-and-messages.md` | query() function signature, AssistantMessage/ResultMessage dataclass fields, TextBlock/ToolUseBlock/ThinkingBlock, all message types, 7 patterns, permission priority, minimum viable options |
 | **ClaudeSDKClient** | `references/17-client.md` | Stateful multi-turn client, constructor, lifecycle, all 14 methods with params/examples/when-to-use, ClaudeSDKClient-only features, 8 patterns, typical usage flow, minimum viable client |
 | **ClaudeAgentOptions** | `references/18-claude-agent-options.md` | All 38 parameters with type/default/when-to-use/when-not-to-use/example, provider env vars, permission mode table, TypeScript name mapping, TypeScript-only params, decision matrix for 7 use cases |
+| **Transport** | `references/19-transport.md` | Communication pipe architecture, SubprocessCLITransport internals, Transport ABC (6 methods), JSON-Lines wire protocol, when to use custom transport, 5 use cases (Mock/WebSocket/SSH/HTTP/MessageQueue), step-by-step build guide |
+| **Middleware & Proxy** | `references/20-middleware.md` | 3-layer model (Transport/Hooks/can_use_tool), decision matrix, 9 use cases with full code (audit logging, security filtering, cost tracking, metrics, input transformation, rate limiting, caching, auth/multi-tenancy, token counting), composition patterns, hooks return cheat sheet, all 10 hook events table, can_use_tool unique powers |
 
 ## Installation
 

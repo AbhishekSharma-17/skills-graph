@@ -1,5 +1,62 @@
 # Changelog
 
+## [1.5.0] — 2026-03-29
+
+**Source version tracked**: Python `claude-agent-sdk` v0.1.51 / TypeScript `@anthropic-ai/claude-agent-sdk` v0.2.86
+
+### Added
+
+- **19-transport.md** — Complete Transport reference from TRANSPORT.md:
+  - What Transport is + default vs. custom flow diagrams
+  - `SubprocessCLITransport` internals table (buffer, shutdown, CLI search paths)
+  - `Transport` ABC — all 6 abstract methods with full signatures and docstrings
+  - JSON-Lines wire protocol — all outbound + inbound message types in exact JSON format
+  - Init handshake requirement (critical: must yield init response first in `read_messages()`)
+  - When to use custom transport — decision tree
+  - Use Case 1: MockTransport for testing — full implementation + `make_text_response()` / `make_tool_call()` / `make_result()` builder helpers + 3 pytest examples
+  - Use Case 2: WebSocket transport — full working implementation with auth
+  - Use Case 3: SSH tunnel transport
+  - Use Case 4: HTTP transport (container hosting with SSE stream)
+  - Use Case 5: Redis Streams transport (enterprise message queue)
+  - How to plug in a custom transport (query() + ClaudeSDKClient)
+  - Important warnings: unstable API, pin SDK version, no official remote transport
+  - Use case → transport decision table
+
+- **20-middleware.md** — Complete Middleware & Proxy reference from MIDDLEWARE.md:
+  - 3-layer middleware architecture model with ASCII diagram
+  - Layer comparison table (stability, power, what you see)
+  - "Which layer to use?" decision table (14 scenarios mapped to layer + method)
+  - Rule of thumb: Hooks → can_use_tool → Transport
+  - Layer 1 (Transport Wrappers): decorator pattern, how to use, LoggingTransport example
+  - Layer 2 (Hooks): structure, HookMatcher fields, what PreToolUse/PostToolUse receives
+  - Layer 3 (can_use_tool): callback signature, when it's called (priority chain)
+  - Use Case: Audit Logging — JSONL with AuditLogger class (4 hooks)
+  - Use Case: Content Filtering — bash pattern blocking, path filtering, prompt injection detection
+  - Use Case: Cost Tracking — CostTracker class tracking across multi-turn sessions
+  - Use Case: Metrics & Monitoring — MetricsCollector with durations and error counts
+  - Use Case: Input Transformation — dry-run enforcement, error warning injection
+  - Use Case: Rate Limiting — RateLimitingTransport with min_interval_sec
+  - Use Case: Caching — CachingTransport with prompt hash key
+  - Use Case: Authentication & Multi-Tenancy — AuthenticatedTransport injecting auth metadata
+  - Use Case: Token Counting — TokenCountingTransport parsing usage fields
+  - Composing Multiple Middlewares — transport stacking + hook stacking + full production stack
+  - Hooks Return Value Cheat Sheet — all 7 return patterns with code
+  - All 10 Hook Events table — can block?, can modify input?, can add context?
+  - can_use_tool deep dive — 4 unique powers (dynamic rules, interrupt, modify input, suggestions)
+  - Quick reference: middleware decision matrix + transport wrapper template
+
+### Changed
+
+- **SKILL.md** — Added routing entries for `19-transport.md` and `20-middleware.md`, bumped to v1.5.0
+
+### Stats
+
+- Routing entries: 21
+- Reference files: 21
+- Total lines: ~11,040 (+1,950 from v1.4.0)
+
+---
+
 ## [1.4.0] — 2026-03-29
 
 **Source version tracked**: Python `claude-agent-sdk` v0.1.51 / TypeScript `@anthropic-ai/claude-agent-sdk` v0.2.86

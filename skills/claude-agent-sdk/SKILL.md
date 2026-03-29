@@ -3,7 +3,7 @@ name: claude-agent-sdk
 description: "Build AI agents programmatically with the Claude Agent SDK (Python and TypeScript). Provides the same tools, agent loop, and context management that power Claude Code, but as a library. MANDATORY TRIGGERS: claude-agent-sdk, claude agent sdk, claude_agent_sdk, @anthropic-ai/claude-agent-sdk, ClaudeAgentOptions, ClaudeSDKClient. Also trigger when user wants to build AI agents with Claude programmatically, create agent loops with tools, use Claude Code SDK, orchestrate subagents, or deploy autonomous coding agents. When in doubt about whether to use this skill for agent SDK tasks, use it."
 license: MIT
 metadata:
-  version: "1.1.0"
+  version: "1.2.0"
   author: Abhishek Sharma
   tags: ["claude", "agent-sdk", "ai-agents", "anthropic", "tools", "mcp", "python", "typescript"]
 ---
@@ -20,8 +20,8 @@ metadata:
 |-----------|------|-----------|
 | **Overview & Quickstart** | `references/00-overview.md` | Getting started, installation, architecture, authentication, first agent |
 | **Configuration** | `references/01-configuration.md` | ClaudeAgentOptions, model selection, effort, thinking, environment variables |
-| **Built-in Tools** | `references/02-built-in-tools.md` | Read, Write, Edit, Bash, Glob, Grep, WebSearch, tool availability |
-| **Custom Tools** | `references/03-custom-tools.md` | @tool decorator, tool() function, input schemas, return types, annotations |
+| **Built-in Tools** | `references/02-built-in-tools.md` | All 17+ built-in tools with params, when-to-use, Claude call JSON examples, cost/perf, decision tree, common patterns |
+| **Custom Tools** | `references/03-custom-tools.md` | @tool decorator, tool() function, naming convention (`mcp__server__name`), input schemas, return types, annotations, complete end-to-end example |
 | **MCP Integration** | `references/04-mcp-integration.md` | MCP servers, stdio/HTTP/SSE/SDK transports, .mcp.json, tool naming |
 | **Hooks** | `references/05-hooks.md` | PreToolUse, PostToolUse, hook matchers, callbacks, async hooks |
 | **Permissions** | `references/06-permissions.md` | Permission modes, canUseTool, evaluation order, security |

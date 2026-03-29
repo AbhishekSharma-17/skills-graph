@@ -27,6 +27,36 @@ Custom tools are implemented as in-process MCP servers. The flow:
 
 This runs entirely in-process — no subprocess or network overhead.
 
+### Tool Naming Convention
+
+```
+mcp__{server_name}__{tool_name}
+
+Examples:
+  mcp__validators__validate_email    ← specific tool
+  mcp__validators__*                 ← all tools from validators server
+  mcp__github__get_issue             ← specific MCP tool
+```
+
+**Used in:** `allowed_tools`, `disallowed_tools`, and `mcp_servers` keys.
+
+### Claude Tool Call Format
+
+When Claude invokes a custom tool, it sends:
+
+```json
+{
+  "type": "tool_use",
+  "id": "tooluse_abc123",
+  "name": "mcp__validators__validate_email",
+  "input": {
+    "email": "user@example.com"
+  }
+}
+```
+
+Your handler receives `args = {"email": "user@example.com"}` and must return the content block format.
+
 ## Python: @tool Decorator
 
 ```python
@@ -391,6 +421,107 @@ async def github_search(args: dict[str, Any]) -> dict[str, Any]:
     results = [{"name": r["full_name"], "stars": r["stargazers_count"]} for r in data["items"][:5]]
     return {"content": [{"type": "text", "text": json.dumps(results, indent=2)}]}
 ```
+
+## Complete End-to-End Example
+
+Two custom tools packaged into one MCP server and used in an agent:
+
+```python
+from claude_agent_sdk import tool, create_sdk_mcp_server, query, ClaudeAgentOptions
+import json
+import re
+import hashlib
+
+
+@tool(
+    name="validate_email",
+    description="Validate an email address and extract its parts (username, domain)",
+    input_schema={
+        "type": "object",
+        "properties": {
+            "email": {
+                "type": "string",
+                "description": "Email address to check",
+            }
+        },
+        "required": ["email"],
+    },
+)
+async def validate_email(args: dict) -> dict:
+    email = args["email"]
+    pattern = r'^[\w\.-]+@[\w\.-]+\.\w+$'
+    is_valid = bool(re.match(pattern, email))
+
+    username, domain = (email.split("@", 1) if "@" in email else (email, None))
+
+    result = {
+        "email": email,
+        "is_valid": is_valid,
+        "username": username,
+        "domain": domain,
+    }
+    return {"content": [{"type": "text", "text": json.dumps(result)}]}
+
+
+@tool(
+    name="calculate_hash",
+    description="Calculate the MD5 or SHA256 hash of a string",
+    input_schema={
+        "type": "object",
+        "properties": {
+            "text": {"type": "string", "description": "Text to hash"},
+            "algorithm": {
+                "type": "string",
+                "enum": ["md5", "sha256"],
+                "description": "Hash algorithm to use",
+            },
+        },
+        "required": ["text", "algorithm"],
+    },
+)
+async def calculate_hash(args: dict) -> dict:
+    text = args["text"]
+    algo = args["algorithm"]
+    if algo == "md5":
+        result = hashlib.md5(text.encode()).hexdigest()
+    else:
+        result = hashlib.sha256(text.encode()).hexdigest()
+    return {"content": [{"type": "text", "text": result}]}
+
+
+# Package both tools into one in-process MCP server
+server = create_sdk_mcp_server(
+    name="validators",
+    version="1.0.0",
+    tools=[validate_email, calculate_hash],
+)
+
+# Use the server in an agent
+options = ClaudeAgentOptions(
+    model="sonnet",
+    mcp_servers={"validators": server},
+    allowed_tools=[
+        "mcp__validators__validate_email",
+        "mcp__validators__calculate_hash",
+    ],
+    permission_mode="bypassPermissions",
+)
+
+async def main():
+    async for message in query(
+        prompt="Validate admin@example.com and hash it with SHA256",
+        options=options,
+    ):
+        print(message)
+```
+
+**Tool naming in this example:**
+- Server name: `"validators"`
+- Tool 1: `mcp__validators__validate_email`
+- Tool 2: `mcp__validators__calculate_hash`
+- Wildcard: `mcp__validators__*`
+
+---
 
 ## Common Pitfalls
 

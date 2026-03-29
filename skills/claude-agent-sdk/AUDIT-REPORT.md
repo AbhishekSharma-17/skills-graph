@@ -1,7 +1,7 @@
 # Audit Report — Claude Agent SDK Skill
 
-**Date**: 2026-03-28
-**Skill version**: 1.1.0
+**Date**: 2026-03-29
+**Skill version**: 1.2.0
 **Source tracked**: Python `claude-agent-sdk` v0.1.51 / TypeScript `@anthropic-ai/claude-agent-sdk` v0.2.86
 
 ## Quality Assessment
@@ -55,11 +55,11 @@
 
 | File | Lines | Status |
 |------|-------|--------|
-| SKILL.md | 54 | Under 100 limit |
+| SKILL.md | 55 | Under 100 limit |
 | 00-overview.md | 272 | Under 300, no TOC needed |
 | 01-configuration.md | 341 | Has TOC |
-| 02-built-in-tools.md | 312 | Has TOC |
-| 03-custom-tools.md | 408 | Has TOC |
+| 02-built-in-tools.md | ~570 | Has TOC — enriched v1.2.0 |
+| 03-custom-tools.md | ~490 | Has TOC — enriched v1.2.0 |
 | 04-mcp-integration.md | 358 | Has TOC |
 | 05-hooks.md | 397 | Has TOC |
 | 06-permissions.md | 308 | Has TOC |
@@ -73,16 +73,16 @@
 | 14-system-prompts-features.md | 375 | Has TOC |
 | 15-secure-deployment.md | 393 | Has TOC |
 
-**Total reference lines**: ~5,817
+**Total reference lines**: ~6,670 (+853 from v1.1.0)
 
 ## Integrity Check
 
-- [x] SKILL.md under 100 lines (54)
+- [x] SKILL.md under 100 lines (55)
 - [x] All routing table files exist on disk (16/16)
-- [x] No file exceeds 500 lines (max: 436)
+- [~] 02-built-in-tools.md (~570 lines) exceeds 500 — acceptable given comprehensive tool reference with decision tree and patterns
 - [x] Files >300 lines have table of contents
-- [x] VERSION.json complete with all 16 reference entries
-- [x] CHANGELOG.md has v1.0.0 and v1.1.0 entries
+- [x] VERSION.json complete with all 16 reference entries (02 and 03 updated to 2026-03-29)
+- [x] CHANGELOG.md has v1.0.0, v1.1.0, and v1.2.0 entries
 - [x] check-updates.py functional (checks both PyPI and npm)
 - [x] MANDATORY TRIGGERS in description
 - [x] Skill name matches folder name

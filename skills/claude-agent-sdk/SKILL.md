@@ -5,7 +5,7 @@ license: MIT
 metadata:
   version: "1.5.0"
   author: Abhishek Sharma
-  tags: ["claude", "agent-sdk", "ai-agents", "anthropic", "tools", "mcp", "python", "typescript"]
+  tags: ["claude", "agent-sdk", "ai-agents", "anthropic", "tools", "mcp", "python", "claude-sdk"]
 ---
 
 # Claude Agent SDK — Skill Router

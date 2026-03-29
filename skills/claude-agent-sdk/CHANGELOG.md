@@ -1,5 +1,93 @@
 # Changelog
 
+## [1.4.0] — 2026-03-29
+
+**Source version tracked**: Python `claude-agent-sdk` v0.1.51 / TypeScript `@anthropic-ai/claude-agent-sdk` v0.2.86
+
+### Added
+
+- **18-claude-agent-options.md** — Dedicated `ClaudeAgentOptions` deep reference:
+  - "The 3 you always need" (`model`, `env`, `permission_mode`) with minimal boilerplate
+  - All 38 parameters across 15 groups, each with: type, default, when-to-use, when-not-to-use, code examples
+  - `env` — all 4 provider patterns: Anthropic direct, AWS Bedrock, Google Vertex AI, Azure AI Foundry
+  - `permission_mode` — table with reads/edits/bash columns per mode
+  - `allowed_tools` — all 17 built-in names listed, wildcard syntax
+  - `can_use_tool` — callback signature with path-restriction and command-blocking examples
+  - `hooks` — all 10 events with "Can modify?" column, audit + block example
+  - `agents` / `AgentDefinition` — all 9 fields, `description` importance explained
+  - `output_format` — json_schema example + gotcha on schema complexity
+  - `setting_sources` — critical gotcha: default is `[]` (loads nothing)
+  - `enable_file_checkpointing` — full setup with partner `extra_args`
+  - TypeScript name mapping table (Python snake_case → TypeScript camelCase)
+  - TypeScript-only parameters: `persistSession`, `abortController`, `spawnClaudeCodeProcess`, `debug`, `debugFile`, `sessionId`, `strictMcpConfig`, `resumeSessionAt`
+  - Decision matrix — 7 complete use cases with recommended parameter sets: CI/CD, read-only analysis, interactive chat, production untrusted input, code generation with undo, structured extraction, multi-specialist sub-agents
+  - All 38 parameters quick reference table with group column
+  - Deprecated parameters migration guide
+
+### Changed
+
+- **SKILL.md** — Added routing entry for `18-claude-agent-options.md`, bumped to v1.4.0
+
+### Stats
+
+- Routing entries: 19
+- Reference files: 19
+- Total lines: ~9,090 (+600 from v1.3.0)
+
+---
+
+## [1.3.0] — 2026-03-29
+
+**Source version tracked**: Python `claude-agent-sdk` v0.1.51 / TypeScript `@anthropic-ai/claude-agent-sdk` v0.2.86
+
+### Added
+
+- **16-query-and-messages.md** — Complete `query()` function reference from QUERY.md:
+  - `query()` function signature (Python + TypeScript), keyword-only params
+  - `query()` vs `ClaudeSDKClient` comparison table (10 features)
+  - `AssistantMessage` full `@dataclass` fields with all types
+  - Content blocks: `TextBlock`, `ToolUseBlock` (with `AskUserQuestion` special case), `ThinkingBlock` — all fields
+  - `ResultMessage` full `@dataclass` fields + all `subtype` values with meanings
+  - All other message types: `UserMessage`, `SystemMessage`, `TaskStartedMessage`, `TaskProgressMessage`, `TaskNotificationMessage`, `StreamEvent`, `RateLimitEvent`
+  - Minimum Viable Options (3 levels: minimal, with tools, production)
+  - Permission priority diagram with worked example
+  - 7 complete patterns: simple question, file analysis, code generation, structured output, session resume, custom tools, streaming partial messages
+
+- **17-client.md** — Complete `ClaudeSDKClient` reference from CLIENT.md:
+  - What is ClaudeSDKClient + under-the-hood subprocess model
+  - Constructor parameters with examples
+  - Lifecycle: `async with` vs manual connect/disconnect, same-async-context warning
+  - All 14 methods with: parameter table, description, when-to-use, code examples
+  - `receive_messages()` vs `receive_response()` distinction (critical difference)
+  - `rewind_files()` with full setup (enable_file_checkpointing, replay-user-messages)
+  - `get_mcp_status()` with `McpStatusResponse` field table
+  - `stop_task()` with `TaskStartedMessage`/`TaskNotificationMessage` handling
+  - ClaudeSDKClient-only features table (8 capabilities not in query())
+  - Message types specific to client (UserMessage UUID, Task messages, RateLimitEvent)
+  - 8 complete patterns: multi-turn, human-in-loop, plan-then-execute, model switching, interrupt, file checkpointing, MCP health check, interactive chat loop
+  - All 14 methods quick reference table
+  - Typical usage flow (10-step)
+  - Minimum viable client example
+
+### Changed
+
+- **01-configuration.md** — Added 4 missing deep-dive sections:
+  - `can_use_tool` — custom permission callback with `PermissionResultAllow`/`PermissionResultDeny` example
+  - `hooks` — all 10 hook events table + `HookMatcher` usage example
+  - `agents` / `AgentDefinition` — all 9 fields table with typed example
+  - `sandbox` / `SandboxSettings` — all 6 fields table with network config example
+  - Extended Related Topics to link new files
+
+- **SKILL.md** — Added 2 new routing entries for `16-query-and-messages.md` and `17-client.md`
+
+### Stats
+
+- Routing entries: 18
+- Reference files: 18
+- Total lines: ~8,490 (+1,820 from v1.2.0)
+
+---
+
 ## [1.2.0] — 2026-03-29
 
 **Source version tracked**: Python `claude-agent-sdk` v0.1.51 / TypeScript `@anthropic-ai/claude-agent-sdk` v0.2.86

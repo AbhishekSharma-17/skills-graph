@@ -1,7 +1,7 @@
 # Audit Report — Claude Agent SDK Skill
 
 **Date**: 2026-03-29
-**Skill version**: 1.2.0
+**Skill version**: 1.4.0
 **Source tracked**: Python `claude-agent-sdk` v0.1.51 / TypeScript `@anthropic-ai/claude-agent-sdk` v0.2.86
 
 ## Quality Assessment
@@ -31,6 +31,7 @@
 - `/modifying-system-prompts` → 14-system-prompts-features.md
 - `/plugins` → 14-system-prompts-features.md
 - `/tool-search` → 02-built-in-tools.md, 04-mcp-integration.md
+- `/python` (query + ClaudeSDKClient) → 16-query-and-messages.md, 17-client.md
 - `/secure-deployment` → 15-secure-deployment.md
 - `/custom-tools` → 03-custom-tools.md
 - `/permissions` → 06-permissions.md
@@ -72,18 +73,24 @@
 | 13-agent-loop.md | 390 | Has TOC |
 | 14-system-prompts-features.md | 375 | Has TOC |
 | 15-secure-deployment.md | 393 | Has TOC |
+| 16-query-and-messages.md | ~380 | Has TOC — new v1.3.0 |
+| 17-client.md | ~570 | Has TOC — new v1.3.0 |
+| 18-claude-agent-options.md | ~600 | Has TOC — new v1.4.0 |
 
-**Total reference lines**: ~6,670 (+853 from v1.1.0)
+**Total reference lines**: ~9,090 (+600 from v1.3.0)
 
 ## Integrity Check
 
-- [x] SKILL.md under 100 lines (55)
-- [x] All routing table files exist on disk (16/16)
-- [~] 02-built-in-tools.md (~570 lines) exceeds 500 — acceptable given comprehensive tool reference with decision tree and patterns
+- [x] SKILL.md under 100 lines (58)
+- [x] All routing table files exist on disk (19/19)
+- [~] 02-built-in-tools.md (~570 lines) and 17-client.md (~570 lines) exceed 500 — acceptable given comprehensive reference content
 - [x] Files >300 lines have table of contents
-- [x] VERSION.json complete with all 16 reference entries (02 and 03 updated to 2026-03-29)
-- [x] CHANGELOG.md has v1.0.0, v1.1.0, and v1.2.0 entries
+- [x] VERSION.json complete with all 19 reference entries
+- [x] CHANGELOG.md has v1.0.0 through v1.4.0 entries
 - [x] check-updates.py functional (checks both PyPI and npm)
 - [x] MANDATORY TRIGGERS in description
 - [x] Skill name matches folder name
 - [x] All 27 official doc pages mapped to reference files
+- [x] query() function fully documented (16-query-and-messages.md)
+- [x] ClaudeSDKClient fully documented (17-client.md) with all 14 methods
+- [x] ClaudeAgentOptions fully documented (18-claude-agent-options.md) — all 38 params with when-to-use, TypeScript mapping, decision matrix

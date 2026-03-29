@@ -3,7 +3,7 @@ name: claude-agent-sdk
 description: "Build AI agents programmatically with the Claude Agent SDK (Python and TypeScript). Provides the same tools, agent loop, and context management that power Claude Code, but as a library. MANDATORY TRIGGERS: claude-agent-sdk, claude agent sdk, claude_agent_sdk, @anthropic-ai/claude-agent-sdk, ClaudeAgentOptions, ClaudeSDKClient. Also trigger when user wants to build AI agents with Claude programmatically, create agent loops with tools, use Claude Code SDK, orchestrate subagents, or deploy autonomous coding agents. When in doubt about whether to use this skill for agent SDK tasks, use it."
 license: MIT
 metadata:
-  version: "1.2.0"
+  version: "1.4.0"
   author: Abhishek Sharma
   tags: ["claude", "agent-sdk", "ai-agents", "anthropic", "tools", "mcp", "python", "typescript"]
 ---
@@ -34,12 +34,17 @@ metadata:
 | **Agent Loop & Errors** | `references/13-agent-loop.md` | Turns, compaction, stop reasons, error types, rate limits, cost tracking |
 | **System Prompts & Features** | `references/14-system-prompts-features.md` | CLAUDE.md, skills, plugins, slash commands, output styles |
 | **Secure Deployment** | `references/15-secure-deployment.md` | Docker hardening, credential management, proxies, isolation |
+| **query() & Messages** | `references/16-query-and-messages.md` | query() function signature, AssistantMessage/ResultMessage dataclass fields, TextBlock/ToolUseBlock/ThinkingBlock, all message types, 7 patterns, permission priority, minimum viable options |
+| **ClaudeSDKClient** | `references/17-client.md` | Stateful multi-turn client, constructor, lifecycle, all 14 methods with params/examples/when-to-use, ClaudeSDKClient-only features, 8 patterns, typical usage flow, minimum viable client |
+| **ClaudeAgentOptions** | `references/18-claude-agent-options.md` | All 38 parameters with type/default/when-to-use/when-not-to-use/example, provider env vars, permission mode table, TypeScript name mapping, TypeScript-only params, decision matrix for 7 use cases |
 
 ## Installation
 
 ```bash
 # Python
-pip install claude-agent-sdk
+pip install 
+
+uv add claude-agent-sdk
 
 # TypeScript
 npm install @anthropic-ai/claude-agent-sdk

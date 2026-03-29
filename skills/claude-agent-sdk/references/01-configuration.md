@@ -333,9 +333,158 @@ The SDK was renamed from "Claude Code SDK" to "Claude Agent SDK":
 
 The default system prompt changed from Claude Code's full prompt to a minimal prompt. Use `system_prompt={"type": "preset", "preset": "claude_code"}` to restore the old behavior. Settings sources default to `[]` (empty) instead of loading from filesystem.
 
+## can_use_tool — Custom Permission Callback
+
+Fine-grained, dynamic permission control. Called whenever Claude wants to use a tool not already in `allowed_tools`.
+
+```python
+from claude_agent_sdk import PermissionResultAllow, PermissionResultDeny
+
+async def my_permission_handler(
+    tool_name: str,
+    tool_input: dict[str, Any],
+    context: ToolPermissionContext,
+) -> PermissionResult:
+    # Allow all reads
+    if tool_name == "Read":
+        return PermissionResultAllow()
+    # Block rm commands
+    if tool_name == "Bash" and "rm " in tool_input.get("command", ""):
+        return PermissionResultDeny(message="No delete commands allowed")
+    # Allow everything else
+    return PermissionResultAllow()
+
+options = ClaudeAgentOptions(
+    can_use_tool=my_permission_handler,
+)
+```
+
+**When to use:** Allow bash but block `rm`, allow writes but only to certain directories.
+**When NOT to use:** For simple allow/deny — just use `allowed_tools`/`disallowed_tools`.
+
+## hooks — Lifecycle Intercept
+
+Intercept and modify Claude's behavior at specific lifecycle points.
+
+```python
+from claude_agent_sdk import HookMatcher
+
+async def log_bash_commands(input_data, tool_use_id, context):
+    """Log every bash command before execution."""
+    cmd = input_data.get("tool_input", {}).get("command", "")
+    print(f"AUDIT: Bash → {cmd}")
+    return {}  # empty dict = allow, no modification
+
+hooks = {
+    "PreToolUse": [
+        HookMatcher(matcher="Bash", hooks=[log_bash_commands])
+    ]
+}
+
+options = ClaudeAgentOptions(hooks=hooks)
+```
+
+**Hook events:**
+
+| Event | When it fires |
+|-------|--------------|
+| `"PreToolUse"` | Before Claude calls any tool |
+| `"PostToolUse"` | After a tool returns a result |
+| `"PostToolUseFailure"` | After a tool call fails |
+| `"UserPromptSubmit"` | When a user prompt is submitted |
+| `"Stop"` | When Claude is about to stop |
+| `"SubagentStop"` | When a sub-agent stops |
+| `"PreCompact"` | Before context compaction |
+| `"Notification"` | On notification events |
+| `"SubagentStart"` | When a sub-agent starts |
+| `"PermissionRequest"` | When permission is requested |
+
+**When to use:** Auditing, logging, modifying tool inputs, blocking specific operations dynamically.
+
+## agents / AgentDefinition — Sub-agent Config
+
+Define custom sub-agents that Claude can spawn using the `Agent` tool.
+
+```python
+from claude_agent_sdk import AgentDefinition
+
+agents = {
+    "code-reviewer": AgentDefinition(
+        description="Reviews code for bugs and best practices",
+        prompt="You are a senior code reviewer. Focus on security and performance.",
+        tools=["Read", "Glob", "Grep"],
+        model="sonnet",
+        maxTurns=5,
+    ),
+    "test-writer": AgentDefinition(
+        description="Writes pytest test suites",
+        prompt="You are a test engineer. Write comprehensive pytest tests.",
+        tools=["Read", "Write", "Bash"],
+        model="sonnet",
+        maxTurns=10,
+    ),
+}
+
+options = ClaudeAgentOptions(agents=agents)
+```
+
+**AgentDefinition fields:**
+
+| Field | Type | Description |
+|-------|------|-------------|
+| `description` | `str` | What the agent does (shown to Claude) |
+| `prompt` | `str` | System prompt for the sub-agent |
+| `tools` | `list[str] \| None` | Tools the sub-agent can use |
+| `disallowedTools` | `list[str] \| None` | Tools blocked for sub-agent |
+| `model` | `str \| None` | Model for sub-agent (can differ from parent) |
+| `skills` | `list[str] \| None` | Skills available to sub-agent |
+| `maxTurns` | `int \| None` | Max turns for sub-agent |
+| `mcpServers` | `list \| None` | MCP servers for sub-agent |
+| `initialPrompt` | `str \| None` | Initial prompt override |
+
+**When to use:** When you want Claude to delegate subtasks to specialized agents with different tools/prompts.
+
+## sandbox — Bash Isolation
+
+Isolate bash commands in a sandbox for security.
+
+```python
+from claude_agent_sdk import SandboxSettings
+
+sandbox = SandboxSettings(
+    enabled=True,
+    autoAllowBashIfSandboxed=True,     # auto-approve bash when sandboxed
+    excludedCommands=["git", "docker"],  # these run outside sandbox
+    allowUnsandboxedCommands=False,
+    network={
+        "allowUnixSockets": ["/var/run/docker.sock"],
+        "allowLocalBinding": True,
+    },
+)
+
+options = ClaudeAgentOptions(sandbox=sandbox)
+```
+
+**SandboxSettings fields:**
+
+| Field | Type | Default | What it does |
+|-------|------|---------|-------------|
+| `enabled` | `bool` | `False` | Enable sandbox (macOS/Linux only) |
+| `autoAllowBashIfSandboxed` | `bool` | `True` | Auto-approve sandboxed bash |
+| `excludedCommands` | `list[str]` | `[]` | Commands that bypass sandbox |
+| `allowUnsandboxedCommands` | `bool` | `True` | Allow `dangerouslyDisableSandbox` |
+| `network` | `SandboxNetworkConfig` | — | Network access rules |
+| `enableWeakerNestedSandbox` | `bool` | `False` | For Docker (Linux only) |
+
+**When to use:** In production when running untrusted prompts or when Claude has bash access.
+**When NOT to use:** During development/learning — adds complexity without benefit.
+
 ## Related Topics
 
 - [Permissions](06-permissions.md) — Permission modes and evaluation order
 - [Hooks](05-hooks.md) — Lifecycle hooks for intercepting tool execution
 - [Sessions](07-sessions.md) — Multi-turn conversations and session management
 - [System Prompts & Features](14-system-prompts-features.md) — All 4 system prompt methods
+- [query() and Messages](16-query-and-messages.md) — query() function, message types, patterns
+- [ClaudeSDKClient](17-client.md) — Stateful multi-turn client, 14 methods
+- [Subagents](08-subagents.md) — AgentDefinition in depth, spawning patterns

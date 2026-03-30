@@ -1,7 +1,7 @@
 {
   "description": "Registry of all skills in the skills-graph repo. Used by daily automation to avoid duplicates.",
-  "last_updated": "2026-03-29",
-  "total_skills": 9,
+  "last_updated": "2026-03-30",
+  "total_skills": 10,
   "skills": [
     {
       "name": "agno",
@@ -91,6 +91,16 @@
       "reference_files": 13,
       "total_lines": 3993,
       "source_url": "https://langfuse.com/docs",
+      "status": "active"
+    },
+    {
+      "name": "better-auth",
+      "domain": "Authentication",
+      "created_date": "2026-03-30",
+      "version": "1.0.0",
+      "reference_files": 13,
+      "total_lines": 4232,
+      "source_url": "https://www.better-auth.com/docs",
       "status": "active"
     }
   ],

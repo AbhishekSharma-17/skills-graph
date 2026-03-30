@@ -1,0 +1,83 @@
+{
+  "skill_name": "better-auth",
+  "skill_version": "1.0.0",
+  "source_version_tracked": "1.5.6",
+  "source_package": "better-auth",
+  "docs_snapshot_date": "2026-03-30",
+  "last_checked": "2026-03-30",
+  "last_updated": "2026-03-30",
+  "urls": {
+    "docs": "https://www.better-auth.com/docs",
+    "changelog": "https://github.com/better-auth/better-auth/releases",
+    "github": "https://github.com/better-auth/better-auth",
+    "npm": "https://www.npmjs.com/package/better-auth"
+  },
+  "staleness_threshold_days": 90,
+  "references": {
+    "00-overview.md": {
+      "source_page": "https://www.better-auth.com/docs/introduction",
+      "written_for": "1.5.6",
+      "last_updated": "2026-03-30"
+    },
+    "01-server-api.md": {
+      "source_page": "https://www.better-auth.com/docs/concepts/api",
+      "written_for": "1.5.6",
+      "last_updated": "2026-03-30"
+    },
+    "02-client-sdk.md": {
+      "source_page": "https://www.better-auth.com/docs/concepts/client",
+      "written_for": "1.5.6",
+      "last_updated": "2026-03-30"
+    },
+    "03-session-management.md": {
+      "source_page": "https://www.better-auth.com/docs/concepts/session-management",
+      "written_for": "1.5.6",
+      "last_updated": "2026-03-30"
+    },
+    "04-oauth-providers.md": {
+      "source_page": "https://www.better-auth.com/docs/concepts/oauth",
+      "written_for": "1.5.6",
+      "last_updated": "2026-03-30"
+    },
+    "05-database-adapters.md": {
+      "source_page": "https://www.better-auth.com/docs/concepts/database",
+      "written_for": "1.5.6",
+      "last_updated": "2026-03-30"
+    },
+    "06-hooks-middleware.md": {
+      "source_page": "https://www.better-auth.com/docs/concepts/hooks",
+      "written_for": "1.5.6",
+      "last_updated": "2026-03-30"
+    },
+    "07-users-accounts.md": {
+      "source_page": "https://www.better-auth.com/docs/concepts/users-accounts",
+      "written_for": "1.5.6",
+      "last_updated": "2026-03-30"
+    },
+    "08-plugin-system.md": {
+      "source_page": "https://www.better-auth.com/docs/concepts/plugins",
+      "written_for": "1.5.6",
+      "last_updated": "2026-03-30"
+    },
+    "09-admin-authorization.md": {
+      "source_page": "https://www.better-auth.com/docs/plugins/admin",
+      "written_for": "1.5.6",
+      "last_updated": "2026-03-30"
+    },
+    "10-organization.md": {
+      "source_page": "https://www.better-auth.com/docs/plugins/organization",
+      "written_for": "1.5.6",
+      "last_updated": "2026-03-30"
+    },
+    "11-security-plugins.md": {
+      "source_page": "https://www.better-auth.com/docs/plugins",
+      "written_for": "1.5.6",
+      "last_updated": "2026-03-30"
+    },
+    "12-framework-integrations.md": {
+      "source_page": "https://www.better-auth.com/docs/integrations",
+      "written_for": "1.5.6",
+      "last_updated": "2026-03-30"
+    }
+  }
+}

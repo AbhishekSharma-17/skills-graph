@@ -3,14 +3,14 @@
   <p align="center">
     <strong>Precision-engineered AI agent skills with interconnected reference architectures.</strong>
     <br />
-    <em>A methodology for building skills that carry 64,000+ lines of knowledge<br />while loading only what the AI actually needs.</em>
+    <em>A methodology for building skills that carry 68,000+ lines of knowledge<br />while loading only what the AI actually needs.</em>
   </p>
   <p align="center">
     <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT"></a>
     <a href="#-the-agent-skills-standard"><img src="https://img.shields.io/badge/Agent%20Skills-Universal%20Standard-purple.svg" alt="Skills Standard"></a>
     <a href="#-platform-compatibility"><img src="https://img.shields.io/badge/Platforms-25%2B-green.svg" alt="Platforms"></a>
-    <a href="#-skills-catalog"><img src="https://img.shields.io/badge/Skills-9%20Production%20Ready-orange.svg" alt="Skills"></a>
-    <a href="#-the-technique-progressive-reference-architecture"><img src="https://img.shields.io/badge/Knowledge-64%2C100%2B%20Lines-red.svg" alt="Lines"></a>
+    <a href="#-skills-catalog"><img src="https://img.shields.io/badge/Skills-10%20Production%20Ready-orange.svg" alt="Skills"></a>
+    <a href="#-the-technique-progressive-reference-architecture"><img src="https://img.shields.io/badge/Knowledge-68%2C300%2B%20Lines-red.svg" alt="Lines"></a>
   </p>
 </p>
 
@@ -45,15 +45,15 @@
 
 ## Overview
 
-> *"A 64,000-line knowledge base that costs the same as a 50-line skill -- until you actually need it."*
+> *"A 68,000-line knowledge base that costs the same as a 50-line skill -- until you actually need it."*
 
 Skills Graph is a **methodology** and a **collection** of production-grade AI agent skills built using **Progressive Reference Architecture (PRA)** -- a systematic approach to creating deeply interconnected, graph-structured knowledge bases that AI coding assistants can navigate with surgical precision.
 
 Instead of dumping documentation into a single monolithic file or a flat folder of loosely related references, Skills Graph organizes knowledge as a **directed acyclic graph (DAG)** where every reference file is a node, every cross-reference is an edge, and a lightweight router sits at the root to guide the AI to exactly the information it needs -- nothing more, nothing less.
 
 <table>
-<tr><td><strong>Skills</strong></td><td>9 production-ready (Agno, MS Agent Framework, Remotion Prompt Generator, Trigger.dev, Drizzle ORM, Hono, Zod, Claude Agent SDK, Langfuse)</td></tr>
-<tr><td><strong>Total Knowledge</strong></td><td>64,100+ lines across 269 reference files</td></tr>
+<tr><td><strong>Skills</strong></td><td>10 production-ready (Agno, MS Agent Framework, Remotion Prompt Generator, Trigger.dev, Drizzle ORM, Hono, Zod, Claude Agent SDK, Langfuse, Better Auth)</td></tr>
+<tr><td><strong>Total Knowledge</strong></td><td>68,300+ lines across 282 reference files</td></tr>
 <tr><td><strong>Router Overhead</strong></td><td>69-231 lines (the only cost when skill triggers)</td></tr>
 <tr><td><strong>Context Efficiency</strong></td><td>~97% reduction vs monolithic approach</td></tr>
 <tr><td><strong>Platform Support</strong></td><td>25+ AI coding assistants</td></tr>
@@ -77,7 +77,8 @@ Production-ready skills built with the Skills Graph methodology.
 | 7 | **[Zod](skills/zod/)** | [Zod](https://zod.dev) v4.x | `1.0.0` | 13 | ~3,686 | Production |
 | 8 | **[Claude Agent SDK](skills/claude-agent-sdk/)** | [Claude Agent SDK](https://platform.claude.com/docs/en/agent-sdk/overview) Python 0.1.51 / TS 0.2.86 | `1.1.0` | 16 | ~5,817 | Production |
 | 9 | **[Langfuse](skills/langfuse/)** | [Langfuse](https://langfuse.com/docs) v3.162.0 | `1.0.0` | 13 | ~3,993 | Production |
-| | | | | **269** | **~64,141** | |
+| 10 | **[Better Auth](skills/better-auth/)** | [Better Auth](https://www.better-auth.com/docs) v1.5.6 | `1.0.0` | 13 | ~4,232 | Production |
+| | | | | **282** | **~68,373** | |
 
 <br />
 

@@ -3,14 +3,14 @@
   <p align="center">
     <strong>Precision-engineered AI agent skills with interconnected reference architectures.</strong>
     <br />
-    <em>A methodology for building skills that carry 68,000+ lines of knowledge<br />while loading only what the AI actually needs.</em>
+    <em>A methodology for building skills that carry 72,000+ lines of knowledge<br />while loading only what the AI actually needs.</em>
   </p>
   <p align="center">
     <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT"></a>
     <a href="#-the-agent-skills-standard"><img src="https://img.shields.io/badge/Agent%20Skills-Universal%20Standard-purple.svg" alt="Skills Standard"></a>
     <a href="#-platform-compatibility"><img src="https://img.shields.io/badge/Platforms-25%2B-green.svg" alt="Platforms"></a>
-    <a href="#-skills-catalog"><img src="https://img.shields.io/badge/Skills-10%20Production%20Ready-orange.svg" alt="Skills"></a>
-    <a href="#-the-technique-progressive-reference-architecture"><img src="https://img.shields.io/badge/Knowledge-68%2C300%2B%20Lines-red.svg" alt="Lines"></a>
+    <a href="#-skills-catalog"><img src="https://img.shields.io/badge/Skills-11%20Production%20Ready-orange.svg" alt="Skills"></a>
+    <a href="#-the-technique-progressive-reference-architecture"><img src="https://img.shields.io/badge/Knowledge-72%2C300%2B%20Lines-red.svg" alt="Lines"></a>
   </p>
 </p>
 
@@ -45,7 +45,7 @@
 
 ## Overview
 
-> *"A 68,000-line knowledge base that costs the same as a 50-line skill -- until you actually need it."*
+> *"A 72,000-line knowledge base that costs the same as a 50-line skill -- until you actually need it."*
 
 Skills Graph is a **methodology** and a **collection** of production-grade AI agent skills built using **Progressive Reference Architecture (PRA)** -- a systematic approach to creating deeply interconnected, graph-structured knowledge bases that AI coding assistants can navigate with surgical precision.
 
@@ -78,7 +78,8 @@ Production-ready skills built with the Skills Graph methodology.
 | 8 | **[Claude Agent SDK](skills/claude-agent-sdk/)** | [Claude Agent SDK](https://platform.claude.com/docs/en/agent-sdk/overview) Python 0.1.51 / TS 0.2.86 | `1.1.0` | 16 | ~5,817 | Production |
 | 9 | **[Langfuse](skills/langfuse/)** | [Langfuse](https://langfuse.com/docs) v3.162.0 | `1.0.0` | 13 | ~3,993 | Production |
 | 10 | **[Better Auth](skills/better-auth/)** | [Better Auth](https://www.better-auth.com/docs) v1.5.6 | `1.0.0` | 13 | ~4,232 | Production |
-| | | | | **282** | **~68,373** | |
+| 11 | **[Polars](skills/polars/)** | [Polars](https://docs.pola.rs/) v1.39.3 | `1.0.0` | 13 | ~4,003 | Production |
+| | | | | **295** | **~72,376** | |
 
 <br />
 

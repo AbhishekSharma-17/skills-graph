@@ -1,0 +1,82 @@
+{
+  "skill_version": "1.0.0",
+  "source_version_tracked": "1.17.1",
+  "source_package": "qdrant-client",
+  "docs_snapshot_date": "2026-04-02",
+  "last_checked": "2026-04-02",
+  "last_updated": "2026-04-02",
+  "urls": {
+    "docs": "https://qdrant.tech/documentation/",
+    "changelog": "https://github.com/qdrant/qdrant/releases",
+    "github": "https://github.com/qdrant/qdrant",
+    "pypi": "https://pypi.org/project/qdrant-client/"
+  },
+  "references": {
+    "00-overview.md": {
+      "source_page": "https://qdrant.tech/documentation/overview/",
+      "written_for": "1.17.1",
+      "last_updated": "2026-04-02"
+    },
+    "01-collections.md": {
+      "source_page": "https://qdrant.tech/documentation/concepts/collections/",
+      "written_for": "1.17.1",
+      "last_updated": "2026-04-02"
+    },
+    "02-points.md": {
+      "source_page": "https://qdrant.tech/documentation/concepts/points/",
+      "written_for": "1.17.1",
+      "last_updated": "2026-04-02"
+    },
+    "03-search-query.md": {
+      "source_page": "https://qdrant.tech/documentation/concepts/search/",
+      "written_for": "1.17.1",
+      "last_updated": "2026-04-02"
+    },
+    "04-filtering.md": {
+      "source_page": "https://qdrant.tech/documentation/concepts/filtering/",
+      "written_for": "1.17.1",
+      "last_updated": "2026-04-02"
+    },
+    "05-indexing.md": {
+      "source_page": "https://qdrant.tech/documentation/concepts/indexing/",
+      "written_for": "1.17.1",
+      "last_updated": "2026-04-02"
+    },
+    "06-quantization.md": {
+      "source_page": "https://qdrant.tech/documentation/guides/quantization/",
+      "written_for": "1.17.1",
+      "last_updated": "2026-04-02"
+    },
+    "07-hybrid-search.md": {
+      "source_page": "https://qdrant.tech/documentation/concepts/hybrid-queries/",
+      "written_for": "1.17.1",
+      "last_updated": "2026-04-02"
+    },
+    "08-recommendation.md": {
+      "source_page": "https://qdrant.tech/documentation/concepts/explore/",
+      "written_for": "1.17.1",
+      "last_updated": "2026-04-02"
+    },
+    "09-optimizer.md": {
+      "source_page": "https://qdrant.tech/documentation/concepts/optimizer/",
+      "written_for": "1.17.1",
+      "last_updated": "2026-04-02"
+    },
+    "10-snapshots.md": {
+      "source_page": "https://qdrant.tech/documentation/concepts/snapshots/",
+      "written_for": "1.17.1",
+      "last_updated": "2026-04-02"
+    },
+    "11-multitenancy.md": {
+      "source_page": "https://qdrant.tech/documentation/guides/multiple-partitions/",
+      "written_for": "1.17.1",
+      "last_updated": "2026-04-02"
+    },
+    "12-deployment.md": {
+      "source_page": "https://qdrant.tech/documentation/guides/installation/",
+      "written_for": "1.17.1",
+      "last_updated": "2026-04-02"
+    }
+  },
+  "staleness_threshold_days": 90
+}

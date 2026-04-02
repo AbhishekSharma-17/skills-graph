@@ -52,8 +52,8 @@ Skills Graph is a **methodology** and a **collection** of production-grade AI ag
 Instead of dumping documentation into a single monolithic file or a flat folder of loosely related references, Skills Graph organizes knowledge as a **directed acyclic graph (DAG)** where every reference file is a node, every cross-reference is an edge, and a lightweight router sits at the root to guide the AI to exactly the information it needs -- nothing more, nothing less.
 
 <table>
-<tr><td><strong>Skills</strong></td><td>10 production-ready (Agno, MS Agent Framework, Remotion Prompt Generator, Trigger.dev, Drizzle ORM, Hono, Zod, Claude Agent SDK, Langfuse, Better Auth)</td></tr>
-<tr><td><strong>Total Knowledge</strong></td><td>68,300+ lines across 282 reference files</td></tr>
+<tr><td><strong>Skills</strong></td><td>12 production-ready (Agno, MS Agent Framework, Remotion Prompt Generator, Trigger.dev, Drizzle ORM, Hono, Zod, Claude Agent SDK, Langfuse, Better Auth, Polars, Qdrant)</td></tr>
+<tr><td><strong>Total Knowledge</strong></td><td>76,100+ lines across 308 reference files</td></tr>
 <tr><td><strong>Router Overhead</strong></td><td>69-231 lines (the only cost when skill triggers)</td></tr>
 <tr><td><strong>Context Efficiency</strong></td><td>~97% reduction vs monolithic approach</td></tr>
 <tr><td><strong>Platform Support</strong></td><td>25+ AI coding assistants</td></tr>
@@ -79,7 +79,8 @@ Production-ready skills built with the Skills Graph methodology.
 | 9 | **[Langfuse](skills/langfuse/)** | [Langfuse](https://langfuse.com/docs) v3.162.0 | `1.0.0` | 13 | ~3,993 | Production |
 | 10 | **[Better Auth](skills/better-auth/)** | [Better Auth](https://www.better-auth.com/docs) v1.5.6 | `1.0.0` | 13 | ~4,232 | Production |
 | 11 | **[Polars](skills/polars/)** | [Polars](https://docs.pola.rs/) v1.39.3 | `1.0.0` | 13 | ~4,003 | Production |
-| | | | | **295** | **~72,376** | |
+| 12 | **[Qdrant](skills/qdrant/)** | [Qdrant](https://qdrant.tech/documentation/) v1.17.1 | `1.0.0` | 13 | ~3,735 | Production |
+| | | | | **308** | **~76,111** | |
 
 <br />
 

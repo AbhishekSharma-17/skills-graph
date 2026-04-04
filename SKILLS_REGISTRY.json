@@ -1,7 +1,7 @@
 {
   "description": "Registry of all skills in the skills-graph repo. Used by daily automation to avoid duplicates.",
-  "last_updated": "2026-04-02",
-  "total_skills": 12,
+  "last_updated": "2026-04-04",
+  "total_skills": 13,
   "skills": [
     {
       "name": "agno",
@@ -121,6 +121,16 @@
       "reference_files": 13,
       "total_lines": 3735,
       "source_url": "https://qdrant.tech/documentation/",
+      "status": "active"
+    },
+    {
+      "name": "opentelemetry",
+      "domain": "Monitoring & Observability",
+      "created_date": "2026-04-04",
+      "version": "1.0.0",
+      "reference_files": 13,
+      "total_lines": 4289,
+      "source_url": "https://opentelemetry.io/docs/",
       "status": "active"
     }
   ],

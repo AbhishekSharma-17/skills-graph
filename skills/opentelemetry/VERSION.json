@@ -1,0 +1,83 @@
+{
+  "skill_version": "1.0.0",
+  "source_version_tracked": "1.55.0",
+  "source_package": "opentelemetry-api",
+  "docs_snapshot_date": "2026-04-04",
+  "last_checked": "2026-04-04",
+  "last_updated": "2026-04-04",
+  "urls": {
+    "docs": "https://opentelemetry.io/docs/",
+    "changelog": "https://github.com/open-telemetry/opentelemetry-specification/blob/main/CHANGELOG.md",
+    "github": "https://github.com/open-telemetry",
+    "pypi": "https://pypi.org/project/opentelemetry-api/",
+    "npm": "https://www.npmjs.com/package/@opentelemetry/api"
+  },
+  "staleness_threshold_days": 90,
+  "references": {
+    "00-overview.md": {
+      "source_page": "https://opentelemetry.io/docs/",
+      "written_for": "spec-v1.55.0",
+      "last_updated": "2026-04-04"
+    },
+    "01-traces.md": {
+      "source_page": "https://opentelemetry.io/docs/concepts/signals/traces/",
+      "written_for": "spec-v1.55.0",
+      "last_updated": "2026-04-04"
+    },
+    "02-metrics.md": {
+      "source_page": "https://opentelemetry.io/docs/concepts/signals/metrics/",
+      "written_for": "spec-v1.55.0",
+      "last_updated": "2026-04-04"
+    },
+    "03-logs.md": {
+      "source_page": "https://opentelemetry.io/docs/concepts/signals/logs/",
+      "written_for": "spec-v1.55.0",
+      "last_updated": "2026-04-04"
+    },
+    "04-python-sdk.md": {
+      "source_page": "https://opentelemetry.io/docs/languages/python/",
+      "written_for": "sdk-python-1.25.0",
+      "last_updated": "2026-04-04"
+    },
+    "05-javascript-sdk.md": {
+      "source_page": "https://opentelemetry.io/docs/languages/js/",
+      "written_for": "sdk-js-1.25.0",
+      "last_updated": "2026-04-04"
+    },
+    "06-collector.md": {
+      "source_page": "https://opentelemetry.io/docs/collector/",
+      "written_for": "collector-v1.49.0",
+      "last_updated": "2026-04-04"
+    },
+    "07-collector-config.md": {
+      "source_page": "https://opentelemetry.io/docs/collector/configuration/",
+      "written_for": "collector-v1.49.0",
+      "last_updated": "2026-04-04"
+    },
+    "08-semantic-conventions.md": {
+      "source_page": "https://opentelemetry.io/docs/specs/semconv/",
+      "written_for": "semconv-v1.40.0",
+      "last_updated": "2026-04-04"
+    },
+    "09-context-propagation.md": {
+      "source_page": "https://opentelemetry.io/docs/concepts/context-propagation/",
+      "written_for": "spec-v1.55.0",
+      "last_updated": "2026-04-04"
+    },
+    "10-sampling.md": {
+      "source_page": "https://opentelemetry.io/docs/concepts/sampling/",
+      "written_for": "spec-v1.55.0",
+      "last_updated": "2026-04-04"
+    },
+    "11-exporters.md": {
+      "source_page": "https://opentelemetry.io/docs/specs/otel/protocol/",
+      "written_for": "spec-v1.55.0",
+      "last_updated": "2026-04-04"
+    },
+    "12-deployment.md": {
+      "source_page": "https://opentelemetry.io/docs/collector/deployment/",
+      "written_for": "collector-v1.49.0",
+      "last_updated": "2026-04-04"
+    }
+  }
+}

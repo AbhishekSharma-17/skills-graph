@@ -1,0 +1,85 @@
+{
+  "skill_version": "1.0.0",
+  "source_version_tracked": "3.0.0",
+  "source_package": "inngest",
+  "docs_snapshot_date": "2026-04-05",
+  "last_checked": "2026-04-05",
+  "last_updated": "2026-04-05",
+  "urls": {
+    "docs": "https://www.inngest.com/docs",
+    "changelog": "https://www.inngest.com/changelog",
+    "github": "https://github.com/inngest/inngest",
+    "github_js": "https://github.com/inngest/inngest-js",
+    "github_py": "https://github.com/inngest/inngest-py",
+    "npm": "https://www.npmjs.com/package/inngest",
+    "pypi": "https://pypi.org/project/inngest/"
+  },
+  "references": {
+    "00-overview.md": {
+      "source_page": "https://www.inngest.com/docs",
+      "written_for": "3.0.0",
+      "last_updated": "2026-04-05"
+    },
+    "01-durable-execution.md": {
+      "source_page": "https://www.inngest.com/docs/learn/how-functions-are-executed",
+      "written_for": "3.0.0",
+      "last_updated": "2026-04-05"
+    },
+    "02-functions-triggers.md": {
+      "source_page": "https://www.inngest.com/docs/reference/functions/create",
+      "written_for": "3.0.0",
+      "last_updated": "2026-04-05"
+    },
+    "03-steps-workflows.md": {
+      "source_page": "https://www.inngest.com/docs/features/inngest-functions/steps-workflows",
+      "written_for": "3.0.0",
+      "last_updated": "2026-04-05"
+    },
+    "04-parallel-execution.md": {
+      "source_page": "https://www.inngest.com/docs/guides/step-parallelism",
+      "written_for": "3.0.0",
+      "last_updated": "2026-04-05"
+    },
+    "05-error-handling.md": {
+      "source_page": "https://www.inngest.com/docs/features/inngest-functions/error-handling",
+      "written_for": "3.0.0",
+      "last_updated": "2026-04-05"
+    },
+    "06-flow-control.md": {
+      "source_page": "https://www.inngest.com/docs/guides/flow-control",
+      "written_for": "3.0.0",
+      "last_updated": "2026-04-05"
+    },
+    "07-event-batching.md": {
+      "source_page": "https://www.inngest.com/docs/guides/batching",
+      "written_for": "3.0.0",
+      "last_updated": "2026-04-05"
+    },
+    "08-cancellation.md": {
+      "source_page": "https://www.inngest.com/docs/features/inngest-functions/cancellation",
+      "written_for": "3.0.0",
+      "last_updated": "2026-04-05"
+    },
+    "09-middleware.md": {
+      "source_page": "https://www.inngest.com/docs/features/middleware",
+      "written_for": "3.0.0",
+      "last_updated": "2026-04-05"
+    },
+    "10-serve-frameworks.md": {
+      "source_page": "https://www.inngest.com/docs/reference/serve",
+      "written_for": "3.0.0",
+      "last_updated": "2026-04-05"
+    },
+    "11-python-sdk.md": {
+      "source_page": "https://www.inngest.com/docs/getting-started/python-quick-start",
+      "written_for": "0.5.18",
+      "last_updated": "2026-04-05"
+    },
+    "12-typescript-patterns.md": {
+      "source_page": "https://www.inngest.com/docs/getting-started/nextjs-quick-start",
+      "written_for": "3.0.0",
+      "last_updated": "2026-04-05"
+    }
+  },
+  "staleness_threshold_days": 90
+}

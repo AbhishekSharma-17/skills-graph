@@ -10,7 +10,7 @@
     <a href="#-the-agent-skills-standard"><img src="https://img.shields.io/badge/Agent%20Skills-Universal%20Standard-purple.svg" alt="Skills Standard"></a>
     <a href="#-platform-compatibility"><img src="https://img.shields.io/badge/Platforms-25%2B-green.svg" alt="Platforms"></a>
     <a href="#-skills-catalog"><img src="https://img.shields.io/badge/Skills-14%20Production%20Ready-orange.svg" alt="Skills"></a>
-    <a href="#-the-technique-progressive-reference-architecture"><img src="https://img.shields.io/badge/Knowledge-84%2C900%2B%20Lines-red.svg" alt="Lines"></a>
+    <a href="#-the-technique-progressive-reference-architecture"><img src="https://img.shields.io/badge/Knowledge-87%2C000%2B%20Lines-red.svg" alt="Lines"></a>
   </p>
 </p>
 
@@ -52,8 +52,8 @@ Skills Graph is a **methodology** and a **collection** of production-grade AI ag
 Instead of dumping documentation into a single monolithic file or a flat folder of loosely related references, Skills Graph organizes knowledge as a **directed acyclic graph (DAG)** where every reference file is a node, every cross-reference is an edge, and a lightweight router sits at the root to guide the AI to exactly the information it needs -- nothing more, nothing less.
 
 <table>
-<tr><td><strong>Skills</strong></td><td>14 production-ready (Agno, MS Agent Framework, Remotion Prompt Generator, Trigger.dev, Drizzle ORM, Hono, Zod, Claude Agent SDK, Langfuse, Better Auth, Polars, Qdrant, OpenTelemetry, Inngest)</td></tr>
-<tr><td><strong>Total Knowledge</strong></td><td>84,900+ lines across 334 reference files</td></tr>
+<tr><td><strong>Skills</strong></td><td>15 production-ready (Agno, MS Agent Framework, Remotion Prompt Generator, Trigger.dev, Drizzle ORM, Hono, Zod, Claude Agent SDK, Langfuse, Better Auth, Polars, Qdrant, OpenTelemetry, Inngest, LiteLLM)</td></tr>
+<tr><td><strong>Total Knowledge</strong></td><td>87,000+ lines across 347 reference files</td></tr>
 <tr><td><strong>Router Overhead</strong></td><td>69-231 lines (the only cost when skill triggers)</td></tr>
 <tr><td><strong>Context Efficiency</strong></td><td>~97% reduction vs monolithic approach</td></tr>
 <tr><td><strong>Platform Support</strong></td><td>25+ AI coding assistants</td></tr>
@@ -82,7 +82,8 @@ Production-ready skills built with the Skills Graph methodology.
 | 12 | **[Qdrant](skills/qdrant/)** | [Qdrant](https://qdrant.tech/documentation/) v1.17.1 | `1.0.0` | 13 | ~3,735 | Production |
 | 13 | **[OpenTelemetry](skills/opentelemetry/)** | [OpenTelemetry](https://opentelemetry.io/docs/) Spec v1.55.0 | `1.0.0` | 13 | ~4,289 | Production |
 | 14 | **[Inngest](skills/inngest/)** | [Inngest](https://www.inngest.com/docs) TS SDK v3.x | `1.0.0` | 13 | ~4,556 | Production |
-| | | | | **334** | **~84,900** | |
+| 15 | **[LiteLLM](skills/litellm/)** | [LiteLLM](https://docs.litellm.ai) v1.52.0 | `1.0.0` | 13 | ~2,165 | Production |
+| | | | | **347** | **~87,065** | |
 
 <br />
 

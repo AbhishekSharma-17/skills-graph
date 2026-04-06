@@ -1,0 +1,84 @@
+{
+  "skill_version": "1.0.0",
+  "source_version_tracked": "1.52.0",
+  "source_package": "litellm",
+  "docs_snapshot_date": "2026-04-06",
+  "last_checked": "2026-04-06",
+  "last_updated": "2026-04-06",
+  "urls": {
+    "docs": "https://docs.litellm.ai",
+    "changelog": "https://github.com/BerriAI/litellm/releases",
+    "github": "https://github.com/BerriAI/litellm",
+    "pypi": "https://pypi.org/project/litellm/",
+    "providers": "https://docs.litellm.ai/docs/providers",
+    "proxy": "https://docs.litellm.ai/docs/simple_proxy"
+  },
+  "references": {
+    "00-overview.md": {
+      "source_page": "https://docs.litellm.ai/docs/",
+      "written_for": "1.52.0",
+      "last_updated": "2026-04-06"
+    },
+    "01-completion-api.md": {
+      "source_page": "https://docs.litellm.ai/docs/completion/input",
+      "written_for": "1.52.0",
+      "last_updated": "2026-04-06"
+    },
+    "02-providers.md": {
+      "source_page": "https://docs.litellm.ai/docs/providers",
+      "written_for": "1.52.0",
+      "last_updated": "2026-04-06"
+    },
+    "03-streaming.md": {
+      "source_page": "https://docs.litellm.ai/docs/completion/stream",
+      "written_for": "1.52.0",
+      "last_updated": "2026-04-06"
+    },
+    "04-async.md": {
+      "source_page": "https://docs.litellm.ai/docs/completion/stream",
+      "written_for": "1.52.0",
+      "last_updated": "2026-04-06"
+    },
+    "05-router.md": {
+      "source_page": "https://docs.litellm.ai/docs/routing",
+      "written_for": "1.52.0",
+      "last_updated": "2026-04-06"
+    },
+    "06-proxy-server.md": {
+      "source_page": "https://docs.litellm.ai/docs/simple_proxy",
+      "written_for": "1.52.0",
+      "last_updated": "2026-04-06"
+    },
+    "07-fallbacks-retries.md": {
+      "source_page": "https://docs.litellm.ai/docs/completion/reliable_completions",
+      "written_for": "1.52.0",
+      "last_updated": "2026-04-06"
+    },
+    "08-caching.md": {
+      "source_page": "https://docs.litellm.ai/docs/caching/all_caches",
+      "written_for": "1.52.0",
+      "last_updated": "2026-04-06"
+    },
+    "09-observability.md": {
+      "source_page": "https://docs.litellm.ai/docs/observability/callbacks",
+      "written_for": "1.52.0",
+      "last_updated": "2026-04-06"
+    },
+    "10-cost-tracking.md": {
+      "source_page": "https://docs.litellm.ai/docs/completion/token_usage",
+      "written_for": "1.52.0",
+      "last_updated": "2026-04-06"
+    },
+    "11-structured-outputs.md": {
+      "source_page": "https://docs.litellm.ai/docs/completion/json_mode",
+      "written_for": "1.52.0",
+      "last_updated": "2026-04-06"
+    },
+    "12-embeddings.md": {
+      "source_page": "https://docs.litellm.ai/docs/embedding/supported_embedding",
+      "written_for": "1.52.0",
+      "last_updated": "2026-04-06"
+    }
+  },
+  "staleness_threshold_days": 90
+}

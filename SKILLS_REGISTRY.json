@@ -1,7 +1,7 @@
 {
   "description": "Registry of all skills in the skills-graph repo. Used by daily automation to avoid duplicates.",
-  "last_updated": "2026-04-05",
-  "total_skills": 14,
+  "last_updated": "2026-04-06",
+  "total_skills": 15,
   "skills": [
     {
       "name": "agno",
@@ -141,6 +141,16 @@
       "reference_files": 13,
       "total_lines": 4556,
       "source_url": "https://www.inngest.com/docs",
+      "status": "active"
+    },
+    {
+      "name": "litellm",
+      "domain": "LLM Tools",
+      "created_date": "2026-04-06",
+      "version": "1.0.0",
+      "reference_files": 13,
+      "total_lines": 2165,
+      "source_url": "https://docs.litellm.ai",
       "status": "active"
     }
   ],

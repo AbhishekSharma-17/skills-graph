@@ -1,0 +1,64 @@
+{
+  "skill_version": "1.0.0",
+  "source_version_tracked": "2.5.43",
+  "source_package": "dspy",
+  "docs_snapshot_date": "2026-04-07",
+  "last_checked": "2026-04-07",
+  "last_updated": "2026-04-07",
+  "urls": {
+    "docs": "https://dspy.ai",
+    "changelog": "https://github.com/stanfordnlp/dspy/releases",
+    "github": "https://github.com/stanfordnlp/dspy",
+    "pypi": "https://pypi.org/project/dspy/",
+    "tutorials": "https://dspy.ai/tutorials/",
+    "api_reference": "https://dspy.ai/api/"
+  },
+  "references": {
+    "00-overview.md": {
+      "source_page": "https://dspy.ai/",
+      "written_for": "2.5.43",
+      "last_updated": "2026-04-07"
+    },
+    "01-signatures.md": {
+      "source_page": "https://dspy.ai/learn/programming/signatures",
+      "written_for": "2.5.43",
+      "last_updated": "2026-04-07"
+    },
+    "02-modules.md": {
+      "source_page": "https://dspy.ai/learn/programming/modules",
+      "written_for": "2.5.43",
+      "last_updated": "2026-04-07"
+    },
+    "03-lm-configuration.md": {
+      "source_page": "https://dspy.ai/learn/programming/language_models",
+      "written_for": "2.5.43",
+      "last_updated": "2026-04-07"
+    },
+    "04-optimizers.md": {
+      "source_page": "https://dspy.ai/learn/optimization/optimizers",
+      "written_for": "2.5.43",
+      "last_updated": "2026-04-07"
+    },
+    "05-metrics-evaluation.md": {
+      "source_page": "https://dspy.ai/learn/evaluation/metrics",
+      "written_for": "2.5.43",
+      "last_updated": "2026-04-07"
+    },
+    "06-rag-retrieval.md": {
+      "source_page": "https://dspy.ai/learn/programming/modules/#retrieval",
+      "written_for": "2.5.43",
+      "last_updated": "2026-04-07"
+    },
+    "07-assertions.md": {
+      "source_page": "https://dspy.ai/learn/programming/assertions",
+      "written_for": "2.5.43",
+      "last_updated": "2026-04-07"
+    },
+    "08-deployment.md": {
+      "source_page": "https://dspy.ai/tutorials/deployment",
+      "written_for": "2.5.43",
+      "last_updated": "2026-04-07"
+    }
+  },
+  "staleness_threshold_days": 90
+}

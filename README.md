@@ -3,14 +3,14 @@
   <p align="center">
     <strong>Precision-engineered AI agent skills with interconnected reference architectures.</strong>
     <br />
-    <em>A methodology for building skills that carry 80,000+ lines of knowledge<br />while loading only what the AI actually needs.</em>
+    <em>A methodology for building skills that carry 99,000+ lines of knowledge<br />while loading only what the AI actually needs.</em>
   </p>
   <p align="center">
     <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT"></a>
     <a href="#-the-agent-skills-standard"><img src="https://img.shields.io/badge/Agent%20Skills-Universal%20Standard-purple.svg" alt="Skills Standard"></a>
     <a href="#-platform-compatibility"><img src="https://img.shields.io/badge/Platforms-25%2B-green.svg" alt="Platforms"></a>
-    <a href="#-skills-catalog"><img src="https://img.shields.io/badge/Skills-17%20Production%20Ready-orange.svg" alt="Skills"></a>
-    <a href="#-the-technique-progressive-reference-architecture"><img src="https://img.shields.io/badge/Knowledge-96%2C000%2B%20Lines-red.svg" alt="Lines"></a>
+    <a href="#-skills-catalog"><img src="https://img.shields.io/badge/Skills-18%20Production%20Ready-orange.svg" alt="Skills"></a>
+    <a href="#-the-technique-progressive-reference-architecture"><img src="https://img.shields.io/badge/Knowledge-99%2C000%2B%20Lines-red.svg" alt="Lines"></a>
   </p>
 </p>
 
@@ -45,7 +45,7 @@
 
 ## Overview
 
-> *"An 80,000-line knowledge base that costs the same as a 50-line skill -- until you actually need it."*
+> *"A 99,000-line knowledge base that costs the same as a 50-line skill -- until you actually need it."*
 
 Skills Graph is a **methodology** and a **collection** of production-grade AI agent skills built using **Progressive Reference Architecture (PRA)** -- a systematic approach to creating deeply interconnected, graph-structured knowledge bases that AI coding assistants can navigate with surgical precision.
 
@@ -85,7 +85,8 @@ Production-ready skills built with the Skills Graph methodology.
 | 15 | **[LiteLLM](skills/litellm/)** | [LiteLLM](https://docs.litellm.ai) v1.52.0 | `1.0.0` | 13 | ~2,165 | Production |
 | 16 | **[DSPy](skills/dspy/)** | [DSPy](https://dspy.ai) v2.5.43 | `1.0.0` | 9 | ~1,887 | Production |
 | 17 | **[Design Engineering](skills/design-engineering/)** | Original — consolidated from 27 design skills | `1.0.0` | 27 | ~7,137 | Production |
-| | | | | **383** | **~96,089** | |
+| 18 | **[LiveKit](skills/livekit/)** | [LiveKit Agents](https://docs.livekit.io) v1.5.2 | `1.0.0` | 12 | ~3,671 | Production |
+| | | | | **395** | **~99,760** | |
 
 <br />
 
@@ -787,6 +788,27 @@ skills-graph/
         |-- 15-harden-production.md   # i18n, edge cases, Core Web Vitals
         |-- 16-redesign-upgrade.md    # 12-category audit, upgrade techniques
         +-- 17-anti-patterns.md       # Consolidated ban list from 27 skills
+|
++-- livekit/                           # v1.0.0 | 12 files | ~3,671 lines
+    |-- SKILL.md                      # 52 lines, 12 routing entries
+    |-- VERSION.json
+    |-- CHANGELOG.md
+    |-- AUDIT-REPORT.md
+    |-- scripts/
+    |   +-- check-updates.py
+    +-- references/
+        |-- 00-overview.md            # Architecture, installation, CLI, quickstart
+        |-- 01-core-concepts.md       # Rooms, participants, tracks, tokens, WebRTC
+        |-- 02-agent-sessions.md      # AgentSession lifecycle, events, RoomIO
+        |-- 03-voice-pipeline.md      # STT-LLM-TTS, VAD, turn detection, interruptions
+        |-- 04-models-plugins.md      # Provider plugins, LiveKit Inference, OpenAI compat
+        |-- 05-tools-function-calling.md # function_tool, provider tools, MCP, RPC
+        |-- 06-multi-agent-workflows.md  # Agent handoffs, tasks, task groups
+        |-- 07-frontend-sdks.md       # React components, JS SDK, mobile SDKs
+        |-- 08-telephony-sip.md       # SIP trunking, phone numbers, DTMF
+        |-- 09-room-service-api.md    # Twirp API, room/participant management
+        |-- 10-deployment-observability.md # Cloud, Docker, K8s, metrics
+        +-- 11-recipes-patterns.md    # Push-to-talk, RAG, translation, IVR
 ```
 
 ---
@@ -814,6 +836,7 @@ npx skills add AbhishekSharma-17/skills-graph --skill hono
 npx skills add AbhishekSharma-17/skills-graph --skill zod
 npx skills add AbhishekSharma-17/skills-graph --skill claude-agent-sdk
 npx skills add AbhishekSharma-17/skills-graph --skill design-engineering
+npx skills add AbhishekSharma-17/skills-graph --skill livekit
 
 # Install globally (available across all projects)
 npx skills add AbhishekSharma-17/skills-graph -g

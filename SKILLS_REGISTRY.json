@@ -1,7 +1,7 @@
 {
   "description": "Registry of all skills in the skills-graph repo. Used by daily automation to avoid duplicates.",
   "last_updated": "2026-04-09",
-  "total_skills": 17,
+  "total_skills": 18,
   "skills": [
     {
       "name": "agno",
@@ -171,6 +171,16 @@
       "reference_files": 27,
       "total_lines": 7137,
       "source_url": null,
+      "status": "active"
+    },
+    {
+      "name": "livekit",
+      "domain": "Real-time & Streaming",
+      "created_date": "2026-04-09",
+      "version": "1.0.0",
+      "reference_files": 12,
+      "total_lines": 3671,
+      "source_url": "https://docs.livekit.io",
       "status": "active"
     }
   ],

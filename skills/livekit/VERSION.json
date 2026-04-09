@@ -1,0 +1,78 @@
+{
+  "skill_name": "livekit",
+  "skill_version": "1.0.0",
+  "source_version_tracked": "1.5.2",
+  "source_package": "livekit-agents",
+  "docs_snapshot_date": "2026-04-09",
+  "last_checked": "2026-04-09",
+  "last_updated": "2026-04-09",
+  "urls": {
+    "docs": "https://docs.livekit.io",
+    "changelog": "https://github.com/livekit/agents/releases",
+    "github": "https://github.com/livekit/agents",
+    "pypi": "https://pypi.org/project/livekit-agents/"
+  },
+  "staleness_threshold_days": 90,
+  "references": {
+    "00-overview.md": {
+      "source_page": "https://docs.livekit.io/intro/overview/",
+      "written_for": "1.5.2",
+      "last_updated": "2026-04-09"
+    },
+    "01-core-concepts.md": {
+      "source_page": "https://docs.livekit.io/intro/basics/",
+      "written_for": "1.5.2",
+      "last_updated": "2026-04-09"
+    },
+    "02-agent-sessions.md": {
+      "source_page": "https://docs.livekit.io/agents/logic/sessions/",
+      "written_for": "1.5.2",
+      "last_updated": "2026-04-09"
+    },
+    "03-voice-pipeline.md": {
+      "source_page": "https://docs.livekit.io/agents/build/",
+      "written_for": "1.5.2",
+      "last_updated": "2026-04-09"
+    },
+    "04-models-plugins.md": {
+      "source_page": "https://docs.livekit.io/agents/models/",
+      "written_for": "1.5.2",
+      "last_updated": "2026-04-09"
+    },
+    "05-tools-function-calling.md": {
+      "source_page": "https://docs.livekit.io/agents/logic/tools/",
+      "written_for": "1.5.2",
+      "last_updated": "2026-04-09"
+    },
+    "06-multi-agent-workflows.md": {
+      "source_page": "https://docs.livekit.io/agents/logic/workflows/",
+      "written_for": "1.5.2",
+      "last_updated": "2026-04-09"
+    },
+    "07-frontend-sdks.md": {
+      "source_page": "https://docs.livekit.io/frontends/",
+      "written_for": "1.5.2",
+      "last_updated": "2026-04-09"
+    },
+    "08-telephony-sip.md": {
+      "source_page": "https://docs.livekit.io/telephony/",
+      "written_for": "1.5.2",
+      "last_updated": "2026-04-09"
+    },
+    "09-room-service-api.md": {
+      "source_page": "https://docs.livekit.io/reference/other/roomservice-api/",
+      "written_for": "1.5.2",
+      "last_updated": "2026-04-09"
+    },
+    "10-deployment-observability.md": {
+      "source_page": "https://docs.livekit.io/deploy/agents/",
+      "written_for": "1.5.2",
+      "last_updated": "2026-04-09"
+    },
+    "11-recipes-patterns.md": {
+      "source_page": "https://docs.livekit.io/reference/recipes/",
+      "written_for": "1.5.2",
+      "last_updated": "2026-04-09"
+    }
+  }
+}

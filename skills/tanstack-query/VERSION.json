@@ -1,0 +1,83 @@
+{
+  "skill_name": "tanstack-query",
+  "skill_version": "1.0.0",
+  "source_version_tracked": "5.95.0",
+  "source_package": "@tanstack/react-query",
+  "docs_snapshot_date": "2026-03-31",
+  "last_checked": "2026-03-31",
+  "last_updated": "2026-03-31",
+  "urls": {
+    "docs": "https://tanstack.com/query/latest",
+    "changelog": "https://github.com/TanStack/query/releases",
+    "github": "https://github.com/TanStack/query",
+    "npm": "https://www.npmjs.com/package/@tanstack/react-query"
+  },
+  "staleness_threshold_days": 90,
+  "references": {
+    "00-overview.md": {
+      "source_page": "https://tanstack.com/query/v5/docs/framework/react/overview",
+      "written_for": "5.95.0",
+      "last_updated": "2026-03-31"
+    },
+    "01-queries.md": {
+      "source_page": "https://tanstack.com/query/v5/docs/framework/react/guides/queries",
+      "written_for": "5.95.0",
+      "last_updated": "2026-03-31"
+    },
+    "02-mutations.md": {
+      "source_page": "https://tanstack.com/query/v5/docs/framework/react/guides/mutations",
+      "written_for": "5.95.0",
+      "last_updated": "2026-03-31"
+    },
+    "03-query-invalidation.md": {
+      "source_page": "https://tanstack.com/query/v5/docs/framework/react/guides/query-invalidation",
+      "written_for": "5.95.0",
+      "last_updated": "2026-03-31"
+    },
+    "04-caching.md": {
+      "source_page": "https://tanstack.com/query/v5/docs/framework/react/guides/caching",
+      "written_for": "5.95.0",
+      "last_updated": "2026-03-31"
+    },
+    "05-pagination-infinite.md": {
+      "source_page": "https://tanstack.com/query/v5/docs/framework/react/guides/infinite-queries",
+      "written_for": "5.95.0",
+      "last_updated": "2026-03-31"
+    },
+    "06-optimistic-updates.md": {
+      "source_page": "https://tanstack.com/query/v5/docs/framework/react/guides/optimistic-updates",
+      "written_for": "5.95.0",
+      "last_updated": "2026-03-31"
+    },
+    "07-prefetching.md": {
+      "source_page": "https://tanstack.com/query/v5/docs/framework/react/guides/prefetching",
+      "written_for": "5.95.0",
+      "last_updated": "2026-03-31"
+    },
+    "08-ssr-hydration.md": {
+      "source_page": "https://tanstack.com/query/v5/docs/framework/react/guides/advanced-ssr",
+      "written_for": "5.95.0",
+      "last_updated": "2026-03-31"
+    },
+    "09-suspense.md": {
+      "source_page": "https://tanstack.com/query/v5/docs/framework/react/guides/suspense",
+      "written_for": "5.95.0",
+      "last_updated": "2026-03-31"
+    },
+    "10-dependent-parallel.md": {
+      "source_page": "https://tanstack.com/query/v5/docs/framework/react/guides/dependent-queries",
+      "written_for": "5.95.0",
+      "last_updated": "2026-03-31"
+    },
+    "11-typescript.md": {
+      "source_page": "https://tanstack.com/query/v5/docs/framework/react/typescript",
+      "written_for": "5.95.0",
+      "last_updated": "2026-03-31"
+    },
+    "12-devtools-testing.md": {
+      "source_page": "https://tanstack.com/query/v5/docs/framework/react/devtools",
+      "written_for": "5.95.0",
+      "last_updated": "2026-03-31"
+    }
+  }
+}

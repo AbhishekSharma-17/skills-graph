@@ -1,7 +1,7 @@
 {
   "description": "Registry of all skills in the skills-graph repo. Used by daily automation to avoid duplicates.",
-  "last_updated": "2026-04-09",
-  "total_skills": 18,
+  "last_updated": "2026-04-10",
+  "total_skills": 19,
   "skills": [
     {
       "name": "agno",
@@ -181,6 +181,16 @@
       "reference_files": 12,
       "total_lines": 3671,
       "source_url": "https://docs.livekit.io",
+      "status": "active"
+    },
+    {
+      "name": "convex",
+      "domain": "Cloud Platforms & BaaS",
+      "created_date": "2026-04-10",
+      "version": "1.0.0",
+      "reference_files": 13,
+      "total_lines": 4443,
+      "source_url": "https://docs.convex.dev",
       "status": "active"
     }
   ],

@@ -1,0 +1,83 @@
+{
+  "skill_version": "1.0.0",
+  "source_version_tracked": "1.34.1",
+  "source_package": "convex",
+  "docs_snapshot_date": "2026-04-10",
+  "last_checked": "2026-04-10",
+  "last_updated": "2026-04-10",
+  "urls": {
+    "docs": "https://docs.convex.dev",
+    "changelog": "https://ship.convex.dev",
+    "github": "https://github.com/get-convex/convex-backend",
+    "github_js": "https://github.com/get-convex/convex-js",
+    "npm": "https://www.npmjs.com/package/convex"
+  },
+  "references": {
+    "00-overview.md": {
+      "source_page": "https://docs.convex.dev",
+      "written_for": "1.34.1",
+      "last_updated": "2026-04-10"
+    },
+    "01-functions-queries-mutations.md": {
+      "source_page": "https://docs.convex.dev/functions",
+      "written_for": "1.34.1",
+      "last_updated": "2026-04-10"
+    },
+    "02-functions-actions-http.md": {
+      "source_page": "https://docs.convex.dev/functions/actions",
+      "written_for": "1.34.1",
+      "last_updated": "2026-04-10"
+    },
+    "03-database-schemas.md": {
+      "source_page": "https://docs.convex.dev/database/schemas",
+      "written_for": "1.34.1",
+      "last_updated": "2026-04-10"
+    },
+    "04-indexes-performance.md": {
+      "source_page": "https://docs.convex.dev/database/indexes",
+      "written_for": "1.34.1",
+      "last_updated": "2026-04-10"
+    },
+    "05-authentication.md": {
+      "source_page": "https://docs.convex.dev/auth",
+      "written_for": "1.34.1",
+      "last_updated": "2026-04-10"
+    },
+    "06-file-storage.md": {
+      "source_page": "https://docs.convex.dev/file-storage",
+      "written_for": "1.34.1",
+      "last_updated": "2026-04-10"
+    },
+    "07-scheduling.md": {
+      "source_page": "https://docs.convex.dev/scheduling/scheduled-functions",
+      "written_for": "1.34.1",
+      "last_updated": "2026-04-10"
+    },
+    "08-search.md": {
+      "source_page": "https://docs.convex.dev/search",
+      "written_for": "1.34.1",
+      "last_updated": "2026-04-10"
+    },
+    "09-react-client.md": {
+      "source_page": "https://docs.convex.dev/client/react",
+      "written_for": "1.34.1",
+      "last_updated": "2026-04-10"
+    },
+    "10-ai-agents.md": {
+      "source_page": "https://docs.convex.dev/ai",
+      "written_for": "1.34.1",
+      "last_updated": "2026-04-10"
+    },
+    "11-best-practices.md": {
+      "source_page": "https://docs.convex.dev/understanding/best-practices",
+      "written_for": "1.34.1",
+      "last_updated": "2026-04-10"
+    },
+    "12-testing-deployment.md": {
+      "source_page": "https://docs.convex.dev/production",
+      "written_for": "1.34.1",
+      "last_updated": "2026-04-10"
+    }
+  },
+  "staleness_threshold_days": 90
+}

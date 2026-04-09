@@ -9,8 +9,8 @@
     <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT"></a>
     <a href="#-the-agent-skills-standard"><img src="https://img.shields.io/badge/Agent%20Skills-Universal%20Standard-purple.svg" alt="Skills Standard"></a>
     <a href="#-platform-compatibility"><img src="https://img.shields.io/badge/Platforms-25%2B-green.svg" alt="Platforms"></a>
-    <a href="#-skills-catalog"><img src="https://img.shields.io/badge/Skills-16%20Production%20Ready-orange.svg" alt="Skills"></a>
-    <a href="#-the-technique-progressive-reference-architecture"><img src="https://img.shields.io/badge/Knowledge-87%2C000%2B%20Lines-red.svg" alt="Lines"></a>
+    <a href="#-skills-catalog"><img src="https://img.shields.io/badge/Skills-17%20Production%20Ready-orange.svg" alt="Skills"></a>
+    <a href="#-the-technique-progressive-reference-architecture"><img src="https://img.shields.io/badge/Knowledge-96%2C000%2B%20Lines-red.svg" alt="Lines"></a>
   </p>
 </p>
 
@@ -52,8 +52,8 @@ Skills Graph is a **methodology** and a **collection** of production-grade AI ag
 Instead of dumping documentation into a single monolithic file or a flat folder of loosely related references, Skills Graph organizes knowledge as a **directed acyclic graph (DAG)** where every reference file is a node, every cross-reference is an edge, and a lightweight router sits at the root to guide the AI to exactly the information it needs -- nothing more, nothing less.
 
 <table>
-<tr><td><strong>Skills</strong></td><td>16 production-ready (Agno, MS Agent Framework, Remotion Prompt Generator, Trigger.dev, Drizzle ORM, Hono, Zod, Claude Agent SDK, Langfuse, Better Auth, Polars, Qdrant, OpenTelemetry, Inngest, LiteLLM, DSPy)</td></tr>
-<tr><td><strong>Total Knowledge</strong></td><td>88,000+ lines across 356 reference files</td></tr>
+<tr><td><strong>Skills</strong></td><td>17 production-ready (Agno, MS Agent Framework, Remotion Prompt Generator, Trigger.dev, Drizzle ORM, Hono, Zod, Claude Agent SDK, Langfuse, Better Auth, Polars, Qdrant, OpenTelemetry, Inngest, LiteLLM, DSPy, Design Engineering)</td></tr>
+<tr><td><strong>Total Knowledge</strong></td><td>96,000+ lines across 383 reference files</td></tr>
 <tr><td><strong>Router Overhead</strong></td><td>69-231 lines (the only cost when skill triggers)</td></tr>
 <tr><td><strong>Context Efficiency</strong></td><td>~97% reduction vs monolithic approach</td></tr>
 <tr><td><strong>Platform Support</strong></td><td>25+ AI coding assistants</td></tr>
@@ -84,7 +84,8 @@ Production-ready skills built with the Skills Graph methodology.
 | 14 | **[Inngest](skills/inngest/)** | [Inngest](https://www.inngest.com/docs) TS SDK v3.x | `1.0.0` | 13 | ~4,556 | Production |
 | 15 | **[LiteLLM](skills/litellm/)** | [LiteLLM](https://docs.litellm.ai) v1.52.0 | `1.0.0` | 13 | ~2,165 | Production |
 | 16 | **[DSPy](skills/dspy/)** | [DSPy](https://dspy.ai) v2.5.43 | `1.0.0` | 9 | ~1,887 | Production |
-| | | | | **356** | **~88,952** | |
+| 17 | **[Design Engineering](skills/design-engineering/)** | Original — consolidated from 27 design skills | `1.0.0` | 27 | ~7,137 | Production |
+| | | | | **383** | **~96,089** | |
 
 <br />
 
@@ -161,6 +162,30 @@ Production-ready skills built with the Skills Graph methodology.
 | **Deployment** | dev command, deploy command (all flags), 4 environments (DEV/STAGING/PREVIEW/PROD), CI/CD (GitHub Actions, GitLab CI), self-hosting (Docker, Kubernetes), preview branches, monorepo setup |
 
 **Graph topology:** 0 router nodes / 11 leaf nodes / 11 routing entries
+
+</details>
+
+<br />
+
+<details>
+<summary><strong>Design Engineering -- Detailed Coverage (click to expand)</strong></summary>
+
+&nbsp;
+
+> Full-lifecycle frontend design engineering: plan, build, style, review, refine, harden, and ship production-grade interfaces. Consolidated from 27 specialized design skills.
+
+| Phase | Topics |
+|:------|:-------|
+| **Plan** | Context gathering, teach mode, .impeccable.md setup, discovery interviews, design briefs, craft flow (5-step build process) |
+| **Build** | Typography (font selection, type scale, vertical rhythm, web fonts), Color (OKLCH, 60-30-10 rule, palettes, dark mode), Layout (4pt scale, grids, container queries, hierarchy), Motion (duration rules, easing, staggered animations, delight, overdrive toolkit), Interaction (8 states, forms, dialogs, Popover API, focus management), UX Copy (button labels, error formula, onboarding, translation), Responsive (mobile-first, input detection, safe areas, adaptation) |
+| **Style** | 4 complete archetypes: Minimalist Editorial (warm monochrome, bento), Brutalist Industrial (Swiss typography, CRT terminal), High-End Agency ($150k+ aesthetics, spring physics), Creative Arsenal (Bento 2.0, scroll hijack, magnetic UI) |
+| **Review** | Design critique (two-assessment methodology), Nielsen's 10 heuristics (0-4 scoring), 5 test personas (power user, first-timer, accessibility, stress tester, mobile), Cognitive load (3 types, 8-item checklist), Technical audit (a11y, performance, theming, responsive) |
+| **Refine** | Polish (18-point checklist), Intensity UP (bolder), Intensity DOWN (quieter), Distill (simplify to essence) |
+| **System** | Design system normalization, component/token extraction, migration strategy |
+| **Harden** | i18n (RTL, CJK, text expansion), edge cases, error handling, Core Web Vitals (LCP, FID/INP, CLS), performance optimization |
+| **Upgrade** | 12-category audit checklist, upgrade techniques, fix priority order, anti-patterns bible |
+
+**Graph topology:** 2 router nodes / 25 leaf nodes / 27 routing entries
 
 </details>
 
@@ -724,6 +749,44 @@ skills-graph/
         |-- 09-testing.md             # app.request, Vitest, env mocking
         |-- 10-runtime-adapters.md    # Node.js, CF Workers, Bun, Deno, Lambda
         +-- 11-best-practices.md      # Structure, security, performance, CI/CD
+|
++-- design-engineering/               # v1.0.0 | 27 files | ~7,137 lines
+    |-- SKILL.md                      # 65 lines, 18 routing entries
+    |-- VERSION.json
+    |-- CHANGELOG.md
+    |-- AUDIT-REPORT.md
+    |-- scripts/
+    |   +-- check-updates.py
+    +-- references/
+        |-- 00-overview.md            # Philosophy, config dials, anti-slop manifesto
+        |-- 01-context-gathering.md   # Teach mode, .impeccable.md setup
+        |-- 02-shape-discovery.md     # Discovery interview, design brief
+        |-- 03-craft-flow.md          # 5-step build process
+        |-- 04-typography.md          # Fonts, scale, rhythm, OpenType
+        |-- 05-color-system.md        # OKLCH, palettes, dark mode, contrast
+        |-- 06-layout-spacing.md      # 4pt scale, grids, hierarchy, depth
+        |-- 07-motion-delight.md      # Animation, delight, overdrive toolkit
+        |-- 08-interaction.md         # States, forms, dialogs, Popover API
+        |-- 09-ux-copy.md             # Copy, errors, onboarding, translation
+        |-- 10-responsive.md          # Mobile-first, input detection, adaptation
+        |-- 11-style-archetypes.md    # ROUTER -> 4 visual styles
+        |-- style-archetypes/
+        |   |-- minimalist.md         # Editorial minimalism, warm monochrome
+        |   |-- brutalist-industrial.md # Swiss typography, CRT terminal
+        |   |-- high-end-agency.md    # $150k+ agency aesthetics
+        |   +-- creative-arsenal.md   # Bento 2.0, scroll hijack, magnetic UI
+        |-- 12-critique-evaluate.md   # ROUTER -> 5 evaluation types
+        |-- critique-evaluate/
+        |   |-- design-critique.md    # Two-assessment methodology
+        |   |-- heuristics-scoring.md # Nielsen's 10, 0-4 scoring
+        |   |-- personas.md           # 5 test personas
+        |   |-- cognitive-load.md     # 3 types, working memory rule
+        |   +-- technical-audit.md    # A11y, perf, theming, responsive
+        |-- 13-refine-intensity.md    # Polish, bolder, quieter, distill
+        |-- 14-design-system.md       # Normalize, extract tokens/components
+        |-- 15-harden-production.md   # i18n, edge cases, Core Web Vitals
+        |-- 16-redesign-upgrade.md    # 12-category audit, upgrade techniques
+        +-- 17-anti-patterns.md       # Consolidated ban list from 27 skills
 ```
 
 ---
@@ -750,6 +813,7 @@ npx skills add AbhishekSharma-17/skills-graph --skill drizzle-orm
 npx skills add AbhishekSharma-17/skills-graph --skill hono
 npx skills add AbhishekSharma-17/skills-graph --skill zod
 npx skills add AbhishekSharma-17/skills-graph --skill claude-agent-sdk
+npx skills add AbhishekSharma-17/skills-graph --skill design-engineering
 
 # Install globally (available across all projects)
 npx skills add AbhishekSharma-17/skills-graph -g

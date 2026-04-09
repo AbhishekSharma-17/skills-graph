@@ -45,3 +45,26 @@ metadata:
 - **Reviewing/critiquing?** Read 12 → pick evaluation type
 - **Finishing/shipping?** Read 13 → 15
 - **Fixing existing UI?** Read 16 + 17
+
+## Install This Skill
+
+```bash
+# Via Smithery (any platform)
+smithery install design-engineering
+
+# Manual — copy this folder to your platform's skill directory:
+# Claude Code:   .claude/skills/design-engineering/    or ~/.claude/skills/design-engineering/
+# Gemini CLI:    .gemini/skills/design-engineering/    or ~/.gemini/skills/design-engineering/
+# Cursor:        .cursor/skills/design-engineering/    or ~/.cursor/skills/design-engineering/
+# Windsurf:      .windsurf/skills/design-engineering/  or ~/.codeium/windsurf/skills/design-engineering/
+# Codex:         .codex/skills/design-engineering/     or ~/.codex/skills/design-engineering/
+# Trae:          .trae/skills/design-engineering/      or ~/.trae/skills/design-engineering/
+# Antigravity:   .agent/skills/design-engineering/     or ~/.gemini/antigravity/skills/design-engineering/
+```
+
+## Version Tracking
+
+- **Skill version:** 1.0.0 | **Snapshot:** 2026-04-09
+- Version metadata: `VERSION.json`
+- Update checker: `python scripts/check-updates.py`
+- Changelog: `CHANGELOG.md`

@@ -1,7 +1,7 @@
 {
   "description": "Registry of all skills in the skills-graph repo. Used by daily automation to avoid duplicates.",
-  "last_updated": "2026-04-07",
-  "total_skills": 16,
+  "last_updated": "2026-04-09",
+  "total_skills": 17,
   "skills": [
     {
       "name": "agno",
@@ -161,6 +161,16 @@
       "reference_files": 9,
       "total_lines": 1887,
       "source_url": "https://dspy.ai",
+      "status": "active"
+    },
+    {
+      "name": "design-engineering",
+      "domain": "UI Libraries",
+      "created_date": "2026-04-09",
+      "version": "1.0.0",
+      "reference_files": 27,
+      "total_lines": 7137,
+      "source_url": null,
       "status": "active"
     }
   ],

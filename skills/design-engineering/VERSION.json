@@ -1,0 +1,59 @@
+{
+  "skill_name": "design-engineering",
+  "skill_version": "1.0.0",
+  "source_description": "Consolidated from 27 specialized design skills",
+  "content_snapshot_date": "2026-04-09",
+  "last_checked": "2026-04-09",
+  "last_updated": "2026-04-09",
+  "skill_version_history": ["1.0.0"],
+  "stats": {
+    "routing_entries": 27,
+    "reference_files": 27,
+    "total_lines": 7137
+  },
+  "urls": {
+    "github": "https://github.com/anthropics/skills-graph"
+  },
+  "source_skills": [
+    "impeccable", "design-taste-frontend", "high-end-visual-design",
+    "minimalist-ui", "industrial-brutalist-ui", "stitch-design-taste",
+    "shape", "critique", "audit", "redesign-existing-projects",
+    "typeset", "colorize", "arrange", "animate", "delight", "overdrive",
+    "polish", "bolder", "quieter", "distill", "clarify", "onboard",
+    "normalize", "extract", "harden", "optimize", "adapt"
+  ],
+  "excluded_sections": [
+    "full-output-enforcement (behavioral protocol, not design knowledge)",
+    "stitch-design-taste Stitch-specific parts (Google Stitch-only; universal parts merged into overview)"
+  ],
+  "references": {
+    "00-overview.md": { "source": "impeccable + design-taste-frontend + high-end-visual-design", "written_for": "1.0.0", "last_updated": "2026-04-09" },
+    "01-context-gathering.md": { "source": "impeccable (teach mode)", "written_for": "1.0.0", "last_updated": "2026-04-09" },
+    "02-shape-discovery.md": { "source": "shape", "written_for": "1.0.0", "last_updated": "2026-04-09" },
+    "03-craft-flow.md": { "source": "impeccable/craft.md", "written_for": "1.0.0", "last_updated": "2026-04-09" },
+    "04-typography.md": { "source": "typeset + impeccable/typography.md", "written_for": "1.0.0", "last_updated": "2026-04-09" },
+    "05-color-system.md": { "source": "colorize + impeccable/color-and-contrast.md", "written_for": "1.0.0", "last_updated": "2026-04-09" },
+    "06-layout-spacing.md": { "source": "arrange + impeccable/spatial-design.md", "written_for": "1.0.0", "last_updated": "2026-04-09" },
+    "07-motion-delight.md": { "source": "animate + delight + impeccable/motion-design.md + overdrive", "written_for": "1.0.0", "last_updated": "2026-04-09" },
+    "08-interaction.md": { "source": "impeccable/interaction-design.md", "written_for": "1.0.0", "last_updated": "2026-04-09" },
+    "09-ux-copy.md": { "source": "clarify + onboard + impeccable/ux-writing.md", "written_for": "1.0.0", "last_updated": "2026-04-09" },
+    "10-responsive.md": { "source": "adapt + impeccable/responsive-design.md", "written_for": "1.0.0", "last_updated": "2026-04-09" },
+    "11-style-archetypes.md": { "type": "router", "written_for": "1.0.0", "last_updated": "2026-04-09" },
+    "style-archetypes/minimalist.md": { "source": "minimalist-ui", "written_for": "1.0.0", "last_updated": "2026-04-09" },
+    "style-archetypes/brutalist-industrial.md": { "source": "industrial-brutalist-ui", "written_for": "1.0.0", "last_updated": "2026-04-09" },
+    "style-archetypes/high-end-agency.md": { "source": "high-end-visual-design", "written_for": "1.0.0", "last_updated": "2026-04-09" },
+    "style-archetypes/creative-arsenal.md": { "source": "design-taste-frontend", "written_for": "1.0.0", "last_updated": "2026-04-09" },
+    "12-critique-evaluate.md": { "type": "router", "written_for": "1.0.0", "last_updated": "2026-04-09" },
+    "critique-evaluate/design-critique.md": { "source": "critique", "written_for": "1.0.0", "last_updated": "2026-04-09" },
+    "critique-evaluate/heuristics-scoring.md": { "source": "critique/heuristics-scoring.md", "written_for": "1.0.0", "last_updated": "2026-04-09" },
+    "critique-evaluate/personas.md": { "source": "critique/personas.md", "written_for": "1.0.0", "last_updated": "2026-04-09" },
+    "critique-evaluate/cognitive-load.md": { "source": "critique/cognitive-load.md", "written_for": "1.0.0", "last_updated": "2026-04-09" },
+    "critique-evaluate/technical-audit.md": { "source": "audit", "written_for": "1.0.0", "last_updated": "2026-04-09" },
+    "13-refine-intensity.md": { "source": "polish + bolder + quieter + distill", "written_for": "1.0.0", "last_updated": "2026-04-09" },
+    "14-design-system.md": { "source": "normalize + extract", "written_for": "1.0.0", "last_updated": "2026-04-09" },
+    "15-harden-production.md": { "source": "harden + optimize", "written_for": "1.0.0", "last_updated": "2026-04-09" },
+    "16-redesign-upgrade.md": { "source": "redesign-existing-projects", "written_for": "1.0.0", "last_updated": "2026-04-09" },
+    "17-anti-patterns.md": { "source": "all skills (consolidated bans)", "written_for": "1.0.0", "last_updated": "2026-04-09" }
+  },
+  "staleness_threshold_days": 90
+}

@@ -11,9 +11,7 @@
     "reference_files": 27,
     "total_lines": 7137
   },
-  "urls": {
-    "github": "https://github.com/anthropics/skills-graph"
-  },
+  "urls": {},
   "source_skills": [
     "impeccable", "design-taste-frontend", "high-end-visual-design",
     "minimalist-ui", "industrial-brutalist-ui", "stitch-design-taste",

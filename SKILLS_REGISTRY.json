@@ -1,7 +1,7 @@
 {
   "description": "Registry of all skills in the skills-graph repo. Used by daily automation to avoid duplicates.",
-  "last_updated": "2026-04-10",
-  "total_skills": 19,
+  "last_updated": "2026-04-11",
+  "total_skills": 20,
   "skills": [
     {
       "name": "agno",
@@ -191,6 +191,16 @@
       "reference_files": 13,
       "total_lines": 4443,
       "source_url": "https://docs.convex.dev",
+      "status": "active"
+    },
+    {
+      "name": "ai-sdk",
+      "domain": "AI/ML Frameworks",
+      "created_date": "2026-04-11",
+      "version": "1.0.0",
+      "reference_files": 13,
+      "total_lines": 4118,
+      "source_url": "https://ai-sdk.dev",
       "status": "active"
     }
   ],

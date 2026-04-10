@@ -1,0 +1,82 @@
+{
+  "skill_version": "1.0.0",
+  "source_version_tracked": "6.0.158",
+  "source_package": "ai",
+  "docs_snapshot_date": "2026-04-11",
+  "last_checked": "2026-04-11",
+  "last_updated": "2026-04-11",
+  "urls": {
+    "docs": "https://ai-sdk.dev/docs",
+    "changelog": "https://github.com/vercel/ai/releases",
+    "github": "https://github.com/vercel/ai",
+    "npm": "https://www.npmjs.com/package/ai"
+  },
+  "references": {
+    "00-overview.md": {
+      "source_page": "https://ai-sdk.dev/docs/introduction",
+      "written_for": "6.0.x",
+      "last_updated": "2026-04-11"
+    },
+    "01-providers-and-models.md": {
+      "source_page": "https://ai-sdk.dev/docs/foundations/providers-and-models",
+      "written_for": "6.0.x",
+      "last_updated": "2026-04-11"
+    },
+    "02-generating-text.md": {
+      "source_page": "https://ai-sdk.dev/docs/ai-sdk-core/generating-text",
+      "written_for": "6.0.x",
+      "last_updated": "2026-04-11"
+    },
+    "03-structured-output.md": {
+      "source_page": "https://ai-sdk.dev/docs/ai-sdk-core/generating-structured-data",
+      "written_for": "6.0.x",
+      "last_updated": "2026-04-11"
+    },
+    "04-tool-calling.md": {
+      "source_page": "https://ai-sdk.dev/docs/ai-sdk-core/tool-calling",
+      "written_for": "6.0.x",
+      "last_updated": "2026-04-11"
+    },
+    "05-agents.md": {
+      "source_page": "https://ai-sdk.dev/docs/agents/overview",
+      "written_for": "6.0.x",
+      "last_updated": "2026-04-11"
+    },
+    "06-streaming-patterns.md": {
+      "source_page": "https://ai-sdk.dev/docs/foundations/streaming",
+      "written_for": "6.0.x",
+      "last_updated": "2026-04-11"
+    },
+    "07-useChat-hook.md": {
+      "source_page": "https://ai-sdk.dev/docs/ai-sdk-ui/chatbot",
+      "written_for": "6.0.x",
+      "last_updated": "2026-04-11"
+    },
+    "08-mcp-integration.md": {
+      "source_page": "https://ai-sdk.dev/docs/ai-sdk-core/mcp",
+      "written_for": "6.0.x",
+      "last_updated": "2026-04-11"
+    },
+    "09-embeddings-and-rag.md": {
+      "source_page": "https://ai-sdk.dev/docs/ai-sdk-core/embeddings",
+      "written_for": "6.0.x",
+      "last_updated": "2026-04-11"
+    },
+    "10-middleware-and-telemetry.md": {
+      "source_page": "https://ai-sdk.dev/docs/ai-sdk-core/middleware",
+      "written_for": "6.0.x",
+      "last_updated": "2026-04-11"
+    },
+    "11-multimodal-generation.md": {
+      "source_page": "https://ai-sdk.dev/docs/ai-sdk-core/image-generation",
+      "written_for": "6.0.x",
+      "last_updated": "2026-04-11"
+    },
+    "12-deployment-patterns.md": {
+      "source_page": "https://ai-sdk.dev/docs/getting-started",
+      "written_for": "6.0.x",
+      "last_updated": "2026-04-11"
+    }
+  },
+  "staleness_threshold_days": 90
+}

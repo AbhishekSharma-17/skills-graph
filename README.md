@@ -3,14 +3,14 @@
   <p align="center">
     <strong>Precision-engineered AI agent skills with interconnected reference architectures.</strong>
     <br />
-    <em>A methodology for building skills that carry 99,000+ lines of knowledge<br />while loading only what the AI actually needs.</em>
+    <em>A methodology for building skills that carry 111,000+ lines of knowledge<br />while loading only what the AI actually needs.</em>
   </p>
   <p align="center">
     <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT"></a>
     <a href="#-the-agent-skills-standard"><img src="https://img.shields.io/badge/Agent%20Skills-Universal%20Standard-purple.svg" alt="Skills Standard"></a>
     <a href="#-platform-compatibility"><img src="https://img.shields.io/badge/Platforms-25%2B-green.svg" alt="Platforms"></a>
-    <a href="#-skills-catalog"><img src="https://img.shields.io/badge/Skills-20%20Production%20Ready-orange.svg" alt="Skills"></a>
-    <a href="#-the-technique-progressive-reference-architecture"><img src="https://img.shields.io/badge/Knowledge-108%2C000%2B%20Lines-red.svg" alt="Lines"></a>
+    <a href="#-skills-catalog"><img src="https://img.shields.io/badge/Skills-21%20Production%20Ready-orange.svg" alt="Skills"></a>
+    <a href="#-the-technique-progressive-reference-architecture"><img src="https://img.shields.io/badge/Knowledge-111%2C000%2B%20Lines-red.svg" alt="Lines"></a>
   </p>
 </p>
 
@@ -88,7 +88,8 @@ Production-ready skills built with the Skills Graph methodology.
 | 18 | **[LiveKit](skills/livekit/)** | [LiveKit Agents](https://docs.livekit.io) v1.5.2 | `1.0.0` | 12 | ~3,671 | Production |
 | 19 | **[Convex](skills/convex/)** | [Convex](https://docs.convex.dev) v1.34.1 | `1.0.0` | 13 | ~4,443 | Production |
 | 20 | **[AI SDK](skills/ai-sdk/)** | [AI SDK](https://ai-sdk.dev) v6.0.158 | `1.0.0` | 13 | ~4,118 | Production |
-| | | | | **421** | **~108,321** | |
+| 21 | **[Payload CMS](skills/payload-cms/)** | [Payload CMS](https://payloadcms.com/docs) v3.82.0 | `1.0.0` | 13 | ~3,442 | Production |
+| | | | | **434** | **~111,763** | |
 
 <br />
 

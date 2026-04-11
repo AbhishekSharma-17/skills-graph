@@ -1,0 +1,82 @@
+{
+  "skill_version": "1.0.0",
+  "source_version_tracked": "3.82.0",
+  "source_package": "payload",
+  "docs_snapshot_date": "2026-04-12",
+  "last_checked": "2026-04-12",
+  "last_updated": "2026-04-12",
+  "urls": {
+    "docs": "https://payloadcms.com/docs",
+    "changelog": "https://github.com/payloadcms/payload/releases",
+    "github": "https://github.com/payloadcms/payload",
+    "npm": "https://www.npmjs.com/package/payload"
+  },
+  "references": {
+    "00-overview.md": {
+      "source_page": "https://payloadcms.com/docs/getting-started/what-is-payload",
+      "written_for": "3.82.x",
+      "last_updated": "2026-04-12"
+    },
+    "01-collections.md": {
+      "source_page": "https://payloadcms.com/docs/configuration/collections",
+      "written_for": "3.82.x",
+      "last_updated": "2026-04-12"
+    },
+    "02-fields.md": {
+      "source_page": "https://payloadcms.com/docs/fields/overview",
+      "written_for": "3.82.x",
+      "last_updated": "2026-04-12"
+    },
+    "03-globals.md": {
+      "source_page": "https://payloadcms.com/docs/configuration/globals",
+      "written_for": "3.82.x",
+      "last_updated": "2026-04-12"
+    },
+    "04-access-control.md": {
+      "source_page": "https://payloadcms.com/docs/access-control/overview",
+      "written_for": "3.82.x",
+      "last_updated": "2026-04-12"
+    },
+    "05-hooks.md": {
+      "source_page": "https://payloadcms.com/docs/hooks/collections",
+      "written_for": "3.82.x",
+      "last_updated": "2026-04-12"
+    },
+    "06-authentication.md": {
+      "source_page": "https://payloadcms.com/docs/authentication/overview",
+      "written_for": "3.82.x",
+      "last_updated": "2026-04-12"
+    },
+    "07-apis.md": {
+      "source_page": "https://payloadcms.com/docs/local-api/overview",
+      "written_for": "3.82.x",
+      "last_updated": "2026-04-12"
+    },
+    "08-admin-panel.md": {
+      "source_page": "https://payloadcms.com/docs/admin/overview",
+      "written_for": "3.82.x",
+      "last_updated": "2026-04-12"
+    },
+    "09-database-adapters.md": {
+      "source_page": "https://payloadcms.com/docs/database/overview",
+      "written_for": "3.82.x",
+      "last_updated": "2026-04-12"
+    },
+    "10-rich-text-lexical.md": {
+      "source_page": "https://payloadcms.com/docs/rich-text/overview",
+      "written_for": "3.82.x",
+      "last_updated": "2026-04-12"
+    },
+    "11-plugins.md": {
+      "source_page": "https://payloadcms.com/docs/plugins/overview",
+      "written_for": "3.82.x",
+      "last_updated": "2026-04-12"
+    },
+    "12-versions-drafts.md": {
+      "source_page": "https://payloadcms.com/docs/versions/overview",
+      "written_for": "3.82.x",
+      "last_updated": "2026-04-12"
+    }
+  },
+  "staleness_threshold_days": 90
+}

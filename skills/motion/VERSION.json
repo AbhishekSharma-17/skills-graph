@@ -1,0 +1,82 @@
+{
+  "skill_version": "1.0.0",
+  "source_version_tracked": "12.38.0",
+  "source_package": "motion",
+  "docs_snapshot_date": "2026-04-13",
+  "last_checked": "2026-04-13",
+  "last_updated": "2026-04-13",
+  "urls": {
+    "docs": "https://motion.dev/docs",
+    "changelog": "https://github.com/motiondivision/motion/releases",
+    "github": "https://github.com/motiondivision/motion",
+    "npm": "https://www.npmjs.com/package/motion"
+  },
+  "references": {
+    "00-overview.md": {
+      "source_page": "https://motion.dev/docs/react",
+      "written_for": "12.x",
+      "last_updated": "2026-04-13"
+    },
+    "01-motion-component.md": {
+      "source_page": "https://motion.dev/docs/react-motion-component",
+      "written_for": "12.x",
+      "last_updated": "2026-04-13"
+    },
+    "02-animation-fundamentals.md": {
+      "source_page": "https://motion.dev/docs/react-animation",
+      "written_for": "12.x",
+      "last_updated": "2026-04-13"
+    },
+    "03-transitions.md": {
+      "source_page": "https://motion.dev/docs/react-transitions",
+      "written_for": "12.x",
+      "last_updated": "2026-04-13"
+    },
+    "04-gestures.md": {
+      "source_page": "https://motion.dev/docs/react-gestures",
+      "written_for": "12.x",
+      "last_updated": "2026-04-13"
+    },
+    "05-scroll-animations.md": {
+      "source_page": "https://motion.dev/docs/react-scroll-animations",
+      "written_for": "12.x",
+      "last_updated": "2026-04-13"
+    },
+    "06-layout-animations.md": {
+      "source_page": "https://motion.dev/docs/react-layout-animations",
+      "written_for": "12.x",
+      "last_updated": "2026-04-13"
+    },
+    "07-animate-presence.md": {
+      "source_page": "https://motion.dev/docs/react-animate-presence",
+      "written_for": "12.x",
+      "last_updated": "2026-04-13"
+    },
+    "08-motion-values.md": {
+      "source_page": "https://motion.dev/docs/react-motion-value",
+      "written_for": "12.x",
+      "last_updated": "2026-04-13"
+    },
+    "09-hooks-and-utilities.md": {
+      "source_page": "https://motion.dev/docs/react-use-animate",
+      "written_for": "12.x",
+      "last_updated": "2026-04-13"
+    },
+    "10-svg-and-path.md": {
+      "source_page": "https://motion.dev/docs/react-animation",
+      "written_for": "12.x",
+      "last_updated": "2026-04-13"
+    },
+    "11-performance.md": {
+      "source_page": "https://motion.dev/docs/react-motion-component",
+      "written_for": "12.x",
+      "last_updated": "2026-04-13"
+    },
+    "12-patterns-and-recipes.md": {
+      "source_page": "https://motion.dev/examples",
+      "written_for": "12.x",
+      "last_updated": "2026-04-13"
+    }
+  },
+  "staleness_threshold_days": 90
+}

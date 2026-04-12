@@ -1,7 +1,7 @@
 {
   "description": "Registry of all skills in the skills-graph repo. Used by daily automation to avoid duplicates.",
-  "last_updated": "2026-04-12",
-  "total_skills": 21,
+  "last_updated": "2026-04-13",
+  "total_skills": 22,
   "skills": [
     {
       "name": "agno",
@@ -211,6 +211,16 @@
       "reference_files": 13,
       "total_lines": 3442,
       "source_url": "https://payloadcms.com/docs",
+      "status": "active"
+    },
+    {
+      "name": "motion",
+      "domain": "UI Libraries",
+      "created_date": "2026-04-13",
+      "version": "1.0.0",
+      "reference_files": 13,
+      "total_lines": 4662,
+      "source_url": "https://motion.dev/docs",
       "status": "active"
     }
   ],

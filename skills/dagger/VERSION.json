@@ -1,0 +1,82 @@
+{
+  "skill_version": "1.0.0",
+  "source_version_tracked": "0.20.3",
+  "source_package": "dagger-io",
+  "docs_snapshot_date": "2026-04-14",
+  "last_checked": "2026-04-14",
+  "last_updated": "2026-04-14",
+  "urls": {
+    "docs": "https://docs.dagger.io",
+    "changelog": "https://github.com/dagger/dagger/releases",
+    "github": "https://github.com/dagger/dagger",
+    "pypi": "https://pypi.org/project/dagger-io/"
+  },
+  "references": {
+    "00-overview.md": {
+      "source_page": "https://docs.dagger.io",
+      "written_for": "0.20.x",
+      "last_updated": "2026-04-14"
+    },
+    "01-core-types.md": {
+      "source_page": "https://docs.dagger.io/getting-started/core-types",
+      "written_for": "0.20.x",
+      "last_updated": "2026-04-14"
+    },
+    "02-functions.md": {
+      "source_page": "https://docs.dagger.io/getting-started/functions",
+      "written_for": "0.20.x",
+      "last_updated": "2026-04-14"
+    },
+    "03-modules.md": {
+      "source_page": "https://docs.dagger.io/features/modules",
+      "written_for": "0.20.x",
+      "last_updated": "2026-04-14"
+    },
+    "04-caching.md": {
+      "source_page": "https://docs.dagger.io/features/caching",
+      "written_for": "0.20.x",
+      "last_updated": "2026-04-14"
+    },
+    "05-services.md": {
+      "source_page": "https://docs.dagger.io/features/services",
+      "written_for": "0.20.x",
+      "last_updated": "2026-04-14"
+    },
+    "06-secrets.md": {
+      "source_page": "https://docs.dagger.io/features/secrets",
+      "written_for": "0.20.x",
+      "last_updated": "2026-04-14"
+    },
+    "07-ci-integrations.md": {
+      "source_page": "https://docs.dagger.io/getting-started/ci-integrations",
+      "written_for": "0.20.x",
+      "last_updated": "2026-04-14"
+    },
+    "08-dagger-shell.md": {
+      "source_page": "https://docs.dagger.io/features/shell",
+      "written_for": "0.20.x",
+      "last_updated": "2026-04-14"
+    },
+    "09-llm-integration.md": {
+      "source_page": "https://docs.dagger.io/features/llm",
+      "written_for": "0.20.x",
+      "last_updated": "2026-04-14"
+    },
+    "10-observability.md": {
+      "source_page": "https://docs.dagger.io/features/observability",
+      "written_for": "0.20.x",
+      "last_updated": "2026-04-14"
+    },
+    "11-daggerverse.md": {
+      "source_page": "https://daggerverse.dev",
+      "written_for": "0.20.x",
+      "last_updated": "2026-04-14"
+    },
+    "12-common-patterns.md": {
+      "source_page": "https://docs.dagger.io/cookbook",
+      "written_for": "0.20.x",
+      "last_updated": "2026-04-14"
+    }
+  },
+  "staleness_threshold_days": 90
+}

@@ -1,0 +1,82 @@
+{
+  "skill_version": "1.0.0",
+  "source_version_tracked": "55.0.15",
+  "source_package": "expo",
+  "docs_snapshot_date": "2026-04-15",
+  "last_checked": "2026-04-15",
+  "last_updated": "2026-04-15",
+  "urls": {
+    "docs": "https://docs.expo.dev",
+    "changelog": "https://github.com/expo/expo/blob/main/CHANGELOG.md",
+    "github": "https://github.com/expo/expo",
+    "npm": "https://www.npmjs.com/package/expo"
+  },
+  "references": {
+    "00-overview.md": {
+      "source_page": "https://docs.expo.dev/get-started/introduction/",
+      "written_for": "SDK 55.x",
+      "last_updated": "2026-04-15"
+    },
+    "01-project-setup.md": {
+      "source_page": "https://docs.expo.dev/get-started/create-a-project/",
+      "written_for": "SDK 55.x",
+      "last_updated": "2026-04-15"
+    },
+    "02-expo-router.md": {
+      "source_page": "https://docs.expo.dev/router/introduction/",
+      "written_for": "expo-router 5.x",
+      "last_updated": "2026-04-15"
+    },
+    "03-expo-sdk.md": {
+      "source_page": "https://docs.expo.dev/versions/latest/",
+      "written_for": "SDK 55.x",
+      "last_updated": "2026-04-15"
+    },
+    "04-config-plugins.md": {
+      "source_page": "https://docs.expo.dev/config-plugins/introduction/",
+      "written_for": "SDK 55.x",
+      "last_updated": "2026-04-15"
+    },
+    "05-dev-clients.md": {
+      "source_page": "https://docs.expo.dev/develop/development-builds/introduction/",
+      "written_for": "SDK 55.x",
+      "last_updated": "2026-04-15"
+    },
+    "06-eas-build.md": {
+      "source_page": "https://docs.expo.dev/build/introduction/",
+      "written_for": "eas-cli 18.x",
+      "last_updated": "2026-04-15"
+    },
+    "07-eas-update.md": {
+      "source_page": "https://docs.expo.dev/eas-update/introduction/",
+      "written_for": "eas-cli 18.x",
+      "last_updated": "2026-04-15"
+    },
+    "08-eas-submit.md": {
+      "source_page": "https://docs.expo.dev/submit/introduction/",
+      "written_for": "eas-cli 18.x",
+      "last_updated": "2026-04-15"
+    },
+    "09-push-notifications.md": {
+      "source_page": "https://docs.expo.dev/push-notifications/overview/",
+      "written_for": "SDK 55.x",
+      "last_updated": "2026-04-15"
+    },
+    "10-authentication.md": {
+      "source_page": "https://docs.expo.dev/guides/authentication/",
+      "written_for": "SDK 55.x",
+      "last_updated": "2026-04-15"
+    },
+    "11-styling-ui.md": {
+      "source_page": "https://docs.expo.dev/develop/user-interface/styling/",
+      "written_for": "SDK 55.x",
+      "last_updated": "2026-04-15"
+    },
+    "12-common-patterns.md": {
+      "source_page": "https://docs.expo.dev/workflow/common-development-workflows/",
+      "written_for": "SDK 55.x",
+      "last_updated": "2026-04-15"
+    }
+  },
+  "staleness_threshold_days": 90
+}

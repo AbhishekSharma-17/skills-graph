@@ -1,7 +1,7 @@
 {
   "description": "Registry of all skills in the skills-graph repo. Used by daily automation to avoid duplicates.",
-  "last_updated": "2026-04-14",
-  "total_skills": 23,
+  "last_updated": "2026-04-15",
+  "total_skills": 24,
   "skills": [
     {
       "name": "agno",
@@ -231,6 +231,16 @@
       "reference_files": 13,
       "total_lines": 3737,
       "source_url": "https://docs.dagger.io",
+      "status": "active"
+    },
+    {
+      "name": "expo",
+      "domain": "Mobile Development",
+      "created_date": "2026-04-15",
+      "version": "1.0.0",
+      "reference_files": 13,
+      "total_lines": 4809,
+      "source_url": "https://docs.expo.dev",
       "status": "active"
     }
   ],

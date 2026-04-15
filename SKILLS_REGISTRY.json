@@ -1,7 +1,7 @@
 {
   "description": "Registry of all skills in the skills-graph repo. Used by daily automation to avoid duplicates.",
-  "last_updated": "2026-04-15",
-  "total_skills": 24,
+  "last_updated": "2026-04-16",
+  "total_skills": 25,
   "skills": [
     {
       "name": "agno",
@@ -241,6 +241,16 @@
       "reference_files": 13,
       "total_lines": 4809,
       "source_url": "https://docs.expo.dev",
+      "status": "active"
+    },
+    {
+      "name": "terraform",
+      "domain": "DevOps & IaC",
+      "created_date": "2026-04-16",
+      "version": "1.0.0",
+      "reference_files": 13,
+      "total_lines": 4327,
+      "source_url": "https://developer.hashicorp.com/terraform/docs",
       "status": "active"
     }
   ],

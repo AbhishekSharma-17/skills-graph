@@ -1,0 +1,83 @@
+{
+  "skill_version": "1.0.0",
+  "source_version_tracked": "1.14.8",
+  "source_package": "terraform",
+  "docs_snapshot_date": "2026-04-16",
+  "last_checked": "2026-04-16",
+  "last_updated": "2026-04-16",
+  "urls": {
+    "docs": "https://developer.hashicorp.com/terraform/docs",
+    "changelog": "https://github.com/hashicorp/terraform/blob/main/CHANGELOG.md",
+    "github": "https://github.com/hashicorp/terraform",
+    "releases": "https://github.com/hashicorp/terraform/releases",
+    "registry": "https://registry.terraform.io"
+  },
+  "references": {
+    "00-overview.md": {
+      "source_page": "/terraform/intro",
+      "written_for": "1.14.8",
+      "last_updated": "2026-04-16"
+    },
+    "01-configuration-language.md": {
+      "source_page": "/terraform/language",
+      "written_for": "1.14.8",
+      "last_updated": "2026-04-16"
+    },
+    "02-providers.md": {
+      "source_page": "/terraform/language/providers",
+      "written_for": "1.14.8",
+      "last_updated": "2026-04-16"
+    },
+    "03-resources.md": {
+      "source_page": "/terraform/language/resources",
+      "written_for": "1.14.8",
+      "last_updated": "2026-04-16"
+    },
+    "04-variables-and-outputs.md": {
+      "source_page": "/terraform/language/values",
+      "written_for": "1.14.8",
+      "last_updated": "2026-04-16"
+    },
+    "05-state.md": {
+      "source_page": "/terraform/language/state",
+      "written_for": "1.14.8",
+      "last_updated": "2026-04-16"
+    },
+    "06-modules.md": {
+      "source_page": "/terraform/language/modules",
+      "written_for": "1.14.8",
+      "last_updated": "2026-04-16"
+    },
+    "07-data-sources.md": {
+      "source_page": "/terraform/language/data-sources",
+      "written_for": "1.14.8",
+      "last_updated": "2026-04-16"
+    },
+    "08-lifecycle-and-meta-arguments.md": {
+      "source_page": "/terraform/language/meta-arguments",
+      "written_for": "1.14.8",
+      "last_updated": "2026-04-16"
+    },
+    "09-functions-and-expressions.md": {
+      "source_page": "/terraform/language/functions",
+      "written_for": "1.14.8",
+      "last_updated": "2026-04-16"
+    },
+    "10-testing-and-validation.md": {
+      "source_page": "/terraform/language/tests",
+      "written_for": "1.14.8",
+      "last_updated": "2026-04-16"
+    },
+    "11-cicd-patterns.md": {
+      "source_page": "/terraform/tutorials/automation",
+      "written_for": "1.14.8",
+      "last_updated": "2026-04-16"
+    },
+    "12-best-practices.md": {
+      "source_page": "/terraform/language/style",
+      "written_for": "1.14.8",
+      "last_updated": "2026-04-16"
+    }
+  },
+  "staleness_threshold_days": 90
+}

@@ -1,0 +1,85 @@
+{
+  "skill_version": "1.0.0",
+  "source_version_tracked": "5.17.0",
+  "source_package": "astro",
+  "docs_snapshot_date": "2026-04-17",
+  "last_checked": "2026-04-17",
+  "last_updated": "2026-04-17",
+  "urls": {
+    "docs": "https://docs.astro.build",
+    "changelog": "https://github.com/withastro/astro/blob/main/packages/astro/CHANGELOG.md",
+    "github": "https://github.com/withastro/astro",
+    "releases": "https://github.com/withastro/astro/releases",
+    "npm": "https://www.npmjs.com/package/astro",
+    "integrations": "https://astro.build/integrations",
+    "blog": "https://astro.build/blog/"
+  },
+  "references": {
+    "00-overview.md": {
+      "source_page": "/en/getting-started/",
+      "written_for": "5.17.0",
+      "last_updated": "2026-04-17"
+    },
+    "01-project-structure.md": {
+      "source_page": "/en/basics/project-structure/",
+      "written_for": "5.17.0",
+      "last_updated": "2026-04-17"
+    },
+    "02-pages-and-routing.md": {
+      "source_page": "/en/guides/routing/",
+      "written_for": "5.17.0",
+      "last_updated": "2026-04-17"
+    },
+    "03-astro-components.md": {
+      "source_page": "/en/basics/astro-components/",
+      "written_for": "5.17.0",
+      "last_updated": "2026-04-17"
+    },
+    "04-content-collections.md": {
+      "source_page": "/en/guides/content-collections/",
+      "written_for": "5.17.0",
+      "last_updated": "2026-04-17"
+    },
+    "05-islands-and-client-directives.md": {
+      "source_page": "/en/concepts/islands/",
+      "written_for": "5.17.0",
+      "last_updated": "2026-04-17"
+    },
+    "06-rendering-modes.md": {
+      "source_page": "/en/guides/on-demand-rendering/",
+      "written_for": "5.17.0",
+      "last_updated": "2026-04-17"
+    },
+    "07-actions.md": {
+      "source_page": "/en/guides/actions/",
+      "written_for": "5.17.0",
+      "last_updated": "2026-04-17"
+    },
+    "08-middleware.md": {
+      "source_page": "/en/guides/middleware/",
+      "written_for": "5.17.0",
+      "last_updated": "2026-04-17"
+    },
+    "09-endpoints-and-api-routes.md": {
+      "source_page": "/en/guides/endpoints/",
+      "written_for": "5.17.0",
+      "last_updated": "2026-04-17"
+    },
+    "10-view-transitions.md": {
+      "source_page": "/en/guides/view-transitions/",
+      "written_for": "5.17.0",
+      "last_updated": "2026-04-17"
+    },
+    "11-integrations-and-adapters.md": {
+      "source_page": "/en/guides/integrations-guide/",
+      "written_for": "5.17.0",
+      "last_updated": "2026-04-17"
+    },
+    "12-deployment-and-best-practices.md": {
+      "source_page": "/en/guides/deploy/",
+      "written_for": "5.17.0",
+      "last_updated": "2026-04-17"
+    }
+  },
+  "staleness_threshold_days": 90
+}

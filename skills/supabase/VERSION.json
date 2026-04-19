@@ -1,0 +1,86 @@
+{
+  "skill_version": "1.0.0",
+  "source_version_tracked": "supabase-js 2.49.x / Platform March 2026",
+  "source_package": "@supabase/supabase-js",
+  "docs_snapshot_date": "2026-04-19",
+  "last_checked": "2026-04-19",
+  "last_updated": "2026-04-19",
+  "urls": {
+    "docs": "https://supabase.com/docs",
+    "changelog": "https://supabase.com/changelog",
+    "github": "https://github.com/supabase/supabase",
+    "releases": "https://github.com/supabase/supabase/releases",
+    "npm": "https://www.npmjs.com/package/@supabase/supabase-js",
+    "pypi": "https://pypi.org/project/supabase/",
+    "cli": "https://github.com/supabase/cli/releases",
+    "status": "https://status.supabase.com"
+  },
+  "references": {
+    "00-overview.md": {
+      "source_page": "/docs/guides/getting-started",
+      "written_for": "Platform March 2026",
+      "last_updated": "2026-04-19"
+    },
+    "01-database.md": {
+      "source_page": "/docs/guides/database",
+      "written_for": "Platform March 2026",
+      "last_updated": "2026-04-19"
+    },
+    "02-authentication.md": {
+      "source_page": "/docs/guides/auth",
+      "written_for": "Platform March 2026",
+      "last_updated": "2026-04-19"
+    },
+    "03-row-level-security.md": {
+      "source_page": "/docs/guides/database/postgres/row-level-security",
+      "written_for": "Platform March 2026",
+      "last_updated": "2026-04-19"
+    },
+    "04-client-sdk.md": {
+      "source_page": "/docs/reference/javascript",
+      "written_for": "supabase-js 2.49.x",
+      "last_updated": "2026-04-19"
+    },
+    "05-storage.md": {
+      "source_page": "/docs/guides/storage",
+      "written_for": "Platform March 2026",
+      "last_updated": "2026-04-19"
+    },
+    "06-realtime.md": {
+      "source_page": "/docs/guides/realtime",
+      "written_for": "Platform March 2026",
+      "last_updated": "2026-04-19"
+    },
+    "07-edge-functions.md": {
+      "source_page": "/docs/guides/functions",
+      "written_for": "Platform March 2026",
+      "last_updated": "2026-04-19"
+    },
+    "08-ai-vectors.md": {
+      "source_page": "/docs/guides/ai",
+      "written_for": "Platform March 2026",
+      "last_updated": "2026-04-19"
+    },
+    "09-cli-local-dev.md": {
+      "source_page": "/docs/guides/local-development/cli/getting-started",
+      "written_for": "CLI v2.92.x",
+      "last_updated": "2026-04-19"
+    },
+    "10-migrations-deployment.md": {
+      "source_page": "/docs/guides/deployment/managing-environments",
+      "written_for": "Platform March 2026",
+      "last_updated": "2026-04-19"
+    },
+    "11-rest-graphql-api.md": {
+      "source_page": "/docs/guides/api",
+      "written_for": "PostgREST v14",
+      "last_updated": "2026-04-19"
+    },
+    "12-security-best-practices.md": {
+      "source_page": "/docs/guides/security",
+      "written_for": "Platform March 2026",
+      "last_updated": "2026-04-19"
+    }
+  },
+  "staleness_threshold_days": 90
+}

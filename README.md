@@ -9,8 +9,8 @@
     <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT"></a>
     <a href="#-the-agent-skills-standard"><img src="https://img.shields.io/badge/Agent%20Skills-Universal%20Standard-purple.svg" alt="Skills Standard"></a>
     <a href="#-platform-compatibility"><img src="https://img.shields.io/badge/Platforms-25%2B-green.svg" alt="Platforms"></a>
-    <a href="#-skills-catalog"><img src="https://img.shields.io/badge/Skills-27%20Production%20Ready-orange.svg" alt="Skills"></a>
-    <a href="#-the-technique-progressive-reference-architecture"><img src="https://img.shields.io/badge/Knowledge-131%2C000%2B%20Lines-red.svg" alt="Lines"></a>
+    <a href="#-skills-catalog"><img src="https://img.shields.io/badge/Skills-28%20Production%20Ready-orange.svg" alt="Skills"></a>
+    <a href="#-the-technique-progressive-reference-architecture"><img src="https://img.shields.io/badge/Knowledge-135%2C000%2B%20Lines-red.svg" alt="Lines"></a>
   </p>
 </p>
 
@@ -52,8 +52,8 @@ Skills Graph is a **methodology** and a **collection** of production-grade AI ag
 Instead of dumping documentation into a single monolithic file or a flat folder of loosely related references, Skills Graph organizes knowledge as a **directed acyclic graph (DAG)** where every reference file is a node, every cross-reference is an edge, and a lightweight router sits at the root to guide the AI to exactly the information it needs -- nothing more, nothing less.
 
 <table>
-<tr><td><strong>Skills</strong></td><td>27 production-ready (Agno, MS Agent Framework, Remotion Prompt Generator, Trigger.dev, Drizzle ORM, Hono, Zod, Claude Agent SDK, Langfuse, Better Auth, Polars, Qdrant, OpenTelemetry, Inngest, LiteLLM, DSPy, Design Engineering, LiveKit, Convex, AI SDK, Payload CMS, Motion, Dagger, Expo, Terraform, Astro, Supabase)</td></tr>
-<tr><td><strong>Total Knowledge</strong></td><td>131,000+ lines across 499 reference files</td></tr>
+<tr><td><strong>Skills</strong></td><td>28 production-ready (Agno, MS Agent Framework, Remotion Prompt Generator, Trigger.dev, Drizzle ORM, Hono, Zod, Claude Agent SDK, Langfuse, Better Auth, Polars, Qdrant, OpenTelemetry, Inngest, LiteLLM, DSPy, Design Engineering, LiveKit, Convex, AI SDK, Payload CMS, Motion, Dagger, Expo, Terraform, Astro, Supabase, Dagster)</td></tr>
+<tr><td><strong>Total Knowledge</strong></td><td>135,000+ lines across 512 reference files</td></tr>
 <tr><td><strong>Router Overhead</strong></td><td>69-231 lines (the only cost when skill triggers)</td></tr>
 <tr><td><strong>Context Efficiency</strong></td><td>~97% reduction vs monolithic approach</td></tr>
 <tr><td><strong>Platform Support</strong></td><td>25+ AI coding assistants</td></tr>
@@ -95,7 +95,8 @@ Production-ready skills built with the Skills Graph methodology.
 | 25 | **[Terraform](skills/terraform/)** | [Terraform](https://developer.hashicorp.com/terraform/docs) v1.14.8 | `1.0.0` | 13 | ~4,327 | Production |
 | 26 | **[Astro](skills/astro/)** | [Astro](https://docs.astro.build) v5.17.0 | `1.0.0` | 13 | ~3,460 | Production |
 | 27 | **[Supabase](skills/supabase/)** | [Supabase](https://supabase.com/docs) supabase-js 2.49.x | `1.0.0` | 13 | ~3,846 | Production |
-| | | | | **499** | **~131,933** | |
+| 28 | **[Dagster](skills/dagster/)** | [Dagster](https://docs.dagster.io) v1.13.1 | `1.0.0` | 13 | ~3,461 | Production |
+| | | | | **512** | **~135,394** | |
 
 <br />
 

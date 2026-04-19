@@ -1,0 +1,82 @@
+{
+  "skill_version": "1.0.0",
+  "source_version_tracked": "1.13.1",
+  "source_package": "dagster",
+  "docs_snapshot_date": "2026-04-20",
+  "last_checked": "2026-04-20",
+  "last_updated": "2026-04-20",
+  "urls": {
+    "docs": "https://docs.dagster.io",
+    "changelog": "https://github.com/dagster-io/dagster/releases",
+    "github": "https://github.com/dagster-io/dagster",
+    "pypi": "https://pypi.org/project/dagster/"
+  },
+  "references": {
+    "00-overview.md": {
+      "source_page": "https://docs.dagster.io/getting-started",
+      "written_for": "1.13.1",
+      "last_updated": "2026-04-20"
+    },
+    "01-assets.md": {
+      "source_page": "https://docs.dagster.io/concepts/assets/software-defined-assets",
+      "written_for": "1.13.1",
+      "last_updated": "2026-04-20"
+    },
+    "02-resources-io-managers.md": {
+      "source_page": "https://docs.dagster.io/concepts/resources",
+      "written_for": "1.13.1",
+      "last_updated": "2026-04-20"
+    },
+    "03-ops-jobs-graphs.md": {
+      "source_page": "https://docs.dagster.io/concepts/ops-jobs-graphs/ops",
+      "written_for": "1.13.1",
+      "last_updated": "2026-04-20"
+    },
+    "04-schedules-sensors.md": {
+      "source_page": "https://docs.dagster.io/guides/automate/schedules",
+      "written_for": "1.13.1",
+      "last_updated": "2026-04-20"
+    },
+    "05-partitions-backfills.md": {
+      "source_page": "https://docs.dagster.io/concepts/partitions-schedules-sensors/partitioning-assets",
+      "written_for": "1.13.1",
+      "last_updated": "2026-04-20"
+    },
+    "06-automation.md": {
+      "source_page": "https://docs.dagster.io/guides/automate/declarative-automation",
+      "written_for": "1.13.1",
+      "last_updated": "2026-04-20"
+    },
+    "07-testing.md": {
+      "source_page": "https://docs.dagster.io/guides/test/unit-testing-assets-and-ops",
+      "written_for": "1.13.1",
+      "last_updated": "2026-04-20"
+    },
+    "08-dagster-pipes.md": {
+      "source_page": "https://docs.dagster.io/concepts/dagster-pipes",
+      "written_for": "1.13.1",
+      "last_updated": "2026-04-20"
+    },
+    "09-integrations.md": {
+      "source_page": "https://docs.dagster.io/integrations",
+      "written_for": "1.13.1",
+      "last_updated": "2026-04-20"
+    },
+    "10-deployment.md": {
+      "source_page": "https://docs.dagster.io/deployment/oss/deployment-options",
+      "written_for": "1.13.1",
+      "last_updated": "2026-04-20"
+    },
+    "11-project-structure.md": {
+      "source_page": "https://docs.dagster.io/guides/build/projects/structuring-your-dagster-project",
+      "written_for": "1.13.1",
+      "last_updated": "2026-04-20"
+    },
+    "12-ai-ml-pipelines.md": {
+      "source_page": "https://docs.dagster.io/guides/build/ml-pipelines",
+      "written_for": "1.13.1",
+      "last_updated": "2026-04-20"
+    }
+  },
+  "staleness_threshold_days": 90
+}

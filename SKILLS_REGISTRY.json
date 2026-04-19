@@ -1,7 +1,7 @@
 {
   "description": "Registry of all skills in the skills-graph repo. Used by daily automation to avoid duplicates.",
-  "last_updated": "2026-04-19",
-  "total_skills": 27,
+  "last_updated": "2026-04-20",
+  "total_skills": 28,
   "skills": [
     {
       "name": "agno",
@@ -271,6 +271,16 @@
       "reference_files": 13,
       "total_lines": 3846,
       "source_url": "https://supabase.com/docs",
+      "status": "active"
+    },
+    {
+      "name": "dagster",
+      "domain": "Data Engineering",
+      "created_date": "2026-04-20",
+      "version": "1.0.0",
+      "reference_files": 13,
+      "total_lines": 3461,
+      "source_url": "https://docs.dagster.io",
       "status": "active"
     }
   ],

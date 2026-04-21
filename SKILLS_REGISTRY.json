@@ -1,7 +1,7 @@
 {
   "description": "Registry of all skills in the skills-graph repo. Used by daily automation to avoid duplicates.",
-  "last_updated": "2026-04-20",
-  "total_skills": 28,
+  "last_updated": "2026-04-22",
+  "total_skills": 29,
   "skills": [
     {
       "name": "agno",
@@ -281,6 +281,16 @@
       "reference_files": 13,
       "total_lines": 3461,
       "source_url": "https://docs.dagster.io",
+      "status": "active"
+    },
+    {
+      "name": "trpc",
+      "domain": "TypeScript Tooling",
+      "created_date": "2026-04-22",
+      "version": "1.0.0",
+      "reference_files": 12,
+      "total_lines": 4347,
+      "source_url": "https://trpc.io/docs",
       "status": "active"
     }
   ],

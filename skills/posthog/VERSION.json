@@ -1,0 +1,84 @@
+{
+  "skill_name": "posthog",
+  "skill_version": "1.0.0",
+  "source_version_tracked": "posthog-python 7.13.0 / posthog-js 1.x",
+  "source_package": "posthog",
+  "docs_snapshot_date": "2026-04-24",
+  "last_checked": "2026-04-24",
+  "last_updated": "2026-04-24",
+  "urls": {
+    "docs": "https://posthog.com/docs",
+    "changelog": "https://posthog.com/changelog",
+    "github": "https://github.com/PostHog/posthog",
+    "pypi": "https://pypi.org/project/posthog/",
+    "npm": "https://www.npmjs.com/package/posthog-js"
+  },
+  "staleness_threshold_days": 90,
+  "references": {
+    "00-overview.md": {
+      "source_page": "https://posthog.com/docs/getting-started/install",
+      "written_for": "posthog-python 7.13.0 / posthog-js 1.x",
+      "last_updated": "2026-04-24"
+    },
+    "01-event-capture.md": {
+      "source_page": "https://posthog.com/docs/product-analytics/capture-events",
+      "written_for": "posthog-python 7.13.0",
+      "last_updated": "2026-04-24"
+    },
+    "02-product-analytics.md": {
+      "source_page": "https://posthog.com/docs/product-analytics",
+      "written_for": "PostHog Cloud 2026",
+      "last_updated": "2026-04-24"
+    },
+    "03-funnels-paths.md": {
+      "source_page": "https://posthog.com/docs/product-analytics/funnels",
+      "written_for": "PostHog Cloud 2026",
+      "last_updated": "2026-04-24"
+    },
+    "04-retention-cohorts.md": {
+      "source_page": "https://posthog.com/docs/product-analytics/retention",
+      "written_for": "PostHog Cloud 2026",
+      "last_updated": "2026-04-24"
+    },
+    "05-feature-flags.md": {
+      "source_page": "https://posthog.com/docs/feature-flags",
+      "written_for": "posthog-python 7.13.0 / posthog-js 1.x",
+      "last_updated": "2026-04-24"
+    },
+    "06-experiments.md": {
+      "source_page": "https://posthog.com/docs/experiments",
+      "written_for": "PostHog Cloud 2026",
+      "last_updated": "2026-04-24"
+    },
+    "07-session-replay.md": {
+      "source_page": "https://posthog.com/docs/session-replay",
+      "written_for": "posthog-js 1.x",
+      "last_updated": "2026-04-24"
+    },
+    "08-error-tracking.md": {
+      "source_page": "https://posthog.com/docs/error-tracking",
+      "written_for": "posthog-js 1.x / posthog-python 7.x",
+      "last_updated": "2026-04-24"
+    },
+    "09-surveys.md": {
+      "source_page": "https://posthog.com/docs/surveys",
+      "written_for": "posthog-js 1.x",
+      "last_updated": "2026-04-24"
+    },
+    "10-data-pipelines.md": {
+      "source_page": "https://posthog.com/docs/cdp",
+      "written_for": "PostHog Cloud 2026",
+      "last_updated": "2026-04-24"
+    },
+    "11-hogql-data-warehouse.md": {
+      "source_page": "https://posthog.com/docs/sql",
+      "written_for": "PostHog Cloud 2026 / ClickHouse",
+      "last_updated": "2026-04-24"
+    },
+    "12-sdks-api.md": {
+      "source_page": "https://posthog.com/docs/libraries",
+      "written_for": "posthog-python 7.13.0 / posthog-node / posthog-js 1.x",
+      "last_updated": "2026-04-24"
+    }
+  }
+}

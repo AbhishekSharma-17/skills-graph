@@ -1,7 +1,7 @@
 {
   "description": "Registry of all skills in the skills-graph repo. Used by daily automation to avoid duplicates.",
-  "last_updated": "2026-04-22",
-  "total_skills": 29,
+  "last_updated": "2026-04-23",
+  "total_skills": 30,
   "skills": [
     {
       "name": "agno",
@@ -291,6 +291,16 @@
       "reference_files": 12,
       "total_lines": 4347,
       "source_url": "https://trpc.io/docs",
+      "status": "active"
+    },
+    {
+      "name": "cloudflare-workers",
+      "domain": "Cloud Platforms & Edge Computing",
+      "created_date": "2026-04-23",
+      "version": "1.0.0",
+      "reference_files": 13,
+      "total_lines": 4645,
+      "source_url": "https://developers.cloudflare.com/workers/",
       "status": "active"
     }
   ],

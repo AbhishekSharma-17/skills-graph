@@ -1,0 +1,83 @@
+{
+  "skill_name": "cloudflare-workers",
+  "skill_version": "1.0.0",
+  "source_version_tracked": "wrangler 3.x / Workers Runtime 2026-04-23",
+  "source_package": "wrangler",
+  "docs_snapshot_date": "2026-04-23",
+  "last_checked": "2026-04-23",
+  "last_updated": "2026-04-23",
+  "urls": {
+    "docs": "https://developers.cloudflare.com/workers/",
+    "changelog": "https://github.com/cloudflare/workers-sdk/releases",
+    "github": "https://github.com/cloudflare/workers-sdk",
+    "npm": "https://www.npmjs.com/package/wrangler"
+  },
+  "staleness_threshold_days": 90,
+  "references": {
+    "00-overview.md": {
+      "source_page": "https://developers.cloudflare.com/workers/get-started/guide/",
+      "written_for": "wrangler 3.x",
+      "last_updated": "2026-04-23"
+    },
+    "01-workers-fundamentals.md": {
+      "source_page": "https://developers.cloudflare.com/workers/runtime-apis/",
+      "written_for": "Workers Runtime 2026-04-23",
+      "last_updated": "2026-04-23"
+    },
+    "02-configuration.md": {
+      "source_page": "https://developers.cloudflare.com/workers/wrangler/configuration/",
+      "written_for": "wrangler 3.x",
+      "last_updated": "2026-04-23"
+    },
+    "03-kv-storage.md": {
+      "source_page": "https://developers.cloudflare.com/kv/api/",
+      "written_for": "Workers KV 2026",
+      "last_updated": "2026-04-23"
+    },
+    "04-d1-database.md": {
+      "source_page": "https://developers.cloudflare.com/d1/worker-api/d1-database/",
+      "written_for": "D1 GA 2026",
+      "last_updated": "2026-04-23"
+    },
+    "05-r2-object-storage.md": {
+      "source_page": "https://developers.cloudflare.com/r2/api/workers/workers-api-reference/",
+      "written_for": "R2 GA 2026",
+      "last_updated": "2026-04-23"
+    },
+    "06-durable-objects.md": {
+      "source_page": "https://developers.cloudflare.com/durable-objects/",
+      "written_for": "Durable Objects 2026",
+      "last_updated": "2026-04-23"
+    },
+    "07-queues.md": {
+      "source_page": "https://developers.cloudflare.com/queues/configuration/javascript-apis/",
+      "written_for": "Queues GA 2026",
+      "last_updated": "2026-04-23"
+    },
+    "08-workers-ai.md": {
+      "source_page": "https://developers.cloudflare.com/workers-ai/",
+      "written_for": "Workers AI 2026",
+      "last_updated": "2026-04-23"
+    },
+    "09-service-bindings-rpc.md": {
+      "source_page": "https://developers.cloudflare.com/workers/runtime-apis/bindings/service-bindings/rpc/",
+      "written_for": "Workers RPC 2026",
+      "last_updated": "2026-04-23"
+    },
+    "10-pages-static-assets.md": {
+      "source_page": "https://developers.cloudflare.com/pages/",
+      "written_for": "Pages 2026",
+      "last_updated": "2026-04-23"
+    },
+    "11-testing.md": {
+      "source_page": "https://developers.cloudflare.com/workers/testing/vitest-integration/",
+      "written_for": "@cloudflare/vitest-pool-workers 2026",
+      "last_updated": "2026-04-23"
+    },
+    "12-deployment-cicd.md": {
+      "source_page": "https://developers.cloudflare.com/workers/ci-cd/",
+      "written_for": "wrangler 3.x",
+      "last_updated": "2026-04-23"
+    }
+  }
+}

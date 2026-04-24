@@ -1,0 +1,83 @@
+{
+  "skill_name": "nestjs",
+  "skill_version": "1.0.0",
+  "source_version_tracked": "@nestjs/core 11.1.x",
+  "source_package": "@nestjs/core",
+  "docs_snapshot_date": "2026-04-25",
+  "last_checked": "2026-04-25",
+  "last_updated": "2026-04-25",
+  "urls": {
+    "docs": "https://docs.nestjs.com",
+    "changelog": "https://github.com/nestjs/nest/releases",
+    "github": "https://github.com/nestjs/nest",
+    "npm": "https://www.npmjs.com/package/@nestjs/core"
+  },
+  "staleness_threshold_days": 90,
+  "references": {
+    "00-overview.md": {
+      "source_page": "https://docs.nestjs.com/first-steps",
+      "written_for": "@nestjs/core 11.x",
+      "last_updated": "2026-04-25"
+    },
+    "01-modules.md": {
+      "source_page": "https://docs.nestjs.com/modules",
+      "written_for": "@nestjs/core 11.x",
+      "last_updated": "2026-04-25"
+    },
+    "02-controllers-routing.md": {
+      "source_page": "https://docs.nestjs.com/controllers",
+      "written_for": "@nestjs/core 11.x",
+      "last_updated": "2026-04-25"
+    },
+    "03-providers-dependency-injection.md": {
+      "source_page": "https://docs.nestjs.com/providers",
+      "written_for": "@nestjs/core 11.x",
+      "last_updated": "2026-04-25"
+    },
+    "04-middleware-guards-interceptors-pipes.md": {
+      "source_page": "https://docs.nestjs.com/middleware",
+      "written_for": "@nestjs/core 11.x",
+      "last_updated": "2026-04-25"
+    },
+    "05-exception-filters.md": {
+      "source_page": "https://docs.nestjs.com/exception-filters",
+      "written_for": "@nestjs/core 11.x",
+      "last_updated": "2026-04-25"
+    },
+    "06-authentication-authorization.md": {
+      "source_page": "https://docs.nestjs.com/security/authentication",
+      "written_for": "@nestjs/core 11.x / @nestjs/passport 11.x",
+      "last_updated": "2026-04-25"
+    },
+    "07-database-integration.md": {
+      "source_page": "https://docs.nestjs.com/techniques/database",
+      "written_for": "@nestjs/core 11.x / @nestjs/typeorm 11.x",
+      "last_updated": "2026-04-25"
+    },
+    "08-graphql.md": {
+      "source_page": "https://docs.nestjs.com/graphql/quick-start",
+      "written_for": "@nestjs/core 11.x / @nestjs/graphql 13.x",
+      "last_updated": "2026-04-25"
+    },
+    "09-microservices.md": {
+      "source_page": "https://docs.nestjs.com/microservices/basics",
+      "written_for": "@nestjs/core 11.x / @nestjs/microservices 11.x",
+      "last_updated": "2026-04-25"
+    },
+    "10-websockets-events.md": {
+      "source_page": "https://docs.nestjs.com/websockets/gateways",
+      "written_for": "@nestjs/core 11.x / @nestjs/websockets 11.x",
+      "last_updated": "2026-04-25"
+    },
+    "11-testing.md": {
+      "source_page": "https://docs.nestjs.com/fundamentals/testing",
+      "written_for": "@nestjs/core 11.x / @nestjs/testing 11.x",
+      "last_updated": "2026-04-25"
+    },
+    "12-configuration-swagger.md": {
+      "source_page": "https://docs.nestjs.com/techniques/configuration",
+      "written_for": "@nestjs/core 11.x / @nestjs/swagger 11.x",
+      "last_updated": "2026-04-25"
+    }
+  }
+}

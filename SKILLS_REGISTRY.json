@@ -1,7 +1,7 @@
 {
   "description": "Registry of all skills in the skills-graph repo. Used by daily automation to avoid duplicates.",
-  "last_updated": "2026-04-25",
-  "total_skills": 32,
+  "last_updated": "2026-04-30",
+  "total_skills": 33,
   "skills": [
     {
       "name": "agno",
@@ -321,6 +321,16 @@
       "reference_files": 13,
       "total_lines": 5519,
       "source_url": "https://docs.nestjs.com",
+      "status": "active"
+    },
+    {
+      "name": "langgraph",
+      "domain": "AI/ML Frameworks",
+      "created_date": "2026-04-30",
+      "version": "1.0.0",
+      "reference_files": 13,
+      "total_lines": 4146,
+      "source_url": "https://docs.langchain.com/oss/python/langgraph/overview",
       "status": "active"
     }
   ],

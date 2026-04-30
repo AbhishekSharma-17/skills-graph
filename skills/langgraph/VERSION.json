@@ -1,0 +1,83 @@
+{
+  "skill_name": "langgraph",
+  "skill_version": "1.0.0",
+  "source_version_tracked": "langgraph 1.x (langgraph-prebuilt 1.0.13)",
+  "source_package": "langgraph",
+  "docs_snapshot_date": "2026-04-30",
+  "last_checked": "2026-04-30",
+  "last_updated": "2026-04-30",
+  "urls": {
+    "docs": "https://docs.langchain.com/oss/python/langgraph/overview",
+    "changelog": "https://github.com/langchain-ai/langgraph/releases",
+    "github": "https://github.com/langchain-ai/langgraph",
+    "pypi": "https://pypi.org/project/langgraph/"
+  },
+  "staleness_threshold_days": 90,
+  "references": {
+    "00-overview.md": {
+      "source_page": "https://docs.langchain.com/oss/python/langgraph/overview",
+      "written_for": "langgraph 1.x",
+      "last_updated": "2026-04-30"
+    },
+    "01-graph-api.md": {
+      "source_page": "https://docs.langchain.com/oss/python/langgraph/graph-api",
+      "written_for": "langgraph 1.x",
+      "last_updated": "2026-04-30"
+    },
+    "02-state-management.md": {
+      "source_page": "https://docs.langchain.com/oss/python/langgraph/graph-api",
+      "written_for": "langgraph 1.x",
+      "last_updated": "2026-04-30"
+    },
+    "03-functional-api.md": {
+      "source_page": "https://docs.langchain.com/oss/python/langgraph/functional-api",
+      "written_for": "langgraph 1.x",
+      "last_updated": "2026-04-30"
+    },
+    "04-persistence-checkpointing.md": {
+      "source_page": "https://docs.langchain.com/oss/python/langgraph/persistence",
+      "written_for": "langgraph 1.x",
+      "last_updated": "2026-04-30"
+    },
+    "05-memory.md": {
+      "source_page": "https://docs.langchain.com/oss/python/langgraph/memory",
+      "written_for": "langgraph 1.x",
+      "last_updated": "2026-04-30"
+    },
+    "06-streaming.md": {
+      "source_page": "https://docs.langchain.com/oss/python/langgraph/streaming",
+      "written_for": "langgraph 1.x",
+      "last_updated": "2026-04-30"
+    },
+    "07-human-in-the-loop.md": {
+      "source_page": "https://docs.langchain.com/oss/python/langgraph/interrupts",
+      "written_for": "langgraph 1.x",
+      "last_updated": "2026-04-30"
+    },
+    "08-tool-integration.md": {
+      "source_page": "https://docs.langchain.com/oss/python/langgraph/overview",
+      "written_for": "langgraph 1.x / langgraph-prebuilt 1.x",
+      "last_updated": "2026-04-30"
+    },
+    "09-prebuilt-agents.md": {
+      "source_page": "https://reference.langchain.com/python/langgraph.prebuilt/chat_agent_executor/create_react_agent",
+      "written_for": "langgraph-prebuilt 1.x",
+      "last_updated": "2026-04-30"
+    },
+    "10-multi-agent.md": {
+      "source_page": "https://docs.langchain.com/oss/python/langgraph/overview",
+      "written_for": "langgraph 1.x / langgraph-supervisor",
+      "last_updated": "2026-04-30"
+    },
+    "11-subgraphs.md": {
+      "source_page": "https://docs.langchain.com/oss/python/langgraph/use-subgraphs",
+      "written_for": "langgraph 1.x",
+      "last_updated": "2026-04-30"
+    },
+    "12-deployment.md": {
+      "source_page": "https://docs.langchain.com/langsmith/deployment",
+      "written_for": "langgraph 1.x / LangGraph Platform GA",
+      "last_updated": "2026-04-30"
+    }
+  }
+}

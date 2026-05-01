@@ -1,7 +1,7 @@
 {
   "description": "Registry of all skills in the skills-graph repo. Used by daily automation to avoid duplicates.",
-  "last_updated": "2026-04-30",
-  "total_skills": 33,
+  "last_updated": "2026-05-01",
+  "total_skills": 34,
   "skills": [
     {
       "name": "agno",
@@ -331,6 +331,16 @@
       "reference_files": 13,
       "total_lines": 4146,
       "source_url": "https://docs.langchain.com/oss/python/langgraph/overview",
+      "status": "active"
+    },
+    {
+      "name": "ollama",
+      "domain": "LLM Tools",
+      "created_date": "2026-05-01",
+      "version": "1.0.0",
+      "reference_files": 13,
+      "total_lines": 3970,
+      "source_url": "https://docs.ollama.com",
       "status": "active"
     }
   ],

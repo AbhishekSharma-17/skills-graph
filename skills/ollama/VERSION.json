@@ -1,0 +1,83 @@
+{
+  "skill_name": "ollama",
+  "skill_version": "1.0.0",
+  "source_version_tracked": "ollama 0.22.x (Python library latest)",
+  "source_package": "ollama",
+  "docs_snapshot_date": "2026-05-01",
+  "last_checked": "2026-05-01",
+  "last_updated": "2026-05-01",
+  "urls": {
+    "docs": "https://docs.ollama.com",
+    "changelog": "https://github.com/ollama/ollama/releases",
+    "github": "https://github.com/ollama/ollama",
+    "pypi": "https://pypi.org/project/ollama/"
+  },
+  "staleness_threshold_days": 90,
+  "references": {
+    "00-overview.md": {
+      "source_page": "https://docs.ollama.com",
+      "written_for": "ollama 0.22.x",
+      "last_updated": "2026-05-01"
+    },
+    "01-cli-reference.md": {
+      "source_page": "https://docs.ollama.com/cli",
+      "written_for": "ollama 0.22.x",
+      "last_updated": "2026-05-01"
+    },
+    "02-api-reference.md": {
+      "source_page": "https://docs.ollama.com/api/introduction",
+      "written_for": "ollama 0.22.x",
+      "last_updated": "2026-05-01"
+    },
+    "03-modelfile.md": {
+      "source_page": "https://docs.ollama.com/modelfile",
+      "written_for": "ollama 0.22.x",
+      "last_updated": "2026-05-01"
+    },
+    "04-python-library.md": {
+      "source_page": "https://github.com/ollama/ollama-python",
+      "written_for": "ollama Python library latest",
+      "last_updated": "2026-05-01"
+    },
+    "05-openai-compatibility.md": {
+      "source_page": "https://docs.ollama.com/api/openai-compatibility",
+      "written_for": "ollama 0.22.x",
+      "last_updated": "2026-05-01"
+    },
+    "06-tool-calling.md": {
+      "source_page": "https://docs.ollama.com/capabilities/tool-calling",
+      "written_for": "ollama 0.22.x",
+      "last_updated": "2026-05-01"
+    },
+    "07-structured-output.md": {
+      "source_page": "https://docs.ollama.com/capabilities/structured-outputs",
+      "written_for": "ollama 0.22.x",
+      "last_updated": "2026-05-01"
+    },
+    "08-vision-multimodal.md": {
+      "source_page": "https://ollama.com/blog/vision-models",
+      "written_for": "ollama 0.22.x",
+      "last_updated": "2026-05-01"
+    },
+    "09-embeddings-rag.md": {
+      "source_page": "https://docs.ollama.com/capabilities/embeddings",
+      "written_for": "ollama 0.22.x",
+      "last_updated": "2026-05-01"
+    },
+    "10-gpu-performance.md": {
+      "source_page": "https://docs.ollama.com/faq",
+      "written_for": "ollama 0.22.x",
+      "last_updated": "2026-05-01"
+    },
+    "11-configuration.md": {
+      "source_page": "https://docs.ollama.com/faq",
+      "written_for": "ollama 0.22.x",
+      "last_updated": "2026-05-01"
+    },
+    "12-docker-deployment.md": {
+      "source_page": "https://docs.ollama.com/docker",
+      "written_for": "ollama 0.22.x",
+      "last_updated": "2026-05-01"
+    }
+  }
+}

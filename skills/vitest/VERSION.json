@@ -1,0 +1,78 @@
+{
+  "skill_name": "vitest",
+  "skill_version": "1.0.0",
+  "source_version_tracked": "vitest 4.x (v4.1.5)",
+  "source_package": "vitest",
+  "docs_snapshot_date": "2026-05-03",
+  "last_checked": "2026-05-03",
+  "last_updated": "2026-05-03",
+  "urls": {
+    "docs": "https://vitest.dev",
+    "changelog": "https://github.com/vitest-dev/vitest/releases",
+    "github": "https://github.com/vitest-dev/vitest",
+    "npm": "https://www.npmjs.com/package/vitest"
+  },
+  "staleness_threshold_days": 90,
+  "references": {
+    "00-overview.md": {
+      "source_page": "https://vitest.dev/guide/",
+      "written_for": "vitest 4.x",
+      "last_updated": "2026-05-03"
+    },
+    "01-writing-tests.md": {
+      "source_page": "https://vitest.dev/api/",
+      "written_for": "vitest 4.x",
+      "last_updated": "2026-05-03"
+    },
+    "02-assertions.md": {
+      "source_page": "https://vitest.dev/api/expect.html",
+      "written_for": "vitest 4.x",
+      "last_updated": "2026-05-03"
+    },
+    "03-mocking.md": {
+      "source_page": "https://vitest.dev/api/mock.html",
+      "written_for": "vitest 4.x",
+      "last_updated": "2026-05-03"
+    },
+    "04-timers-dates.md": {
+      "source_page": "https://vitest.dev/api/vi.html",
+      "written_for": "vitest 4.x",
+      "last_updated": "2026-05-03"
+    },
+    "05-snapshots.md": {
+      "source_page": "https://vitest.dev/guide/snapshot.html",
+      "written_for": "vitest 4.x",
+      "last_updated": "2026-05-03"
+    },
+    "06-coverage.md": {
+      "source_page": "https://vitest.dev/guide/coverage.html",
+      "written_for": "vitest 4.x",
+      "last_updated": "2026-05-03"
+    },
+    "07-browser-mode.md": {
+      "source_page": "https://vitest.dev/guide/browser/",
+      "written_for": "vitest 4.x",
+      "last_updated": "2026-05-03"
+    },
+    "08-cli-reporters.md": {
+      "source_page": "https://vitest.dev/guide/cli.html",
+      "written_for": "vitest 4.x",
+      "last_updated": "2026-05-03"
+    },
+    "09-type-testing.md": {
+      "source_page": "https://vitest.dev/guide/testing-types.html",
+      "written_for": "vitest 4.x",
+      "last_updated": "2026-05-03"
+    },
+    "10-environments.md": {
+      "source_page": "https://vitest.dev/guide/environment.html",
+      "written_for": "vitest 4.x",
+      "last_updated": "2026-05-03"
+    },
+    "11-advanced-patterns.md": {
+      "source_page": "https://vitest.dev/guide/",
+      "written_for": "vitest 4.x",
+      "last_updated": "2026-05-03"
+    }
+  }
+}

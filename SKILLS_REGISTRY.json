@@ -1,7 +1,7 @@
 {
   "description": "Registry of all skills in the skills-graph repo. Used by daily automation to avoid duplicates.",
-  "last_updated": "2026-05-01",
-  "total_skills": 34,
+  "last_updated": "2026-05-03",
+  "total_skills": 35,
   "skills": [
     {
       "name": "agno",
@@ -341,6 +341,16 @@
       "reference_files": 13,
       "total_lines": 3970,
       "source_url": "https://docs.ollama.com",
+      "status": "active"
+    },
+    {
+      "name": "vitest",
+      "domain": "Testing Frameworks",
+      "created_date": "2026-05-03",
+      "version": "1.0.0",
+      "reference_files": 12,
+      "total_lines": 4436,
+      "source_url": "https://vitest.dev",
       "status": "active"
     }
   ],

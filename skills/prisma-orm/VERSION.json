@@ -1,0 +1,83 @@
+{
+  "skill_name": "prisma-orm",
+  "skill_version": "1.0.0",
+  "source_version_tracked": "Prisma ORM 7.x (v7.7.0)",
+  "source_package": "@prisma/client",
+  "docs_snapshot_date": "2026-05-04",
+  "last_checked": "2026-05-04",
+  "last_updated": "2026-05-04",
+  "urls": {
+    "docs": "https://www.prisma.io/docs",
+    "changelog": "https://www.prisma.io/changelog",
+    "github": "https://github.com/prisma/prisma",
+    "npm": "https://www.npmjs.com/package/@prisma/client"
+  },
+  "staleness_threshold_days": 90,
+  "references": {
+    "00-overview.md": {
+      "source_page": "https://www.prisma.io/docs/orm/overview/introduction/what-is-prisma",
+      "written_for": "Prisma ORM 7.x",
+      "last_updated": "2026-05-04"
+    },
+    "01-schema-language.md": {
+      "source_page": "https://www.prisma.io/docs/orm/prisma-schema/overview",
+      "written_for": "Prisma ORM 7.x",
+      "last_updated": "2026-05-04"
+    },
+    "02-relations.md": {
+      "source_page": "https://www.prisma.io/docs/orm/prisma-schema/data-model/relations",
+      "written_for": "Prisma ORM 7.x",
+      "last_updated": "2026-05-04"
+    },
+    "03-client-crud.md": {
+      "source_page": "https://www.prisma.io/docs/orm/prisma-client/queries/crud",
+      "written_for": "Prisma ORM 7.x",
+      "last_updated": "2026-05-04"
+    },
+    "04-filtering-sorting.md": {
+      "source_page": "https://www.prisma.io/docs/orm/prisma-client/queries/filtering-and-sorting",
+      "written_for": "Prisma ORM 7.x",
+      "last_updated": "2026-05-04"
+    },
+    "05-select-include.md": {
+      "source_page": "https://www.prisma.io/docs/orm/prisma-client/queries/select-fields",
+      "written_for": "Prisma ORM 7.x",
+      "last_updated": "2026-05-04"
+    },
+    "06-transactions.md": {
+      "source_page": "https://www.prisma.io/docs/orm/prisma-client/queries/transactions",
+      "written_for": "Prisma ORM 7.x",
+      "last_updated": "2026-05-04"
+    },
+    "07-raw-queries.md": {
+      "source_page": "https://www.prisma.io/docs/orm/prisma-client/queries/raw-database-access/raw-queries",
+      "written_for": "Prisma ORM 7.x",
+      "last_updated": "2026-05-04"
+    },
+    "08-migrations.md": {
+      "source_page": "https://www.prisma.io/docs/orm/prisma-migrate/getting-started",
+      "written_for": "Prisma ORM 7.x",
+      "last_updated": "2026-05-04"
+    },
+    "09-client-extensions.md": {
+      "source_page": "https://www.prisma.io/docs/orm/prisma-client/client-extensions",
+      "written_for": "Prisma ORM 7.x",
+      "last_updated": "2026-05-04"
+    },
+    "10-json-fields.md": {
+      "source_page": "https://www.prisma.io/docs/orm/prisma-client/special-fields-and-types/working-with-json-fields",
+      "written_for": "Prisma ORM 7.x",
+      "last_updated": "2026-05-04"
+    },
+    "11-error-handling.md": {
+      "source_page": "https://www.prisma.io/docs/orm/reference/error-reference",
+      "written_for": "Prisma ORM 7.x",
+      "last_updated": "2026-05-04"
+    },
+    "12-performance.md": {
+      "source_page": "https://www.prisma.io/docs/orm/prisma-client/queries/query-optimization-performance",
+      "written_for": "Prisma ORM 7.x",
+      "last_updated": "2026-05-04"
+    }
+  }
+}

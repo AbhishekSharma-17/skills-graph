@@ -1,0 +1,83 @@
+{
+  "skill_name": "crewai",
+  "skill_version": "1.0.0",
+  "source_version_tracked": "crewai 1.3.x",
+  "source_package": "crewai",
+  "docs_snapshot_date": "2026-05-06",
+  "last_checked": "2026-05-06",
+  "last_updated": "2026-05-06",
+  "urls": {
+    "docs": "https://docs.crewai.com",
+    "changelog": "https://github.com/crewAIInc/crewAI/releases",
+    "github": "https://github.com/crewAIInc/crewAI",
+    "pypi": "https://pypi.org/project/crewai/"
+  },
+  "staleness_threshold_days": 90,
+  "references": {
+    "00-overview.md": {
+      "source_page": "https://docs.crewai.com/en/introduction",
+      "written_for": "crewai 1.3.x",
+      "last_updated": "2026-05-06"
+    },
+    "01-agents.md": {
+      "source_page": "https://docs.crewai.com/en/concepts/agents",
+      "written_for": "crewai 1.3.x",
+      "last_updated": "2026-05-06"
+    },
+    "02-tasks.md": {
+      "source_page": "https://docs.crewai.com/en/concepts/tasks",
+      "written_for": "crewai 1.3.x",
+      "last_updated": "2026-05-06"
+    },
+    "03-crews.md": {
+      "source_page": "https://docs.crewai.com/en/concepts/crews",
+      "written_for": "crewai 1.3.x",
+      "last_updated": "2026-05-06"
+    },
+    "04-processes.md": {
+      "source_page": "https://docs.crewai.com/en/concepts/processes",
+      "written_for": "crewai 1.3.x",
+      "last_updated": "2026-05-06"
+    },
+    "05-tools.md": {
+      "source_page": "https://docs.crewai.com/en/concepts/tools",
+      "written_for": "crewai 1.3.x",
+      "last_updated": "2026-05-06"
+    },
+    "06-flows.md": {
+      "source_page": "https://docs.crewai.com/en/concepts/flows",
+      "written_for": "crewai 1.3.x",
+      "last_updated": "2026-05-06"
+    },
+    "07-memory-knowledge.md": {
+      "source_page": "https://docs.crewai.com/en/concepts/memory",
+      "written_for": "crewai 1.3.x",
+      "last_updated": "2026-05-06"
+    },
+    "08-llm-configuration.md": {
+      "source_page": "https://docs.crewai.com/en/concepts/llms",
+      "written_for": "crewai 1.3.x",
+      "last_updated": "2026-05-06"
+    },
+    "09-collaboration.md": {
+      "source_page": "https://docs.crewai.com/en/concepts/collaboration",
+      "written_for": "crewai 1.3.x",
+      "last_updated": "2026-05-06"
+    },
+    "10-structured-output.md": {
+      "source_page": "https://docs.crewai.com/en/concepts/tasks",
+      "written_for": "crewai 1.3.x",
+      "last_updated": "2026-05-06"
+    },
+    "11-mcp-integration.md": {
+      "source_page": "https://docs.crewai.com/en/mcp/overview",
+      "written_for": "crewai 1.3.x",
+      "last_updated": "2026-05-06"
+    },
+    "12-cli-deployment.md": {
+      "source_page": "https://docs.crewai.com/en/concepts/cli",
+      "written_for": "crewai 1.3.x",
+      "last_updated": "2026-05-06"
+    }
+  }
+}

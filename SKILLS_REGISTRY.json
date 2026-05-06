@@ -1,7 +1,7 @@
 {
   "description": "Registry of all skills in the skills-graph repo. Used by daily automation to avoid duplicates.",
-  "last_updated": "2026-05-04",
-  "total_skills": 36,
+  "last_updated": "2026-05-06",
+  "total_skills": 37,
   "skills": [
     {
       "name": "agno",
@@ -361,6 +361,16 @@
       "reference_files": 13,
       "total_lines": 5241,
       "source_url": "https://www.prisma.io/docs",
+      "status": "active"
+    },
+    {
+      "name": "crewai",
+      "domain": "AI/ML Frameworks",
+      "created_date": "2026-05-06",
+      "version": "1.0.0",
+      "reference_files": 13,
+      "total_lines": 3618,
+      "source_url": "https://docs.crewai.com",
       "status": "active"
     }
   ],

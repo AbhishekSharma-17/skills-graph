@@ -1,7 +1,7 @@
 {
   "description": "Registry of all skills in the skills-graph repo. Used by daily automation to avoid duplicates.",
-  "last_updated": "2026-05-06",
-  "total_skills": 37,
+  "last_updated": "2026-05-08",
+  "total_skills": 38,
   "skills": [
     {
       "name": "agno",
@@ -371,6 +371,16 @@
       "reference_files": 13,
       "total_lines": 3618,
       "source_url": "https://docs.crewai.com",
+      "status": "active"
+    },
+    {
+      "name": "shadcn-ui",
+      "domain": "UI Libraries",
+      "created_date": "2026-05-08",
+      "version": "1.0.0",
+      "reference_files": 13,
+      "total_lines": 5000,
+      "source_url": "https://ui.shadcn.com/docs",
       "status": "active"
     }
   ],

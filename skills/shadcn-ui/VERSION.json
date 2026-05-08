@@ -1,0 +1,83 @@
+{
+  "skill_name": "shadcn-ui",
+  "skill_version": "1.0.0",
+  "source_version_tracked": "shadcn 4.7.x",
+  "source_package": "shadcn",
+  "docs_snapshot_date": "2026-05-08",
+  "last_checked": "2026-05-08",
+  "last_updated": "2026-05-08",
+  "urls": {
+    "docs": "https://ui.shadcn.com/docs",
+    "changelog": "https://ui.shadcn.com/docs/changelog",
+    "github": "https://github.com/shadcn-ui/ui",
+    "npm": "https://www.npmjs.com/package/shadcn"
+  },
+  "staleness_threshold_days": 90,
+  "references": {
+    "00-overview.md": {
+      "source_page": "https://ui.shadcn.com/docs",
+      "written_for": "shadcn 4.7.x",
+      "last_updated": "2026-05-08"
+    },
+    "01-cli.md": {
+      "source_page": "https://ui.shadcn.com/docs/cli",
+      "written_for": "shadcn 4.7.x",
+      "last_updated": "2026-05-08"
+    },
+    "02-configuration.md": {
+      "source_page": "https://ui.shadcn.com/docs/components-json",
+      "written_for": "shadcn 4.7.x",
+      "last_updated": "2026-05-08"
+    },
+    "03-theming.md": {
+      "source_page": "https://ui.shadcn.com/docs/theming",
+      "written_for": "shadcn 4.7.x",
+      "last_updated": "2026-05-08"
+    },
+    "04-layout-components.md": {
+      "source_page": "https://ui.shadcn.com/docs/components",
+      "written_for": "shadcn 4.7.x",
+      "last_updated": "2026-05-08"
+    },
+    "05-form-components.md": {
+      "source_page": "https://ui.shadcn.com/docs/components",
+      "written_for": "shadcn 4.7.x",
+      "last_updated": "2026-05-08"
+    },
+    "06-form-validation.md": {
+      "source_page": "https://ui.shadcn.com/docs/forms/react-hook-form",
+      "written_for": "shadcn 4.7.x",
+      "last_updated": "2026-05-08"
+    },
+    "07-feedback-overlays.md": {
+      "source_page": "https://ui.shadcn.com/docs/components",
+      "written_for": "shadcn 4.7.x",
+      "last_updated": "2026-05-08"
+    },
+    "08-navigation-components.md": {
+      "source_page": "https://ui.shadcn.com/docs/components",
+      "written_for": "shadcn 4.7.x",
+      "last_updated": "2026-05-08"
+    },
+    "09-data-display.md": {
+      "source_page": "https://ui.shadcn.com/docs/components",
+      "written_for": "shadcn 4.7.x",
+      "last_updated": "2026-05-08"
+    },
+    "10-charts.md": {
+      "source_page": "https://ui.shadcn.com/charts",
+      "written_for": "shadcn 4.7.x",
+      "last_updated": "2026-05-08"
+    },
+    "11-registry.md": {
+      "source_page": "https://ui.shadcn.com/docs/registry",
+      "written_for": "shadcn 4.7.x",
+      "last_updated": "2026-05-08"
+    },
+    "12-accessibility.md": {
+      "source_page": "https://ui.shadcn.com/docs/components",
+      "written_for": "shadcn 4.7.x",
+      "last_updated": "2026-05-08"
+    }
+  }
+}

@@ -1,7 +1,7 @@
 {
   "description": "Registry of all skills in the skills-graph repo. Used by daily automation to avoid duplicates.",
-  "last_updated": "2026-05-08",
-  "total_skills": 38,
+  "last_updated": "2026-05-12",
+  "total_skills": 39,
   "skills": [
     {
       "name": "agno",
@@ -381,6 +381,16 @@
       "reference_files": 13,
       "total_lines": 5000,
       "source_url": "https://ui.shadcn.com/docs",
+      "status": "active"
+    },
+    {
+      "name": "upstash",
+      "domain": "Serverless Data Platform",
+      "created_date": "2026-05-12",
+      "version": "1.0.0",
+      "reference_files": 12,
+      "total_lines": 4654,
+      "source_url": "https://upstash.com/docs",
       "status": "active"
     }
   ],

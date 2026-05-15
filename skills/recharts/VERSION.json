@@ -1,0 +1,82 @@
+{
+  "skill_version": "1.0.0",
+  "source_version_tracked": "3.8.1",
+  "source_package": "recharts",
+  "docs_snapshot_date": "2026-05-16",
+  "last_checked": "2026-05-16",
+  "last_updated": "2026-05-16",
+  "urls": {
+    "docs": "https://recharts.org/en-US",
+    "changelog": "https://github.com/recharts/recharts/releases",
+    "github": "https://github.com/recharts/recharts",
+    "npm": "https://www.npmjs.com/package/recharts"
+  },
+  "references": {
+    "00-overview.md": {
+      "source_page": "https://recharts.org/en-US",
+      "written_for": "3.8.1",
+      "last_updated": "2026-05-16"
+    },
+    "01-cartesian-charts.md": {
+      "source_page": "https://recharts.org/en-US/api",
+      "written_for": "3.8.1",
+      "last_updated": "2026-05-16"
+    },
+    "02-polar-charts.md": {
+      "source_page": "https://recharts.org/en-US/api",
+      "written_for": "3.8.1",
+      "last_updated": "2026-05-16"
+    },
+    "03-specialty-charts.md": {
+      "source_page": "https://recharts.org/en-US/api",
+      "written_for": "3.8.1",
+      "last_updated": "2026-05-16"
+    },
+    "04-axes-grid.md": {
+      "source_page": "https://recharts.org/en-US/api",
+      "written_for": "3.8.1",
+      "last_updated": "2026-05-16"
+    },
+    "05-tooltip-legend.md": {
+      "source_page": "https://recharts.org/en-US/api",
+      "written_for": "3.8.1",
+      "last_updated": "2026-05-16"
+    },
+    "06-reference-labels.md": {
+      "source_page": "https://recharts.org/en-US/api",
+      "written_for": "3.8.1",
+      "last_updated": "2026-05-16"
+    },
+    "07-customization.md": {
+      "source_page": "https://recharts.org/en-US/api",
+      "written_for": "3.8.1",
+      "last_updated": "2026-05-16"
+    },
+    "08-animation.md": {
+      "source_page": "https://recharts.org/en-US/api",
+      "written_for": "3.8.1",
+      "last_updated": "2026-05-16"
+    },
+    "09-stacking-responsive.md": {
+      "source_page": "https://recharts.org/en-US/api",
+      "written_for": "3.8.1",
+      "last_updated": "2026-05-16"
+    },
+    "10-typescript-hooks.md": {
+      "source_page": "https://recharts.org/en-US/api",
+      "written_for": "3.8.1",
+      "last_updated": "2026-05-16"
+    },
+    "11-performance-ssr.md": {
+      "source_page": "https://recharts.org/en-US/guide/performance",
+      "written_for": "3.8.1",
+      "last_updated": "2026-05-16"
+    },
+    "12-migration-v3.md": {
+      "source_page": "https://github.com/recharts/recharts/wiki/v3.0-Migration",
+      "written_for": "3.8.1",
+      "last_updated": "2026-05-16"
+    }
+  },
+  "staleness_threshold_days": 90
+}

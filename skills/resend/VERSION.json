@@ -1,0 +1,80 @@
+{
+  "skill_version": "1.0.0",
+  "source_version_tracked": "6.12.x",
+  "source_package": "resend (npm) / resend (PyPI)",
+  "docs_snapshot_date": "2026-05-15",
+  "last_checked": "2026-05-15",
+  "last_updated": "2026-05-15",
+  "urls": {
+    "docs": "https://resend.com/docs",
+    "changelog": "https://resend.com/changelog",
+    "github_node": "https://github.com/resend/resend-node",
+    "github_python": "https://github.com/resend/resend-python",
+    "npm": "https://www.npmjs.com/package/resend",
+    "pypi": "https://pypi.org/project/resend/",
+    "react_email": "https://react.email"
+  },
+  "references": {
+    "00-overview.md": {
+      "source_page": "https://resend.com/docs/introduction",
+      "written_for": "6.12.x",
+      "last_updated": "2026-05-15"
+    },
+    "01-sending-emails.md": {
+      "source_page": "https://resend.com/docs/api-reference/emails/send-email",
+      "written_for": "6.12.x",
+      "last_updated": "2026-05-15"
+    },
+    "02-batch-idempotency.md": {
+      "source_page": "https://resend.com/docs/api-reference/emails/send-batch-emails",
+      "written_for": "6.12.x",
+      "last_updated": "2026-05-15"
+    },
+    "03-react-email.md": {
+      "source_page": "https://react.email/docs",
+      "written_for": "6.0.x",
+      "last_updated": "2026-05-15"
+    },
+    "04-webhooks.md": {
+      "source_page": "https://resend.com/docs/webhooks/introduction",
+      "written_for": "6.12.x",
+      "last_updated": "2026-05-15"
+    },
+    "05-domains.md": {
+      "source_page": "https://resend.com/docs/dashboard/domains/introduction",
+      "written_for": "6.12.x",
+      "last_updated": "2026-05-15"
+    },
+    "06-audiences-contacts.md": {
+      "source_page": "https://resend.com/docs/dashboard/audiences/introduction",
+      "written_for": "6.12.x",
+      "last_updated": "2026-05-15"
+    },
+    "07-broadcasts.md": {
+      "source_page": "https://resend.com/docs/api-reference/broadcasts",
+      "written_for": "6.12.x",
+      "last_updated": "2026-05-15"
+    },
+    "08-nodejs-sdk.md": {
+      "source_page": "https://github.com/resend/resend-node",
+      "written_for": "6.12.x",
+      "last_updated": "2026-05-15"
+    },
+    "09-python-sdk.md": {
+      "source_page": "https://github.com/resend/resend-python",
+      "written_for": "2.x",
+      "last_updated": "2026-05-15"
+    },
+    "10-framework-integrations.md": {
+      "source_page": "https://resend.com/docs",
+      "written_for": "6.12.x",
+      "last_updated": "2026-05-15"
+    },
+    "11-api-keys-security.md": {
+      "source_page": "https://resend.com/docs/knowledge-base/how-to-handle-api-keys",
+      "written_for": "6.12.x",
+      "last_updated": "2026-05-15"
+    }
+  },
+  "staleness_threshold_days": 90
+}

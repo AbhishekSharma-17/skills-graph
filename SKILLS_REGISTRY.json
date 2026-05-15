@@ -1,7 +1,7 @@
 {
   "description": "Registry of all skills in the skills-graph repo. Used by daily automation to avoid duplicates.",
-  "last_updated": "2026-05-12",
-  "total_skills": 39,
+  "last_updated": "2026-05-15",
+  "total_skills": 40,
   "skills": [
     {
       "name": "agno",
@@ -391,6 +391,16 @@
       "reference_files": 12,
       "total_lines": 4654,
       "source_url": "https://upstash.com/docs",
+      "status": "active"
+    },
+    {
+      "name": "resend",
+      "domain": "Developer Email API",
+      "created_date": "2026-05-15",
+      "version": "1.0.0",
+      "reference_files": 12,
+      "total_lines": 3740,
+      "source_url": "https://resend.com/docs",
       "status": "active"
     }
   ],

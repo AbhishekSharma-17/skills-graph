@@ -1,0 +1,82 @@
+{
+  "skill_version": "1.0.0",
+  "source_version_tracked": "2026.05",
+  "source_package": "github-actions",
+  "docs_snapshot_date": "2026-05-18",
+  "last_checked": "2026-05-18",
+  "last_updated": "2026-05-18",
+  "urls": {
+    "docs": "https://docs.github.com/en/actions",
+    "changelog": "https://github.blog/changelog/label/actions/",
+    "github": "https://github.com/features/actions",
+    "marketplace": "https://github.com/marketplace?type=actions"
+  },
+  "references": {
+    "00-overview.md": {
+      "source_page": "https://docs.github.com/en/actions",
+      "written_for": "2026.05",
+      "last_updated": "2026-05-18"
+    },
+    "01-workflow-syntax.md": {
+      "source_page": "https://docs.github.com/actions/using-workflows/workflow-syntax-for-github-actions",
+      "written_for": "2026.05",
+      "last_updated": "2026-05-18"
+    },
+    "02-event-triggers.md": {
+      "source_page": "https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows",
+      "written_for": "2026.05",
+      "last_updated": "2026-05-18"
+    },
+    "03-jobs-runners.md": {
+      "source_page": "https://docs.github.com/en/actions/reference/runners/self-hosted-runners",
+      "written_for": "2026.05",
+      "last_updated": "2026-05-18"
+    },
+    "04-steps-actions.md": {
+      "source_page": "https://docs.github.com/en/actions/concepts/workflows-and-actions/custom-actions",
+      "written_for": "2026.05",
+      "last_updated": "2026-05-18"
+    },
+    "05-expressions-contexts.md": {
+      "source_page": "https://docs.github.com/en/actions/reference/workflows-and-actions/contexts",
+      "written_for": "2026.05",
+      "last_updated": "2026-05-18"
+    },
+    "06-matrix-strategy.md": {
+      "source_page": "https://docs.github.com/actions/using-workflows/workflow-syntax-for-github-actions",
+      "written_for": "2026.05",
+      "last_updated": "2026-05-18"
+    },
+    "07-caching-artifacts.md": {
+      "source_page": "https://docs.github.com/en/actions/how-tos/writing-workflows/choosing-what-your-workflow-does/caching-dependencies-to-speed-up-workflows",
+      "written_for": "2026.05",
+      "last_updated": "2026-05-18"
+    },
+    "08-secrets-variables.md": {
+      "source_page": "https://docs.github.com/en/actions/how-tos/security-for-github-actions/using-secrets-in-github-actions",
+      "written_for": "2026.05",
+      "last_updated": "2026-05-18"
+    },
+    "09-reusable-workflows.md": {
+      "source_page": "https://docs.github.com/en/actions/concepts/workflows-and-actions/reusing-workflow-configurations",
+      "written_for": "2026.05",
+      "last_updated": "2026-05-18"
+    },
+    "10-environments-deployments.md": {
+      "source_page": "https://docs.github.com/en/actions/reference/workflows-and-actions/deployments-and-environments",
+      "written_for": "2026.05",
+      "last_updated": "2026-05-18"
+    },
+    "11-security-hardening.md": {
+      "source_page": "https://docs.github.com/en/actions/reference/security/secure-use",
+      "written_for": "2026.05",
+      "last_updated": "2026-05-18"
+    },
+    "12-advanced-patterns.md": {
+      "source_page": "https://docs.github.com/en/actions",
+      "written_for": "2026.05",
+      "last_updated": "2026-05-18"
+    }
+  },
+  "staleness_threshold_days": 90
+}

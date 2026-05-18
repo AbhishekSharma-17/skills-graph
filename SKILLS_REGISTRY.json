@@ -1,7 +1,7 @@
 {
   "description": "Registry of all skills in the skills-graph repo. Used by daily automation to avoid duplicates.",
-  "last_updated": "2026-05-18",
-  "total_skills": 42,
+  "last_updated": "2026-05-19",
+  "total_skills": 43,
   "skills": [
     {
       "name": "agno",
@@ -421,6 +421,16 @@
       "reference_files": 13,
       "total_lines": 5849,
       "source_url": "https://docs.github.com/en/actions",
+      "status": "active"
+    },
+    {
+      "name": "bun",
+      "domain": "JavaScript Runtime & Tooling",
+      "created_date": "2026-05-19",
+      "version": "1.0.0",
+      "reference_files": 13,
+      "total_lines": 5240,
+      "source_url": "https://bun.com/docs",
       "status": "active"
     }
   ],

@@ -1,0 +1,83 @@
+{
+  "skill_version": "1.0.0",
+  "source_version_tracked": "3.242.0",
+  "source_package": "pulumi",
+  "docs_snapshot_date": "2026-05-26",
+  "last_checked": "2026-05-26",
+  "last_updated": "2026-05-26",
+  "urls": {
+    "docs": "https://www.pulumi.com/docs/",
+    "changelog": "https://github.com/pulumi/pulumi/blob/master/CHANGELOG.md",
+    "github": "https://github.com/pulumi/pulumi",
+    "pypi": "https://pypi.org/project/pulumi/",
+    "registry": "https://www.pulumi.com/registry/"
+  },
+  "references": {
+    "00-overview.md": {
+      "source_page": "/docs/iac/get-started/",
+      "written_for": "3.242.0",
+      "last_updated": "2026-05-26"
+    },
+    "01-projects-stacks.md": {
+      "source_page": "/docs/iac/concepts/projects/",
+      "written_for": "3.242.0",
+      "last_updated": "2026-05-26"
+    },
+    "02-resources.md": {
+      "source_page": "/docs/iac/concepts/resources/",
+      "written_for": "3.242.0",
+      "last_updated": "2026-05-26"
+    },
+    "03-resource-options.md": {
+      "source_page": "/docs/iac/concepts/resources/options/",
+      "written_for": "3.242.0",
+      "last_updated": "2026-05-26"
+    },
+    "04-inputs-outputs.md": {
+      "source_page": "/docs/iac/concepts/inputs-outputs/",
+      "written_for": "3.242.0",
+      "last_updated": "2026-05-26"
+    },
+    "05-configuration-secrets.md": {
+      "source_page": "/docs/iac/concepts/secrets/",
+      "written_for": "3.242.0",
+      "last_updated": "2026-05-26"
+    },
+    "06-state-backends.md": {
+      "source_page": "/docs/iac/concepts/state-and-backends/",
+      "written_for": "3.242.0",
+      "last_updated": "2026-05-26"
+    },
+    "07-providers.md": {
+      "source_page": "/docs/iac/concepts/providers/",
+      "written_for": "3.242.0",
+      "last_updated": "2026-05-26"
+    },
+    "08-component-resources.md": {
+      "source_page": "/docs/iac/concepts/components/",
+      "written_for": "3.242.0",
+      "last_updated": "2026-05-26"
+    },
+    "09-testing.md": {
+      "source_page": "/docs/iac/concepts/testing/",
+      "written_for": "3.242.0",
+      "last_updated": "2026-05-26"
+    },
+    "10-policy-crossguard.md": {
+      "source_page": "/docs/iac/crossguard/",
+      "written_for": "3.242.0",
+      "last_updated": "2026-05-26"
+    },
+    "11-automation-api.md": {
+      "source_page": "/docs/iac/packages-and-automation/automation-api/",
+      "written_for": "3.242.0",
+      "last_updated": "2026-05-26"
+    },
+    "12-ci-cd-migration.md": {
+      "source_page": "/docs/iac/guides/continuous-delivery/",
+      "written_for": "3.242.0",
+      "last_updated": "2026-05-26"
+    }
+  },
+  "staleness_threshold_days": 90
+}

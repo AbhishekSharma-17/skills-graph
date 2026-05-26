@@ -1,7 +1,7 @@
 {
   "description": "Registry of all skills in the skills-graph repo. Used by daily automation to avoid duplicates.",
-  "last_updated": "2026-05-26",
-  "total_skills": 44,
+  "last_updated": "2026-05-27",
+  "total_skills": 45,
   "skills": [
     {
       "name": "agno",
@@ -441,6 +441,16 @@
       "reference_files": 13,
       "total_lines": 3958,
       "source_url": "https://www.pulumi.com/docs/",
+      "status": "active"
+    },
+    {
+      "name": "tauri",
+      "domain": "Desktop & Mobile Development",
+      "created_date": "2026-05-27",
+      "version": "1.0.0",
+      "reference_files": 13,
+      "total_lines": 4305,
+      "source_url": "https://v2.tauri.app/",
       "status": "active"
     }
   ],

@@ -1,0 +1,82 @@
+{
+  "skill_version": "1.0.0",
+  "source_version_tracked": "2.9.x",
+  "source_package": "tauri",
+  "docs_snapshot_date": "2026-05-27",
+  "last_checked": "2026-05-27",
+  "last_updated": "2026-05-27",
+  "urls": {
+    "docs": "https://v2.tauri.app/",
+    "changelog": "https://github.com/tauri-apps/tauri/releases",
+    "github": "https://github.com/tauri-apps/tauri",
+    "crates_io": "https://crates.io/crates/tauri"
+  },
+  "references": {
+    "00-overview.md": {
+      "source_page": "https://v2.tauri.app/start/",
+      "written_for": "2.9.x",
+      "last_updated": "2026-05-27"
+    },
+    "01-architecture.md": {
+      "source_page": "https://v2.tauri.app/concept/",
+      "written_for": "2.9.x",
+      "last_updated": "2026-05-27"
+    },
+    "02-commands.md": {
+      "source_page": "https://v2.tauri.app/develop/calling-rust/",
+      "written_for": "2.9.x",
+      "last_updated": "2026-05-27"
+    },
+    "03-events.md": {
+      "source_page": "https://v2.tauri.app/develop/calling-rust/#events",
+      "written_for": "2.9.x",
+      "last_updated": "2026-05-27"
+    },
+    "04-state-management.md": {
+      "source_page": "https://v2.tauri.app/develop/state-management/",
+      "written_for": "2.9.x",
+      "last_updated": "2026-05-27"
+    },
+    "05-security-model.md": {
+      "source_page": "https://v2.tauri.app/security/",
+      "written_for": "2.9.x",
+      "last_updated": "2026-05-27"
+    },
+    "06-plugins.md": {
+      "source_page": "https://v2.tauri.app/plugin/",
+      "written_for": "2.9.x",
+      "last_updated": "2026-05-27"
+    },
+    "07-window-management.md": {
+      "source_page": "https://v2.tauri.app/develop/",
+      "written_for": "2.9.x",
+      "last_updated": "2026-05-27"
+    },
+    "08-mobile-development.md": {
+      "source_page": "https://v2.tauri.app/develop/",
+      "written_for": "2.9.x",
+      "last_updated": "2026-05-27"
+    },
+    "09-configuration.md": {
+      "source_page": "https://v2.tauri.app/develop/configuration-files/",
+      "written_for": "2.9.x",
+      "last_updated": "2026-05-27"
+    },
+    "10-distribution.md": {
+      "source_page": "https://v2.tauri.app/distribute/",
+      "written_for": "2.9.x",
+      "last_updated": "2026-05-27"
+    },
+    "11-frontend-integration.md": {
+      "source_page": "https://v2.tauri.app/start/",
+      "written_for": "2.9.x",
+      "last_updated": "2026-05-27"
+    },
+    "12-debugging-testing.md": {
+      "source_page": "https://v2.tauri.app/develop/debug/",
+      "written_for": "2.9.x",
+      "last_updated": "2026-05-27"
+    }
+  },
+  "staleness_threshold_days": 90
+}

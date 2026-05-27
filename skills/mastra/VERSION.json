@@ -1,0 +1,88 @@
+{
+  "skill_name": "mastra",
+  "skill_version": "1.0.0",
+  "source_version_tracked": "@mastra/core 1.37.x",
+  "source_package": "@mastra/core",
+  "docs_snapshot_date": "2026-05-28",
+  "last_checked": "2026-05-28",
+  "last_updated": "2026-05-28",
+  "urls": {
+    "docs": "https://mastra.ai/docs",
+    "changelog": "https://github.com/mastra-ai/mastra/releases",
+    "github": "https://github.com/mastra-ai/mastra",
+    "npm": "https://www.npmjs.com/package/@mastra/core"
+  },
+  "staleness_threshold_days": 90,
+  "references": {
+    "00-overview.md": {
+      "source_page": "https://mastra.ai/docs",
+      "written_for": "@mastra/core 1.37.x",
+      "last_updated": "2026-05-28"
+    },
+    "01-agents.md": {
+      "source_page": "https://mastra.ai/docs/agents/overview",
+      "written_for": "@mastra/core 1.37.x",
+      "last_updated": "2026-05-28"
+    },
+    "02-tools.md": {
+      "source_page": "https://mastra.ai/docs/agents/using-tools-and-mcp",
+      "written_for": "@mastra/core 1.37.x",
+      "last_updated": "2026-05-28"
+    },
+    "03-workflows.md": {
+      "source_page": "https://mastra.ai/docs/workflows/overview",
+      "written_for": "@mastra/core 1.37.x",
+      "last_updated": "2026-05-28"
+    },
+    "04-control-flow.md": {
+      "source_page": "https://mastra.ai/docs/workflows/control-flow",
+      "written_for": "@mastra/core 1.37.x",
+      "last_updated": "2026-05-28"
+    },
+    "05-suspend-resume.md": {
+      "source_page": "https://mastra.ai/docs/workflows/suspend-and-resume",
+      "written_for": "@mastra/core 1.37.x",
+      "last_updated": "2026-05-28"
+    },
+    "06-memory.md": {
+      "source_page": "https://mastra.ai/docs/memory/overview",
+      "written_for": "@mastra/core 1.37.x",
+      "last_updated": "2026-05-28"
+    },
+    "07-rag.md": {
+      "source_page": "https://mastra.ai/docs/rag/overview",
+      "written_for": "@mastra/core 1.37.x",
+      "last_updated": "2026-05-28"
+    },
+    "08-structured-output.md": {
+      "source_page": "https://mastra.ai/docs/agents/structured-output",
+      "written_for": "@mastra/core 1.37.x",
+      "last_updated": "2026-05-28"
+    },
+    "09-multi-agent.md": {
+      "source_page": "https://mastra.ai/docs/agents/supervisor-agents",
+      "written_for": "@mastra/core 1.37.x",
+      "last_updated": "2026-05-28"
+    },
+    "10-guardrails.md": {
+      "source_page": "https://mastra.ai/docs/agents/guardrails",
+      "written_for": "@mastra/core 1.37.x",
+      "last_updated": "2026-05-28"
+    },
+    "11-evals-observability.md": {
+      "source_page": "https://mastra.ai/docs/evals/overview",
+      "written_for": "@mastra/core 1.37.x",
+      "last_updated": "2026-05-28"
+    },
+    "12-voice.md": {
+      "source_page": "https://mastra.ai/docs/agents/adding-voice",
+      "written_for": "@mastra/core 1.37.x",
+      "last_updated": "2026-05-28"
+    },
+    "13-server-deployment.md": {
+      "source_page": "https://mastra.ai/docs/server/mastra-server",
+      "written_for": "@mastra/core 1.37.x",
+      "last_updated": "2026-05-28"
+    }
+  }
+}

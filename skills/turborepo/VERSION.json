@@ -1,0 +1,83 @@
+{
+  "skill_name": "turborepo",
+  "skill_version": "1.0.0",
+  "source_version_tracked": "turbo 2.9.x",
+  "source_package": "turbo",
+  "docs_snapshot_date": "2026-05-29",
+  "last_checked": "2026-05-29",
+  "last_updated": "2026-05-29",
+  "urls": {
+    "docs": "https://turborepo.dev/docs",
+    "changelog": "https://github.com/vercel/turborepo/releases",
+    "github": "https://github.com/vercel/turborepo",
+    "npm": "https://www.npmjs.com/package/turbo"
+  },
+  "staleness_threshold_days": 90,
+  "references": {
+    "00-overview.md": {
+      "source_page": "https://turborepo.dev/docs",
+      "written_for": "turbo 2.9.x",
+      "last_updated": "2026-05-29"
+    },
+    "01-configuration.md": {
+      "source_page": "https://turborepo.dev/docs/reference/configuration",
+      "written_for": "turbo 2.9.x",
+      "last_updated": "2026-05-29"
+    },
+    "02-caching.md": {
+      "source_page": "https://turborepo.dev/docs/crafting-your-repository/caching",
+      "written_for": "turbo 2.9.x",
+      "last_updated": "2026-05-29"
+    },
+    "03-remote-caching.md": {
+      "source_page": "https://turborepo.dev/docs/core-concepts/remote-caching",
+      "written_for": "turbo 2.9.x",
+      "last_updated": "2026-05-29"
+    },
+    "04-workspace-structure.md": {
+      "source_page": "https://turborepo.dev/docs/crafting-your-repository/structuring-a-repository",
+      "written_for": "turbo 2.9.x",
+      "last_updated": "2026-05-29"
+    },
+    "05-environment-variables.md": {
+      "source_page": "https://turborepo.dev/docs/crafting-your-repository/using-environment-variables",
+      "written_for": "turbo 2.9.x",
+      "last_updated": "2026-05-29"
+    },
+    "06-running-tasks.md": {
+      "source_page": "https://turborepo.dev/docs/crafting-your-repository/running-tasks",
+      "written_for": "turbo 2.9.x",
+      "last_updated": "2026-05-29"
+    },
+    "07-ci-cd.md": {
+      "source_page": "https://turborepo.dev/docs/crafting-your-repository/constructing-ci",
+      "written_for": "turbo 2.9.x",
+      "last_updated": "2026-05-29"
+    },
+    "08-docker.md": {
+      "source_page": "https://turborepo.dev/docs/guides/tools/docker",
+      "written_for": "turbo 2.9.x",
+      "last_updated": "2026-05-29"
+    },
+    "09-watch-mode.md": {
+      "source_page": "https://turborepo.dev/docs/reference/watch",
+      "written_for": "turbo 2.9.x",
+      "last_updated": "2026-05-29"
+    },
+    "10-generators.md": {
+      "source_page": "https://turborepo.dev/docs/guides/generating-code",
+      "written_for": "turbo 2.9.x",
+      "last_updated": "2026-05-29"
+    },
+    "11-boundaries.md": {
+      "source_page": "https://turborepo.dev/docs/reference/boundaries",
+      "written_for": "turbo 2.9.x",
+      "last_updated": "2026-05-29"
+    },
+    "12-cli-reference.md": {
+      "source_page": "https://turborepo.dev/docs/reference",
+      "written_for": "turbo 2.9.x",
+      "last_updated": "2026-05-29"
+    }
+  }
+}

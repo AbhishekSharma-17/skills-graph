@@ -1,7 +1,7 @@
 {
   "description": "Registry of all skills in the skills-graph repo. Used by daily automation to avoid duplicates.",
-  "last_updated": "2026-05-29",
-  "total_skills": 47,
+  "last_updated": "2026-05-30",
+  "total_skills": 48,
   "skills": [
     {
       "name": "agno",
@@ -471,6 +471,16 @@
       "reference_files": 13,
       "total_lines": 3482,
       "source_url": "https://turborepo.dev/docs",
+      "status": "active"
+    },
+    {
+      "name": "effect-ts",
+      "domain": "TypeScript Tooling",
+      "created_date": "2026-05-30",
+      "version": "1.0.0",
+      "reference_files": 13,
+      "total_lines": 4471,
+      "source_url": "https://effect.website/docs",
       "status": "active"
     }
   ],

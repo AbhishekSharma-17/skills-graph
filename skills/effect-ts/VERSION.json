@@ -1,0 +1,83 @@
+{
+  "skill_name": "effect-ts",
+  "skill_version": "1.0.0",
+  "source_version_tracked": "effect 3.21.x",
+  "source_package": "effect",
+  "docs_snapshot_date": "2026-05-30",
+  "last_checked": "2026-05-30",
+  "last_updated": "2026-05-30",
+  "urls": {
+    "docs": "https://effect.website/docs",
+    "changelog": "https://github.com/Effect-TS/effect/releases",
+    "github": "https://github.com/Effect-TS/effect",
+    "npm": "https://www.npmjs.com/package/effect"
+  },
+  "staleness_threshold_days": 90,
+  "references": {
+    "00-overview.md": {
+      "source_page": "https://effect.website/docs/getting-started/introduction/",
+      "written_for": "effect 3.21.x",
+      "last_updated": "2026-05-30"
+    },
+    "01-effect-type.md": {
+      "source_page": "https://effect.website/docs/getting-started/the-effect-type/",
+      "written_for": "effect 3.21.x",
+      "last_updated": "2026-05-30"
+    },
+    "02-error-handling.md": {
+      "source_page": "https://effect.website/docs/error-management/",
+      "written_for": "effect 3.21.x",
+      "last_updated": "2026-05-30"
+    },
+    "03-context-services.md": {
+      "source_page": "https://effect.website/docs/requirements-management/services/",
+      "written_for": "effect 3.21.x",
+      "last_updated": "2026-05-30"
+    },
+    "04-layers.md": {
+      "source_page": "https://effect.website/docs/requirements-management/layers/",
+      "written_for": "effect 3.21.x",
+      "last_updated": "2026-05-30"
+    },
+    "05-schema.md": {
+      "source_page": "https://effect.website/docs/schema/introduction/",
+      "written_for": "effect 3.21.x",
+      "last_updated": "2026-05-30"
+    },
+    "06-concurrency.md": {
+      "source_page": "https://effect.website/docs/concurrency/fibers/",
+      "written_for": "effect 3.21.x",
+      "last_updated": "2026-05-30"
+    },
+    "07-concurrency-patterns.md": {
+      "source_page": "https://effect.website/docs/concurrency/",
+      "written_for": "effect 3.21.x",
+      "last_updated": "2026-05-30"
+    },
+    "08-streams.md": {
+      "source_page": "https://effect.website/docs/stream/introduction/",
+      "written_for": "effect 3.21.x",
+      "last_updated": "2026-05-30"
+    },
+    "09-resource-management.md": {
+      "source_page": "https://effect.website/docs/resource-management/scope/",
+      "written_for": "effect 3.21.x",
+      "last_updated": "2026-05-30"
+    },
+    "10-configuration.md": {
+      "source_page": "https://effect.website/docs/configuration/",
+      "written_for": "effect 3.21.x",
+      "last_updated": "2026-05-30"
+    },
+    "11-testing.md": {
+      "source_page": "https://effect.website/docs/additional-resources/",
+      "written_for": "effect 3.21.x",
+      "last_updated": "2026-05-30"
+    },
+    "12-platform.md": {
+      "source_page": "https://effect.website/docs/platform/introduction/",
+      "written_for": "effect 3.21.x",
+      "last_updated": "2026-05-30"
+    }
+  }
+}

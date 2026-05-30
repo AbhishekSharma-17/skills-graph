@@ -1,7 +1,7 @@
 {
   "description": "Registry of all skills in the skills-graph repo. Used by daily automation to avoid duplicates.",
-  "last_updated": "2026-05-30",
-  "total_skills": 48,
+  "last_updated": "2026-05-31",
+  "total_skills": 49,
   "skills": [
     {
       "name": "agno",
@@ -481,6 +481,16 @@
       "reference_files": 13,
       "total_lines": 4471,
       "source_url": "https://effect.website/docs",
+      "status": "active"
+    },
+    {
+      "name": "sveltekit",
+      "domain": "Web Frameworks",
+      "created_date": "2026-05-31",
+      "version": "1.0.0",
+      "reference_files": 13,
+      "total_lines": 4550,
+      "source_url": "https://svelte.dev/docs/kit",
       "status": "active"
     }
   ],

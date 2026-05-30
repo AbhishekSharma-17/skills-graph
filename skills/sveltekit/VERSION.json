@@ -1,0 +1,83 @@
+{
+  "skill_name": "sveltekit",
+  "skill_version": "1.0.0",
+  "source_version_tracked": "@sveltejs/kit 2.57.x / svelte 5.55.x",
+  "source_package": "@sveltejs/kit",
+  "docs_snapshot_date": "2026-05-31",
+  "last_checked": "2026-05-31",
+  "last_updated": "2026-05-31",
+  "urls": {
+    "docs": "https://svelte.dev/docs/kit",
+    "changelog": "https://github.com/sveltejs/kit/releases",
+    "github": "https://github.com/sveltejs/kit",
+    "npm": "https://www.npmjs.com/package/@sveltejs/kit"
+  },
+  "staleness_threshold_days": 90,
+  "references": {
+    "00-overview.md": {
+      "source_page": "https://svelte.dev/docs/kit",
+      "written_for": "@sveltejs/kit 2.57.x",
+      "last_updated": "2026-05-31"
+    },
+    "01-routing.md": {
+      "source_page": "https://svelte.dev/docs/kit/routing",
+      "written_for": "@sveltejs/kit 2.57.x",
+      "last_updated": "2026-05-31"
+    },
+    "02-runes-reactivity.md": {
+      "source_page": "https://svelte.dev/docs/svelte/$state",
+      "written_for": "svelte 5.55.x",
+      "last_updated": "2026-05-31"
+    },
+    "03-loading-data.md": {
+      "source_page": "https://svelte.dev/docs/kit/load",
+      "written_for": "@sveltejs/kit 2.57.x",
+      "last_updated": "2026-05-31"
+    },
+    "04-form-actions.md": {
+      "source_page": "https://svelte.dev/docs/kit/form-actions",
+      "written_for": "@sveltejs/kit 2.57.x",
+      "last_updated": "2026-05-31"
+    },
+    "05-api-routes.md": {
+      "source_page": "https://svelte.dev/docs/kit/routing#server",
+      "written_for": "@sveltejs/kit 2.57.x",
+      "last_updated": "2026-05-31"
+    },
+    "06-hooks.md": {
+      "source_page": "https://svelte.dev/docs/kit/hooks",
+      "written_for": "@sveltejs/kit 2.57.x",
+      "last_updated": "2026-05-31"
+    },
+    "07-page-options.md": {
+      "source_page": "https://svelte.dev/docs/kit/page-options",
+      "written_for": "@sveltejs/kit 2.57.x",
+      "last_updated": "2026-05-31"
+    },
+    "08-navigation.md": {
+      "source_page": "https://svelte.dev/docs/kit/$app-navigation",
+      "written_for": "@sveltejs/kit 2.57.x",
+      "last_updated": "2026-05-31"
+    },
+    "09-components.md": {
+      "source_page": "https://svelte.dev/docs/svelte",
+      "written_for": "svelte 5.55.x",
+      "last_updated": "2026-05-31"
+    },
+    "10-styling.md": {
+      "source_page": "https://svelte.dev/docs/svelte/styles",
+      "written_for": "svelte 5.55.x",
+      "last_updated": "2026-05-31"
+    },
+    "11-environment.md": {
+      "source_page": "https://svelte.dev/docs/kit/$env-static-private",
+      "written_for": "@sveltejs/kit 2.57.x",
+      "last_updated": "2026-05-31"
+    },
+    "12-deployment.md": {
+      "source_page": "https://svelte.dev/docs/kit/adapters",
+      "written_for": "@sveltejs/kit 2.57.x",
+      "last_updated": "2026-05-31"
+    }
+  }
+}

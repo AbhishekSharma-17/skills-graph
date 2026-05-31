@@ -1,7 +1,7 @@
 {
   "description": "Registry of all skills in the skills-graph repo. Used by daily automation to avoid duplicates.",
-  "last_updated": "2026-05-31",
-  "total_skills": 49,
+  "last_updated": "2026-06-01",
+  "total_skills": 50,
   "skills": [
     {
       "name": "agno",
@@ -491,6 +491,16 @@
       "reference_files": 13,
       "total_lines": 4550,
       "source_url": "https://svelte.dev/docs/kit",
+      "status": "active"
+    },
+    {
+      "name": "playwright",
+      "domain": "E2E Testing & Browser Automation",
+      "created_date": "2026-06-01",
+      "version": "1.0.0",
+      "reference_files": 13,
+      "total_lines": 3771,
+      "source_url": "https://playwright.dev",
       "status": "active"
     }
   ],

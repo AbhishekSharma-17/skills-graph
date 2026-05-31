@@ -1,0 +1,83 @@
+{
+  "skill_name": "playwright",
+  "skill_version": "1.0.0",
+  "source_version_tracked": "@playwright/test 1.59 (v1.59.1)",
+  "source_package": "@playwright/test",
+  "docs_snapshot_date": "2026-06-01",
+  "last_checked": "2026-06-01",
+  "last_updated": "2026-06-01",
+  "urls": {
+    "docs": "https://playwright.dev/docs/intro",
+    "changelog": "https://playwright.dev/docs/release-notes",
+    "github": "https://github.com/microsoft/playwright",
+    "npm": "https://www.npmjs.com/package/@playwright/test"
+  },
+  "staleness_threshold_days": 90,
+  "references": {
+    "00-overview.md": {
+      "source_page": "https://playwright.dev/docs/intro",
+      "written_for": "@playwright/test 1.59",
+      "last_updated": "2026-06-01"
+    },
+    "01-locators.md": {
+      "source_page": "https://playwright.dev/docs/locators",
+      "written_for": "@playwright/test 1.59",
+      "last_updated": "2026-06-01"
+    },
+    "02-actions.md": {
+      "source_page": "https://playwright.dev/docs/input",
+      "written_for": "@playwright/test 1.59",
+      "last_updated": "2026-06-01"
+    },
+    "03-assertions.md": {
+      "source_page": "https://playwright.dev/docs/test-assertions",
+      "written_for": "@playwright/test 1.59",
+      "last_updated": "2026-06-01"
+    },
+    "04-page-object-model.md": {
+      "source_page": "https://playwright.dev/docs/pom",
+      "written_for": "@playwright/test 1.59",
+      "last_updated": "2026-06-01"
+    },
+    "05-fixtures.md": {
+      "source_page": "https://playwright.dev/docs/test-fixtures",
+      "written_for": "@playwright/test 1.59",
+      "last_updated": "2026-06-01"
+    },
+    "06-network-mocking.md": {
+      "source_page": "https://playwright.dev/docs/network",
+      "written_for": "@playwright/test 1.59",
+      "last_updated": "2026-06-01"
+    },
+    "07-api-testing.md": {
+      "source_page": "https://playwright.dev/docs/api-testing",
+      "written_for": "@playwright/test 1.59",
+      "last_updated": "2026-06-01"
+    },
+    "08-authentication.md": {
+      "source_page": "https://playwright.dev/docs/auth",
+      "written_for": "@playwright/test 1.59",
+      "last_updated": "2026-06-01"
+    },
+    "09-visual-testing.md": {
+      "source_page": "https://playwright.dev/docs/test-snapshots",
+      "written_for": "@playwright/test 1.59",
+      "last_updated": "2026-06-01"
+    },
+    "10-tracing-debugging.md": {
+      "source_page": "https://playwright.dev/docs/trace-viewer",
+      "written_for": "@playwright/test 1.59",
+      "last_updated": "2026-06-01"
+    },
+    "11-configuration-cli.md": {
+      "source_page": "https://playwright.dev/docs/test-configuration",
+      "written_for": "@playwright/test 1.59",
+      "last_updated": "2026-06-01"
+    },
+    "12-ci-cd.md": {
+      "source_page": "https://playwright.dev/docs/ci",
+      "written_for": "@playwright/test 1.59",
+      "last_updated": "2026-06-01"
+    }
+  }
+}

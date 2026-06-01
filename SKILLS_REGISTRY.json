@@ -1,7 +1,7 @@
 {
   "description": "Registry of all skills in the skills-graph repo. Used by daily automation to avoid duplicates.",
-  "last_updated": "2026-06-01",
-  "total_skills": 50,
+  "last_updated": "2026-06-02",
+  "total_skills": 51,
   "skills": [
     {
       "name": "agno",
@@ -501,6 +501,16 @@
       "reference_files": 13,
       "total_lines": 3771,
       "source_url": "https://playwright.dev",
+      "status": "active"
+    },
+    {
+      "name": "openai-agents-sdk",
+      "domain": "AI/ML Frameworks",
+      "created_date": "2026-06-02",
+      "version": "1.0.0",
+      "reference_files": 13,
+      "total_lines": 3548,
+      "source_url": "https://openai.github.io/openai-agents-python/",
       "status": "active"
     }
   ],

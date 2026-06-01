@@ -3,14 +3,14 @@
   <p align="center">
     <strong>Precision-engineered AI agent skills with interconnected reference architectures.</strong>
     <br />
-    <em>A methodology for building skills that carry 232,000+ lines of knowledge<br />while loading only what the AI actually needs.</em>
+    <em>A methodology for building skills that carry 236,000+ lines of knowledge<br />while loading only what the AI actually needs.</em>
   </p>
   <p align="center">
     <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT"></a>
     <a href="#-the-agent-skills-standard"><img src="https://img.shields.io/badge/Agent%20Skills-Universal%20Standard-purple.svg" alt="Skills Standard"></a>
     <a href="#-platform-compatibility"><img src="https://img.shields.io/badge/Platforms-25%2B-green.svg" alt="Platforms"></a>
-    <a href="#-skills-catalog"><img src="https://img.shields.io/badge/Skills-50%20Production%20Ready-orange.svg" alt="Skills"></a>
-    <a href="#-the-technique-progressive-reference-architecture"><img src="https://img.shields.io/badge/Knowledge-232%2C000%2B%20Lines-red.svg" alt="Lines"></a>
+    <a href="#-skills-catalog"><img src="https://img.shields.io/badge/Skills-51%20Production%20Ready-orange.svg" alt="Skills"></a>
+    <a href="#-the-technique-progressive-reference-architecture"><img src="https://img.shields.io/badge/Knowledge-236%2C000%2B%20Lines-red.svg" alt="Lines"></a>
   </p>
 </p>
 
@@ -52,8 +52,8 @@ Skills Graph is a **methodology** and a **collection** of production-grade AI ag
 Instead of dumping documentation into a single monolithic file or a flat folder of loosely related references, Skills Graph organizes knowledge as a **directed acyclic graph (DAG)** where every reference file is a node, every cross-reference is an edge, and a lightweight router sits at the root to guide the AI to exactly the information it needs -- nothing more, nothing less.
 
 <table>
-<tr><td><strong>Skills</strong></td><td>50 production-ready (Agno, MS Agent Framework, Remotion Prompt Generator, Trigger.dev, Drizzle ORM, Hono, Zod, Claude Agent SDK, Langfuse, Better Auth, Polars, Qdrant, OpenTelemetry, Inngest, LiteLLM, DSPy, Design Engineering, LiveKit, Convex, AI SDK, Payload CMS, Motion, Dagger, Expo, Terraform, Astro, Supabase, Dagster, tRPC, Cloudflare Workers, PostHog, NestJS, LangGraph, Ollama, Vitest, Prisma ORM, CrewAI, shadcn/ui, Upstash, Resend, Recharts, GitHub Actions, Bun, Pulumi, Tauri, Mastra, Turborepo, Effect-TS, SvelteKit, Playwright)</td></tr>
-<tr><td><strong>Total Knowledge</strong></td><td>232,000+ lines across 795 reference files</td></tr>
+<tr><td><strong>Skills</strong></td><td>51 production-ready (Agno, MS Agent Framework, Remotion Prompt Generator, Trigger.dev, Drizzle ORM, Hono, Zod, Claude Agent SDK, Langfuse, Better Auth, Polars, Qdrant, OpenTelemetry, Inngest, LiteLLM, DSPy, Design Engineering, LiveKit, Convex, AI SDK, Payload CMS, Motion, Dagger, Expo, Terraform, Astro, Supabase, Dagster, tRPC, Cloudflare Workers, PostHog, NestJS, LangGraph, Ollama, Vitest, Prisma ORM, CrewAI, shadcn/ui, Upstash, Resend, Recharts, GitHub Actions, Bun, Pulumi, Tauri, Mastra, Turborepo, Effect-TS, SvelteKit, Playwright, OpenAI Agents SDK)</td></tr>
+<tr><td><strong>Total Knowledge</strong></td><td>236,000+ lines across 808 reference files</td></tr>
 <tr><td><strong>Router Overhead</strong></td><td>69-231 lines (the only cost when skill triggers)</td></tr>
 <tr><td><strong>Context Efficiency</strong></td><td>~97% reduction vs monolithic approach</td></tr>
 <tr><td><strong>Platform Support</strong></td><td>25+ AI coding assistants</td></tr>
@@ -118,7 +118,8 @@ Production-ready skills built with the Skills Graph methodology.
 | 48 | **[Effect-TS](skills/effect-ts/)** | [Effect](https://effect.website/docs) effect 3.21.x | `1.0.0` | 13 | ~4,471 | Production |
 | 49 | **[SvelteKit](skills/sveltekit/)** | [SvelteKit](https://svelte.dev/docs/kit) @sveltejs/kit 2.57.x | `1.0.0` | 13 | ~4,550 | Production |
 | 50 | **[Playwright](skills/playwright/)** | [Playwright](https://playwright.dev) @playwright/test 1.59 | `1.0.0` | 13 | ~3,771 | Production |
-| | | | | **795** | **~232,720** | |
+| 51 | **[OpenAI Agents SDK](skills/openai-agents-sdk/)** | [OpenAI Agents SDK](https://openai.github.io/openai-agents-python/) openai-agents 0.17.x | `1.0.0` | 13 | ~3,548 | Production |
+| | | | | **808** | **~236,268** | |
 
 <br />
 
@@ -224,7 +225,7 @@ Production-ready skills built with the Skills Graph methodology.
 
 <br />
 
-**Planned:**&ensp; LangGraph &middot; CrewAI &middot; OpenAI Agents SDK &middot; Semantic Kernel
+**Planned:**&ensp; Semantic Kernel &middot; Weaviate &middot; D3.js &middot; dbt
 
 > Want a skill for a framework not listed? [Open an issue](../../issues) or [contribute one](#-contributing).
 

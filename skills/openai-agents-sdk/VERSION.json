@@ -1,0 +1,82 @@
+{
+  "skill_version": "1.0.0",
+  "source_version_tracked": "0.17.x",
+  "source_package": "openai-agents",
+  "docs_snapshot_date": "2026-06-02",
+  "last_checked": "2026-06-02",
+  "last_updated": "2026-06-02",
+  "urls": {
+    "docs": "https://openai.github.io/openai-agents-python/",
+    "changelog": "https://github.com/openai/openai-agents-python/releases",
+    "github": "https://github.com/openai/openai-agents-python",
+    "pypi": "https://pypi.org/project/openai-agents/"
+  },
+  "references": {
+    "references/00-overview.md": {
+      "source_page": "https://openai.github.io/openai-agents-python/",
+      "written_for": "0.17.x",
+      "last_updated": "2026-06-02"
+    },
+    "references/01-agents.md": {
+      "source_page": "https://openai.github.io/openai-agents-python/agents/",
+      "written_for": "0.17.x",
+      "last_updated": "2026-06-02"
+    },
+    "references/02-tools.md": {
+      "source_page": "https://openai.github.io/openai-agents-python/tools/",
+      "written_for": "0.17.x",
+      "last_updated": "2026-06-02"
+    },
+    "references/03-running-agents.md": {
+      "source_page": "https://openai.github.io/openai-agents-python/running_agents/",
+      "written_for": "0.17.x",
+      "last_updated": "2026-06-02"
+    },
+    "references/04-handoffs.md": {
+      "source_page": "https://openai.github.io/openai-agents-python/handoffs/",
+      "written_for": "0.17.x",
+      "last_updated": "2026-06-02"
+    },
+    "references/05-guardrails.md": {
+      "source_page": "https://openai.github.io/openai-agents-python/guardrails/",
+      "written_for": "0.17.x",
+      "last_updated": "2026-06-02"
+    },
+    "references/06-streaming.md": {
+      "source_page": "https://openai.github.io/openai-agents-python/streaming/",
+      "written_for": "0.17.x",
+      "last_updated": "2026-06-02"
+    },
+    "references/07-context.md": {
+      "source_page": "https://openai.github.io/openai-agents-python/context/",
+      "written_for": "0.17.x",
+      "last_updated": "2026-06-02"
+    },
+    "references/08-multi-agent.md": {
+      "source_page": "https://openai.github.io/openai-agents-python/multi_agent/",
+      "written_for": "0.17.x",
+      "last_updated": "2026-06-02"
+    },
+    "references/09-models.md": {
+      "source_page": "https://openai.github.io/openai-agents-python/models/",
+      "written_for": "0.17.x",
+      "last_updated": "2026-06-02"
+    },
+    "references/10-mcp.md": {
+      "source_page": "https://openai.github.io/openai-agents-python/mcp/",
+      "written_for": "0.17.x",
+      "last_updated": "2026-06-02"
+    },
+    "references/11-sessions.md": {
+      "source_page": "https://openai.github.io/openai-agents-python/sessions/",
+      "written_for": "0.17.x",
+      "last_updated": "2026-06-02"
+    },
+    "references/12-tracing.md": {
+      "source_page": "https://openai.github.io/openai-agents-python/tracing/",
+      "written_for": "0.17.x",
+      "last_updated": "2026-06-02"
+    }
+  },
+  "staleness_threshold_days": 90
+}

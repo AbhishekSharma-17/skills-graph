@@ -1,7 +1,7 @@
 {
   "description": "Registry of all skills in the skills-graph repo. Used by daily automation to avoid duplicates.",
-  "last_updated": "2026-06-02",
-  "total_skills": 51,
+  "last_updated": "2026-06-03",
+  "total_skills": 52,
   "skills": [
     {
       "name": "agno",
@@ -511,6 +511,16 @@
       "reference_files": 13,
       "total_lines": 3548,
       "source_url": "https://openai.github.io/openai-agents-python/",
+      "status": "active"
+    },
+    {
+      "name": "weaviate",
+      "domain": "Vector Databases",
+      "created_date": "2026-06-03",
+      "version": "1.0.0",
+      "reference_files": 13,
+      "total_lines": 3909,
+      "source_url": "https://docs.weaviate.io/weaviate",
       "status": "active"
     }
   ],

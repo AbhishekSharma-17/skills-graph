@@ -1,0 +1,84 @@
+{
+  "skill_name": "weaviate",
+  "skill_version": "1.0.0",
+  "source_version_tracked": "Weaviate v1.37 (v1.37.7)",
+  "source_package": "weaviate-client",
+  "docs_snapshot_date": "2026-06-03",
+  "last_checked": "2026-06-03",
+  "last_updated": "2026-06-03",
+  "urls": {
+    "docs": "https://docs.weaviate.io/weaviate",
+    "changelog": "https://docs.weaviate.io/weaviate/release-notes",
+    "github": "https://github.com/weaviate/weaviate",
+    "pypi": "https://pypi.org/project/weaviate-client/",
+    "npm": "https://www.npmjs.com/package/weaviate-client"
+  },
+  "staleness_threshold_days": 90,
+  "references": {
+    "00-overview.md": {
+      "source_page": "https://docs.weaviate.io/weaviate",
+      "written_for": "Weaviate v1.37",
+      "last_updated": "2026-06-03"
+    },
+    "01-collections.md": {
+      "source_page": "https://docs.weaviate.io/weaviate/manage-collections",
+      "written_for": "Weaviate v1.37",
+      "last_updated": "2026-06-03"
+    },
+    "02-vector-config.md": {
+      "source_page": "https://docs.weaviate.io/weaviate/manage-collections/vector-config",
+      "written_for": "Weaviate v1.37",
+      "last_updated": "2026-06-03"
+    },
+    "03-data-operations.md": {
+      "source_page": "https://docs.weaviate.io/weaviate/manage-data",
+      "written_for": "Weaviate v1.37",
+      "last_updated": "2026-06-03"
+    },
+    "04-similarity-search.md": {
+      "source_page": "https://docs.weaviate.io/weaviate/search/similarity",
+      "written_for": "Weaviate v1.37",
+      "last_updated": "2026-06-03"
+    },
+    "05-keyword-search.md": {
+      "source_page": "https://docs.weaviate.io/weaviate/search/bm25",
+      "written_for": "Weaviate v1.37",
+      "last_updated": "2026-06-03"
+    },
+    "06-hybrid-search.md": {
+      "source_page": "https://docs.weaviate.io/weaviate/search/hybrid",
+      "written_for": "Weaviate v1.37",
+      "last_updated": "2026-06-03"
+    },
+    "07-filters.md": {
+      "source_page": "https://docs.weaviate.io/weaviate/search/filters",
+      "written_for": "Weaviate v1.37",
+      "last_updated": "2026-06-03"
+    },
+    "08-rag.md": {
+      "source_page": "https://docs.weaviate.io/weaviate/search/generative",
+      "written_for": "Weaviate v1.37",
+      "last_updated": "2026-06-03"
+    },
+    "09-reranking-aggregation.md": {
+      "source_page": "https://docs.weaviate.io/weaviate/search/rerank",
+      "written_for": "Weaviate v1.37",
+      "last_updated": "2026-06-03"
+    },
+    "10-multi-tenancy.md": {
+      "source_page": "https://docs.weaviate.io/weaviate/manage-collections/multi-tenancy",
+      "written_for": "Weaviate v1.37",
+      "last_updated": "2026-06-03"
+    },
+    "11-model-providers.md": {
+      "source_page": "https://docs.weaviate.io/weaviate/model-providers",
+      "written_for": "Weaviate v1.37",
+      "last_updated": "2026-06-03"
+    },
+    "12-agents.md": {
+      "source_page": "https://docs.weaviate.io/agents",
+      "written_for": "Weaviate v1.37",
+      "last_updated": "2026-06-03"
+    }
+  }
+}

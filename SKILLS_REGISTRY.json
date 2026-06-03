@@ -1,7 +1,7 @@
 {
   "description": "Registry of all skills in the skills-graph repo. Used by daily automation to avoid duplicates.",
-  "last_updated": "2026-06-03",
-  "total_skills": 52,
+  "last_updated": "2026-06-04",
+  "total_skills": 53,
   "skills": [
     {
       "name": "agno",
@@ -521,6 +521,16 @@
       "reference_files": 13,
       "total_lines": 3909,
       "source_url": "https://docs.weaviate.io/weaviate",
+      "status": "active"
+    },
+    {
+      "name": "haystack",
+      "domain": "AI/ML Frameworks",
+      "created_date": "2026-06-04",
+      "version": "1.0.0",
+      "reference_files": 13,
+      "total_lines": 4090,
+      "source_url": "https://docs.haystack.deepset.ai",
       "status": "active"
     }
   ],

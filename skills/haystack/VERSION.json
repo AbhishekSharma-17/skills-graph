@@ -1,0 +1,82 @@
+{
+  "skill_version": "1.0.0",
+  "source_version_tracked": "2.30.0",
+  "source_package": "haystack-ai",
+  "docs_snapshot_date": "2026-06-04",
+  "last_checked": "2026-06-04",
+  "last_updated": "2026-06-04",
+  "urls": {
+    "docs": "https://docs.haystack.deepset.ai",
+    "changelog": "https://github.com/deepset-ai/haystack/releases",
+    "github": "https://github.com/deepset-ai/haystack",
+    "pypi": "https://pypi.org/project/haystack-ai/"
+  },
+  "references": {
+    "00-overview.md": {
+      "source_page": "https://docs.haystack.deepset.ai/docs/intro",
+      "written_for": "2.30.0",
+      "last_updated": "2026-06-04"
+    },
+    "01-components.md": {
+      "source_page": "https://docs.haystack.deepset.ai/docs/components",
+      "written_for": "2.30.0",
+      "last_updated": "2026-06-04"
+    },
+    "02-pipelines.md": {
+      "source_page": "https://docs.haystack.deepset.ai/docs/pipelines",
+      "written_for": "2.30.0",
+      "last_updated": "2026-06-04"
+    },
+    "03-agents.md": {
+      "source_page": "https://docs.haystack.deepset.ai/docs/agents",
+      "written_for": "2.30.0",
+      "last_updated": "2026-06-04"
+    },
+    "04-tools.md": {
+      "source_page": "https://docs.haystack.deepset.ai/docs/tool",
+      "written_for": "2.30.0",
+      "last_updated": "2026-06-04"
+    },
+    "05-generators.md": {
+      "source_page": "https://docs.haystack.deepset.ai/docs/generators",
+      "written_for": "2.30.0",
+      "last_updated": "2026-06-04"
+    },
+    "06-retrievers.md": {
+      "source_page": "https://docs.haystack.deepset.ai/docs/retrievers",
+      "written_for": "2.30.0",
+      "last_updated": "2026-06-04"
+    },
+    "07-document-stores.md": {
+      "source_page": "https://docs.haystack.deepset.ai/docs/document-store",
+      "written_for": "2.30.0",
+      "last_updated": "2026-06-04"
+    },
+    "08-embedders.md": {
+      "source_page": "https://docs.haystack.deepset.ai/docs/embedders",
+      "written_for": "2.30.0",
+      "last_updated": "2026-06-04"
+    },
+    "09-converters-preprocessors.md": {
+      "source_page": "https://docs.haystack.deepset.ai/docs/converters",
+      "written_for": "2.30.0",
+      "last_updated": "2026-06-04"
+    },
+    "10-prompt-building.md": {
+      "source_page": "https://docs.haystack.deepset.ai/docs/promptbuilder",
+      "written_for": "2.30.0",
+      "last_updated": "2026-06-04"
+    },
+    "11-rag-patterns.md": {
+      "source_page": "https://docs.haystack.deepset.ai/docs/pipelines",
+      "written_for": "2.30.0",
+      "last_updated": "2026-06-04"
+    },
+    "12-evaluation.md": {
+      "source_page": "https://docs.haystack.deepset.ai/docs/evaluation",
+      "written_for": "2.30.0",
+      "last_updated": "2026-06-04"
+    }
+  },
+  "staleness_threshold_days": 90
+}

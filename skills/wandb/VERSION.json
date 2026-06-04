@@ -1,0 +1,82 @@
+{
+  "skill_version": "1.0.0",
+  "source_version_tracked": "0.27.1",
+  "source_package": "wandb",
+  "docs_snapshot_date": "2026-06-05",
+  "last_checked": "2026-06-05",
+  "last_updated": "2026-06-05",
+  "urls": {
+    "docs": "https://docs.wandb.ai",
+    "changelog": "https://docs.wandb.ai/release-notes",
+    "github": "https://github.com/wandb/wandb",
+    "pypi": "https://pypi.org/project/wandb/"
+  },
+  "references": {
+    "00-overview.md": {
+      "source_page": "https://docs.wandb.ai/",
+      "written_for": "0.27.1",
+      "last_updated": "2026-06-05"
+    },
+    "01-experiment-tracking.md": {
+      "source_page": "https://docs.wandb.ai/models/track/",
+      "written_for": "0.27.1",
+      "last_updated": "2026-06-05"
+    },
+    "02-logging-metrics.md": {
+      "source_page": "https://docs.wandb.ai/models/track/log/",
+      "written_for": "0.27.1",
+      "last_updated": "2026-06-05"
+    },
+    "03-logging-media.md": {
+      "source_page": "https://docs.wandb.ai/models/track/log/media/",
+      "written_for": "0.27.1",
+      "last_updated": "2026-06-05"
+    },
+    "04-sweeps.md": {
+      "source_page": "https://docs.wandb.ai/models/sweeps/",
+      "written_for": "0.27.1",
+      "last_updated": "2026-06-05"
+    },
+    "05-artifacts.md": {
+      "source_page": "https://docs.wandb.ai/models/artifacts/",
+      "written_for": "0.27.1",
+      "last_updated": "2026-06-05"
+    },
+    "06-registry.md": {
+      "source_page": "https://docs.wandb.ai/models/registry/",
+      "written_for": "0.27.1",
+      "last_updated": "2026-06-05"
+    },
+    "07-tables.md": {
+      "source_page": "https://docs.wandb.ai/models/tables/",
+      "written_for": "0.27.1",
+      "last_updated": "2026-06-05"
+    },
+    "08-reports-automations.md": {
+      "source_page": "https://docs.wandb.ai/models/reports/",
+      "written_for": "0.27.1",
+      "last_updated": "2026-06-05"
+    },
+    "09-weave-tracing.md": {
+      "source_page": "https://docs.wandb.ai/weave/",
+      "written_for": "0.27.1",
+      "last_updated": "2026-06-05"
+    },
+    "10-weave-evaluations.md": {
+      "source_page": "https://docs.wandb.ai/weave/guides/core-types/evaluations/",
+      "written_for": "0.27.1",
+      "last_updated": "2026-06-05"
+    },
+    "11-integrations.md": {
+      "source_page": "https://docs.wandb.ai/models/integrations/",
+      "written_for": "0.27.1",
+      "last_updated": "2026-06-05"
+    },
+    "12-platform-deployment.md": {
+      "source_page": "https://docs.wandb.ai/platform/",
+      "written_for": "0.27.1",
+      "last_updated": "2026-06-05"
+    }
+  },
+  "staleness_threshold_days": 90
+}

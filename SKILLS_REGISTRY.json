@@ -1,7 +1,7 @@
 {
   "description": "Registry of all skills in the skills-graph repo. Used by daily automation to avoid duplicates.",
-  "last_updated": "2026-06-05",
-  "total_skills": 54,
+  "last_updated": "2026-06-06",
+  "total_skills": 55,
   "skills": [
     {
       "name": "agno",
@@ -541,6 +541,16 @@
       "reference_files": 13,
       "total_lines": 3731,
       "source_url": "https://docs.wandb.ai",
+      "status": "active"
+    },
+    {
+      "name": "dbt",
+      "domain": "Data Engineering",
+      "created_date": "2026-06-06",
+      "version": "1.0.0",
+      "reference_files": 13,
+      "total_lines": 4636,
+      "source_url": "https://docs.getdbt.com",
       "status": "active"
     }
   ],

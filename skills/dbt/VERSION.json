@@ -1,0 +1,82 @@
+{
+  "skill_version": "1.0.0",
+  "source_version_tracked": "1.11.11",
+  "source_package": "dbt-core",
+  "docs_snapshot_date": "2026-06-06",
+  "last_checked": "2026-06-06",
+  "last_updated": "2026-06-06",
+  "urls": {
+    "docs": "https://docs.getdbt.com",
+    "changelog": "https://github.com/dbt-labs/dbt-core/releases",
+    "github": "https://github.com/dbt-labs/dbt-core",
+    "pypi": "https://pypi.org/project/dbt-core/"
+  },
+  "references": {
+    "00-overview.md": {
+      "source_page": "https://docs.getdbt.com/docs/introduction",
+      "written_for": "1.11.11",
+      "last_updated": "2026-06-06"
+    },
+    "01-project-structure.md": {
+      "source_page": "https://docs.getdbt.com/reference/dbt_project.yml",
+      "written_for": "1.11.11",
+      "last_updated": "2026-06-06"
+    },
+    "02-models-materializations.md": {
+      "source_page": "https://docs.getdbt.com/docs/build/materializations",
+      "written_for": "1.11.11",
+      "last_updated": "2026-06-06"
+    },
+    "03-sources-refs.md": {
+      "source_page": "https://docs.getdbt.com/docs/build/sources",
+      "written_for": "1.11.11",
+      "last_updated": "2026-06-06"
+    },
+    "04-incremental-models.md": {
+      "source_page": "https://docs.getdbt.com/docs/build/incremental-models",
+      "written_for": "1.11.11",
+      "last_updated": "2026-06-06"
+    },
+    "05-tests.md": {
+      "source_page": "https://docs.getdbt.com/docs/build/tests",
+      "written_for": "1.11.11",
+      "last_updated": "2026-06-06"
+    },
+    "06-jinja-macros.md": {
+      "source_page": "https://docs.getdbt.com/docs/build/jinja-macros",
+      "written_for": "1.11.11",
+      "last_updated": "2026-06-06"
+    },
+    "07-seeds-snapshots.md": {
+      "source_page": "https://docs.getdbt.com/docs/build/seeds",
+      "written_for": "1.11.11",
+      "last_updated": "2026-06-06"
+    },
+    "08-packages.md": {
+      "source_page": "https://docs.getdbt.com/docs/build/packages",
+      "written_for": "1.11.11",
+      "last_updated": "2026-06-06"
+    },
+    "09-hooks-operations.md": {
+      "source_page": "https://docs.getdbt.com/docs/build/hooks-operations",
+      "written_for": "1.11.11",
+      "last_updated": "2026-06-06"
+    },
+    "10-semantic-layer.md": {
+      "source_page": "https://docs.getdbt.com/docs/build/metrics-overview",
+      "written_for": "1.11.11",
+      "last_updated": "2026-06-06"
+    },
+    "11-governance-mesh.md": {
+      "source_page": "https://docs.getdbt.com/docs/collaborate/govern/model-access",
+      "written_for": "1.11.11",
+      "last_updated": "2026-06-06"
+    },
+    "12-cli-deployment.md": {
+      "source_page": "https://docs.getdbt.com/reference/dbt-commands",
+      "written_for": "1.11.11",
+      "last_updated": "2026-06-06"
+    }
+  },
+  "staleness_threshold_days": 90
+}

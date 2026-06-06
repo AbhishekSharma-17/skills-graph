@@ -3,14 +3,14 @@
   <p align="center">
     <strong>Precision-engineered AI agent skills with interconnected reference architectures.</strong>
     <br />
-    <em>A methodology for building skills that carry 252,000+ lines of knowledge<br />while loading only what the AI actually needs.</em>
+    <em>A methodology for building skills that carry 256,000+ lines of knowledge<br />while loading only what the AI actually needs.</em>
   </p>
   <p align="center">
     <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT"></a>
     <a href="#-the-agent-skills-standard"><img src="https://img.shields.io/badge/Agent%20Skills-Universal%20Standard-purple.svg" alt="Skills Standard"></a>
     <a href="#-platform-compatibility"><img src="https://img.shields.io/badge/Platforms-25%2B-green.svg" alt="Platforms"></a>
-    <a href="#-skills-catalog"><img src="https://img.shields.io/badge/Skills-55%20Production%20Ready-orange.svg" alt="Skills"></a>
-    <a href="#-the-technique-progressive-reference-architecture"><img src="https://img.shields.io/badge/Knowledge-252%2C000%2B%20Lines-red.svg" alt="Lines"></a>
+    <a href="#-skills-catalog"><img src="https://img.shields.io/badge/Skills-56%20Production%20Ready-orange.svg" alt="Skills"></a>
+    <a href="#-the-technique-progressive-reference-architecture"><img src="https://img.shields.io/badge/Knowledge-256%2C000%2B%20Lines-red.svg" alt="Lines"></a>
   </p>
 </p>
 
@@ -52,8 +52,8 @@ Skills Graph is a **methodology** and a **collection** of production-grade AI ag
 Instead of dumping documentation into a single monolithic file or a flat folder of loosely related references, Skills Graph organizes knowledge as a **directed acyclic graph (DAG)** where every reference file is a node, every cross-reference is an edge, and a lightweight router sits at the root to guide the AI to exactly the information it needs -- nothing more, nothing less.
 
 <table>
-<tr><td><strong>Skills</strong></td><td>55 production-ready (Agno, MS Agent Framework, Remotion Prompt Generator, Trigger.dev, Drizzle ORM, Hono, Zod, Claude Agent SDK, Langfuse, Better Auth, Polars, Qdrant, OpenTelemetry, Inngest, LiteLLM, DSPy, Design Engineering, LiveKit, Convex, AI SDK, Payload CMS, Motion, Dagger, Expo, Terraform, Astro, Supabase, Dagster, tRPC, Cloudflare Workers, PostHog, NestJS, LangGraph, Ollama, Vitest, Prisma ORM, CrewAI, shadcn/ui, Upstash, Resend, Recharts, GitHub Actions, Bun, Pulumi, Tauri, Mastra, Turborepo, Effect-TS, SvelteKit, Playwright, OpenAI Agents SDK, Weaviate, Haystack, W&amp;B, dbt)</td></tr>
-<tr><td><strong>Total Knowledge</strong></td><td>252,000+ lines across 873 reference files</td></tr>
+<tr><td><strong>Skills</strong></td><td>56 production-ready (Agno, MS Agent Framework, Remotion Prompt Generator, Trigger.dev, Drizzle ORM, Hono, Zod, Claude Agent SDK, Langfuse, Better Auth, Polars, Qdrant, OpenTelemetry, Inngest, LiteLLM, DSPy, Design Engineering, LiveKit, Convex, AI SDK, Payload CMS, Motion, Dagger, Expo, Terraform, Astro, Supabase, Dagster, tRPC, Cloudflare Workers, PostHog, NestJS, LangGraph, Ollama, Vitest, Prisma ORM, CrewAI, shadcn/ui, Upstash, Resend, Recharts, GitHub Actions, Bun, Pulumi, Tauri, Mastra, Turborepo, Effect-TS, SvelteKit, Playwright, OpenAI Agents SDK, Weaviate, Haystack, W&amp;B, dbt, LlamaIndex)</td></tr>
+<tr><td><strong>Total Knowledge</strong></td><td>256,000+ lines across 886 reference files</td></tr>
 <tr><td><strong>Router Overhead</strong></td><td>69-231 lines (the only cost when skill triggers)</td></tr>
 <tr><td><strong>Context Efficiency</strong></td><td>~97% reduction vs monolithic approach</td></tr>
 <tr><td><strong>Platform Support</strong></td><td>25+ AI coding assistants</td></tr>
@@ -123,7 +123,8 @@ Production-ready skills built with the Skills Graph methodology.
 | 53 | **[Haystack](skills/haystack/)** | [Haystack](https://docs.haystack.deepset.ai) haystack-ai 2.30.0 | `1.0.0` | 13 | ~4,090 | Production |
 | 54 | **[W&B](skills/wandb/)** | [Weights & Biases](https://docs.wandb.ai) wandb 0.27.1 | `1.0.0` | 13 | ~3,731 | Production |
 | 55 | **[dbt](skills/dbt/)** | [dbt](https://docs.getdbt.com) dbt-core 1.11.11 | `1.0.0` | 13 | ~4,636 | Production |
-| | | | | **860** | **~252,634** | |
+| 56 | **[LlamaIndex](skills/llamaindex/)** | [LlamaIndex](https://developers.llamaindex.ai/python/framework/) llama-index 0.14.22 | `1.0.0` | 13 | ~4,058 | Production |
+| | | | | **873** | **~256,692** | |
 
 <br />
 
@@ -229,7 +230,7 @@ Production-ready skills built with the Skills Graph methodology.
 
 <br />
 
-**Planned:**&ensp; Semantic Kernel &middot; D3.js &middot; dbt
+**Planned:**&ensp; Semantic Kernel &middot; D3.js &middot; Kubernetes
 
 > Want a skill for a framework not listed? [Open an issue](../../issues) or [contribute one](#-contributing).
 

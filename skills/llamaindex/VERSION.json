@@ -1,0 +1,82 @@
+{
+  "skill_version": "1.0.0",
+  "source_version_tracked": "0.14.22",
+  "source_package": "llama-index",
+  "docs_snapshot_date": "2026-06-07",
+  "last_checked": "2026-06-07",
+  "last_updated": "2026-06-07",
+  "urls": {
+    "docs": "https://developers.llamaindex.ai/python/framework/",
+    "changelog": "https://developers.llamaindex.ai/python/framework/changelog/",
+    "github": "https://github.com/run-llama/llama_index",
+    "pypi": "https://pypi.org/project/llama-index/"
+  },
+  "references": {
+    "00-overview.md": {
+      "source_page": "https://developers.llamaindex.ai/python/framework/",
+      "written_for": "0.14.22",
+      "last_updated": "2026-06-07"
+    },
+    "01-loading-data.md": {
+      "source_page": "https://developers.llamaindex.ai/python/framework/module_guides/loading/",
+      "written_for": "0.14.22",
+      "last_updated": "2026-06-07"
+    },
+    "02-indexing.md": {
+      "source_page": "https://developers.llamaindex.ai/python/framework/module_guides/indexing/",
+      "written_for": "0.14.22",
+      "last_updated": "2026-06-07"
+    },
+    "03-querying.md": {
+      "source_page": "https://developers.llamaindex.ai/python/framework/module_guides/querying/",
+      "written_for": "0.14.22",
+      "last_updated": "2026-06-07"
+    },
+    "04-agents.md": {
+      "source_page": "https://developers.llamaindex.ai/python/framework/understanding/agent/",
+      "written_for": "0.14.22",
+      "last_updated": "2026-06-07"
+    },
+    "05-multi-agent.md": {
+      "source_page": "https://developers.llamaindex.ai/python/framework/understanding/agent/multi_agent/",
+      "written_for": "0.14.22",
+      "last_updated": "2026-06-07"
+    },
+    "06-workflows.md": {
+      "source_page": "https://developers.llamaindex.ai/python/framework/understanding/workflows/",
+      "written_for": "0.14.22",
+      "last_updated": "2026-06-07"
+    },
+    "07-ingestion-pipeline.md": {
+      "source_page": "https://developers.llamaindex.ai/python/framework/module_guides/loading/ingestion_pipeline/",
+      "written_for": "0.14.22",
+      "last_updated": "2026-06-07"
+    },
+    "08-storage.md": {
+      "source_page": "https://developers.llamaindex.ai/python/framework/module_guides/storing/",
+      "written_for": "0.14.22",
+      "last_updated": "2026-06-07"
+    },
+    "09-models.md": {
+      "source_page": "https://developers.llamaindex.ai/python/framework/module_guides/models/",
+      "written_for": "0.14.22",
+      "last_updated": "2026-06-07"
+    },
+    "10-structured-extraction.md": {
+      "source_page": "https://developers.llamaindex.ai/python/framework/understanding/extraction/",
+      "written_for": "0.14.22",
+      "last_updated": "2026-06-07"
+    },
+    "11-evaluation.md": {
+      "source_page": "https://developers.llamaindex.ai/python/framework/module_guides/evaluating/",
+      "written_for": "0.14.22",
+      "last_updated": "2026-06-07"
+    },
+    "12-observability.md": {
+      "source_page": "https://developers.llamaindex.ai/python/framework/module_guides/observability/",
+      "written_for": "0.14.22",
+      "last_updated": "2026-06-07"
+    }
+  },
+  "staleness_threshold_days": 90
+}

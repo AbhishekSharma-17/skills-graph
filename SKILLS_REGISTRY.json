@@ -1,7 +1,7 @@
 {
   "description": "Registry of all skills in the skills-graph repo. Used by daily automation to avoid duplicates.",
-  "last_updated": "2026-06-06",
-  "total_skills": 55,
+  "last_updated": "2026-06-07",
+  "total_skills": 56,
   "skills": [
     {
       "name": "agno",
@@ -551,6 +551,16 @@
       "reference_files": 13,
       "total_lines": 4636,
       "source_url": "https://docs.getdbt.com",
+      "status": "active"
+    },
+    {
+      "name": "llamaindex",
+      "domain": "AI/ML Frameworks",
+      "created_date": "2026-06-07",
+      "version": "1.0.0",
+      "reference_files": 13,
+      "total_lines": 4058,
+      "source_url": "https://developers.llamaindex.ai/python/framework/",
       "status": "active"
     }
   ],

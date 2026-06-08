@@ -1,7 +1,7 @@
 {
   "description": "Registry of all skills in the skills-graph repo. Used by daily automation to avoid duplicates.",
-  "last_updated": "2026-06-07",
-  "total_skills": 56,
+  "last_updated": "2026-06-09",
+  "total_skills": 57,
   "skills": [
     {
       "name": "agno",
@@ -561,6 +561,16 @@
       "reference_files": 13,
       "total_lines": 4058,
       "source_url": "https://developers.llamaindex.ai/python/framework/",
+      "status": "active"
+    },
+    {
+      "name": "temporal",
+      "domain": "Workflow Orchestration & Durable Execution",
+      "created_date": "2026-06-09",
+      "version": "1.0.0",
+      "reference_files": 13,
+      "total_lines": 4188,
+      "source_url": "https://docs.temporal.io",
       "status": "active"
     }
   ],

@@ -1,0 +1,83 @@
+{
+  "skill_version": "1.0.0",
+  "source_version_tracked": "1.28.0",
+  "source_package": "temporalio",
+  "docs_snapshot_date": "2026-06-09",
+  "last_checked": "2026-06-09",
+  "last_updated": "2026-06-09",
+  "urls": {
+    "docs": "https://docs.temporal.io",
+    "changelog": "https://temporal.io/changelog",
+    "github": "https://github.com/temporalio/temporal",
+    "pypi": "https://pypi.org/project/temporalio/",
+    "npm": "https://www.npmjs.com/package/@temporalio/client"
+  },
+  "references": {
+    "00-overview.md": {
+      "source_page": "https://docs.temporal.io/develop",
+      "written_for": "1.28.0",
+      "last_updated": "2026-06-09"
+    },
+    "01-workflows.md": {
+      "source_page": "https://docs.temporal.io/develop/python/workflows/basics",
+      "written_for": "1.28.0",
+      "last_updated": "2026-06-09"
+    },
+    "02-activities.md": {
+      "source_page": "https://docs.temporal.io/develop/python/activities/basics",
+      "written_for": "1.28.0",
+      "last_updated": "2026-06-09"
+    },
+    "03-workers.md": {
+      "source_page": "https://docs.temporal.io/develop/python/workers/run-worker-process",
+      "written_for": "1.28.0",
+      "last_updated": "2026-06-09"
+    },
+    "04-client.md": {
+      "source_page": "https://docs.temporal.io/develop/python/client/temporal-client",
+      "written_for": "1.28.0",
+      "last_updated": "2026-06-09"
+    },
+    "05-message-passing.md": {
+      "source_page": "https://docs.temporal.io/develop/python/message-passing",
+      "written_for": "1.28.0",
+      "last_updated": "2026-06-09"
+    },
+    "06-child-workflows.md": {
+      "source_page": "https://docs.temporal.io/develop/python/child-workflows",
+      "written_for": "1.28.0",
+      "last_updated": "2026-06-09"
+    },
+    "07-error-handling.md": {
+      "source_page": "https://docs.temporal.io/develop/python/failure-detection",
+      "written_for": "1.28.0",
+      "last_updated": "2026-06-09"
+    },
+    "08-testing.md": {
+      "source_page": "https://docs.temporal.io/develop/python/testing-suite",
+      "written_for": "1.28.0",
+      "last_updated": "2026-06-09"
+    },
+    "09-schedules.md": {
+      "source_page": "https://docs.temporal.io/develop/python/schedules",
+      "written_for": "1.28.0",
+      "last_updated": "2026-06-09"
+    },
+    "10-versioning.md": {
+      "source_page": "https://docs.temporal.io/develop/python/versioning",
+      "written_for": "1.28.0",
+      "last_updated": "2026-06-09"
+    },
+    "11-observability.md": {
+      "source_page": "https://docs.temporal.io/develop/python/observability",
+      "written_for": "1.28.0",
+      "last_updated": "2026-06-09"
+    },
+    "12-nexus.md": {
+      "source_page": "https://docs.temporal.io/develop/python/nexus/quickstart",
+      "written_for": "1.28.0",
+      "last_updated": "2026-06-09"
+    }
+  },
+  "staleness_threshold_days": 90
+}

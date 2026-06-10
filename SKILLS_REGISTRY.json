@@ -1,7 +1,7 @@
 {
   "description": "Registry of all skills in the skills-graph repo. Used by daily automation to avoid duplicates.",
-  "last_updated": "2026-06-09",
-  "total_skills": 57,
+  "last_updated": "2026-06-11",
+  "total_skills": 58,
   "skills": [
     {
       "name": "agno",
@@ -571,6 +571,16 @@
       "reference_files": 13,
       "total_lines": 4188,
       "source_url": "https://docs.temporal.io",
+      "status": "active"
+    },
+    {
+      "name": "pydantic-ai",
+      "domain": "AI/ML Frameworks",
+      "created_date": "2026-06-11",
+      "version": "1.0.0",
+      "reference_files": 13,
+      "total_lines": 3486,
+      "source_url": "https://pydantic.dev/docs/ai/",
       "status": "active"
     }
   ],

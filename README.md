@@ -9,8 +9,8 @@
     <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT"></a>
     <a href="#-the-agent-skills-standard"><img src="https://img.shields.io/badge/Agent%20Skills-Universal%20Standard-purple.svg" alt="Skills Standard"></a>
     <a href="#-platform-compatibility"><img src="https://img.shields.io/badge/Platforms-25%2B-green.svg" alt="Platforms"></a>
-    <a href="#-skills-catalog"><img src="https://img.shields.io/badge/Skills-57%20Production%20Ready-orange.svg" alt="Skills"></a>
-    <a href="#-the-technique-progressive-reference-architecture"><img src="https://img.shields.io/badge/Knowledge-260%2C000%2B%20Lines-red.svg" alt="Lines"></a>
+    <a href="#-skills-catalog"><img src="https://img.shields.io/badge/Skills-58%20Production%20Ready-orange.svg" alt="Skills"></a>
+    <a href="#-the-technique-progressive-reference-architecture"><img src="https://img.shields.io/badge/Knowledge-264%2C000%2B%20Lines-red.svg" alt="Lines"></a>
   </p>
 </p>
 
@@ -52,8 +52,8 @@ Skills Graph is a **methodology** and a **collection** of production-grade AI ag
 Instead of dumping documentation into a single monolithic file or a flat folder of loosely related references, Skills Graph organizes knowledge as a **directed acyclic graph (DAG)** where every reference file is a node, every cross-reference is an edge, and a lightweight router sits at the root to guide the AI to exactly the information it needs -- nothing more, nothing less.
 
 <table>
-<tr><td><strong>Skills</strong></td><td>57 production-ready (Agno, MS Agent Framework, Remotion Prompt Generator, Trigger.dev, Drizzle ORM, Hono, Zod, Claude Agent SDK, Langfuse, Better Auth, Polars, Qdrant, OpenTelemetry, Inngest, LiteLLM, DSPy, Design Engineering, LiveKit, Convex, AI SDK, Payload CMS, Motion, Dagger, Expo, Terraform, Astro, Supabase, Dagster, tRPC, Cloudflare Workers, PostHog, NestJS, LangGraph, Ollama, Vitest, Prisma ORM, CrewAI, shadcn/ui, Upstash, Resend, Recharts, GitHub Actions, Bun, Pulumi, Tauri, Mastra, Turborepo, Effect-TS, SvelteKit, Playwright, OpenAI Agents SDK, Weaviate, Haystack, W&amp;B, dbt, LlamaIndex, Temporal)</td></tr>
-<tr><td><strong>Total Knowledge</strong></td><td>260,000+ lines across 899 reference files</td></tr>
+<tr><td><strong>Skills</strong></td><td>58 production-ready (Agno, MS Agent Framework, Remotion Prompt Generator, Trigger.dev, Drizzle ORM, Hono, Zod, Claude Agent SDK, Langfuse, Better Auth, Polars, Qdrant, OpenTelemetry, Inngest, LiteLLM, DSPy, Design Engineering, LiveKit, Convex, AI SDK, Payload CMS, Motion, Dagger, Expo, Terraform, Astro, Supabase, Dagster, tRPC, Cloudflare Workers, PostHog, NestJS, LangGraph, Ollama, Vitest, Prisma ORM, CrewAI, shadcn/ui, Upstash, Resend, Recharts, GitHub Actions, Bun, Pulumi, Tauri, Mastra, Turborepo, Effect-TS, SvelteKit, Playwright, OpenAI Agents SDK, Weaviate, Haystack, W&amp;B, dbt, LlamaIndex, Temporal, Pydantic AI)</td></tr>
+<tr><td><strong>Total Knowledge</strong></td><td>264,000+ lines across 912 reference files</td></tr>
 <tr><td><strong>Router Overhead</strong></td><td>69-231 lines (the only cost when skill triggers)</td></tr>
 <tr><td><strong>Context Efficiency</strong></td><td>~97% reduction vs monolithic approach</td></tr>
 <tr><td><strong>Platform Support</strong></td><td>25+ AI coding assistants</td></tr>
@@ -125,7 +125,8 @@ Production-ready skills built with the Skills Graph methodology.
 | 55 | **[dbt](skills/dbt/)** | [dbt](https://docs.getdbt.com) dbt-core 1.11.11 | `1.0.0` | 13 | ~4,636 | Production |
 | 56 | **[LlamaIndex](skills/llamaindex/)** | [LlamaIndex](https://developers.llamaindex.ai/python/framework/) llama-index 0.14.22 | `1.0.0` | 13 | ~4,058 | Production |
 | 57 | **[Temporal](skills/temporal/)** | [Temporal](https://docs.temporal.io) temporalio 1.28.0 | `1.0.0` | 13 | ~4,188 | Production |
-| | | | | **886** | **~260,880** | |
+| 58 | **[Pydantic AI](skills/pydantic-ai/)** | [Pydantic AI](https://pydantic.dev/docs/ai/) pydantic-ai 1.107.0 | `1.0.0` | 13 | ~3,486 | Production |
+| | | | | **899** | **~264,366** | |
 
 <br />
 

@@ -1,0 +1,82 @@
+{
+  "skill_version": "1.0.0",
+  "source_version_tracked": "1.107.0",
+  "source_package": "pydantic-ai",
+  "docs_snapshot_date": "2026-06-11",
+  "last_checked": "2026-06-11",
+  "last_updated": "2026-06-11",
+  "urls": {
+    "docs": "https://pydantic.dev/docs/ai/",
+    "changelog": "https://github.com/pydantic/pydantic-ai/releases",
+    "github": "https://github.com/pydantic/pydantic-ai",
+    "pypi": "https://pypi.org/project/pydantic-ai/"
+  },
+  "references": {
+    "00-overview.md": {
+      "source_page": "https://pydantic.dev/docs/ai/overview/",
+      "written_for": "1.107.0",
+      "last_updated": "2026-06-11"
+    },
+    "01-agents.md": {
+      "source_page": "https://pydantic.dev/docs/ai/core-concepts/agent/",
+      "written_for": "1.107.0",
+      "last_updated": "2026-06-11"
+    },
+    "02-dependencies.md": {
+      "source_page": "https://pydantic.dev/docs/ai/core-concepts/dependencies/",
+      "written_for": "1.107.0",
+      "last_updated": "2026-06-11"
+    },
+    "03-output.md": {
+      "source_page": "https://pydantic.dev/docs/ai/core-concepts/output/",
+      "written_for": "1.107.0",
+      "last_updated": "2026-06-11"
+    },
+    "04-tools.md": {
+      "source_page": "https://pydantic.dev/docs/ai/tools-toolsets/tools/",
+      "written_for": "1.107.0",
+      "last_updated": "2026-06-11"
+    },
+    "05-capabilities.md": {
+      "source_page": "https://pydantic.dev/docs/ai/core-concepts/capabilities/",
+      "written_for": "1.107.0",
+      "last_updated": "2026-06-11"
+    },
+    "06-hooks.md": {
+      "source_page": "https://pydantic.dev/docs/ai/core-concepts/hooks/",
+      "written_for": "1.107.0",
+      "last_updated": "2026-06-11"
+    },
+    "07-streaming.md": {
+      "source_page": "https://pydantic.dev/docs/ai/core-concepts/agent/",
+      "written_for": "1.107.0",
+      "last_updated": "2026-06-11"
+    },
+    "08-models.md": {
+      "source_page": "https://pydantic.dev/docs/ai/models/overview/",
+      "written_for": "1.107.0",
+      "last_updated": "2026-06-11"
+    },
+    "09-multi-agent.md": {
+      "source_page": "https://pydantic.dev/docs/ai/multi-agent/",
+      "written_for": "1.107.0",
+      "last_updated": "2026-06-11"
+    },
+    "10-mcp.md": {
+      "source_page": "https://pydantic.dev/docs/ai/mcp/overview/",
+      "written_for": "1.107.0",
+      "last_updated": "2026-06-11"
+    },
+    "11-testing-evals.md": {
+      "source_page": "https://pydantic.dev/docs/ai/testing/",
+      "written_for": "1.107.0",
+      "last_updated": "2026-06-11"
+    },
+    "12-logfire-observability.md": {
+      "source_page": "https://pydantic.dev/docs/ai/integrations/logfire/",
+      "written_for": "1.107.0",
+      "last_updated": "2026-06-11"
+    }
+  },
+  "staleness_threshold_days": 90
+}

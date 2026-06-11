@@ -1,0 +1,82 @@
+{
+  "skill_version": "1.0.0",
+  "source_version_tracked": "0.22.1",
+  "source_package": "vllm",
+  "docs_snapshot_date": "2026-06-12",
+  "last_checked": "2026-06-12",
+  "last_updated": "2026-06-12",
+  "urls": {
+    "docs": "https://docs.vllm.ai/",
+    "changelog": "https://github.com/vllm-project/vllm/releases",
+    "github": "https://github.com/vllm-project/vllm",
+    "pypi": "https://pypi.org/project/vllm/"
+  },
+  "references": {
+    "00-overview.md": {
+      "source_page": "https://docs.vllm.ai/en/latest/getting_started/quickstart.html",
+      "written_for": "0.22.1",
+      "last_updated": "2026-06-12"
+    },
+    "01-offline-inference.md": {
+      "source_page": "https://docs.vllm.ai/en/latest/getting_started/quickstart.html",
+      "written_for": "0.22.1",
+      "last_updated": "2026-06-12"
+    },
+    "02-serving.md": {
+      "source_page": "https://docs.vllm.ai/en/latest/serving/openai_compatible_server.html",
+      "written_for": "0.22.1",
+      "last_updated": "2026-06-12"
+    },
+    "03-sampling-params.md": {
+      "source_page": "https://docs.vllm.ai/en/latest/api/inference_params.html",
+      "written_for": "0.22.1",
+      "last_updated": "2026-06-12"
+    },
+    "04-models.md": {
+      "source_page": "https://docs.vllm.ai/en/latest/models/supported_models.html",
+      "written_for": "0.22.1",
+      "last_updated": "2026-06-12"
+    },
+    "05-quantization.md": {
+      "source_page": "https://docs.vllm.ai/en/latest/features/quantization/index.html",
+      "written_for": "0.22.1",
+      "last_updated": "2026-06-12"
+    },
+    "06-distributed-inference.md": {
+      "source_page": "https://docs.vllm.ai/en/stable/serving/parallelism_scaling/",
+      "written_for": "0.22.1",
+      "last_updated": "2026-06-12"
+    },
+    "07-speculative-decoding.md": {
+      "source_page": "https://docs.vllm.ai/en/latest/features/speculative_decoding/",
+      "written_for": "0.22.1",
+      "last_updated": "2026-06-12"
+    },
+    "08-structured-outputs.md": {
+      "source_page": "https://docs.vllm.ai/en/latest/features/structured_outputs.html",
+      "written_for": "0.22.1",
+      "last_updated": "2026-06-12"
+    },
+    "09-tool-calling.md": {
+      "source_page": "https://docs.vllm.ai/en/latest/features/tool_calling.html",
+      "written_for": "0.22.1",
+      "last_updated": "2026-06-12"
+    },
+    "10-multimodal.md": {
+      "source_page": "https://docs.vllm.ai/en/latest/features/multimodal_inputs.html",
+      "written_for": "0.22.1",
+      "last_updated": "2026-06-12"
+    },
+    "11-lora-adapters.md": {
+      "source_page": "https://docs.vllm.ai/en/latest/features/lora.html",
+      "written_for": "0.22.1",
+      "last_updated": "2026-06-12"
+    },
+    "12-production-deployment.md": {
+      "source_page": "https://docs.vllm.ai/en/latest/deployment/docker.html",
+      "written_for": "0.22.1",
+      "last_updated": "2026-06-12"
+    }
+  },
+  "staleness_threshold_days": 90
+}

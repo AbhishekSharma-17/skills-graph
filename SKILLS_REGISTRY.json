@@ -1,7 +1,7 @@
 {
   "description": "Registry of all skills in the skills-graph repo. Used by daily automation to avoid duplicates.",
-  "last_updated": "2026-06-11",
-  "total_skills": 58,
+  "last_updated": "2026-06-12",
+  "total_skills": 59,
   "skills": [
     {
       "name": "agno",
@@ -581,6 +581,16 @@
       "reference_files": 13,
       "total_lines": 3486,
       "source_url": "https://pydantic.dev/docs/ai/",
+      "status": "active"
+    },
+    {
+      "name": "vllm",
+      "domain": "LLM Tools",
+      "created_date": "2026-06-12",
+      "version": "1.0.0",
+      "reference_files": 13,
+      "total_lines": 3804,
+      "source_url": "https://docs.vllm.ai/",
       "status": "active"
     }
   ],

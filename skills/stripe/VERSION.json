@@ -1,0 +1,84 @@
+{
+  "skill_version": "1.0.0",
+  "source_version_tracked": "API 2026-05-27.dahlia / stripe-node@22.2 / stripe-python@15.2",
+  "source_package": "stripe",
+  "docs_snapshot_date": "2026-06-15",
+  "last_checked": "2026-06-15",
+  "last_updated": "2026-06-15",
+  "staleness_threshold_days": 90,
+  "urls": {
+    "docs": "https://docs.stripe.com",
+    "changelog": "https://stripe.com/blog/changelog",
+    "github_node": "https://github.com/stripe/stripe-node",
+    "github_python": "https://github.com/stripe/stripe-python",
+    "npm": "https://www.npmjs.com/package/stripe",
+    "pypi": "https://pypi.org/project/stripe/"
+  },
+  "references": {
+    "00-overview.md": {
+      "source_page": "https://docs.stripe.com",
+      "written_for": "API 2026-05-27.dahlia",
+      "last_updated": "2026-06-15"
+    },
+    "01-checkout-sessions.md": {
+      "source_page": "https://docs.stripe.com/payments/checkout",
+      "written_for": "API 2026-05-27.dahlia",
+      "last_updated": "2026-06-15"
+    },
+    "02-payment-element.md": {
+      "source_page": "https://docs.stripe.com/payments/payment-element",
+      "written_for": "API 2026-05-27.dahlia",
+      "last_updated": "2026-06-15"
+    },
+    "03-subscriptions.md": {
+      "source_page": "https://docs.stripe.com/billing",
+      "written_for": "API 2026-05-27.dahlia",
+      "last_updated": "2026-06-15"
+    },
+    "04-webhooks.md": {
+      "source_page": "https://docs.stripe.com/webhooks",
+      "written_for": "API 2026-05-27.dahlia",
+      "last_updated": "2026-06-15"
+    },
+    "05-customers.md": {
+      "source_page": "https://docs.stripe.com/customer-management",
+      "written_for": "API 2026-05-27.dahlia",
+      "last_updated": "2026-06-15"
+    },
+    "06-connect.md": {
+      "source_page": "https://docs.stripe.com/connect",
+      "written_for": "API 2026-05-27.dahlia",
+      "last_updated": "2026-06-15"
+    },
+    "07-error-handling.md": {
+      "source_page": "https://docs.stripe.com/error-handling",
+      "written_for": "API 2026-05-27.dahlia",
+      "last_updated": "2026-06-15"
+    },
+    "08-radar.md": {
+      "source_page": "https://docs.stripe.com/radar",
+      "written_for": "API 2026-05-27.dahlia",
+      "last_updated": "2026-06-15"
+    },
+    "09-testing.md": {
+      "source_page": "https://docs.stripe.com/testing",
+      "written_for": "API 2026-05-27.dahlia",
+      "last_updated": "2026-06-15"
+    },
+    "10-cli.md": {
+      "source_page": "https://docs.stripe.com/stripe-cli",
+      "written_for": "API 2026-05-27.dahlia",
+      "last_updated": "2026-06-15"
+    },
+    "11-react-integration.md": {
+      "source_page": "https://docs.stripe.com/payments/payment-element",
+      "written_for": "@stripe/react-stripe-js@6.x",
+      "last_updated": "2026-06-15"
+    },
+    "12-security.md": {
+      "source_page": "https://docs.stripe.com",
+      "written_for": "API 2026-05-27.dahlia",
+      "last_updated": "2026-06-15"
+    }
+  }
+}

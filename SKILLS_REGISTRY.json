@@ -1,7 +1,7 @@
 {
   "description": "Registry of all skills in the skills-graph repo. Used by daily automation to avoid duplicates.",
-  "last_updated": "2026-06-14",
-  "total_skills": 60,
+  "last_updated": "2026-06-15",
+  "total_skills": 61,
   "skills": [
     {
       "name": "agno",
@@ -601,6 +601,16 @@
       "reference_files": 13,
       "total_lines": 4641,
       "source_url": "https://clerk.com/docs",
+      "status": "active"
+    },
+    {
+      "name": "stripe",
+      "domain": "Payment Processing",
+      "created_date": "2026-06-15",
+      "version": "1.0.0",
+      "reference_files": 13,
+      "total_lines": 3920,
+      "source_url": "https://docs.stripe.com",
       "status": "active"
     }
   ],

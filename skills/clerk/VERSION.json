@@ -1,0 +1,82 @@
+{
+  "skill_version": "1.0.0",
+  "source_version_tracked": "@clerk/nextjs v7.5 (Core 3)",
+  "source_package": "@clerk/nextjs",
+  "docs_snapshot_date": "2026-06-14",
+  "last_checked": "2026-06-14",
+  "last_updated": "2026-06-14",
+  "urls": {
+    "docs": "https://clerk.com/docs",
+    "changelog": "https://clerk.com/changelog",
+    "github": "https://github.com/clerk/javascript",
+    "npm": "https://www.npmjs.com/package/@clerk/nextjs"
+  },
+  "references": {
+    "00-overview.md": {
+      "source_page": "https://clerk.com/docs/introduction",
+      "written_for": "@clerk/nextjs v7.5",
+      "last_updated": "2026-06-14"
+    },
+    "01-authentication-strategies.md": {
+      "source_page": "https://clerk.com/docs/authentication/configuration/sign-up-sign-in-options",
+      "written_for": "@clerk/nextjs v7.5",
+      "last_updated": "2026-06-14"
+    },
+    "02-middleware-route-protection.md": {
+      "source_page": "https://clerk.com/docs/references/nextjs/clerk-middleware",
+      "written_for": "@clerk/nextjs v7.5",
+      "last_updated": "2026-06-14"
+    },
+    "03-components.md": {
+      "source_page": "https://clerk.com/docs/components/overview",
+      "written_for": "@clerk/nextjs v7.5",
+      "last_updated": "2026-06-14"
+    },
+    "04-server-side-auth.md": {
+      "source_page": "https://clerk.com/docs/references/nextjs/auth",
+      "written_for": "@clerk/nextjs v7.5",
+      "last_updated": "2026-06-14"
+    },
+    "05-hooks.md": {
+      "source_page": "https://clerk.com/docs/reference/nextjs/overview",
+      "written_for": "@clerk/nextjs v7.5",
+      "last_updated": "2026-06-14"
+    },
+    "06-user-management.md": {
+      "source_page": "https://clerk.com/docs/users/overview",
+      "written_for": "@clerk/nextjs v7.5",
+      "last_updated": "2026-06-14"
+    },
+    "07-organizations.md": {
+      "source_page": "https://clerk.com/docs/organizations/overview",
+      "written_for": "@clerk/nextjs v7.5",
+      "last_updated": "2026-06-14"
+    },
+    "08-webhooks.md": {
+      "source_page": "https://clerk.com/docs/webhooks/overview",
+      "written_for": "@clerk/nextjs v7.5",
+      "last_updated": "2026-06-14"
+    },
+    "09-customization.md": {
+      "source_page": "https://clerk.com/docs/customization/overview",
+      "written_for": "@clerk/nextjs v7.5",
+      "last_updated": "2026-06-14"
+    },
+    "10-session-tokens.md": {
+      "source_page": "https://clerk.com/docs/backend-requests/overview",
+      "written_for": "@clerk/nextjs v7.5",
+      "last_updated": "2026-06-14"
+    },
+    "11-enterprise-sso.md": {
+      "source_page": "https://clerk.com/docs/authentication/enterprise-connections/overview",
+      "written_for": "@clerk/nextjs v7.5",
+      "last_updated": "2026-06-14"
+    },
+    "12-testing.md": {
+      "source_page": "https://clerk.com/docs/testing/overview",
+      "written_for": "@clerk/nextjs v7.5",
+      "last_updated": "2026-06-14"
+    }
+  },
+  "staleness_threshold_days": 90
+}

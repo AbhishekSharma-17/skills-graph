@@ -1,7 +1,7 @@
 {
   "description": "Registry of all skills in the skills-graph repo. Used by daily automation to avoid duplicates.",
-  "last_updated": "2026-06-12",
-  "total_skills": 59,
+  "last_updated": "2026-06-14",
+  "total_skills": 60,
   "skills": [
     {
       "name": "agno",
@@ -591,6 +591,16 @@
       "reference_files": 13,
       "total_lines": 3804,
       "source_url": "https://docs.vllm.ai/",
+      "status": "active"
+    },
+    {
+      "name": "clerk",
+      "domain": "Authentication",
+      "created_date": "2026-06-14",
+      "version": "1.0.0",
+      "reference_files": 13,
+      "total_lines": 4641,
+      "source_url": "https://clerk.com/docs",
       "status": "active"
     }
   ],

@@ -1,0 +1,84 @@
+{
+  "skill_version": "1.0.0",
+  "source_version_tracked": "Grafana 13.0.2",
+  "source_package": "grafana",
+  "docs_snapshot_date": "2026-06-18",
+  "last_checked": "2026-06-18",
+  "last_updated": "2026-06-18",
+  "staleness_threshold_days": 90,
+  "urls": {
+    "docs": "https://grafana.com/docs/grafana/latest/",
+    "changelog": "https://grafana.com/docs/grafana/latest/whatsnew/",
+    "github": "https://github.com/grafana/grafana",
+    "docker_hub": "https://hub.docker.com/r/grafana/grafana-oss",
+    "plugins": "https://grafana.com/grafana/plugins/",
+    "play": "https://play.grafana.org"
+  },
+  "references": {
+    "00-overview.md": {
+      "source_page": "https://grafana.com/docs/grafana/latest/",
+      "written_for": "Grafana 13.0",
+      "last_updated": "2026-06-18"
+    },
+    "01-dashboards.md": {
+      "source_page": "https://grafana.com/docs/grafana/latest/dashboards/",
+      "written_for": "Grafana 13.0",
+      "last_updated": "2026-06-18"
+    },
+    "02-visualizations.md": {
+      "source_page": "https://grafana.com/docs/grafana/latest/panels-visualizations/",
+      "written_for": "Grafana 13.0",
+      "last_updated": "2026-06-18"
+    },
+    "03-data-sources.md": {
+      "source_page": "https://grafana.com/docs/grafana/latest/datasources/",
+      "written_for": "Grafana 13.0",
+      "last_updated": "2026-06-18"
+    },
+    "04-prometheus.md": {
+      "source_page": "https://grafana.com/docs/grafana/latest/datasources/prometheus/",
+      "written_for": "Grafana 13.0",
+      "last_updated": "2026-06-18"
+    },
+    "05-loki.md": {
+      "source_page": "https://grafana.com/docs/loki/latest/query/",
+      "written_for": "Grafana 13.0 / Loki 3.4",
+      "last_updated": "2026-06-18"
+    },
+    "06-alerting.md": {
+      "source_page": "https://grafana.com/docs/grafana/latest/alerting/",
+      "written_for": "Grafana 13.0",
+      "last_updated": "2026-06-18"
+    },
+    "07-notifications.md": {
+      "source_page": "https://grafana.com/docs/grafana/latest/alerting/configure-notifications/",
+      "written_for": "Grafana 13.0",
+      "last_updated": "2026-06-18"
+    },
+    "08-variables.md": {
+      "source_page": "https://grafana.com/docs/grafana/latest/dashboards/variables/",
+      "written_for": "Grafana 13.0",
+      "last_updated": "2026-06-18"
+    },
+    "09-transformations.md": {
+      "source_page": "https://grafana.com/docs/grafana/latest/panels-visualizations/query-transform-data/transform-data/",
+      "written_for": "Grafana 13.0",
+      "last_updated": "2026-06-18"
+    },
+    "10-explore.md": {
+      "source_page": "https://grafana.com/docs/grafana/latest/explore/",
+      "written_for": "Grafana 13.0",
+      "last_updated": "2026-06-18"
+    },
+    "11-provisioning.md": {
+      "source_page": "https://grafana.com/docs/grafana/latest/administration/provisioning/",
+      "written_for": "Grafana 13.0",
+      "last_updated": "2026-06-18"
+    },
+    "12-plugins-api.md": {
+      "source_page": "https://grafana.com/docs/grafana/latest/developer-resources/",
+      "written_for": "Grafana 13.0",
+      "last_updated": "2026-06-18"
+    }
+  }
+}

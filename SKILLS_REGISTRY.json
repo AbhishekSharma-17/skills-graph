@@ -1,7 +1,7 @@
 {
   "description": "Registry of all skills in the skills-graph repo. Used by daily automation to avoid duplicates.",
-  "last_updated": "2026-06-15",
-  "total_skills": 61,
+  "last_updated": "2026-06-18",
+  "total_skills": 62,
   "skills": [
     {
       "name": "agno",
@@ -611,6 +611,16 @@
       "reference_files": 13,
       "total_lines": 3920,
       "source_url": "https://docs.stripe.com",
+      "status": "active"
+    },
+    {
+      "name": "grafana",
+      "domain": "Monitoring & Observability",
+      "created_date": "2026-06-18",
+      "version": "1.0.0",
+      "reference_files": 13,
+      "total_lines": 3899,
+      "source_url": "https://grafana.com/docs/grafana/latest/",
       "status": "active"
     }
   ],

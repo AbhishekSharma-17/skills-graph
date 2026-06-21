@@ -1,0 +1,84 @@
+{
+  "skill_version": "1.0.0",
+  "source_version_tracked": "Redis 8.6",
+  "source_package": "redis",
+  "docs_snapshot_date": "2026-06-22",
+  "last_checked": "2026-06-22",
+  "last_updated": "2026-06-22",
+  "staleness_threshold_days": 90,
+  "urls": {
+    "docs": "https://redis.io/docs/latest/",
+    "changelog": "https://redis.io/docs/latest/operate/oss_and_stack/stack-with-enterprise/release-notes/",
+    "github": "https://github.com/redis/redis",
+    "pypi": "https://pypi.org/project/redis/",
+    "npm": "https://www.npmjs.com/package/ioredis",
+    "docker_hub": "https://hub.docker.com/_/redis"
+  },
+  "references": {
+    "00-overview.md": {
+      "source_page": "https://redis.io/docs/latest/develop/",
+      "written_for": "Redis 8.6",
+      "last_updated": "2026-06-22"
+    },
+    "01-strings.md": {
+      "source_page": "https://redis.io/docs/latest/develop/data-types/strings/",
+      "written_for": "Redis 8.6",
+      "last_updated": "2026-06-22"
+    },
+    "02-hashes-lists.md": {
+      "source_page": "https://redis.io/docs/latest/develop/data-types/",
+      "written_for": "Redis 8.6",
+      "last_updated": "2026-06-22"
+    },
+    "03-sets-sorted-sets.md": {
+      "source_page": "https://redis.io/docs/latest/develop/data-types/sorted-sets/",
+      "written_for": "Redis 8.6",
+      "last_updated": "2026-06-22"
+    },
+    "04-streams.md": {
+      "source_page": "https://redis.io/docs/latest/develop/data-types/streams/",
+      "written_for": "Redis 8.6",
+      "last_updated": "2026-06-22"
+    },
+    "05-json-timeseries-vectors.md": {
+      "source_page": "https://redis.io/docs/latest/develop/data-types/json/",
+      "written_for": "Redis 8.6",
+      "last_updated": "2026-06-22"
+    },
+    "06-pub-sub.md": {
+      "source_page": "https://redis.io/docs/latest/develop/interact/pubsub/",
+      "written_for": "Redis 8.6",
+      "last_updated": "2026-06-22"
+    },
+    "07-caching-patterns.md": {
+      "source_page": "https://redis.io/docs/latest/develop/use-cases/",
+      "written_for": "Redis 8.6",
+      "last_updated": "2026-06-22"
+    },
+    "08-transactions-scripting.md": {
+      "source_page": "https://redis.io/docs/latest/develop/interact/transactions/",
+      "written_for": "Redis 8.6",
+      "last_updated": "2026-06-22"
+    },
+    "09-persistence.md": {
+      "source_page": "https://redis.io/docs/latest/operate/oss_and_stack/management/persistence/",
+      "written_for": "Redis 8.6",
+      "last_updated": "2026-06-22"
+    },
+    "10-replication-sentinel.md": {
+      "source_page": "https://redis.io/docs/latest/operate/oss_and_stack/management/replication/",
+      "written_for": "Redis 8.6",
+      "last_updated": "2026-06-22"
+    },
+    "11-cluster.md": {
+      "source_page": "https://redis.io/docs/latest/operate/oss_and_stack/management/scaling/",
+      "written_for": "Redis 8.6",
+      "last_updated": "2026-06-22"
+    },
+    "12-client-libraries.md": {
+      "source_page": "https://redis.io/docs/latest/develop/clients/",
+      "written_for": "Redis 8.6",
+      "last_updated": "2026-06-22"
+    }
+  }
+}

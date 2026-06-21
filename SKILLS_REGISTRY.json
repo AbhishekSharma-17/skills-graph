@@ -1,7 +1,7 @@
 {
   "description": "Registry of all skills in the skills-graph repo. Used by daily automation to avoid duplicates.",
-  "last_updated": "2026-06-18",
-  "total_skills": 62,
+  "last_updated": "2026-06-22",
+  "total_skills": 63,
   "skills": [
     {
       "name": "agno",
@@ -621,6 +621,16 @@
       "reference_files": 13,
       "total_lines": 3899,
       "source_url": "https://grafana.com/docs/grafana/latest/",
+      "status": "active"
+    },
+    {
+      "name": "redis",
+      "domain": "Databases & Caching",
+      "created_date": "2026-06-22",
+      "version": "1.0.0",
+      "reference_files": 13,
+      "total_lines": 4459,
+      "source_url": "https://redis.io/docs/latest/",
       "status": "active"
     }
   ],

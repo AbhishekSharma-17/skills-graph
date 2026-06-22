@@ -1,7 +1,7 @@
 {
   "description": "Registry of all skills in the skills-graph repo. Used by daily automation to avoid duplicates.",
-  "last_updated": "2026-06-22",
-  "total_skills": 63,
+  "last_updated": "2026-06-23",
+  "total_skills": 64,
   "skills": [
     {
       "name": "agno",
@@ -631,6 +631,16 @@
       "reference_files": 13,
       "total_lines": 4459,
       "source_url": "https://redis.io/docs/latest/",
+      "status": "active"
+    },
+    {
+      "name": "kubernetes",
+      "domain": "Container Orchestration",
+      "created_date": "2026-06-23",
+      "version": "1.0.0",
+      "reference_files": 13,
+      "total_lines": 5106,
+      "source_url": "https://kubernetes.io/docs/home/",
       "status": "active"
     }
   ],

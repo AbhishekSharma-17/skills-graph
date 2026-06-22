@@ -1,0 +1,82 @@
+{
+  "skill_version": "1.0.0",
+  "source_version_tracked": "1.36",
+  "source_package": "kubernetes",
+  "docs_snapshot_date": "2026-06-23",
+  "last_checked": "2026-06-23",
+  "last_updated": "2026-06-23",
+  "urls": {
+    "docs": "https://kubernetes.io/docs/home/",
+    "changelog": "https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.36.md",
+    "github": "https://github.com/kubernetes/kubernetes",
+    "releases": "https://kubernetes.io/releases/"
+  },
+  "references": {
+    "00-overview.md": {
+      "source_page": "https://kubernetes.io/docs/concepts/overview/",
+      "written_for": "1.36",
+      "last_updated": "2026-06-23"
+    },
+    "01-pods-containers.md": {
+      "source_page": "https://kubernetes.io/docs/concepts/workloads/pods/",
+      "written_for": "1.36",
+      "last_updated": "2026-06-23"
+    },
+    "02-workloads.md": {
+      "source_page": "https://kubernetes.io/docs/concepts/workloads/controllers/",
+      "written_for": "1.36",
+      "last_updated": "2026-06-23"
+    },
+    "03-services-networking.md": {
+      "source_page": "https://kubernetes.io/docs/concepts/services-networking/",
+      "written_for": "1.36",
+      "last_updated": "2026-06-23"
+    },
+    "04-storage.md": {
+      "source_page": "https://kubernetes.io/docs/concepts/storage/",
+      "written_for": "1.36",
+      "last_updated": "2026-06-23"
+    },
+    "05-configuration.md": {
+      "source_page": "https://kubernetes.io/docs/concepts/configuration/",
+      "written_for": "1.36",
+      "last_updated": "2026-06-23"
+    },
+    "06-scheduling.md": {
+      "source_page": "https://kubernetes.io/docs/concepts/scheduling-eviction/",
+      "written_for": "1.36",
+      "last_updated": "2026-06-23"
+    },
+    "07-security-rbac.md": {
+      "source_page": "https://kubernetes.io/docs/reference/access-authn-authz/rbac/",
+      "written_for": "1.36",
+      "last_updated": "2026-06-23"
+    },
+    "08-scaling-autoscaling.md": {
+      "source_page": "https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale/",
+      "written_for": "1.36",
+      "last_updated": "2026-06-23"
+    },
+    "09-helm.md": {
+      "source_page": "https://helm.sh/docs/",
+      "written_for": "4.2",
+      "last_updated": "2026-06-23"
+    },
+    "10-observability.md": {
+      "source_page": "https://kubernetes.io/docs/tasks/debug/",
+      "written_for": "1.36",
+      "last_updated": "2026-06-23"
+    },
+    "11-kubectl.md": {
+      "source_page": "https://kubernetes.io/docs/reference/kubectl/quick-reference/",
+      "written_for": "1.36",
+      "last_updated": "2026-06-23"
+    },
+    "12-production.md": {
+      "source_page": "https://kubernetes.io/docs/setup/best-practices/",
+      "written_for": "1.36",
+      "last_updated": "2026-06-23"
+    }
+  },
+  "staleness_threshold_days": 90
+}

@@ -1,0 +1,86 @@
+{
+  "skill_version": "1.0.0",
+  "source_version_tracked": "0.6.1",
+  "source_package": "tursodb",
+  "docs_snapshot_date": "2026-06-24",
+  "last_checked": "2026-06-24",
+  "last_updated": "2026-06-24",
+  "urls": {
+    "docs": "https://docs.turso.tech",
+    "changelog": "https://docs.turso.tech/tursodb/changelog",
+    "github": "https://github.com/tursodatabase/turso",
+    "github_libsql": "https://github.com/tursodatabase/libsql",
+    "npm_database": "https://www.npmjs.com/package/@tursodatabase/database",
+    "npm_serverless": "https://www.npmjs.com/package/@tursodatabase/serverless",
+    "npm_libsql": "https://www.npmjs.com/package/@libsql/client",
+    "pypi": "https://pypi.org/project/pyturso/"
+  },
+  "references": {
+    "00-overview.md": {
+      "source_page": "https://docs.turso.tech/introduction",
+      "written_for": "0.6.1",
+      "last_updated": "2026-06-24"
+    },
+    "01-getting-started.md": {
+      "source_page": "https://docs.turso.tech/quickstart",
+      "written_for": "0.6.1",
+      "last_updated": "2026-06-24"
+    },
+    "02-typescript-sdk.md": {
+      "source_page": "https://docs.turso.tech/sdk/ts/reference",
+      "written_for": "0.6.1",
+      "last_updated": "2026-06-24"
+    },
+    "03-python-sdk.md": {
+      "source_page": "https://docs.turso.tech/sdk/python/quickstart",
+      "written_for": "0.6.1",
+      "last_updated": "2026-06-24"
+    },
+    "04-go-sdk.md": {
+      "source_page": "https://docs.turso.tech/sdk/go/quickstart",
+      "written_for": "0.6.1",
+      "last_updated": "2026-06-24"
+    },
+    "05-sync-replicas.md": {
+      "source_page": "https://docs.turso.tech/sync/usage",
+      "written_for": "0.6.1",
+      "last_updated": "2026-06-24"
+    },
+    "06-vector-search.md": {
+      "source_page": "https://docs.turso.tech/features/ai-and-embeddings",
+      "written_for": "0.6.1",
+      "last_updated": "2026-06-24"
+    },
+    "07-full-text-search.md": {
+      "source_page": "https://docs.turso.tech/sql-reference/functions/fts",
+      "written_for": "0.6.1",
+      "last_updated": "2026-06-24"
+    },
+    "08-orm-integrations.md": {
+      "source_page": "https://docs.turso.tech/sdk/ts/orm/drizzle",
+      "written_for": "0.6.1",
+      "last_updated": "2026-06-24"
+    },
+    "09-platform-api.md": {
+      "source_page": "https://docs.turso.tech/api-reference/introduction",
+      "written_for": "0.6.1",
+      "last_updated": "2026-06-24"
+    },
+    "10-auth-security.md": {
+      "source_page": "https://docs.turso.tech/sdk/authorization",
+      "written_for": "0.6.1",
+      "last_updated": "2026-06-24"
+    },
+    "11-advanced-features.md": {
+      "source_page": "https://docs.turso.tech/tursodb/cdc",
+      "written_for": "0.6.1",
+      "last_updated": "2026-06-24"
+    },
+    "12-production.md": {
+      "source_page": "https://docs.turso.tech/cloud/limitations",
+      "written_for": "0.6.1",
+      "last_updated": "2026-06-24"
+    }
+  },
+  "staleness_threshold_days": 90
+}

@@ -1,0 +1,82 @@
+{
+  "skill_version": "1.0.0",
+  "source_version_tracked": "7.9.0",
+  "source_package": "d3",
+  "docs_snapshot_date": "2026-06-27",
+  "last_checked": "2026-06-27",
+  "last_updated": "2026-06-27",
+  "urls": {
+    "docs": "https://d3js.org",
+    "changelog": "https://github.com/d3/d3/releases",
+    "github": "https://github.com/d3/d3",
+    "npm": "https://www.npmjs.com/package/d3"
+  },
+  "references": {
+    "00-overview.md": {
+      "source_page": "https://d3js.org/getting-started",
+      "written_for": "7.9.0",
+      "last_updated": "2026-06-27"
+    },
+    "01-selections.md": {
+      "source_page": "https://d3js.org/d3-selection",
+      "written_for": "7.9.0",
+      "last_updated": "2026-06-27"
+    },
+    "02-scales.md": {
+      "source_page": "https://d3js.org/d3-scale",
+      "written_for": "7.9.0",
+      "last_updated": "2026-06-27"
+    },
+    "03-axes.md": {
+      "source_page": "https://d3js.org/d3-axis",
+      "written_for": "7.9.0",
+      "last_updated": "2026-06-27"
+    },
+    "04-shapes.md": {
+      "source_page": "https://d3js.org/d3-shape",
+      "written_for": "7.9.0",
+      "last_updated": "2026-06-27"
+    },
+    "05-transitions.md": {
+      "source_page": "https://d3js.org/d3-transition",
+      "written_for": "7.9.0",
+      "last_updated": "2026-06-27"
+    },
+    "06-data-utilities.md": {
+      "source_page": "https://d3js.org/d3-array",
+      "written_for": "7.9.0",
+      "last_updated": "2026-06-27"
+    },
+    "07-hierarchies.md": {
+      "source_page": "https://d3js.org/d3-hierarchy",
+      "written_for": "7.9.0",
+      "last_updated": "2026-06-27"
+    },
+    "08-force-simulations.md": {
+      "source_page": "https://d3js.org/d3-force",
+      "written_for": "7.9.0",
+      "last_updated": "2026-06-27"
+    },
+    "09-geo-maps.md": {
+      "source_page": "https://d3js.org/d3-geo",
+      "written_for": "7.9.0",
+      "last_updated": "2026-06-27"
+    },
+    "10-interactions.md": {
+      "source_page": "https://d3js.org/d3-zoom",
+      "written_for": "7.9.0",
+      "last_updated": "2026-06-27"
+    },
+    "11-colors-interpolation.md": {
+      "source_page": "https://d3js.org/d3-color",
+      "written_for": "7.9.0",
+      "last_updated": "2026-06-27"
+    },
+    "12-framework-integration.md": {
+      "source_page": "https://d3js.org/getting-started",
+      "written_for": "7.9.0",
+      "last_updated": "2026-06-27"
+    }
+  },
+  "staleness_threshold_days": 90
+}

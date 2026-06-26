@@ -1,7 +1,7 @@
 {
   "description": "Registry of all skills in the skills-graph repo. Used by daily automation to avoid duplicates.",
-  "last_updated": "2026-06-24",
-  "total_skills": 65,
+  "last_updated": "2026-06-27",
+  "total_skills": 66,
   "skills": [
     {
       "name": "agno",
@@ -651,6 +651,16 @@
       "reference_files": 13,
       "total_lines": 3994,
       "source_url": "https://docs.turso.tech",
+      "status": "active"
+    },
+    {
+      "name": "d3",
+      "domain": "Data Visualization",
+      "created_date": "2026-06-27",
+      "version": "1.0.0",
+      "reference_files": 13,
+      "total_lines": 4998,
+      "source_url": "https://d3js.org",
       "status": "active"
     }
   ],

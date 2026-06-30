@@ -1,7 +1,7 @@
 {
   "description": "Registry of all skills in the skills-graph repo. Used by daily automation to avoid duplicates.",
-  "last_updated": "2026-06-29",
-  "total_skills": 67,
+  "last_updated": "2026-06-30",
+  "total_skills": 68,
   "skills": [
     {
       "name": "agno",
@@ -671,6 +671,16 @@
       "reference_files": 13,
       "total_lines": 3853,
       "source_url": "https://milvus.io/docs",
+      "status": "active"
+    },
+    {
+      "name": "prometheus",
+      "domain": "Monitoring & Observability",
+      "created_date": "2026-06-30",
+      "version": "1.0.0",
+      "reference_files": 13,
+      "total_lines": 4328,
+      "source_url": "https://prometheus.io/docs",
       "status": "active"
     }
   ],

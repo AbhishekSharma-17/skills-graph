@@ -1,0 +1,82 @@
+{
+  "skill_version": "1.0.0",
+  "source_version_tracked": "3.12.0",
+  "source_package": "prom/prometheus",
+  "docs_snapshot_date": "2026-06-30",
+  "last_checked": "2026-06-30",
+  "last_updated": "2026-06-30",
+  "urls": {
+    "docs": "https://prometheus.io/docs/introduction/overview/",
+    "changelog": "https://github.com/prometheus/prometheus/blob/main/CHANGELOG.md",
+    "github": "https://github.com/prometheus/prometheus",
+    "pypi": "https://pypi.org/project/prometheus-client/"
+  },
+  "references": {
+    "00-overview.md": {
+      "source_page": "https://prometheus.io/docs/introduction/overview/",
+      "written_for": "3.12.0",
+      "last_updated": "2026-06-30"
+    },
+    "01-data-model.md": {
+      "source_page": "https://prometheus.io/docs/concepts/data_model/",
+      "written_for": "3.12.0",
+      "last_updated": "2026-06-30"
+    },
+    "02-metric-types.md": {
+      "source_page": "https://prometheus.io/docs/concepts/metric_types/",
+      "written_for": "3.12.0",
+      "last_updated": "2026-06-30"
+    },
+    "03-configuration.md": {
+      "source_page": "https://prometheus.io/docs/prometheus/latest/configuration/configuration/",
+      "written_for": "3.12.0",
+      "last_updated": "2026-06-30"
+    },
+    "04-promql-basics.md": {
+      "source_page": "https://prometheus.io/docs/prometheus/latest/querying/basics/",
+      "written_for": "3.12.0",
+      "last_updated": "2026-06-30"
+    },
+    "05-promql-operators.md": {
+      "source_page": "https://prometheus.io/docs/prometheus/latest/querying/operators/",
+      "written_for": "3.12.0",
+      "last_updated": "2026-06-30"
+    },
+    "06-promql-functions.md": {
+      "source_page": "https://prometheus.io/docs/prometheus/latest/querying/functions/",
+      "written_for": "3.12.0",
+      "last_updated": "2026-06-30"
+    },
+    "07-rules.md": {
+      "source_page": "https://prometheus.io/docs/prometheus/latest/configuration/recording_rules/",
+      "written_for": "3.12.0",
+      "last_updated": "2026-06-30"
+    },
+    "08-alertmanager.md": {
+      "source_page": "https://prometheus.io/docs/alerting/latest/configuration/",
+      "written_for": "0.28.0",
+      "last_updated": "2026-06-30"
+    },
+    "09-storage.md": {
+      "source_page": "https://prometheus.io/docs/prometheus/latest/storage/",
+      "written_for": "3.12.0",
+      "last_updated": "2026-06-30"
+    },
+    "10-instrumentation.md": {
+      "source_page": "https://prometheus.io/docs/instrumenting/clientlibs/",
+      "written_for": "0.25.0",
+      "last_updated": "2026-06-30"
+    },
+    "11-exporters.md": {
+      "source_page": "https://prometheus.io/docs/instrumenting/writing_exporters/",
+      "written_for": "3.12.0",
+      "last_updated": "2026-06-30"
+    },
+    "12-deployment.md": {
+      "source_page": "https://prometheus.io/docs/introduction/overview/",
+      "written_for": "3.12.0",
+      "last_updated": "2026-06-30"
+    }
+  },
+  "staleness_threshold_days": 90
+}

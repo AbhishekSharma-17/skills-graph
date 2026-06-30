@@ -3,14 +3,14 @@
   <p align="center">
     <strong>Precision-engineered AI agent skills with interconnected reference architectures.</strong>
     <br />
-    <em>A methodology for building skills that carry 303,000+ lines of knowledge<br />while loading only what the AI actually needs.</em>
+    <em>A methodology for building skills that carry 307,000+ lines of knowledge<br />while loading only what the AI actually needs.</em>
   </p>
   <p align="center">
     <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT"></a>
     <a href="#-the-agent-skills-standard"><img src="https://img.shields.io/badge/Agent%20Skills-Universal%20Standard-purple.svg" alt="Skills Standard"></a>
     <a href="#-platform-compatibility"><img src="https://img.shields.io/badge/Platforms-25%2B-green.svg" alt="Platforms"></a>
-    <a href="#-skills-catalog"><img src="https://img.shields.io/badge/Skills-67%20Production%20Ready-orange.svg" alt="Skills"></a>
-    <a href="#-the-technique-progressive-reference-architecture"><img src="https://img.shields.io/badge/Knowledge-303%2C000%2B%20Lines-red.svg" alt="Lines"></a>
+    <a href="#-skills-catalog"><img src="https://img.shields.io/badge/Skills-68%20Production%20Ready-orange.svg" alt="Skills"></a>
+    <a href="#-the-technique-progressive-reference-architecture"><img src="https://img.shields.io/badge/Knowledge-307%2C000%2B%20Lines-red.svg" alt="Lines"></a>
   </p>
 </p>
 
@@ -52,8 +52,8 @@ Skills Graph is a **methodology** and a **collection** of production-grade AI ag
 Instead of dumping documentation into a single monolithic file or a flat folder of loosely related references, Skills Graph organizes knowledge as a **directed acyclic graph (DAG)** where every reference file is a node, every cross-reference is an edge, and a lightweight router sits at the root to guide the AI to exactly the information it needs -- nothing more, nothing less.
 
 <table>
-<tr><td><strong>Skills</strong></td><td>67 production-ready (Agno, MS Agent Framework, Remotion Prompt Generator, Trigger.dev, Drizzle ORM, Hono, Zod, Claude Agent SDK, Langfuse, Better Auth, Polars, Qdrant, OpenTelemetry, Inngest, LiteLLM, DSPy, Design Engineering, LiveKit, Convex, AI SDK, Payload CMS, Motion, Dagger, Expo, Terraform, Astro, Supabase, Dagster, tRPC, Cloudflare Workers, PostHog, NestJS, LangGraph, Ollama, Vitest, Prisma ORM, CrewAI, shadcn/ui, Upstash, Resend, Recharts, GitHub Actions, Bun, Pulumi, Tauri, Mastra, Turborepo, Effect-TS, SvelteKit, Playwright, OpenAI Agents SDK, Weaviate, Haystack, W&amp;B, dbt, LlamaIndex, Temporal, Pydantic AI, vLLM, Clerk, Stripe, Grafana, Redis, Kubernetes, Turso, D3.js, Milvus)</td></tr>
-<tr><td><strong>Total Knowledge</strong></td><td>303,000+ lines across 1,029 reference files</td></tr>
+<tr><td><strong>Skills</strong></td><td>68 production-ready (Agno, MS Agent Framework, Remotion Prompt Generator, Trigger.dev, Drizzle ORM, Hono, Zod, Claude Agent SDK, Langfuse, Better Auth, Polars, Qdrant, OpenTelemetry, Inngest, LiteLLM, DSPy, Design Engineering, LiveKit, Convex, AI SDK, Payload CMS, Motion, Dagger, Expo, Terraform, Astro, Supabase, Dagster, tRPC, Cloudflare Workers, PostHog, NestJS, LangGraph, Ollama, Vitest, Prisma ORM, CrewAI, shadcn/ui, Upstash, Resend, Recharts, GitHub Actions, Bun, Pulumi, Tauri, Mastra, Turborepo, Effect-TS, SvelteKit, Playwright, OpenAI Agents SDK, Weaviate, Haystack, W&amp;B, dbt, LlamaIndex, Temporal, Pydantic AI, vLLM, Clerk, Stripe, Grafana, Redis, Kubernetes, Turso, D3.js, Milvus, Prometheus)</td></tr>
+<tr><td><strong>Total Knowledge</strong></td><td>307,000+ lines across 1,042 reference files</td></tr>
 <tr><td><strong>Router Overhead</strong></td><td>69-231 lines (the only cost when skill triggers)</td></tr>
 <tr><td><strong>Context Efficiency</strong></td><td>~97% reduction vs monolithic approach</td></tr>
 <tr><td><strong>Platform Support</strong></td><td>25+ AI coding assistants</td></tr>
@@ -135,7 +135,8 @@ Production-ready skills built with the Skills Graph methodology.
 | 65 | **[Turso](skills/turso/)** | [Turso](https://docs.turso.tech) v0.6.1 | `1.0.0` | 13 | ~3,994 | Production |
 | 66 | **[D3.js](skills/d3/)** | [D3](https://d3js.org) 7.9.0 | `1.0.0` | 13 | ~4,998 | Production |
 | 67 | **[Milvus](skills/milvus/)** | [Milvus](https://milvus.io/docs) 3.0-beta | `1.0.0` | 13 | ~3,853 | Production |
-| | | | | **1,016** | **~303,040** | |
+| 68 | **[Prometheus](skills/prometheus/)** | [Prometheus](https://prometheus.io/docs) v3.12.0 | `1.0.0` | 13 | ~4,328 | Production |
+| | | | | **1,029** | **~307,368** | |
 
 <br />
 

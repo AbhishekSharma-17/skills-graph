@@ -1,7 +1,7 @@
 {
   "description": "Registry of all skills in the skills-graph repo. Used by daily automation to avoid duplicates.",
-  "last_updated": "2026-06-30",
-  "total_skills": 68,
+  "last_updated": "2026-07-05",
+  "total_skills": 69,
   "skills": [
     {
       "name": "agno",
@@ -681,6 +681,16 @@
       "reference_files": 13,
       "total_lines": 4328,
       "source_url": "https://prometheus.io/docs",
+      "status": "active"
+    },
+    {
+      "name": "biome",
+      "domain": "TypeScript Tooling",
+      "created_date": "2026-07-05",
+      "version": "1.0.0",
+      "reference_files": 13,
+      "total_lines": 3913,
+      "source_url": "https://biomejs.dev",
       "status": "active"
     }
   ],

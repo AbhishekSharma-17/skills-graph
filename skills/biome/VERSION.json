@@ -1,0 +1,82 @@
+{
+  "skill_version": "1.0.0",
+  "source_version_tracked": "2.5.x",
+  "source_package": "@biomejs/biome",
+  "docs_snapshot_date": "2026-07-05",
+  "last_checked": "2026-07-05",
+  "last_updated": "2026-07-05",
+  "urls": {
+    "docs": "https://biomejs.dev/",
+    "changelog": "https://biomejs.dev/internals/changelog/",
+    "github": "https://github.com/biomejs/biome",
+    "npm": "https://www.npmjs.com/package/@biomejs/biome"
+  },
+  "references": {
+    "00-overview.md": {
+      "source_page": "https://biomejs.dev/",
+      "written_for": "2.5.x",
+      "last_updated": "2026-07-05"
+    },
+    "01-configuration.md": {
+      "source_page": "https://biomejs.dev/reference/configuration/",
+      "written_for": "2.5.x",
+      "last_updated": "2026-07-05"
+    },
+    "02-formatter.md": {
+      "source_page": "https://biomejs.dev/formatter/",
+      "written_for": "2.5.x",
+      "last_updated": "2026-07-05"
+    },
+    "03-linter-basics.md": {
+      "source_page": "https://biomejs.dev/linter/",
+      "written_for": "2.5.x",
+      "last_updated": "2026-07-05"
+    },
+    "04-lint-rule-categories.md": {
+      "source_page": "https://biomejs.dev/linter/rules/",
+      "written_for": "2.5.x",
+      "last_updated": "2026-07-05"
+    },
+    "05-type-aware-rules.md": {
+      "source_page": "https://biomejs.dev/linter/",
+      "written_for": "2.5.x",
+      "last_updated": "2026-07-05"
+    },
+    "06-domains.md": {
+      "source_page": "https://biomejs.dev/linter/",
+      "written_for": "2.5.x",
+      "last_updated": "2026-07-05"
+    },
+    "07-assist-imports.md": {
+      "source_page": "https://biomejs.dev/assist/actions/organize-imports/",
+      "written_for": "2.5.x",
+      "last_updated": "2026-07-05"
+    },
+    "08-cli-reference.md": {
+      "source_page": "https://biomejs.dev/reference/cli/",
+      "written_for": "2.5.x",
+      "last_updated": "2026-07-05"
+    },
+    "09-editor-integration.md": {
+      "source_page": "https://biomejs.dev/editors/first-party-extensions/",
+      "written_for": "2.5.x",
+      "last_updated": "2026-07-05"
+    },
+    "10-migration-guide.md": {
+      "source_page": "https://biomejs.dev/guides/migrate-eslint-prettier/",
+      "written_for": "2.5.x",
+      "last_updated": "2026-07-05"
+    },
+    "11-vcs-ci-integration.md": {
+      "source_page": "https://biomejs.dev/guides/integrate-in-vcs/",
+      "written_for": "2.5.x",
+      "last_updated": "2026-07-05"
+    },
+    "12-gritql-plugins.md": {
+      "source_page": "https://biomejs.dev/",
+      "written_for": "2.5.x",
+      "last_updated": "2026-07-05"
+    }
+  },
+  "staleness_threshold_days": 90
+}

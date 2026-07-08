@@ -1,7 +1,7 @@
 {
   "description": "Registry of all skills in the skills-graph repo. Used by daily automation to avoid duplicates.",
-  "last_updated": "2026-07-05",
-  "total_skills": 69,
+  "last_updated": "2026-07-09",
+  "total_skills": 70,
   "skills": [
     {
       "name": "agno",
@@ -691,6 +691,16 @@
       "reference_files": 13,
       "total_lines": 3913,
       "source_url": "https://biomejs.dev",
+      "status": "active"
+    },
+    {
+      "name": "elysiajs",
+      "domain": "Backend Frameworks",
+      "created_date": "2026-07-09",
+      "version": "1.0.0",
+      "reference_files": 13,
+      "total_lines": 4489,
+      "source_url": "https://elysiajs.com",
       "status": "active"
     }
   ],

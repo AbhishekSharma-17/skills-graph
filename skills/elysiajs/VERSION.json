@@ -1,0 +1,82 @@
+{
+  "skill_version": "1.0.0",
+  "source_version_tracked": "1.4.29",
+  "source_package": "elysia",
+  "docs_snapshot_date": "2026-07-09",
+  "last_checked": "2026-07-09",
+  "last_updated": "2026-07-09",
+  "urls": {
+    "docs": "https://elysiajs.com/",
+    "changelog": "https://github.com/elysiajs/elysia/releases",
+    "github": "https://github.com/elysiajs/elysia",
+    "npm": "https://www.npmjs.com/package/elysia"
+  },
+  "references": {
+    "00-overview.md": {
+      "source_page": "https://elysiajs.com/at-glance",
+      "written_for": "1.4.x",
+      "last_updated": "2026-07-09"
+    },
+    "01-routing.md": {
+      "source_page": "https://elysiajs.com/essential/route",
+      "written_for": "1.4.x",
+      "last_updated": "2026-07-09"
+    },
+    "02-handler-context.md": {
+      "source_page": "https://elysiajs.com/essential/handler",
+      "written_for": "1.4.x",
+      "last_updated": "2026-07-09"
+    },
+    "03-validation.md": {
+      "source_page": "https://elysiajs.com/essential/validation",
+      "written_for": "1.4.x",
+      "last_updated": "2026-07-09"
+    },
+    "04-lifecycle-hooks.md": {
+      "source_page": "https://elysiajs.com/essential/life-cycle",
+      "written_for": "1.4.x",
+      "last_updated": "2026-07-09"
+    },
+    "05-plugin-system.md": {
+      "source_page": "https://elysiajs.com/essential/plugin",
+      "written_for": "1.4.x",
+      "last_updated": "2026-07-09"
+    },
+    "06-state-derive.md": {
+      "source_page": "https://elysiajs.com/",
+      "written_for": "1.4.x",
+      "last_updated": "2026-07-09"
+    },
+    "07-eden-client.md": {
+      "source_page": "https://elysiajs.com/eden/overview",
+      "written_for": "1.4.x",
+      "last_updated": "2026-07-09"
+    },
+    "08-error-handling.md": {
+      "source_page": "https://elysiajs.com/patterns/error-handling",
+      "written_for": "1.4.x",
+      "last_updated": "2026-07-09"
+    },
+    "09-websocket.md": {
+      "source_page": "https://elysiajs.com/patterns/websocket",
+      "written_for": "1.4.x",
+      "last_updated": "2026-07-09"
+    },
+    "10-openapi.md": {
+      "source_page": "https://elysiajs.com/patterns/openapi",
+      "written_for": "1.4.x",
+      "last_updated": "2026-07-09"
+    },
+    "11-macros-trace.md": {
+      "source_page": "https://elysiajs.com/patterns/macro",
+      "written_for": "1.4.x",
+      "last_updated": "2026-07-09"
+    },
+    "12-integration-deployment.md": {
+      "source_page": "https://elysiajs.com/",
+      "written_for": "1.4.x",
+      "last_updated": "2026-07-09"
+    }
+  },
+  "staleness_threshold_days": 90
+}

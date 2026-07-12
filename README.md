@@ -3,14 +3,14 @@
   <p align="center">
     <strong>Precision-engineered AI agent skills with interconnected reference architectures.</strong>
     <br />
-    <em>A methodology for building skills that carry 307,000+ lines of knowledge<br />while loading only what the AI actually needs.</em>
+    <em>A methodology for building skills that carry 321,000+ lines of knowledge<br />while loading only what the AI actually needs.</em>
   </p>
   <p align="center">
     <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT"></a>
     <a href="#-the-agent-skills-standard"><img src="https://img.shields.io/badge/Agent%20Skills-Universal%20Standard-purple.svg" alt="Skills Standard"></a>
     <a href="#-platform-compatibility"><img src="https://img.shields.io/badge/Platforms-25%2B-green.svg" alt="Platforms"></a>
-    <a href="#-skills-catalog"><img src="https://img.shields.io/badge/Skills-70%20Production%20Ready-orange.svg" alt="Skills"></a>
-    <a href="#-the-technique-progressive-reference-architecture"><img src="https://img.shields.io/badge/Knowledge-315%2C000%2B%20Lines-red.svg" alt="Lines"></a>
+    <a href="#-skills-catalog"><img src="https://img.shields.io/badge/Skills-71%20Production%20Ready-orange.svg" alt="Skills"></a>
+    <a href="#-the-technique-progressive-reference-architecture"><img src="https://img.shields.io/badge/Knowledge-321%2C000%2B%20Lines-red.svg" alt="Lines"></a>
   </p>
 </p>
 
@@ -138,7 +138,8 @@ Production-ready skills built with the Skills Graph methodology.
 | 68 | **[Prometheus](skills/prometheus/)** | [Prometheus](https://prometheus.io/docs) v3.12.0 | `1.0.0` | 13 | ~4,328 | Production |
 | 69 | **[Biome](skills/biome/)** | [Biome](https://biomejs.dev) 2.5.x | `1.0.0` | 13 | ~3,913 | Production |
 | 70 | **[ElysiaJS](skills/elysiajs/)** | [ElysiaJS](https://elysiajs.com) 1.4.x | `1.0.0` | 13 | ~4,489 | Production |
-| | | | | **1,055** | **~315,770** | |
+| 71 | **[Deno](skills/deno/)** | [Deno](https://docs.deno.com) 2.9.0 | `1.0.0` | 13 | ~5,380 | Production |
+| | | | | **1,068** | **~321,150** | |
 
 <br />
 

@@ -1,0 +1,82 @@
+{
+  "skill_version": "1.0.0",
+  "source_version_tracked": "2.9.0",
+  "source_package": "deno",
+  "docs_snapshot_date": "2026-07-13",
+  "last_checked": "2026-07-13",
+  "last_updated": "2026-07-13",
+  "urls": {
+    "docs": "https://docs.deno.com",
+    "changelog": "https://github.com/denoland/deno/releases",
+    "github": "https://github.com/denoland/deno",
+    "registry": "https://jsr.io/@std"
+  },
+  "references": {
+    "00-overview.md": {
+      "source_page": "https://docs.deno.com/runtime/",
+      "written_for": "2.9.0",
+      "last_updated": "2026-07-13"
+    },
+    "01-modules-dependencies.md": {
+      "source_page": "https://docs.deno.com/runtime/fundamentals/modules/",
+      "written_for": "2.9.0",
+      "last_updated": "2026-07-13"
+    },
+    "02-permissions-security.md": {
+      "source_page": "https://docs.deno.com/runtime/fundamentals/security/",
+      "written_for": "2.9.0",
+      "last_updated": "2026-07-13"
+    },
+    "03-typescript-support.md": {
+      "source_page": "https://docs.deno.com/runtime/fundamentals/typescript/",
+      "written_for": "2.9.0",
+      "last_updated": "2026-07-13"
+    },
+    "04-cli-toolchain.md": {
+      "source_page": "https://docs.deno.com/runtime/reference/cli/",
+      "written_for": "2.9.0",
+      "last_updated": "2026-07-13"
+    },
+    "05-http-server.md": {
+      "source_page": "https://docs.deno.com/runtime/fundamentals/http_server/",
+      "written_for": "2.9.0",
+      "last_updated": "2026-07-13"
+    },
+    "06-testing.md": {
+      "source_page": "https://docs.deno.com/runtime/fundamentals/testing/",
+      "written_for": "2.9.0",
+      "last_updated": "2026-07-13"
+    },
+    "07-configuration.md": {
+      "source_page": "https://docs.deno.com/runtime/fundamentals/configuration/",
+      "written_for": "2.9.0",
+      "last_updated": "2026-07-13"
+    },
+    "08-node-compatibility.md": {
+      "source_page": "https://docs.deno.com/runtime/reference/node/",
+      "written_for": "2.9.0",
+      "last_updated": "2026-07-13"
+    },
+    "09-standard-library.md": {
+      "source_page": "https://docs.deno.com/runtime/fundamentals/standard_library/",
+      "written_for": "2.9.0",
+      "last_updated": "2026-07-13"
+    },
+    "10-runtime-apis.md": {
+      "source_page": "https://docs.deno.com/runtime/reference/deno_namespace_apis/",
+      "written_for": "2.9.0",
+      "last_updated": "2026-07-13"
+    },
+    "11-deploy-production.md": {
+      "source_page": "https://docs.deno.com/deploy/",
+      "written_for": "2.9.0",
+      "last_updated": "2026-07-13"
+    },
+    "12-web-development.md": {
+      "source_page": "https://docs.deno.com/runtime/fundamentals/web_dev/",
+      "written_for": "2.9.0",
+      "last_updated": "2026-07-13"
+    }
+  },
+  "staleness_threshold_days": 90
+}

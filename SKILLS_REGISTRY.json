@@ -1,7 +1,7 @@
 {
   "description": "Registry of all skills in the skills-graph repo. Used by daily automation to avoid duplicates.",
-  "last_updated": "2026-07-09",
-  "total_skills": 70,
+  "last_updated": "2026-07-13",
+  "total_skills": 71,
   "skills": [
     {
       "name": "agno",
@@ -701,6 +701,16 @@
       "reference_files": 13,
       "total_lines": 4489,
       "source_url": "https://elysiajs.com",
+      "status": "active"
+    },
+    {
+      "name": "deno",
+      "domain": "JavaScript Runtime & Tooling",
+      "created_date": "2026-07-13",
+      "version": "1.0.0",
+      "reference_files": 13,
+      "total_lines": 5380,
+      "source_url": "https://docs.deno.com",
       "status": "active"
     }
   ],

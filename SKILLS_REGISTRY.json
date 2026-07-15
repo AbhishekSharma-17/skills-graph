@@ -1,7 +1,7 @@
 {
   "description": "Registry of all skills in the skills-graph repo. Used by daily automation to avoid duplicates.",
-  "last_updated": "2026-07-13",
-  "total_skills": 71,
+  "last_updated": "2026-07-16",
+  "total_skills": 72,
   "skills": [
     {
       "name": "agno",
@@ -711,6 +711,16 @@
       "reference_files": 13,
       "total_lines": 5380,
       "source_url": "https://docs.deno.com",
+      "status": "active"
+    },
+    {
+      "name": "htmx",
+      "domain": "UI Libraries",
+      "created_date": "2026-07-16",
+      "version": "1.0.0",
+      "reference_files": 13,
+      "total_lines": 5453,
+      "source_url": "https://htmx.org",
       "status": "active"
     }
   ],

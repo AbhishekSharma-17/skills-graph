@@ -1,0 +1,82 @@
+{
+  "skill_version": "1.0.0",
+  "source_version_tracked": "2.0.10",
+  "source_package": "htmx.org",
+  "docs_snapshot_date": "2026-07-16",
+  "last_checked": "2026-07-16",
+  "last_updated": "2026-07-16",
+  "urls": {
+    "docs": "https://htmx.org/docs/",
+    "changelog": "https://github.com/bigskysoftware/htmx/releases",
+    "github": "https://github.com/bigskysoftware/htmx",
+    "npm": "https://www.npmjs.com/package/htmx.org"
+  },
+  "references": {
+    "00-overview.md": {
+      "source_page": "https://htmx.org/docs/",
+      "written_for": "2.0.x",
+      "last_updated": "2026-07-16"
+    },
+    "01-core-attributes.md": {
+      "source_page": "https://htmx.org/reference/",
+      "written_for": "2.0.x",
+      "last_updated": "2026-07-16"
+    },
+    "02-triggers.md": {
+      "source_page": "https://htmx.org/docs/#triggers",
+      "written_for": "2.0.x",
+      "last_updated": "2026-07-16"
+    },
+    "03-targets-swapping.md": {
+      "source_page": "https://htmx.org/docs/#swapping",
+      "written_for": "2.0.x",
+      "last_updated": "2026-07-16"
+    },
+    "04-request-response.md": {
+      "source_page": "https://htmx.org/reference/#headers",
+      "written_for": "2.0.x",
+      "last_updated": "2026-07-16"
+    },
+    "05-out-of-band.md": {
+      "source_page": "https://htmx.org/docs/#oob_swaps",
+      "written_for": "2.0.x",
+      "last_updated": "2026-07-16"
+    },
+    "06-boosting-history.md": {
+      "source_page": "https://htmx.org/docs/#boosting",
+      "written_for": "2.0.x",
+      "last_updated": "2026-07-16"
+    },
+    "07-forms-validation.md": {
+      "source_page": "https://htmx.org/docs/#validation",
+      "written_for": "2.0.x",
+      "last_updated": "2026-07-16"
+    },
+    "08-events-api.md": {
+      "source_page": "https://htmx.org/reference/#events",
+      "written_for": "2.0.x",
+      "last_updated": "2026-07-16"
+    },
+    "09-css-transitions.md": {
+      "source_page": "https://htmx.org/docs/#css_transitions",
+      "written_for": "2.0.x",
+      "last_updated": "2026-07-16"
+    },
+    "10-extensions.md": {
+      "source_page": "https://htmx.org/extensions/",
+      "written_for": "2.0.x",
+      "last_updated": "2026-07-16"
+    },
+    "11-configuration-security.md": {
+      "source_page": "https://htmx.org/docs/#config",
+      "written_for": "2.0.x",
+      "last_updated": "2026-07-16"
+    },
+    "12-server-integration.md": {
+      "source_page": "https://htmx.org/server-examples/",
+      "written_for": "2.0.x",
+      "last_updated": "2026-07-16"
+    }
+  },
+  "staleness_threshold_days": 90
+}

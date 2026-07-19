@@ -1,7 +1,7 @@
 {
   "description": "Registry of all skills in the skills-graph repo. Used by daily automation to avoid duplicates.",
-  "last_updated": "2026-07-16",
-  "total_skills": 72,
+  "last_updated": "2026-07-19",
+  "total_skills": 73,
   "skills": [
     {
       "name": "agno",
@@ -721,6 +721,16 @@
       "reference_files": 13,
       "total_lines": 5453,
       "source_url": "https://htmx.org",
+      "status": "active"
+    },
+    {
+      "name": "zustand",
+      "domain": "React State Management",
+      "created_date": "2026-07-19",
+      "version": "1.0.0",
+      "reference_files": 13,
+      "total_lines": 3915,
+      "source_url": "https://zustand.docs.pmnd.rs",
       "status": "active"
     }
   ],

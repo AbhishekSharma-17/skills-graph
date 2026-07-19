@@ -1,0 +1,82 @@
+{
+  "skill_version": "1.0.0",
+  "source_version_tracked": "5.0.14",
+  "source_package": "zustand",
+  "docs_snapshot_date": "2026-07-19",
+  "last_checked": "2026-07-19",
+  "last_updated": "2026-07-19",
+  "urls": {
+    "docs": "https://zustand.docs.pmnd.rs",
+    "changelog": "https://github.com/pmndrs/zustand/releases",
+    "github": "https://github.com/pmndrs/zustand",
+    "npm": "https://www.npmjs.com/package/zustand"
+  },
+  "references": {
+    "00-overview.md": {
+      "source_page": "https://zustand.docs.pmnd.rs",
+      "written_for": "5.0.14",
+      "last_updated": "2026-07-19"
+    },
+    "01-core-concepts.md": {
+      "source_page": "https://zustand.docs.pmnd.rs/learn/getting-started",
+      "written_for": "5.0.14",
+      "last_updated": "2026-07-19"
+    },
+    "02-selectors.md": {
+      "source_page": "https://zustand.docs.pmnd.rs/learn/guides/auto-generating-selectors",
+      "written_for": "5.0.14",
+      "last_updated": "2026-07-19"
+    },
+    "03-actions-updates.md": {
+      "source_page": "https://zustand.docs.pmnd.rs/learn/guides/updating-state",
+      "written_for": "5.0.14",
+      "last_updated": "2026-07-19"
+    },
+    "04-middleware.md": {
+      "source_page": "https://zustand.docs.pmnd.rs/learn/middlewares",
+      "written_for": "5.0.14",
+      "last_updated": "2026-07-19"
+    },
+    "05-persist-middleware.md": {
+      "source_page": "https://zustand.docs.pmnd.rs/learn/middlewares/persist",
+      "written_for": "5.0.14",
+      "last_updated": "2026-07-19"
+    },
+    "06-immer-middleware.md": {
+      "source_page": "https://zustand.docs.pmnd.rs/learn/middlewares/immer",
+      "written_for": "5.0.14",
+      "last_updated": "2026-07-19"
+    },
+    "07-slices-pattern.md": {
+      "source_page": "https://zustand.docs.pmnd.rs/learn/guides/slices-pattern",
+      "written_for": "5.0.14",
+      "last_updated": "2026-07-19"
+    },
+    "08-typescript.md": {
+      "source_page": "https://zustand.docs.pmnd.rs/learn/guides/advanced-typescript",
+      "written_for": "5.0.14",
+      "last_updated": "2026-07-19"
+    },
+    "09-react-patterns.md": {
+      "source_page": "https://zustand.docs.pmnd.rs/learn/guides",
+      "written_for": "5.0.14",
+      "last_updated": "2026-07-19"
+    },
+    "10-testing.md": {
+      "source_page": "https://zustand.docs.pmnd.rs/learn/guides/testing",
+      "written_for": "5.0.14",
+      "last_updated": "2026-07-19"
+    },
+    "11-performance.md": {
+      "source_page": "https://zustand.docs.pmnd.rs/learn/guides",
+      "written_for": "5.0.14",
+      "last_updated": "2026-07-19"
+    },
+    "12-migration-recipes.md": {
+      "source_page": "https://zustand.docs.pmnd.rs/reference/migrations/migrating-to-v5",
+      "written_for": "5.0.14",
+      "last_updated": "2026-07-19"
+    }
+  },
+  "staleness_threshold_days": 90
+}

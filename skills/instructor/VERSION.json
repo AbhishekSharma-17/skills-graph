@@ -1,0 +1,82 @@
+{
+  "skill_version": "1.0.0",
+  "source_version_tracked": "1.15.4",
+  "source_package": "instructor",
+  "docs_snapshot_date": "2026-07-21",
+  "last_checked": "2026-07-21",
+  "last_updated": "2026-07-21",
+  "urls": {
+    "docs": "https://python.useinstructor.com",
+    "changelog": "https://github.com/567-labs/instructor/releases",
+    "github": "https://github.com/567-labs/instructor",
+    "pypi": "https://pypi.org/project/instructor/"
+  },
+  "references": {
+    "00-overview.md": {
+      "source_page": "https://python.useinstructor.com/",
+      "written_for": "1.15.4",
+      "last_updated": "2026-07-21"
+    },
+    "01-core-usage.md": {
+      "source_page": "https://python.useinstructor.com/concepts/patching/",
+      "written_for": "1.15.4",
+      "last_updated": "2026-07-21"
+    },
+    "02-modes.md": {
+      "source_page": "https://python.useinstructor.com/modes-comparison/",
+      "written_for": "1.15.4",
+      "last_updated": "2026-07-21"
+    },
+    "03-validation.md": {
+      "source_page": "https://python.useinstructor.com/concepts/validation/",
+      "written_for": "1.15.4",
+      "last_updated": "2026-07-21"
+    },
+    "04-retries.md": {
+      "source_page": "https://python.useinstructor.com/concepts/retrying/",
+      "written_for": "1.15.4",
+      "last_updated": "2026-07-21"
+    },
+    "05-streaming.md": {
+      "source_page": "https://python.useinstructor.com/concepts/partial/",
+      "written_for": "1.15.4",
+      "last_updated": "2026-07-21"
+    },
+    "06-providers.md": {
+      "source_page": "https://python.useinstructor.com/integrations/",
+      "written_for": "1.15.4",
+      "last_updated": "2026-07-21"
+    },
+    "07-multimodal.md": {
+      "source_page": "https://python.useinstructor.com/concepts/multimodal/",
+      "written_for": "1.15.4",
+      "last_updated": "2026-07-21"
+    },
+    "08-hooks.md": {
+      "source_page": "https://python.useinstructor.com/concepts/hooks/",
+      "written_for": "1.15.4",
+      "last_updated": "2026-07-21"
+    },
+    "09-classification.md": {
+      "source_page": "https://python.useinstructor.com/concepts/enums/",
+      "written_for": "1.15.4",
+      "last_updated": "2026-07-21"
+    },
+    "10-batch-processing.md": {
+      "source_page": "https://python.useinstructor.com/concepts/batch/",
+      "written_for": "1.15.4",
+      "last_updated": "2026-07-21"
+    },
+    "11-async-patterns.md": {
+      "source_page": "https://python.useinstructor.com/",
+      "written_for": "1.15.4",
+      "last_updated": "2026-07-21"
+    },
+    "12-advanced-patterns.md": {
+      "source_page": "https://python.useinstructor.com/",
+      "written_for": "1.15.4",
+      "last_updated": "2026-07-21"
+    }
+  },
+  "staleness_threshold_days": 90
+}

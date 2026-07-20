@@ -1,7 +1,7 @@
 {
   "description": "Registry of all skills in the skills-graph repo. Used by daily automation to avoid duplicates.",
-  "last_updated": "2026-07-19",
-  "total_skills": 73,
+  "last_updated": "2026-07-21",
+  "total_skills": 74,
   "skills": [
     {
       "name": "agno",
@@ -731,6 +731,16 @@
       "reference_files": 13,
       "total_lines": 3915,
       "source_url": "https://zustand.docs.pmnd.rs",
+      "status": "active"
+    },
+    {
+      "name": "instructor",
+      "domain": "Structured LLM Output",
+      "created_date": "2026-07-21",
+      "version": "1.0.0",
+      "reference_files": 13,
+      "total_lines": 3634,
+      "source_url": "https://python.useinstructor.com",
       "status": "active"
     }
   ],

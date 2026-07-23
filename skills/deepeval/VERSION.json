@@ -1,0 +1,82 @@
+{
+  "skill_version": "1.0.0",
+  "source_version_tracked": "3.9.9",
+  "source_package": "deepeval",
+  "docs_snapshot_date": "2026-07-24",
+  "last_checked": "2026-07-24",
+  "last_updated": "2026-07-24",
+  "urls": {
+    "docs": "https://deepeval.com/docs",
+    "changelog": "https://deepeval.com/changelog/changelog-2026",
+    "github": "https://github.com/confident-ai/deepeval",
+    "pypi": "https://pypi.org/project/deepeval/"
+  },
+  "references": {
+    "00-overview.md": {
+      "source_page": "https://deepeval.com/docs/introduction",
+      "written_for": "3.9.9",
+      "last_updated": "2026-07-24"
+    },
+    "01-test-cases.md": {
+      "source_page": "https://deepeval.com/docs/evaluation-test-cases",
+      "written_for": "3.9.9",
+      "last_updated": "2026-07-24"
+    },
+    "02-metrics-overview.md": {
+      "source_page": "https://deepeval.com/docs/metrics-introduction",
+      "written_for": "3.9.9",
+      "last_updated": "2026-07-24"
+    },
+    "03-custom-metrics.md": {
+      "source_page": "https://deepeval.com/docs/metrics-custom",
+      "written_for": "3.9.9",
+      "last_updated": "2026-07-24"
+    },
+    "04-rag-metrics.md": {
+      "source_page": "https://deepeval.com/docs/getting-started-rag",
+      "written_for": "3.9.9",
+      "last_updated": "2026-07-24"
+    },
+    "05-agent-metrics.md": {
+      "source_page": "https://deepeval.com/docs/getting-started-agents",
+      "written_for": "3.9.9",
+      "last_updated": "2026-07-24"
+    },
+    "06-safety-metrics.md": {
+      "source_page": "https://deepeval.com/docs/metrics-introduction",
+      "written_for": "3.9.9",
+      "last_updated": "2026-07-24"
+    },
+    "07-datasets.md": {
+      "source_page": "https://deepeval.com/docs/evaluation-datasets",
+      "written_for": "3.9.9",
+      "last_updated": "2026-07-24"
+    },
+    "08-tracing.md": {
+      "source_page": "https://deepeval.com/docs/evaluation-llm-tracing",
+      "written_for": "3.9.9",
+      "last_updated": "2026-07-24"
+    },
+    "09-evaluation-modes.md": {
+      "source_page": "https://deepeval.com/docs/evaluation-end-to-end-llm-evals",
+      "written_for": "3.9.9",
+      "last_updated": "2026-07-24"
+    },
+    "10-ci-cd.md": {
+      "source_page": "https://deepeval.com/docs/evaluation-unit-testing-in-ci-cd",
+      "written_for": "3.9.9",
+      "last_updated": "2026-07-24"
+    },
+    "11-synthesizer.md": {
+      "source_page": "https://deepeval.com/docs/synthesizer-generate-from-scratch",
+      "written_for": "3.9.9",
+      "last_updated": "2026-07-24"
+    },
+    "12-configuration.md": {
+      "source_page": "https://deepeval.com/docs/command-line-interface",
+      "written_for": "3.9.9",
+      "last_updated": "2026-07-24"
+    }
+  },
+  "staleness_threshold_days": 90
+}

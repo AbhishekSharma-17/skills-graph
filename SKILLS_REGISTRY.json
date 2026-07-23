@@ -1,7 +1,7 @@
 {
   "description": "Registry of all skills in the skills-graph repo. Used by daily automation to avoid duplicates.",
-  "last_updated": "2026-07-23",
-  "total_skills": 75,
+  "last_updated": "2026-07-24",
+  "total_skills": 76,
   "skills": [
     {
       "name": "agno",
@@ -751,6 +751,16 @@
       "reference_files": 13,
       "total_lines": 3963,
       "source_url": "https://docs.strapi.io",
+      "status": "active"
+    },
+    {
+      "name": "deepeval",
+      "domain": "LLM Evaluation",
+      "created_date": "2026-07-24",
+      "version": "1.0.0",
+      "reference_files": 13,
+      "total_lines": 3130,
+      "source_url": "https://deepeval.com/docs",
       "status": "active"
     }
   ],

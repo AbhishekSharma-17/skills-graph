@@ -1,7 +1,7 @@
 {
   "description": "Registry of all skills in the skills-graph repo. Used by daily automation to avoid duplicates.",
-  "last_updated": "2026-07-21",
-  "total_skills": 74,
+  "last_updated": "2026-07-23",
+  "total_skills": 75,
   "skills": [
     {
       "name": "agno",
@@ -741,6 +741,16 @@
       "reference_files": 13,
       "total_lines": 3634,
       "source_url": "https://python.useinstructor.com",
+      "status": "active"
+    },
+    {
+      "name": "strapi",
+      "domain": "CMS",
+      "created_date": "2026-07-23",
+      "version": "1.0.0",
+      "reference_files": 13,
+      "total_lines": 3963,
+      "source_url": "https://docs.strapi.io",
       "status": "active"
     }
   ],

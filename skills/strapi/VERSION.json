@@ -1,0 +1,82 @@
+{
+  "skill_version": "1.0.0",
+  "source_version_tracked": "5.50.2",
+  "source_package": "@strapi/strapi",
+  "docs_snapshot_date": "2026-07-23",
+  "last_checked": "2026-07-23",
+  "last_updated": "2026-07-23",
+  "urls": {
+    "docs": "https://docs.strapi.io",
+    "changelog": "https://feedback.strapi.io/changelog",
+    "github": "https://github.com/strapi/strapi",
+    "npm": "https://www.npmjs.com/package/@strapi/strapi"
+  },
+  "references": {
+    "00-overview.md": {
+      "source_page": "https://docs.strapi.io/cms/getting-started",
+      "written_for": "5.50.2",
+      "last_updated": "2026-07-23"
+    },
+    "01-content-types.md": {
+      "source_page": "https://docs.strapi.io/cms/backend-customization/models",
+      "written_for": "5.50.2",
+      "last_updated": "2026-07-23"
+    },
+    "02-rest-api.md": {
+      "source_page": "https://docs.strapi.io/cms/api/rest",
+      "written_for": "5.50.2",
+      "last_updated": "2026-07-23"
+    },
+    "03-graphql-api.md": {
+      "source_page": "https://docs.strapi.io/cms/api/graphql",
+      "written_for": "5.50.2",
+      "last_updated": "2026-07-23"
+    },
+    "04-document-service.md": {
+      "source_page": "https://docs.strapi.io/cms/api/document-service",
+      "written_for": "5.50.2",
+      "last_updated": "2026-07-23"
+    },
+    "05-authentication.md": {
+      "source_page": "https://docs.strapi.io/cms/features/users-permissions",
+      "written_for": "5.50.2",
+      "last_updated": "2026-07-23"
+    },
+    "06-backend-customization.md": {
+      "source_page": "https://docs.strapi.io/cms/backend-customization",
+      "written_for": "5.50.2",
+      "last_updated": "2026-07-23"
+    },
+    "07-models-lifecycles.md": {
+      "source_page": "https://docs.strapi.io/cms/backend-customization/models",
+      "written_for": "5.50.2",
+      "last_updated": "2026-07-23"
+    },
+    "08-media-library.md": {
+      "source_page": "https://docs.strapi.io/cms/features/media-library",
+      "written_for": "5.50.2",
+      "last_updated": "2026-07-23"
+    },
+    "09-configuration.md": {
+      "source_page": "https://docs.strapi.io/cms/configurations",
+      "written_for": "5.50.2",
+      "last_updated": "2026-07-23"
+    },
+    "10-internationalization.md": {
+      "source_page": "https://docs.strapi.io/cms/features/internationalization",
+      "written_for": "5.50.2",
+      "last_updated": "2026-07-23"
+    },
+    "11-plugins.md": {
+      "source_page": "https://docs.strapi.io/cms/plugins/developing-plugins",
+      "written_for": "5.50.2",
+      "last_updated": "2026-07-23"
+    },
+    "12-deployment.md": {
+      "source_page": "https://docs.strapi.io/cms/deployment",
+      "written_for": "5.50.2",
+      "last_updated": "2026-07-23"
+    }
+  },
+  "staleness_threshold_days": 90
+}

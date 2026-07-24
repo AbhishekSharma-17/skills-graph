@@ -1,0 +1,82 @@
+{
+  "skill_version": "1.0.0",
+  "source_version_tracked": "10.5.3",
+  "source_package": "storybook",
+  "docs_snapshot_date": "2026-07-25",
+  "last_checked": "2026-07-25",
+  "last_updated": "2026-07-25",
+  "urls": {
+    "docs": "https://storybook.js.org/docs",
+    "changelog": "https://github.com/storybookjs/storybook/releases",
+    "github": "https://github.com/storybookjs/storybook",
+    "npm": "https://www.npmjs.com/package/storybook"
+  },
+  "references": {
+    "00-overview.md": {
+      "source_page": "https://storybook.js.org/docs",
+      "written_for": "10.5.3",
+      "last_updated": "2026-07-25"
+    },
+    "01-installation-setup.md": {
+      "source_page": "https://storybook.js.org/docs/get-started/install",
+      "written_for": "10.5.3",
+      "last_updated": "2026-07-25"
+    },
+    "02-writing-stories.md": {
+      "source_page": "https://storybook.js.org/docs/writing-stories",
+      "written_for": "10.5.3",
+      "last_updated": "2026-07-25"
+    },
+    "03-args-controls.md": {
+      "source_page": "https://storybook.js.org/docs/essentials/controls",
+      "written_for": "10.5.3",
+      "last_updated": "2026-07-25"
+    },
+    "04-decorators-parameters.md": {
+      "source_page": "https://storybook.js.org/docs/writing-stories/decorators",
+      "written_for": "10.5.3",
+      "last_updated": "2026-07-25"
+    },
+    "05-play-functions.md": {
+      "source_page": "https://storybook.js.org/docs/writing-stories/play-function",
+      "written_for": "10.5.3",
+      "last_updated": "2026-07-25"
+    },
+    "06-interaction-testing.md": {
+      "source_page": "https://storybook.js.org/docs/writing-tests/interaction-testing",
+      "written_for": "10.5.3",
+      "last_updated": "2026-07-25"
+    },
+    "07-visual-a11y-testing.md": {
+      "source_page": "https://storybook.js.org/docs/writing-tests/visual-testing",
+      "written_for": "10.5.3",
+      "last_updated": "2026-07-25"
+    },
+    "08-documentation.md": {
+      "source_page": "https://storybook.js.org/docs/writing-docs/autodocs",
+      "written_for": "10.5.3",
+      "last_updated": "2026-07-25"
+    },
+    "09-addons-ecosystem.md": {
+      "source_page": "https://storybook.js.org/docs/addons",
+      "written_for": "10.5.3",
+      "last_updated": "2026-07-25"
+    },
+    "10-configuration.md": {
+      "source_page": "https://storybook.js.org/docs/configure",
+      "written_for": "10.5.3",
+      "last_updated": "2026-07-25"
+    },
+    "11-sharing-publishing.md": {
+      "source_page": "https://storybook.js.org/docs/sharing/publish-storybook",
+      "written_for": "10.5.3",
+      "last_updated": "2026-07-25"
+    },
+    "12-ai-integration.md": {
+      "source_page": "https://storybook.js.org/docs/ai",
+      "written_for": "10.5.3",
+      "last_updated": "2026-07-25"
+    }
+  },
+  "staleness_threshold_days": 90
+}

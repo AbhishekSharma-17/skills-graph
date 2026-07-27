@@ -1,7 +1,7 @@
 {
   "description": "Registry of all skills in the skills-graph repo. Used by daily automation to avoid duplicates.",
-  "last_updated": "2026-07-27",
-  "total_skills": 78,
+  "last_updated": "2026-07-28",
+  "total_skills": 79,
   "skills": [
     {
       "name": "agno",
@@ -781,6 +781,16 @@
       "reference_files": 13,
       "total_lines": 4387,
       "source_url": "https://docs.n8n.io",
+      "status": "active"
+    },
+    {
+      "name": "socket-io",
+      "domain": "Real-time & Streaming",
+      "created_date": "2026-07-28",
+      "version": "1.0.0",
+      "reference_files": 13,
+      "total_lines": 3943,
+      "source_url": "https://socket.io/docs/v4/",
       "status": "active"
     }
   ],

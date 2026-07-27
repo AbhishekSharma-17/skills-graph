@@ -1,0 +1,82 @@
+{
+  "skill_version": "1.0.0",
+  "source_version_tracked": "4.8.3",
+  "source_package": "socket.io",
+  "docs_snapshot_date": "2026-07-28",
+  "last_checked": "2026-07-28",
+  "last_updated": "2026-07-28",
+  "urls": {
+    "docs": "https://socket.io/docs/v4/",
+    "changelog": "https://socket.io/changelog/",
+    "github": "https://github.com/socketio/socket.io",
+    "npm": "https://www.npmjs.com/package/socket.io"
+  },
+  "staleness_threshold_days": 90,
+  "references": {
+    "00-overview.md": {
+      "source_page": "https://socket.io/docs/v4/",
+      "written_for": "4.8.3",
+      "last_updated": "2026-07-28"
+    },
+    "01-server-setup.md": {
+      "source_page": "https://socket.io/docs/v4/server-installation/",
+      "written_for": "4.8.3",
+      "last_updated": "2026-07-28"
+    },
+    "02-client-setup.md": {
+      "source_page": "https://socket.io/docs/v4/client-installation/",
+      "written_for": "4.8.3",
+      "last_updated": "2026-07-28"
+    },
+    "03-events-and-acknowledgements.md": {
+      "source_page": "https://socket.io/docs/v4/emitting-events/",
+      "written_for": "4.8.3",
+      "last_updated": "2026-07-28"
+    },
+    "04-rooms-and-broadcasting.md": {
+      "source_page": "https://socket.io/docs/v4/rooms/",
+      "written_for": "4.8.3",
+      "last_updated": "2026-07-28"
+    },
+    "05-namespaces.md": {
+      "source_page": "https://socket.io/docs/v4/namespaces/",
+      "written_for": "4.8.3",
+      "last_updated": "2026-07-28"
+    },
+    "06-middleware-and-auth.md": {
+      "source_page": "https://socket.io/docs/v4/middlewares/",
+      "written_for": "4.8.3",
+      "last_updated": "2026-07-28"
+    },
+    "07-typescript.md": {
+      "source_page": "https://socket.io/docs/v4/typescript/",
+      "written_for": "4.8.3",
+      "last_updated": "2026-07-28"
+    },
+    "08-scaling-and-adapters.md": {
+      "source_page": "https://socket.io/docs/v4/using-multiple-nodes/",
+      "written_for": "4.8.3",
+      "last_updated": "2026-07-28"
+    },
+    "09-error-handling-and-debugging.md": {
+      "source_page": "https://socket.io/docs/v4/troubleshooting-connection-issues/",
+      "written_for": "4.8.3",
+      "last_updated": "2026-07-28"
+    },
+    "10-delivery-and-reliability.md": {
+      "source_page": "https://socket.io/docs/v4/delivery-guarantees/",
+      "written_for": "4.8.3",
+      "last_updated": "2026-07-28"
+    },
+    "11-performance-and-security.md": {
+      "source_page": "https://socket.io/docs/v4/performance-tuning/",
+      "written_for": "4.8.3",
+      "last_updated": "2026-07-28"
+    },
+    "12-testing.md": {
+      "source_page": "https://socket.io/docs/v4/testing/",
+      "written_for": "4.8.3",
+      "last_updated": "2026-07-28"
+    }
+  }
+}

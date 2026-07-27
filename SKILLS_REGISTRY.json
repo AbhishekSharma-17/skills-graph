@@ -1,7 +1,7 @@
 {
   "description": "Registry of all skills in the skills-graph repo. Used by daily automation to avoid duplicates.",
-  "last_updated": "2026-07-25",
-  "total_skills": 77,
+  "last_updated": "2026-07-27",
+  "total_skills": 78,
   "skills": [
     {
       "name": "agno",
@@ -771,6 +771,16 @@
       "reference_files": 13,
       "total_lines": 4654,
       "source_url": "https://storybook.js.org/docs",
+      "status": "active"
+    },
+    {
+      "name": "n8n",
+      "domain": "Workflow Automation",
+      "created_date": "2026-07-27",
+      "version": "1.0.0",
+      "reference_files": 13,
+      "total_lines": 4387,
+      "source_url": "https://docs.n8n.io",
       "status": "active"
     }
   ],

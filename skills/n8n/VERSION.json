@@ -1,0 +1,82 @@
+{
+  "skill_version": "1.0.0",
+  "source_version_tracked": "2.31",
+  "source_package": "n8n",
+  "docs_snapshot_date": "2026-07-27",
+  "last_checked": "2026-07-27",
+  "last_updated": "2026-07-27",
+  "urls": {
+    "docs": "https://docs.n8n.io",
+    "changelog": "https://docs.n8n.io/changelog",
+    "github": "https://github.com/n8n-io/n8n",
+    "npm": "https://www.npmjs.com/package/n8n"
+  },
+  "references": {
+    "00-overview.md": {
+      "source_page": "https://docs.n8n.io/welcome/",
+      "written_for": "2.31",
+      "last_updated": "2026-07-27"
+    },
+    "01-workflow-fundamentals.md": {
+      "source_page": "https://docs.n8n.io/build/understand-workflows/",
+      "written_for": "2.31",
+      "last_updated": "2026-07-27"
+    },
+    "02-triggers-and-webhooks.md": {
+      "source_page": "https://docs.n8n.io/integrations/builtin/core-nodes/",
+      "written_for": "2.31",
+      "last_updated": "2026-07-27"
+    },
+    "03-data-structure-and-expressions.md": {
+      "source_page": "https://docs.n8n.io/build/work-with-data/",
+      "written_for": "2.31",
+      "last_updated": "2026-07-27"
+    },
+    "04-flow-logic.md": {
+      "source_page": "https://docs.n8n.io/build/flow-logic/",
+      "written_for": "2.31",
+      "last_updated": "2026-07-27"
+    },
+    "05-code-node.md": {
+      "source_page": "https://docs.n8n.io/build/code-in-n8n/using-the-code-node/",
+      "written_for": "2.31",
+      "last_updated": "2026-07-27"
+    },
+    "06-http-request-and-apis.md": {
+      "source_page": "https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-base.httprequest/",
+      "written_for": "2.31",
+      "last_updated": "2026-07-27"
+    },
+    "07-credentials-and-security.md": {
+      "source_page": "https://docs.n8n.io/build/understand-workflows/create-and-edit-credentials/",
+      "written_for": "2.31",
+      "last_updated": "2026-07-27"
+    },
+    "08-error-handling.md": {
+      "source_page": "https://docs.n8n.io/build/flow-logic/handle-errors-gracefully/",
+      "written_for": "2.31",
+      "last_updated": "2026-07-27"
+    },
+    "09-ai-agents-and-tools.md": {
+      "source_page": "https://docs.n8n.io/build/integrate-ai/",
+      "written_for": "2.31",
+      "last_updated": "2026-07-27"
+    },
+    "10-deployment-and-scaling.md": {
+      "source_page": "https://docs.n8n.io/deploy/",
+      "written_for": "2.31",
+      "last_updated": "2026-07-27"
+    },
+    "11-workflow-management.md": {
+      "source_page": "https://docs.n8n.io/build/manage-workflows/",
+      "written_for": "2.31",
+      "last_updated": "2026-07-27"
+    },
+    "12-integrations-ecosystem.md": {
+      "source_page": "https://docs.n8n.io/integrations/",
+      "written_for": "2.31",
+      "last_updated": "2026-07-27"
+    }
+  },
+  "staleness_threshold_days": 90
+}

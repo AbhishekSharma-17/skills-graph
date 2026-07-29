@@ -1,7 +1,7 @@
 {
   "description": "Registry of all skills in the skills-graph repo. Used by daily automation to avoid duplicates.",
-  "last_updated": "2026-07-29",
-  "total_skills": 80,
+  "last_updated": "2026-07-30",
+  "total_skills": 81,
   "skills": [
     {
       "name": "agno",
@@ -801,6 +801,16 @@
       "reference_files": 13,
       "total_lines": 4732,
       "source_url": "https://airflow.apache.org/docs/apache-airflow/stable/",
+      "status": "active"
+    },
+    {
+      "name": "fastify",
+      "domain": "Backend Frameworks",
+      "created_date": "2026-07-30",
+      "version": "1.0.0",
+      "reference_files": 13,
+      "total_lines": 4491,
+      "source_url": "https://fastify.dev",
       "status": "active"
     }
   ],

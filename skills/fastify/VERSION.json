@@ -1,0 +1,82 @@
+{
+  "skill_version": "1.0.0",
+  "source_version_tracked": "5.10.0",
+  "source_package": "fastify",
+  "docs_snapshot_date": "2026-07-30",
+  "last_checked": "2026-07-30",
+  "last_updated": "2026-07-30",
+  "urls": {
+    "docs": "https://fastify.dev/docs/latest/",
+    "changelog": "https://github.com/fastify/fastify/releases",
+    "github": "https://github.com/fastify/fastify",
+    "npm": "https://www.npmjs.com/package/fastify"
+  },
+  "references": {
+    "00-overview.md": {
+      "source_page": "https://fastify.dev/docs/latest/Guides/Getting-Started/",
+      "written_for": "5.10.x",
+      "last_updated": "2026-07-30"
+    },
+    "01-routing.md": {
+      "source_page": "https://fastify.dev/docs/latest/Reference/Routes/",
+      "written_for": "5.10.x",
+      "last_updated": "2026-07-30"
+    },
+    "02-request-reply.md": {
+      "source_page": "https://fastify.dev/docs/latest/Reference/Request/",
+      "written_for": "5.10.x",
+      "last_updated": "2026-07-30"
+    },
+    "03-validation-serialization.md": {
+      "source_page": "https://fastify.dev/docs/latest/Reference/Validation-and-Serialization/",
+      "written_for": "5.10.x",
+      "last_updated": "2026-07-30"
+    },
+    "04-lifecycle-hooks.md": {
+      "source_page": "https://fastify.dev/docs/latest/Reference/Hooks/",
+      "written_for": "5.10.x",
+      "last_updated": "2026-07-30"
+    },
+    "05-plugins.md": {
+      "source_page": "https://fastify.dev/docs/latest/Reference/Plugins/",
+      "written_for": "5.10.x",
+      "last_updated": "2026-07-30"
+    },
+    "06-decorators.md": {
+      "source_page": "https://fastify.dev/docs/latest/Reference/Decorators/",
+      "written_for": "5.10.x",
+      "last_updated": "2026-07-30"
+    },
+    "07-error-handling.md": {
+      "source_page": "https://fastify.dev/docs/latest/Reference/Errors/",
+      "written_for": "5.10.x",
+      "last_updated": "2026-07-30"
+    },
+    "08-logging.md": {
+      "source_page": "https://fastify.dev/docs/latest/Reference/Logging/",
+      "written_for": "5.10.x",
+      "last_updated": "2026-07-30"
+    },
+    "09-typescript.md": {
+      "source_page": "https://fastify.dev/docs/latest/Reference/TypeScript/",
+      "written_for": "5.10.x",
+      "last_updated": "2026-07-30"
+    },
+    "10-testing.md": {
+      "source_page": "https://fastify.dev/docs/latest/Guides/Testing/",
+      "written_for": "5.10.x",
+      "last_updated": "2026-07-30"
+    },
+    "11-ecosystem-plugins.md": {
+      "source_page": "https://fastify.dev/ecosystem/",
+      "written_for": "5.10.x",
+      "last_updated": "2026-07-30"
+    },
+    "12-deployment-production.md": {
+      "source_page": "https://fastify.dev/docs/latest/Reference/Server/",
+      "written_for": "5.10.x",
+      "last_updated": "2026-07-30"
+    }
+  },
+  "staleness_threshold_days": 90
+}

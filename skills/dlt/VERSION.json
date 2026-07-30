@@ -1,0 +1,82 @@
+{
+  "skill_version": "1.0.0",
+  "source_version_tracked": "1.29.1",
+  "source_package": "dlt",
+  "docs_snapshot_date": "2026-07-31",
+  "last_checked": "2026-07-31",
+  "last_updated": "2026-07-31",
+  "urls": {
+    "docs": "https://dlthub.com/docs",
+    "changelog": "https://github.com/dlt-hub/dlt/releases",
+    "github": "https://github.com/dlt-hub/dlt",
+    "pypi": "https://pypi.org/project/dlt/"
+  },
+  "staleness_threshold_days": 90,
+  "references": {
+    "00-overview.md": {
+      "source_page": "https://dlthub.com/docs/intro",
+      "written_for": "1.29.1",
+      "last_updated": "2026-07-31"
+    },
+    "01-pipeline.md": {
+      "source_page": "https://dlthub.com/docs/general-usage/pipeline",
+      "written_for": "1.29.1",
+      "last_updated": "2026-07-31"
+    },
+    "02-resources.md": {
+      "source_page": "https://dlthub.com/docs/general-usage/resource",
+      "written_for": "1.29.1",
+      "last_updated": "2026-07-31"
+    },
+    "03-sources.md": {
+      "source_page": "https://dlthub.com/docs/general-usage/source",
+      "written_for": "1.29.1",
+      "last_updated": "2026-07-31"
+    },
+    "04-incremental-loading.md": {
+      "source_page": "https://dlthub.com/docs/general-usage/incremental-loading",
+      "written_for": "1.29.1",
+      "last_updated": "2026-07-31"
+    },
+    "05-schema-contracts.md": {
+      "source_page": "https://dlthub.com/docs/general-usage/schema-contracts",
+      "written_for": "1.29.1",
+      "last_updated": "2026-07-31"
+    },
+    "06-credentials-config.md": {
+      "source_page": "https://dlthub.com/docs/general-usage/credentials",
+      "written_for": "1.29.1",
+      "last_updated": "2026-07-31"
+    },
+    "07-rest-api-source.md": {
+      "source_page": "https://dlthub.com/docs/dlt-ecosystem/verified-sources/rest_api/basic",
+      "written_for": "1.29.1",
+      "last_updated": "2026-07-31"
+    },
+    "08-destinations.md": {
+      "source_page": "https://dlthub.com/docs/dlt-ecosystem/destinations",
+      "written_for": "1.29.1",
+      "last_updated": "2026-07-31"
+    },
+    "09-performance.md": {
+      "source_page": "https://dlthub.com/docs/reference/performance",
+      "written_for": "1.29.1",
+      "last_updated": "2026-07-31"
+    },
+    "10-transformations.md": {
+      "source_page": "https://dlthub.com/docs/dlt-ecosystem/transformations",
+      "written_for": "1.29.1",
+      "last_updated": "2026-07-31"
+    },
+    "11-deployment.md": {
+      "source_page": "https://dlthub.com/docs/walkthroughs/deploy-a-pipeline",
+      "written_for": "1.29.1",
+      "last_updated": "2026-07-31"
+    },
+    "12-testing-debugging.md": {
+      "source_page": "https://dlthub.com/docs",
+      "written_for": "1.29.1",
+      "last_updated": "2026-07-31"
+    }
+  }
+}

@@ -1,7 +1,7 @@
 {
   "description": "Registry of all skills in the skills-graph repo. Used by daily automation to avoid duplicates.",
-  "last_updated": "2026-07-30",
-  "total_skills": 81,
+  "last_updated": "2026-07-31",
+  "total_skills": 82,
   "skills": [
     {
       "name": "agno",
@@ -811,6 +811,16 @@
       "reference_files": 13,
       "total_lines": 4491,
       "source_url": "https://fastify.dev",
+      "status": "active"
+    },
+    {
+      "name": "dlt",
+      "domain": "Data Engineering",
+      "created_date": "2026-07-31",
+      "version": "1.0.0",
+      "reference_files": 13,
+      "total_lines": 3863,
+      "source_url": "https://dlthub.com/docs",
       "status": "active"
     }
   ],

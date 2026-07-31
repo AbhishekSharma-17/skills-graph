@@ -1,0 +1,82 @@
+{
+  "skill_version": "1.0.0",
+  "source_version_tracked": "6.0.2",
+  "source_package": "bullmq",
+  "docs_snapshot_date": "2026-08-01",
+  "last_checked": "2026-08-01",
+  "last_updated": "2026-08-01",
+  "urls": {
+    "docs": "https://docs.bullmq.io/",
+    "changelog": "https://github.com/taskforcesh/bullmq/releases",
+    "github": "https://github.com/taskforcesh/bullmq",
+    "npm": "https://www.npmjs.com/package/bullmq"
+  },
+  "references": {
+    "00-overview.md": {
+      "source_page": "https://docs.bullmq.io/guide/introduction",
+      "written_for": "6.0.x",
+      "last_updated": "2026-08-01"
+    },
+    "01-queues.md": {
+      "source_page": "https://docs.bullmq.io/guide/queues",
+      "written_for": "6.0.x",
+      "last_updated": "2026-08-01"
+    },
+    "02-workers.md": {
+      "source_page": "https://docs.bullmq.io/guide/workers",
+      "written_for": "6.0.x",
+      "last_updated": "2026-08-01"
+    },
+    "03-jobs.md": {
+      "source_page": "https://docs.bullmq.io/guide/jobs",
+      "written_for": "6.0.x",
+      "last_updated": "2026-08-01"
+    },
+    "04-delayed-scheduled.md": {
+      "source_page": "https://docs.bullmq.io/guide/job-schedulers",
+      "written_for": "6.0.x",
+      "last_updated": "2026-08-01"
+    },
+    "05-prioritized.md": {
+      "source_page": "https://docs.bullmq.io/guide/jobs/prioritized",
+      "written_for": "6.0.x",
+      "last_updated": "2026-08-01"
+    },
+    "06-retries-backoff.md": {
+      "source_page": "https://docs.bullmq.io/guide/retrying-failing-jobs",
+      "written_for": "6.0.x",
+      "last_updated": "2026-08-01"
+    },
+    "07-flows.md": {
+      "source_page": "https://docs.bullmq.io/guide/flows",
+      "written_for": "6.0.x",
+      "last_updated": "2026-08-01"
+    },
+    "08-rate-limiting-dedup.md": {
+      "source_page": "https://docs.bullmq.io/guide/rate-limiting",
+      "written_for": "6.0.x",
+      "last_updated": "2026-08-01"
+    },
+    "09-events.md": {
+      "source_page": "https://docs.bullmq.io/guide/events",
+      "written_for": "6.0.x",
+      "last_updated": "2026-08-01"
+    },
+    "10-connections.md": {
+      "source_page": "https://docs.bullmq.io/guide/connections",
+      "written_for": "6.0.x",
+      "last_updated": "2026-08-01"
+    },
+    "11-telemetry.md": {
+      "source_page": "https://docs.bullmq.io/guide/telemetry",
+      "written_for": "6.0.x",
+      "last_updated": "2026-08-01"
+    },
+    "12-production-nestjs.md": {
+      "source_page": "https://docs.bullmq.io/guide/going-to-production",
+      "written_for": "6.0.x",
+      "last_updated": "2026-08-01"
+    }
+  },
+  "staleness_threshold_days": 90
+}

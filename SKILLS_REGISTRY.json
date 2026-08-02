@@ -1,7 +1,7 @@
 {
   "description": "Registry of all skills in the skills-graph repo. Used by daily automation to avoid duplicates.",
-  "last_updated": "2026-08-01",
-  "total_skills": 83,
+  "last_updated": "2026-08-03",
+  "total_skills": 84,
   "skills": [
     {
       "name": "agno",
@@ -831,6 +831,16 @@
       "reference_files": 13,
       "total_lines": 3509,
       "source_url": "https://docs.bullmq.io",
+      "status": "active"
+    },
+    {
+      "name": "streamlit",
+      "domain": "Data Apps & ML Demos",
+      "created_date": "2026-08-03",
+      "version": "1.0.0",
+      "reference_files": 13,
+      "total_lines": 4843,
+      "source_url": "https://docs.streamlit.io",
       "status": "active"
     }
   ],

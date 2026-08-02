@@ -1,0 +1,82 @@
+{
+  "skill_version": "1.0.0",
+  "source_version_tracked": "1.59.2",
+  "source_package": "streamlit",
+  "docs_snapshot_date": "2026-08-03",
+  "last_checked": "2026-08-03",
+  "last_updated": "2026-08-03",
+  "urls": {
+    "docs": "https://docs.streamlit.io/",
+    "changelog": "https://docs.streamlit.io/develop/quick-reference/release-notes",
+    "github": "https://github.com/streamlit/streamlit",
+    "pypi": "https://pypi.org/project/streamlit/"
+  },
+  "references": {
+    "00-overview.md": {
+      "source_page": "https://docs.streamlit.io/develop/concepts/architecture",
+      "written_for": "1.59.x",
+      "last_updated": "2026-08-03"
+    },
+    "01-text-data-display.md": {
+      "source_page": "https://docs.streamlit.io/develop/api-reference/text",
+      "written_for": "1.59.x",
+      "last_updated": "2026-08-03"
+    },
+    "02-input-widgets.md": {
+      "source_page": "https://docs.streamlit.io/develop/api-reference/widgets",
+      "written_for": "1.59.x",
+      "last_updated": "2026-08-03"
+    },
+    "03-charts-visualization.md": {
+      "source_page": "https://docs.streamlit.io/develop/api-reference/charts",
+      "written_for": "1.59.x",
+      "last_updated": "2026-08-03"
+    },
+    "04-layout-containers.md": {
+      "source_page": "https://docs.streamlit.io/develop/api-reference/layouts",
+      "written_for": "1.59.x",
+      "last_updated": "2026-08-03"
+    },
+    "05-session-state.md": {
+      "source_page": "https://docs.streamlit.io/develop/concepts/architecture/session-state",
+      "written_for": "1.59.x",
+      "last_updated": "2026-08-03"
+    },
+    "06-caching-performance.md": {
+      "source_page": "https://docs.streamlit.io/develop/concepts/architecture/caching",
+      "written_for": "1.59.x",
+      "last_updated": "2026-08-03"
+    },
+    "07-forms-fragments.md": {
+      "source_page": "https://docs.streamlit.io/develop/concepts/architecture/forms",
+      "written_for": "1.59.x",
+      "last_updated": "2026-08-03"
+    },
+    "08-multipage-apps.md": {
+      "source_page": "https://docs.streamlit.io/develop/concepts/multipage-apps",
+      "written_for": "1.59.x",
+      "last_updated": "2026-08-03"
+    },
+    "09-chat-llm.md": {
+      "source_page": "https://docs.streamlit.io/develop/tutorials/llms",
+      "written_for": "1.59.x",
+      "last_updated": "2026-08-03"
+    },
+    "10-media-status.md": {
+      "source_page": "https://docs.streamlit.io/develop/api-reference/media",
+      "written_for": "1.59.x",
+      "last_updated": "2026-08-03"
+    },
+    "11-connections-config.md": {
+      "source_page": "https://docs.streamlit.io/develop/concepts/connections",
+      "written_for": "1.59.x",
+      "last_updated": "2026-08-03"
+    },
+    "12-testing-deployment.md": {
+      "source_page": "https://docs.streamlit.io/develop/api-reference/testing",
+      "written_for": "1.59.x",
+      "last_updated": "2026-08-03"
+    }
+  },
+  "staleness_threshold_days": 90
+}

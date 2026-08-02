@@ -9,7 +9,7 @@
     <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT"></a>
     <a href="#-the-agent-skills-standard"><img src="https://img.shields.io/badge/Agent%20Skills-Universal%20Standard-purple.svg" alt="Skills Standard"></a>
     <a href="#-platform-compatibility"><img src="https://img.shields.io/badge/Platforms-25%2B-green.svg" alt="Platforms"></a>
-    <a href="#-skills-catalog"><img src="https://img.shields.io/badge/Skills-83%20Production%20Ready-orange.svg" alt="Skills"></a>
+    <a href="#-skills-catalog"><img src="https://img.shields.io/badge/Skills-84%20Production%20Ready-orange.svg" alt="Skills"></a>
     <a href="#-the-technique-progressive-reference-architecture"><img src="https://img.shields.io/badge/Knowledge-360%2C000%2B%20Lines-red.svg" alt="Lines"></a>
   </p>
 </p>
@@ -151,7 +151,8 @@ Production-ready skills built with the Skills Graph methodology.
 | 81 | **[Fastify](skills/fastify/)** | [Fastify](https://fastify.dev) 5.10.x | `1.0.0` | 13 | ~4,491 | Production |
 | 82 | **[dlt](skills/dlt/)** | [dlt](https://dlthub.com/docs) 1.29.1 | `1.0.0` | 13 | ~3,863 | Production |
 | 83 | **[BullMQ](skills/bullmq/)** | [BullMQ](https://docs.bullmq.io) 6.0.x | `1.0.0` | 13 | ~3,509 | Production |
-| | | | | **1,211** | **~366,861** | |
+| 84 | **[Streamlit](skills/streamlit/)** | [Streamlit](https://docs.streamlit.io) 1.59.x | `1.0.0` | 13 | ~4,843 | Production |
+| | | | | **1,224** | **~371,704** | |
 
 <br />
 

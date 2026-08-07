@@ -1,0 +1,82 @@
+{
+  "skill_version": "1.0.0",
+  "source_version_tracked": "5.6.3",
+  "source_package": "celery",
+  "docs_snapshot_date": "2026-08-08",
+  "last_checked": "2026-08-08",
+  "last_updated": "2026-08-08",
+  "urls": {
+    "docs": "https://docs.celeryq.dev/en/stable/",
+    "changelog": "https://docs.celeryq.dev/en/stable/changelog.html",
+    "github": "https://github.com/celery/celery",
+    "pypi": "https://pypi.org/project/celery/"
+  },
+  "references": {
+    "00-overview.md": {
+      "source_page": "https://docs.celeryq.dev/en/stable/getting-started/introduction.html",
+      "written_for": "5.6.3",
+      "last_updated": "2026-08-08"
+    },
+    "01-application-config.md": {
+      "source_page": "https://docs.celeryq.dev/en/stable/userguide/application.html",
+      "written_for": "5.6.3",
+      "last_updated": "2026-08-08"
+    },
+    "02-tasks.md": {
+      "source_page": "https://docs.celeryq.dev/en/stable/userguide/tasks.html",
+      "written_for": "5.6.3",
+      "last_updated": "2026-08-08"
+    },
+    "03-calling-tasks.md": {
+      "source_page": "https://docs.celeryq.dev/en/stable/userguide/calling.html",
+      "written_for": "5.6.3",
+      "last_updated": "2026-08-08"
+    },
+    "04-canvas-workflows.md": {
+      "source_page": "https://docs.celeryq.dev/en/stable/userguide/canvas.html",
+      "written_for": "5.6.3",
+      "last_updated": "2026-08-08"
+    },
+    "05-workers.md": {
+      "source_page": "https://docs.celeryq.dev/en/stable/userguide/workers.html",
+      "written_for": "5.6.3",
+      "last_updated": "2026-08-08"
+    },
+    "06-periodic-tasks.md": {
+      "source_page": "https://docs.celeryq.dev/en/stable/userguide/periodic-tasks.html",
+      "written_for": "5.6.3",
+      "last_updated": "2026-08-08"
+    },
+    "07-routing-queues.md": {
+      "source_page": "https://docs.celeryq.dev/en/stable/userguide/routing.html",
+      "written_for": "5.6.3",
+      "last_updated": "2026-08-08"
+    },
+    "08-result-backends.md": {
+      "source_page": "https://docs.celeryq.dev/en/stable/userguide/configuration.html",
+      "written_for": "5.6.3",
+      "last_updated": "2026-08-08"
+    },
+    "09-error-handling.md": {
+      "source_page": "https://docs.celeryq.dev/en/stable/userguide/tasks.html#retrying",
+      "written_for": "5.6.3",
+      "last_updated": "2026-08-08"
+    },
+    "10-monitoring.md": {
+      "source_page": "https://docs.celeryq.dev/en/stable/userguide/monitoring.html",
+      "written_for": "5.6.3",
+      "last_updated": "2026-08-08"
+    },
+    "11-signals-hooks.md": {
+      "source_page": "https://docs.celeryq.dev/en/stable/userguide/signals.html",
+      "written_for": "5.6.3",
+      "last_updated": "2026-08-08"
+    },
+    "12-testing-deployment.md": {
+      "source_page": "https://docs.celeryq.dev/en/stable/userguide/testing.html",
+      "written_for": "5.6.3",
+      "last_updated": "2026-08-08"
+    }
+  },
+  "staleness_threshold_days": 90
+}

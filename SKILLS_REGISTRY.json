@@ -1,7 +1,7 @@
 {
   "description": "Registry of all skills in the skills-graph repo. Used by daily automation to avoid duplicates.",
-  "last_updated": "2026-08-03",
-  "total_skills": 84,
+  "last_updated": "2026-08-08",
+  "total_skills": 85,
   "skills": [
     {
       "name": "agno",
@@ -841,6 +841,16 @@
       "reference_files": 13,
       "total_lines": 4843,
       "source_url": "https://docs.streamlit.io",
+      "status": "active"
+    },
+    {
+      "name": "celery",
+      "domain": "Python Distributed Task Queue",
+      "created_date": "2026-08-08",
+      "version": "1.0.0",
+      "reference_files": 13,
+      "total_lines": 4286,
+      "source_url": "https://docs.celeryq.dev",
       "status": "active"
     }
   ],

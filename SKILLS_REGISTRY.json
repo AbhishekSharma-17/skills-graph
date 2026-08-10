@@ -1,7 +1,7 @@
 {
   "description": "Registry of all skills in the skills-graph repo. Used by daily automation to avoid duplicates.",
-  "last_updated": "2026-08-08",
-  "total_skills": 85,
+  "last_updated": "2026-08-10",
+  "total_skills": 86,
   "skills": [
     {
       "name": "agno",
@@ -851,6 +851,16 @@
       "reference_files": 13,
       "total_lines": 4286,
       "source_url": "https://docs.celeryq.dev",
+      "status": "active"
+    },
+    {
+      "name": "gradio",
+      "domain": "ML/AI Demo & Web App Builder",
+      "created_date": "2026-08-10",
+      "version": "1.0.0",
+      "reference_files": 13,
+      "total_lines": 4357,
+      "source_url": "https://gradio.app",
       "status": "active"
     }
   ],

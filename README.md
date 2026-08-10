@@ -3,13 +3,13 @@
   <p align="center">
     <strong>Precision-engineered AI agent skills with interconnected reference architectures.</strong>
     <br />
-    <em>A methodology for building skills that carry 360,000+ lines of knowledge<br />while loading only what the AI actually needs.</em>
+    <em>A methodology for building skills that carry 380,000+ lines of knowledge<br />while loading only what the AI actually needs.</em>
   </p>
   <p align="center">
     <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT"></a>
     <a href="#-the-agent-skills-standard"><img src="https://img.shields.io/badge/Agent%20Skills-Universal%20Standard-purple.svg" alt="Skills Standard"></a>
     <a href="#-platform-compatibility"><img src="https://img.shields.io/badge/Platforms-25%2B-green.svg" alt="Platforms"></a>
-    <a href="#-skills-catalog"><img src="https://img.shields.io/badge/Skills-85%20Production%20Ready-orange.svg" alt="Skills"></a>
+    <a href="#-skills-catalog"><img src="https://img.shields.io/badge/Skills-86%20Production%20Ready-orange.svg" alt="Skills"></a>
     <a href="#-the-technique-progressive-reference-architecture"><img src="https://img.shields.io/badge/Knowledge-360%2C000%2B%20Lines-red.svg" alt="Lines"></a>
   </p>
 </p>
@@ -153,7 +153,8 @@ Production-ready skills built with the Skills Graph methodology.
 | 83 | **[BullMQ](skills/bullmq/)** | [BullMQ](https://docs.bullmq.io) 6.0.x | `1.0.0` | 13 | ~3,509 | Production |
 | 84 | **[Streamlit](skills/streamlit/)** | [Streamlit](https://docs.streamlit.io) 1.59.x | `1.0.0` | 13 | ~4,843 | Production |
 | 85 | **[Celery](skills/celery/)** | [Celery](https://docs.celeryq.dev) 5.6.3 | `1.0.0` | 13 | ~4,286 | Production |
-| | | | | **1,237** | **~375,990** | |
+| 86 | **[Gradio](skills/gradio/)** | [Gradio](https://gradio.app) 6.22.x | `1.0.0` | 13 | ~4,357 | Production |
+| | | | | **1,250** | **~380,347** | |
 
 <br />
 

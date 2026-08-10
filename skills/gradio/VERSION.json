@@ -1,0 +1,82 @@
+{
+  "skill_version": "1.0.0",
+  "source_version_tracked": "6.22.0",
+  "source_package": "gradio",
+  "docs_snapshot_date": "2026-08-10",
+  "last_checked": "2026-08-10",
+  "last_updated": "2026-08-10",
+  "urls": {
+    "docs": "https://gradio.app/docs",
+    "changelog": "https://gradio.app/changelog",
+    "github": "https://github.com/gradio-app/gradio",
+    "pypi": "https://pypi.org/project/gradio/"
+  },
+  "references": {
+    "00-overview.md": {
+      "source_page": "https://gradio.app/docs/gradio/introduction",
+      "written_for": "6.22.0",
+      "last_updated": "2026-08-10"
+    },
+    "01-interface.md": {
+      "source_page": "https://gradio.app/docs/gradio/interface",
+      "written_for": "6.22.0",
+      "last_updated": "2026-08-10"
+    },
+    "02-blocks.md": {
+      "source_page": "https://gradio.app/docs/gradio/blocks",
+      "written_for": "6.22.0",
+      "last_updated": "2026-08-10"
+    },
+    "03-chatinterface.md": {
+      "source_page": "https://gradio.app/docs/gradio/chatinterface",
+      "written_for": "6.22.0",
+      "last_updated": "2026-08-10"
+    },
+    "04-components.md": {
+      "source_page": "https://gradio.app/docs",
+      "written_for": "6.22.0",
+      "last_updated": "2026-08-10"
+    },
+    "05-events-interactivity.md": {
+      "source_page": "https://gradio.app/guides/blocks-and-event-listeners",
+      "written_for": "6.22.0",
+      "last_updated": "2026-08-10"
+    },
+    "06-state-management.md": {
+      "source_page": "https://gradio.app/guides/state-in-blocks",
+      "written_for": "6.22.0",
+      "last_updated": "2026-08-10"
+    },
+    "07-streaming-reactive.md": {
+      "source_page": "https://gradio.app/guides/streaming-outputs",
+      "written_for": "6.22.0",
+      "last_updated": "2026-08-10"
+    },
+    "08-theming-styling.md": {
+      "source_page": "https://gradio.app/guides/custom-CSS-and-JS",
+      "written_for": "6.22.0",
+      "last_updated": "2026-08-10"
+    },
+    "09-queuing-performance.md": {
+      "source_page": "https://gradio.app/guides/queuing",
+      "written_for": "6.22.0",
+      "last_updated": "2026-08-10"
+    },
+    "10-sharing-deployment.md": {
+      "source_page": "https://gradio.app/guides/sharing-your-app",
+      "written_for": "6.22.0",
+      "last_updated": "2026-08-10"
+    },
+    "11-clients-api.md": {
+      "source_page": "https://gradio.app/docs/python-client",
+      "written_for": "6.22.0",
+      "last_updated": "2026-08-10"
+    },
+    "12-custom-components.md": {
+      "source_page": "https://gradio.app/guides/custom-components-in-five-minutes",
+      "written_for": "6.22.0",
+      "last_updated": "2026-08-10"
+    }
+  },
+  "staleness_threshold_days": 90
+}

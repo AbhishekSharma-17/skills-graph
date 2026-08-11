@@ -1,7 +1,7 @@
 {
   "description": "Registry of all skills in the skills-graph repo. Used by daily automation to avoid duplicates.",
-  "last_updated": "2026-08-10",
-  "total_skills": 86,
+  "last_updated": "2026-08-11",
+  "total_skills": 87,
   "skills": [
     {
       "name": "agno",
@@ -861,6 +861,16 @@
       "reference_files": 13,
       "total_lines": 4357,
       "source_url": "https://gradio.app",
+      "status": "active"
+    },
+    {
+      "name": "pydantic",
+      "domain": "Python Data Validation",
+      "created_date": "2026-08-11",
+      "version": "1.0.0",
+      "reference_files": 13,
+      "total_lines": 4224,
+      "source_url": "https://docs.pydantic.dev",
       "status": "active"
     }
   ],

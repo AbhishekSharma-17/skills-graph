@@ -9,7 +9,7 @@
     <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT"></a>
     <a href="#-the-agent-skills-standard"><img src="https://img.shields.io/badge/Agent%20Skills-Universal%20Standard-purple.svg" alt="Skills Standard"></a>
     <a href="#-platform-compatibility"><img src="https://img.shields.io/badge/Platforms-25%2B-green.svg" alt="Platforms"></a>
-    <a href="#-skills-catalog"><img src="https://img.shields.io/badge/Skills-86%20Production%20Ready-orange.svg" alt="Skills"></a>
+    <a href="#-skills-catalog"><img src="https://img.shields.io/badge/Skills-87%20Production%20Ready-orange.svg" alt="Skills"></a>
     <a href="#-the-technique-progressive-reference-architecture"><img src="https://img.shields.io/badge/Knowledge-360%2C000%2B%20Lines-red.svg" alt="Lines"></a>
   </p>
 </p>
@@ -52,8 +52,8 @@ Skills Graph is a **methodology** and a **collection** of production-grade AI ag
 Instead of dumping documentation into a single monolithic file or a flat folder of loosely related references, Skills Graph organizes knowledge as a **directed acyclic graph (DAG)** where every reference file is a node, every cross-reference is an edge, and a lightweight router sits at the root to guide the AI to exactly the information it needs -- nothing more, nothing less.
 
 <table>
-<tr><td><strong>Skills</strong></td><td>84 production-ready (Agno, MS Agent Framework, Remotion Prompt Generator, Trigger.dev, Drizzle ORM, Hono, Zod, Claude Agent SDK, Langfuse, Better Auth, Polars, Qdrant, OpenTelemetry, Inngest, LiteLLM, DSPy, Design Engineering, LiveKit, Convex, AI SDK, Payload CMS, Motion, Dagger, Expo, Terraform, Astro, Supabase, Dagster, tRPC, Cloudflare Workers, PostHog, NestJS, LangGraph, Ollama, Vitest, Prisma ORM, CrewAI, shadcn/ui, Upstash, Resend, Recharts, GitHub Actions, Bun, Pulumi, Tauri, Mastra, Turborepo, Effect-TS, SvelteKit, Playwright, OpenAI Agents SDK, Weaviate, Haystack, W&amp;B, dbt, LlamaIndex, Temporal, Pydantic AI, vLLM, Clerk, Stripe, Grafana, Redis, Kubernetes, Turso, D3.js, Milvus, Prometheus, Biome, ElysiaJS, Deno, htmx, Zustand, Instructor, Strapi, DeepEval, Storybook, n8n, Socket.IO, Airflow, Fastify, dlt, BullMQ, Celery)</td></tr>
-<tr><td><strong>Total Knowledge</strong></td><td>370,000+ lines across 1,224 reference files</td></tr>
+<tr><td><strong>Skills</strong></td><td>87 production-ready (Agno, MS Agent Framework, Remotion Prompt Generator, Trigger.dev, Drizzle ORM, Hono, Zod, Claude Agent SDK, Langfuse, Better Auth, Polars, Qdrant, OpenTelemetry, Inngest, LiteLLM, DSPy, Design Engineering, LiveKit, Convex, AI SDK, Payload CMS, Motion, Dagger, Expo, Terraform, Astro, Supabase, Dagster, tRPC, Cloudflare Workers, PostHog, NestJS, LangGraph, Ollama, Vitest, Prisma ORM, CrewAI, shadcn/ui, Upstash, Resend, Recharts, GitHub Actions, Bun, Pulumi, Tauri, Mastra, Turborepo, Effect-TS, SvelteKit, Playwright, OpenAI Agents SDK, Weaviate, Haystack, W&amp;B, dbt, LlamaIndex, Temporal, Pydantic AI, vLLM, Clerk, Stripe, Grafana, Redis, Kubernetes, Turso, D3.js, Milvus, Prometheus, Biome, ElysiaJS, Deno, htmx, Zustand, Instructor, Strapi, DeepEval, Storybook, n8n, Socket.IO, Airflow, Fastify, dlt, BullMQ, Streamlit, Celery, Gradio, Pydantic)</td></tr>
+<tr><td><strong>Total Knowledge</strong></td><td>380,000+ lines across 1,250+ reference files</td></tr>
 <tr><td><strong>Router Overhead</strong></td><td>58-231 lines (the only cost when skill triggers)</td></tr>
 <tr><td><strong>Context Efficiency</strong></td><td>~97% reduction vs monolithic approach</td></tr>
 <tr><td><strong>Platform Support</strong></td><td>25+ AI coding assistants</td></tr>
@@ -154,6 +154,7 @@ Production-ready skills built with the Skills Graph methodology.
 | 84 | **[Streamlit](skills/streamlit/)** | [Streamlit](https://docs.streamlit.io) 1.59.x | `1.0.0` | 13 | ~4,843 | Production |
 | 85 | **[Celery](skills/celery/)** | [Celery](https://docs.celeryq.dev) 5.6.3 | `1.0.0` | 13 | ~4,286 | Production |
 | 86 | **[Gradio](skills/gradio/)** | [Gradio](https://gradio.app) 6.22.x | `1.0.0` | 13 | ~4,357 | Production |
+| 87 | **[Pydantic](skills/pydantic/)** | [Pydantic](https://docs.pydantic.dev) 2.13.4 | `1.0.0` | 13 | ~4,224 | Production |
 | | | | | **1,250** | **~380,347** | |
 
 <br />

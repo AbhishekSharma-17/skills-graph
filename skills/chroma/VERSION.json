@@ -1,0 +1,82 @@
+{
+  "skill_version": "1.0.0",
+  "source_version_tracked": "1.5.9",
+  "source_package": "chromadb",
+  "docs_snapshot_date": "2026-08-13",
+  "last_checked": "2026-08-13",
+  "last_updated": "2026-08-13",
+  "urls": {
+    "docs": "https://docs.trychroma.com",
+    "changelog": "https://github.com/chroma-core/chroma/releases",
+    "github": "https://github.com/chroma-core/chroma",
+    "pypi": "https://pypi.org/project/chromadb/"
+  },
+  "references": {
+    "00-overview.md": {
+      "source_page": "https://docs.trychroma.com/docs/overview/introduction",
+      "written_for": "1.5.9",
+      "last_updated": "2026-08-13"
+    },
+    "01-clients.md": {
+      "source_page": "https://docs.trychroma.com/docs/run-chroma/clients",
+      "written_for": "1.5.9",
+      "last_updated": "2026-08-13"
+    },
+    "02-collections.md": {
+      "source_page": "https://docs.trychroma.com/docs/collections/manage-collections",
+      "written_for": "1.5.9",
+      "last_updated": "2026-08-13"
+    },
+    "03-data-operations.md": {
+      "source_page": "https://docs.trychroma.com/docs/collections/add-data",
+      "written_for": "1.5.9",
+      "last_updated": "2026-08-13"
+    },
+    "04-querying.md": {
+      "source_page": "https://docs.trychroma.com/docs/querying-collections/query-and-get",
+      "written_for": "1.5.9",
+      "last_updated": "2026-08-13"
+    },
+    "05-metadata-filtering.md": {
+      "source_page": "https://docs.trychroma.com/docs/querying-collections/metadata-filtering",
+      "written_for": "1.5.9",
+      "last_updated": "2026-08-13"
+    },
+    "06-embedding-functions.md": {
+      "source_page": "https://docs.trychroma.com/docs/embeddings/embedding-functions",
+      "written_for": "1.5.9",
+      "last_updated": "2026-08-13"
+    },
+    "07-full-text-search.md": {
+      "source_page": "https://docs.trychroma.com/docs/querying-collections/full-text-search",
+      "written_for": "1.5.9",
+      "last_updated": "2026-08-13"
+    },
+    "08-multimodal.md": {
+      "source_page": "https://docs.trychroma.com/docs/embeddings/multimodal",
+      "written_for": "1.5.9",
+      "last_updated": "2026-08-13"
+    },
+    "09-deployment.md": {
+      "source_page": "https://docs.trychroma.com/guides/deploy/docker",
+      "written_for": "1.5.9",
+      "last_updated": "2026-08-13"
+    },
+    "10-chroma-cloud.md": {
+      "source_page": "https://docs.trychroma.com/cloud/getting-started",
+      "written_for": "1.5.9",
+      "last_updated": "2026-08-13"
+    },
+    "11-integrations.md": {
+      "source_page": "https://docs.trychroma.com/integrations",
+      "written_for": "1.5.9",
+      "last_updated": "2026-08-13"
+    },
+    "12-performance.md": {
+      "source_page": "https://docs.trychroma.com/guides/performance/general",
+      "written_for": "1.5.9",
+      "last_updated": "2026-08-13"
+    }
+  },
+  "staleness_threshold_days": 90
+}

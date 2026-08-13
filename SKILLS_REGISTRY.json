@@ -1,7 +1,7 @@
 {
   "description": "Registry of all skills in the skills-graph repo. Used by daily automation to avoid duplicates.",
-  "last_updated": "2026-08-11",
-  "total_skills": 87,
+  "last_updated": "2026-08-13",
+  "total_skills": 88,
   "skills": [
     {
       "name": "agno",
@@ -871,6 +871,16 @@
       "reference_files": 13,
       "total_lines": 4224,
       "source_url": "https://docs.pydantic.dev",
+      "status": "active"
+    },
+    {
+      "name": "chroma",
+      "domain": "Vector Databases",
+      "created_date": "2026-08-13",
+      "version": "1.0.0",
+      "reference_files": 13,
+      "total_lines": 3331,
+      "source_url": "https://docs.trychroma.com",
       "status": "active"
     }
   ],

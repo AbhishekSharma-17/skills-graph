@@ -9,8 +9,8 @@
     <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT"></a>
     <a href="#-the-agent-skills-standard"><img src="https://img.shields.io/badge/Agent%20Skills-Universal%20Standard-purple.svg" alt="Skills Standard"></a>
     <a href="#-platform-compatibility"><img src="https://img.shields.io/badge/Platforms-25%2B-green.svg" alt="Platforms"></a>
-    <a href="#-skills-catalog"><img src="https://img.shields.io/badge/Skills-87%20Production%20Ready-orange.svg" alt="Skills"></a>
-    <a href="#-the-technique-progressive-reference-architecture"><img src="https://img.shields.io/badge/Knowledge-360%2C000%2B%20Lines-red.svg" alt="Lines"></a>
+    <a href="#-skills-catalog"><img src="https://img.shields.io/badge/Skills-88%20Production%20Ready-orange.svg" alt="Skills"></a>
+    <a href="#-the-technique-progressive-reference-architecture"><img src="https://img.shields.io/badge/Knowledge-383%2C000%2B%20Lines-red.svg" alt="Lines"></a>
   </p>
 </p>
 
@@ -155,7 +155,8 @@ Production-ready skills built with the Skills Graph methodology.
 | 85 | **[Celery](skills/celery/)** | [Celery](https://docs.celeryq.dev) 5.6.3 | `1.0.0` | 13 | ~4,286 | Production |
 | 86 | **[Gradio](skills/gradio/)** | [Gradio](https://gradio.app) 6.22.x | `1.0.0` | 13 | ~4,357 | Production |
 | 87 | **[Pydantic](skills/pydantic/)** | [Pydantic](https://docs.pydantic.dev) 2.13.4 | `1.0.0` | 13 | ~4,224 | Production |
-| | | | | **1,250** | **~380,347** | |
+| 88 | **[Chroma](skills/chroma/)** | [Chroma](https://docs.trychroma.com) chromadb 1.5.9 | `1.0.0` | 13 | ~3,331 | Production |
+| | | | | **1,263** | **~383,678** | |
 
 <br />
 

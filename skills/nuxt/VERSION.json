@@ -1,0 +1,82 @@
+{
+  "skill_version": "1.0.0",
+  "source_version_tracked": "4.5.x",
+  "source_package": "nuxt",
+  "docs_snapshot_date": "2026-08-15",
+  "last_checked": "2026-08-15",
+  "last_updated": "2026-08-15",
+  "urls": {
+    "docs": "https://nuxt.com/docs",
+    "changelog": "https://nuxt.com/blog",
+    "github": "https://github.com/nuxt/nuxt",
+    "npm": "https://www.npmjs.com/package/nuxt"
+  },
+  "references": {
+    "00-overview.md": {
+      "source_page": "https://nuxt.com/docs/getting-started/introduction",
+      "written_for": "4.5.x",
+      "last_updated": "2026-08-15"
+    },
+    "01-directory-structure.md": {
+      "source_page": "https://nuxt.com/docs/guide/directory-structure/app",
+      "written_for": "4.5.x",
+      "last_updated": "2026-08-15"
+    },
+    "02-routing.md": {
+      "source_page": "https://nuxt.com/docs/getting-started/routing",
+      "written_for": "4.5.x",
+      "last_updated": "2026-08-15"
+    },
+    "03-components.md": {
+      "source_page": "https://nuxt.com/docs/guide/directory-structure/components",
+      "written_for": "4.5.x",
+      "last_updated": "2026-08-15"
+    },
+    "04-data-fetching.md": {
+      "source_page": "https://nuxt.com/docs/getting-started/data-fetching",
+      "written_for": "4.5.x",
+      "last_updated": "2026-08-15"
+    },
+    "05-state-management.md": {
+      "source_page": "https://nuxt.com/docs/getting-started/state-management",
+      "written_for": "4.5.x",
+      "last_updated": "2026-08-15"
+    },
+    "06-server-engine.md": {
+      "source_page": "https://nuxt.com/docs/guide/directory-structure/server",
+      "written_for": "4.5.x",
+      "last_updated": "2026-08-15"
+    },
+    "07-configuration.md": {
+      "source_page": "https://nuxt.com/docs/getting-started/configuration",
+      "written_for": "4.5.x",
+      "last_updated": "2026-08-15"
+    },
+    "08-seo-meta.md": {
+      "source_page": "https://nuxt.com/docs/getting-started/seo-meta",
+      "written_for": "4.5.x",
+      "last_updated": "2026-08-15"
+    },
+    "09-plugins-middleware.md": {
+      "source_page": "https://nuxt.com/docs/guide/directory-structure/plugins",
+      "written_for": "4.5.x",
+      "last_updated": "2026-08-15"
+    },
+    "10-layouts-views.md": {
+      "source_page": "https://nuxt.com/docs/guide/directory-structure/layouts",
+      "written_for": "4.5.x",
+      "last_updated": "2026-08-15"
+    },
+    "11-deployment.md": {
+      "source_page": "https://nuxt.com/docs/getting-started/deployment",
+      "written_for": "4.5.x",
+      "last_updated": "2026-08-15"
+    },
+    "12-testing-modules.md": {
+      "source_page": "https://nuxt.com/docs/getting-started/testing",
+      "written_for": "4.5.x",
+      "last_updated": "2026-08-15"
+    }
+  },
+  "staleness_threshold_days": 90
+}

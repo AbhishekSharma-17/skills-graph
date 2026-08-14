@@ -1,7 +1,7 @@
 {
   "description": "Registry of all skills in the skills-graph repo. Used by daily automation to avoid duplicates.",
-  "last_updated": "2026-08-13",
-  "total_skills": 88,
+  "last_updated": "2026-08-15",
+  "total_skills": 89,
   "skills": [
     {
       "name": "agno",
@@ -881,6 +881,16 @@
       "reference_files": 13,
       "total_lines": 3331,
       "source_url": "https://docs.trychroma.com",
+      "status": "active"
+    },
+    {
+      "name": "nuxt",
+      "domain": "Web Frameworks",
+      "created_date": "2026-08-15",
+      "version": "1.0.0",
+      "reference_files": 13,
+      "total_lines": 4523,
+      "source_url": "https://nuxt.com/docs",
       "status": "active"
     }
   ],

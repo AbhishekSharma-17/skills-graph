@@ -1,7 +1,7 @@
 {
   "description": "Registry of all skills in the skills-graph repo. Used by daily automation to avoid duplicates.",
-  "last_updated": "2026-08-15",
-  "total_skills": 89,
+  "last_updated": "2026-08-17",
+  "total_skills": 90,
   "skills": [
     {
       "name": "agno",
@@ -891,6 +891,16 @@
       "reference_files": 13,
       "total_lines": 4523,
       "source_url": "https://nuxt.com/docs",
+      "status": "active"
+    },
+    {
+      "name": "uv",
+      "domain": "Python Tooling & Package Management",
+      "created_date": "2026-08-17",
+      "version": "1.0.0",
+      "reference_files": 13,
+      "total_lines": 3979,
+      "source_url": "https://docs.astral.sh/uv/",
       "status": "active"
     }
   ],

@@ -1,0 +1,82 @@
+{
+  "skill_version": "1.0.0",
+  "source_version_tracked": "0.12.x",
+  "source_package": "uv",
+  "docs_snapshot_date": "2026-08-17",
+  "last_checked": "2026-08-17",
+  "last_updated": "2026-08-17",
+  "urls": {
+    "docs": "https://docs.astral.sh/uv/",
+    "changelog": "https://github.com/astral-sh/uv/blob/main/CHANGELOG.md",
+    "github": "https://github.com/astral-sh/uv",
+    "pypi": "https://pypi.org/project/uv/"
+  },
+  "references": {
+    "00-overview.md": {
+      "source_page": "https://docs.astral.sh/uv/",
+      "written_for": "0.12.x",
+      "last_updated": "2026-08-17"
+    },
+    "01-projects.md": {
+      "source_page": "https://docs.astral.sh/uv/guides/projects/",
+      "written_for": "0.12.x",
+      "last_updated": "2026-08-17"
+    },
+    "02-dependencies.md": {
+      "source_page": "https://docs.astral.sh/uv/concepts/projects/dependencies/",
+      "written_for": "0.12.x",
+      "last_updated": "2026-08-17"
+    },
+    "03-lockfile-sync.md": {
+      "source_page": "https://docs.astral.sh/uv/concepts/projects/lock/",
+      "written_for": "0.12.x",
+      "last_updated": "2026-08-17"
+    },
+    "04-scripts.md": {
+      "source_page": "https://docs.astral.sh/uv/guides/scripts/",
+      "written_for": "0.12.x",
+      "last_updated": "2026-08-17"
+    },
+    "05-python-versions.md": {
+      "source_page": "https://docs.astral.sh/uv/concepts/python-versions/",
+      "written_for": "0.12.x",
+      "last_updated": "2026-08-17"
+    },
+    "06-tools.md": {
+      "source_page": "https://docs.astral.sh/uv/concepts/tools/",
+      "written_for": "0.12.x",
+      "last_updated": "2026-08-17"
+    },
+    "07-workspaces.md": {
+      "source_page": "https://docs.astral.sh/uv/concepts/projects/workspaces/",
+      "written_for": "0.12.x",
+      "last_updated": "2026-08-17"
+    },
+    "08-pip-interface.md": {
+      "source_page": "https://docs.astral.sh/uv/pip/",
+      "written_for": "0.12.x",
+      "last_updated": "2026-08-17"
+    },
+    "09-publishing.md": {
+      "source_page": "https://docs.astral.sh/uv/guides/package/",
+      "written_for": "0.12.x",
+      "last_updated": "2026-08-17"
+    },
+    "10-configuration.md": {
+      "source_page": "https://docs.astral.sh/uv/concepts/config/",
+      "written_for": "0.12.x",
+      "last_updated": "2026-08-17"
+    },
+    "11-resolution-caching.md": {
+      "source_page": "https://docs.astral.sh/uv/concepts/resolution/",
+      "written_for": "0.12.x",
+      "last_updated": "2026-08-17"
+    },
+    "12-integrations.md": {
+      "source_page": "https://docs.astral.sh/uv/guides/integration/docker/",
+      "written_for": "0.12.x",
+      "last_updated": "2026-08-17"
+    }
+  },
+  "staleness_threshold_days": 90
+}

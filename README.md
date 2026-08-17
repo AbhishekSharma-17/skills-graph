@@ -9,8 +9,8 @@
     <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT"></a>
     <a href="#-the-agent-skills-standard"><img src="https://img.shields.io/badge/Agent%20Skills-Universal%20Standard-purple.svg" alt="Skills Standard"></a>
     <a href="#-platform-compatibility"><img src="https://img.shields.io/badge/Platforms-25%2B-green.svg" alt="Platforms"></a>
-    <a href="#-skills-catalog"><img src="https://img.shields.io/badge/Skills-89%20Production%20Ready-orange.svg" alt="Skills"></a>
-    <a href="#-the-technique-progressive-reference-architecture"><img src="https://img.shields.io/badge/Knowledge-388%2C000%2B%20Lines-red.svg" alt="Lines"></a>
+    <a href="#-skills-catalog"><img src="https://img.shields.io/badge/Skills-90%20Production%20Ready-orange.svg" alt="Skills"></a>
+    <a href="#-the-technique-progressive-reference-architecture"><img src="https://img.shields.io/badge/Knowledge-392%2C000%2B%20Lines-red.svg" alt="Lines"></a>
   </p>
 </p>
 
@@ -53,7 +53,7 @@ Instead of dumping documentation into a single monolithic file or a flat folder 
 
 <table>
 <tr><td><strong>Skills</strong></td><td>88 production-ready (Agno, MS Agent Framework, Remotion Prompt Generator, Trigger.dev, Drizzle ORM, Hono, Zod, Claude Agent SDK, Langfuse, Better Auth, Polars, Qdrant, OpenTelemetry, Inngest, LiteLLM, DSPy, Design Engineering, LiveKit, Convex, AI SDK, Payload CMS, Motion, Dagger, Expo, Terraform, Astro, Supabase, Dagster, tRPC, Cloudflare Workers, PostHog, NestJS, LangGraph, Ollama, Vitest, Prisma ORM, CrewAI, shadcn/ui, Upstash, Resend, Recharts, GitHub Actions, Bun, Pulumi, Tauri, Mastra, Turborepo, Effect-TS, SvelteKit, Playwright, OpenAI Agents SDK, Weaviate, Haystack, W&amp;B, dbt, LlamaIndex, Temporal, Pydantic AI, vLLM, Clerk, Stripe, Grafana, Redis, Kubernetes, Turso, D3.js, Milvus, Prometheus, Biome, ElysiaJS, Deno, htmx, Zustand, Instructor, Strapi, DeepEval, Storybook, n8n, Socket.IO, Airflow, Fastify, dlt, BullMQ, Streamlit, Celery, Gradio, Pydantic, Chroma, Nuxt)</td></tr>
-<tr><td><strong>Total Knowledge</strong></td><td>388,000+ lines across 1,275+ reference files</td></tr>
+<tr><td><strong>Total Knowledge</strong></td><td>392,000+ lines across 1,289+ reference files</td></tr>
 <tr><td><strong>Router Overhead</strong></td><td>58-231 lines (the only cost when skill triggers)</td></tr>
 <tr><td><strong>Context Efficiency</strong></td><td>~97% reduction vs monolithic approach</td></tr>
 <tr><td><strong>Platform Support</strong></td><td>25+ AI coding assistants</td></tr>
@@ -157,7 +157,8 @@ Production-ready skills built with the Skills Graph methodology.
 | 87 | **[Pydantic](skills/pydantic/)** | [Pydantic](https://docs.pydantic.dev) 2.13.4 | `1.0.0` | 13 | ~4,224 | Production |
 | 88 | **[Chroma](skills/chroma/)** | [Chroma](https://docs.trychroma.com) chromadb 1.5.9 | `1.0.0` | 13 | ~3,331 | Production |
 | 89 | **[Nuxt](skills/nuxt/)** | [Nuxt](https://nuxt.com/docs) nuxt 4.5.x | `1.0.0` | 13 | ~4,523 | Production |
-| | | | | **1,276** | **~388,201** | |
+| 90 | **[uv](skills/uv/)** | [uv](https://docs.astral.sh/uv/) 0.12.x | `1.0.0` | 13 | ~3,979 | Production |
+| | | | | **1,289** | **~392,180** | |
 
 <br />
 

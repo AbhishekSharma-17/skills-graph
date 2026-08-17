@@ -1,7 +1,7 @@
 {
   "description": "Registry of all skills in the skills-graph repo. Used by daily automation to avoid duplicates.",
-  "last_updated": "2026-08-17",
-  "total_skills": 90,
+  "last_updated": "2026-08-18",
+  "total_skills": 91,
   "skills": [
     {
       "name": "agno",
@@ -901,6 +901,16 @@
       "reference_files": 13,
       "total_lines": 3979,
       "source_url": "https://docs.astral.sh/uv/",
+      "status": "active"
+    },
+    {
+      "name": "langchain",
+      "domain": "AI/ML Frameworks",
+      "created_date": "2026-08-18",
+      "version": "1.0.0",
+      "reference_files": 13,
+      "total_lines": 4256,
+      "source_url": "https://docs.langchain.com",
       "status": "active"
     }
   ],
